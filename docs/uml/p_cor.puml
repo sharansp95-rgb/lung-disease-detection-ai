@@ -1,0 +1,23 @@
+@startuml p_cor
+!include _style.iuml
+skinparam nodesep 14
+skinparam ranksep 26
+skinparam RectangleFontColor #1a1a1a
+skinparam RectangleBackgroundColor #FBF4F2
+skinparam ComponentFontColor #1a1a1a
+left to right direction
+rectangle "Input\nchecks" as C1
+rectangle "Sanity\ngate" as C2
+rectangle "Modality\ngate" as C3
+rectangle "OOD\ndetector" as C4
+rectangle "Classifier\n+ Grad-CAM" as C5 #FFFFFF
+rectangle "HTTP 400 / 422 + reason" as RJ #FBE9E9
+C1 --> C2 : pass
+C2 --> C3 : pass
+C3 --> C4 : pass
+C4 --> C5 : pass
+C1 ..> RJ
+C2 ..> RJ
+C3 ..> RJ
+C4 ..> RJ : reject
+@enduml

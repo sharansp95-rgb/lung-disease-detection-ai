@@ -1,0 +1,59 @@
+
+=== loading models + running reproduction checks (same as backend startup) ===
+2026-10-13 20:09:38,656 INFO ct_xray_api: Lazy-loading models on first prediction request...
+2026-10-13 20:09:38,656 INFO ct_xray_api.models: [xray] loading checkpoint /Users/sharan_pachapuri/Documents/sdp/checkpoints/xray_txrv_densenet121_best.pt on device=cpu
+2026-10-13 20:12:24,056 INFO ct_xray_api.models: [xray] reproduction check: checkpoint claims 0.9646, reproduced 0.9646 in 164.7s, diff=0.0000
+2026-10-13 20:12:24,056 INFO ct_xray_api.models: [xray] reproduction check PASSED
+2026-10-13 20:12:24,057 INFO ct_xray_api.models: [ct] loading checkpoint /Users/sharan_pachapuri/Documents/sdp/checkpoints/ct_best_model_phase35_v2.pt on device=cpu
+2026-10-13 20:12:33,140 INFO ct_xray_api.models: [ct] reproduction check: checkpoint claims 0.9904, reproduced 0.9904 in 8.9s, diff=0.0000
+2026-10-13 20:12:33,140 INFO ct_xray_api.models: [ct] reproduction check PASSED
+2026-10-13 20:12:33,141 INFO ct_xray_api.models: [gate] loading checkpoint /Users/sharan_pachapuri/Documents/sdp/checkpoints/modality_gate_best_model_v2.pt on device=cpu
+2026-10-13 20:13:15,561 INFO ct_xray_api.models: [gate] reproduction check: checkpoint claims 1.0000, reproduced 1.0000 in 42.2s, diff=0.0000
+2026-10-13 20:13:15,561 INFO ct_xray_api.models: [gate] reproduction check PASSED
+2026-10-13 20:13:15,561 INFO ct_xray_api.models: [xray_sanity] loading checkpoint /Users/sharan_pachapuri/Documents/sdp/checkpoints/xray_sanity_best.pt on device=cpu
+2026-10-13 20:14:10,973 INFO ct_xray_api.models: [xray_sanity] reproduction check: checkpoint claims 0.9996, reproduced 0.9996 in 55.2s, diff=0.0000
+2026-10-13 20:14:10,973 INFO ct_xray_api.models: [xray_sanity] reproduction check PASSED
+2026-10-13 20:14:10,973 INFO ct_xray_api.models: [ct_sanity] loading checkpoint /Users/sharan_pachapuri/Documents/sdp/checkpoints/ct_sanity_best.pt on device=cpu
+2026-10-13 20:14:28,618 INFO ct_xray_api.models: [ct_sanity] reproduction check: checkpoint claims 1.0000, reproduced 1.0000 in 17.4s, diff=0.0000
+2026-10-13 20:14:28,618 INFO ct_xray_api.models: [ct_sanity] reproduction check PASSED
+2026-10-13 20:14:28,618 INFO ct_xray_api.ood: [xray] OOD detector loaded: threshold=8.72 (99th percentile over 15373 training images)
+2026-10-13 20:14:28,619 INFO ct_xray_api.ood: [ct] OOD detector loaded: threshold=25.62 (99th percentile over 829 training images)
+2026-10-13 20:14:28,619 INFO ct_xray_api.seg: [seg] loading checkpoint /Users/sharan_pachapuri/Documents/sdp/checkpoints/xray_seg_model.pt on device=cpu
+2026-10-13 20:18:30,044 INFO ct_xray_api.seg: [seg] reproduction check: checkpoint claims dice=0.9890 iou=0.9786, reproduced dice=0.9830 iou=0.9671 in 241.4s (diff dice=0.0060, iou=0.0116)
+2026-10-13 20:18:30,044 INFO ct_xray_api.seg: [seg] reproduction check PASSED
+2026-10-13 20:18:30,044 INFO ct_xray_api: All models loaded, verified, and OOD detectors ready.
+[xray] checkpoint=xray_txrv_densenet121_best.pt backbone=densenet121-res224-all claims val_acc=0.9646 reproduced=0.9646
+[ct] checkpoint=ct_best_model_phase35_v2.pt backbone=densenet121 claims val_acc=0.9904 reproduced=0.9904
+[gate] checkpoint=modality_gate_best_model_v2.pt backbone=resnet18 claims val_acc=1.0000 reproduced=1.0000
+[xray_sanity] checkpoint=xray_sanity_best.pt backbone=resnet18 claims val_acc=0.9996 reproduced=0.9996
+[ct_sanity] checkpoint=ct_sanity_best.pt backbone=resnet18 claims val_acc=1.0000 reproduced=1.0000
+[seg] checkpoint=xray_seg_model.pt claims dice=0.9890 iou=0.9786, reproduced dice=0.9830 iou=0.9671
+=== all models loaded and verified in 531.4s ===
+
+--- running pipeline on img_189af4.png as 'chest X-ray' ---
+
+[blank-image check] grayscale std = 66.0 (reject if < 10.0)
+[color-content check] channel spread = 0.0 (reject if > 20.0)
+[sanity gate] verdict: scan (must be 'scan' to continue)
+[modality gate] predicted modality: xray (confidence 100.0%; must be 'xray' with >= 90% to continue)
+[lung crop] used segmentation model: True
+[OOD check] feature-space distance = 3.0 (threshold 8.7)
+
+=== RESULT ===
+predicted class : Normal
+confidence      : 99.8%
+class probabilities:
+  COVID-19             0.1%
+  Normal               99.8%
+  Pneumonia            0.0%
+  Tuberculosis         0.1%
+
+[report (groq)]
+The model looked at the X‑ray and, based on what it has learned, thinks the image most closely matches a normal (healthy) chest, giving it a 99.8 % confidence. It assigns only very small chances to other possibilities—about 0.1 % each for COVID‑19 and tuberculosis, and essentially 0 % for pneumonia. This means the model’s best guess is that the X‑ray looks normal, but it does not replace a medical professional’s assessment.
+
+This is an automated model output, not a medical diagnosis. Results should be reviewed by a qualified radiologist or physician.
+
+[grad-cam] heatmap saved to ../demo/heatmap_normal.png
+real 534.18
+user 1378.05
+sys 42.42

@@ -1,0 +1,2262 @@
+{
+  "overall": {
+    "offline_acc": 0.9667,
+    "serving_acc": 0.8
+  },
+  "per_class": {
+    "COVID-19": {
+      "n": 60,
+      "offline_acc": 0.9333,
+      "serving_acc": 0.9,
+      "offline_preds": {
+        "COVID-19": 56,
+        "Pneumonia": 2,
+        "Normal": 2
+      },
+      "serving_preds": {
+        "COVID-19": 54,
+        "Pneumonia": 2,
+        "Normal": 2,
+        "Tuberculosis": 2
+      },
+      "flipped": 2,
+      "serving_acc_when_seg_used": [
+        41,
+        0.9268
+      ],
+      "serving_acc_when_fallback": [
+        19,
+        0.8421
+      ]
+    },
+    "Normal": {
+      "n": 60,
+      "offline_acc": 0.9833,
+      "serving_acc": 0.7833,
+      "offline_preds": {
+        "Normal": 59,
+        "COVID-19": 1
+      },
+      "serving_preds": {
+        "Normal": 47,
+        "COVID-19": 11,
+        "Tuberculosis": 2
+      },
+      "flipped": 12,
+      "serving_acc_when_seg_used": [
+        40,
+        0.875
+      ],
+      "serving_acc_when_fallback": [
+        20,
+        0.6
+      ]
+    },
+    "Pneumonia": {
+      "n": 60,
+      "offline_acc": 0.95,
+      "serving_acc": 0.8333,
+      "offline_preds": {
+        "Pneumonia": 57,
+        "Normal": 3
+      },
+      "serving_preds": {
+        "Pneumonia": 50,
+        "COVID-19": 8,
+        "Normal": 2
+      },
+      "flipped": 8,
+      "serving_acc_when_seg_used": [
+        18,
+        0.8889
+      ],
+      "serving_acc_when_fallback": [
+        42,
+        0.8095
+      ]
+    },
+    "Tuberculosis": {
+      "n": 60,
+      "offline_acc": 1.0,
+      "serving_acc": 0.6833,
+      "offline_preds": {
+        "Tuberculosis": 60
+      },
+      "serving_preds": {
+        "COVID-19": 19,
+        "Tuberculosis": 41
+      },
+      "flipped": 19,
+      "serving_acc_when_seg_used": [
+        52,
+        0.6538
+      ],
+      "serving_acc_when_fallback": [
+        8,
+        0.875
+      ]
+    }
+  },
+  "rows": [
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1115.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9988,
+      "serving": "COVID-19",
+      "serving_conf": 0.9988,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3346.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.4485,
+      "serving": "COVID-19",
+      "serving_conf": 0.3334,
+      "used_seg": false
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1346.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9993,
+      "serving": "COVID-19",
+      "serving_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3439.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9885,
+      "serving": "COVID-19",
+      "serving_conf": 0.9992,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-992.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9961,
+      "serving": "COVID-19",
+      "serving_conf": 0.999,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3125.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9346,
+      "serving": "COVID-19",
+      "serving_conf": 0.9932,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-59.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.994,
+      "serving": "COVID-19",
+      "serving_conf": 0.9984,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1595.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9802,
+      "serving": "Pneumonia",
+      "serving_conf": 0.703,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2866.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9796,
+      "serving": "COVID-19",
+      "serving_conf": 0.999,
+      "used_seg": false
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-37.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9813,
+      "serving": "COVID-19",
+      "serving_conf": 0.8286,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2608.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9375,
+      "serving": "COVID-19",
+      "serving_conf": 0.9809,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-518.png",
+      "offline": "COVID-19",
+      "offline_conf": 1.0,
+      "serving": "COVID-19",
+      "serving_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1090.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9998,
+      "serving": "COVID-19",
+      "serving_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-371.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9656,
+      "serving": "COVID-19",
+      "serving_conf": 0.9966,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3414.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9995,
+      "serving": "COVID-19",
+      "serving_conf": 0.9995,
+      "used_seg": false
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1513.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9966,
+      "serving": "COVID-19",
+      "serving_conf": 0.9968,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1108.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9999,
+      "serving": "COVID-19",
+      "serving_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2732.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9997,
+      "serving": "COVID-19",
+      "serving_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3226.png",
+      "offline": "COVID-19",
+      "offline_conf": 1.0,
+      "serving": "COVID-19",
+      "serving_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-179.png",
+      "offline": "Normal",
+      "offline_conf": 0.9255,
+      "serving": "Normal",
+      "serving_conf": 0.9414,
+      "used_seg": false
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1472.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.8117,
+      "serving": "COVID-19",
+      "serving_conf": 0.9428,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2990.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.8338,
+      "serving": "COVID-19",
+      "serving_conf": 0.7531,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3464.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9076,
+      "serving": "COVID-19",
+      "serving_conf": 0.8764,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3372.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.979,
+      "serving": "COVID-19",
+      "serving_conf": 0.9779,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3607.png",
+      "offline": "COVID-19",
+      "offline_conf": 1.0,
+      "serving": "COVID-19",
+      "serving_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3467.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.4258,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.8775,
+      "used_seg": false
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1848.png",
+      "offline": "Normal",
+      "offline_conf": 0.5386,
+      "serving": "Normal",
+      "serving_conf": 0.596,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-184.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9997,
+      "serving": "COVID-19",
+      "serving_conf": 0.9995,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-940.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.8501,
+      "serving": "COVID-19",
+      "serving_conf": 0.9368,
+      "used_seg": false
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2520.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9967,
+      "serving": "COVID-19",
+      "serving_conf": 0.9967,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1343.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9998,
+      "serving": "COVID-19",
+      "serving_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2564.png",
+      "offline": "COVID-19",
+      "offline_conf": 1.0,
+      "serving": "COVID-19",
+      "serving_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1871.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9963,
+      "serving": "COVID-19",
+      "serving_conf": 0.9998,
+      "used_seg": false
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1987.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.7123,
+      "serving": "COVID-19",
+      "serving_conf": 0.6517,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1411.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9954,
+      "serving": "COVID-19",
+      "serving_conf": 0.948,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2310.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9999,
+      "serving": "COVID-19",
+      "serving_conf": 1.0,
+      "used_seg": false
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-745.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9922,
+      "serving": "COVID-19",
+      "serving_conf": 0.9903,
+      "used_seg": false
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1676.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9997,
+      "serving": "COVID-19",
+      "serving_conf": 0.9918,
+      "used_seg": false
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1242.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9945,
+      "serving": "Pneumonia",
+      "serving_conf": 0.991,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2196.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.964,
+      "serving": "COVID-19",
+      "serving_conf": 0.9711,
+      "used_seg": false
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-208.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9988,
+      "serving": "COVID-19",
+      "serving_conf": 0.9998,
+      "used_seg": false
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3334.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.8169,
+      "serving": "COVID-19",
+      "serving_conf": 0.9063,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2023.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9998,
+      "serving": "COVID-19",
+      "serving_conf": 1.0,
+      "used_seg": false
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-472.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.8193,
+      "serving": "COVID-19",
+      "serving_conf": 0.9217,
+      "used_seg": false
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1984.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9992,
+      "serving": "COVID-19",
+      "serving_conf": 0.9985,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3395.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9942,
+      "serving": "COVID-19",
+      "serving_conf": 0.9738,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2307.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9982,
+      "serving": "COVID-19",
+      "serving_conf": 0.9998,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-883.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9984,
+      "serving": "COVID-19",
+      "serving_conf": 0.9998,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1342.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9994,
+      "serving": "COVID-19",
+      "serving_conf": 0.9999,
+      "used_seg": false
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2737.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9995,
+      "serving": "COVID-19",
+      "serving_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1926.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9981,
+      "serving": "COVID-19",
+      "serving_conf": 0.9995,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-441.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9973,
+      "serving": "COVID-19",
+      "serving_conf": 1.0,
+      "used_seg": false
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1401.png",
+      "offline": "COVID-19",
+      "offline_conf": 1.0,
+      "serving": "COVID-19",
+      "serving_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1171.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9954,
+      "serving": "COVID-19",
+      "serving_conf": 0.9998,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1391.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.5766,
+      "serving": "COVID-19",
+      "serving_conf": 0.9717,
+      "used_seg": false
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-96.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.8794,
+      "serving": "COVID-19",
+      "serving_conf": 0.9756,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3274.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9262,
+      "serving": "COVID-19",
+      "serving_conf": 0.9985,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1844.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9614,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.5162,
+      "used_seg": false
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-998.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9996,
+      "serving": "COVID-19",
+      "serving_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "file": "covid19db_COVID-284.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9992,
+      "serving": "COVID-19",
+      "serving_conf": 0.9999,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-3068.png",
+      "offline": "Normal",
+      "offline_conf": 0.9946,
+      "serving": "Normal",
+      "serving_conf": 0.9945,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "tbdb_Normal-687.png",
+      "offline": "Normal",
+      "offline_conf": 0.9986,
+      "serving": "Normal",
+      "serving_conf": 0.926,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "tbdb_Normal-2581.png",
+      "offline": "Normal",
+      "offline_conf": 0.9998,
+      "serving": "COVID-19",
+      "serving_conf": 0.5705,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-9503.png",
+      "offline": "Normal",
+      "offline_conf": 0.9999,
+      "serving": "Normal",
+      "serving_conf": 0.9987,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-111.png",
+      "offline": "Normal",
+      "offline_conf": 0.9248,
+      "serving": "COVID-19",
+      "serving_conf": 0.5308,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-4922.png",
+      "offline": "Normal",
+      "offline_conf": 0.9957,
+      "serving": "Normal",
+      "serving_conf": 0.7805,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "tbdb_Normal-312.png",
+      "offline": "Normal",
+      "offline_conf": 0.9972,
+      "serving": "COVID-19",
+      "serving_conf": 0.6397,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "tbdb_Normal-3400.png",
+      "offline": "Normal",
+      "offline_conf": 0.5806,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.8413,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-5578.png",
+      "offline": "Normal",
+      "offline_conf": 0.9951,
+      "serving": "Normal",
+      "serving_conf": 0.9858,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-9523.png",
+      "offline": "Normal",
+      "offline_conf": 0.9959,
+      "serving": "Normal",
+      "serving_conf": 0.984,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-7040.png",
+      "offline": "Normal",
+      "offline_conf": 0.9986,
+      "serving": "Normal",
+      "serving_conf": 0.9965,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "tbdb_Normal-1576.png",
+      "offline": "Normal",
+      "offline_conf": 0.9975,
+      "serving": "Normal",
+      "serving_conf": 0.9978,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-8278.png",
+      "offline": "Normal",
+      "offline_conf": 0.9425,
+      "serving": "Normal",
+      "serving_conf": 0.9109,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-1005.png",
+      "offline": "Normal",
+      "offline_conf": 0.9897,
+      "serving": "Normal",
+      "serving_conf": 0.9499,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "tbdb_Normal-3160.png",
+      "offline": "Normal",
+      "offline_conf": 0.9978,
+      "serving": "Normal",
+      "serving_conf": 0.9993,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-8493.png",
+      "offline": "Normal",
+      "offline_conf": 0.9994,
+      "serving": "Normal",
+      "serving_conf": 0.9993,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-2609.png",
+      "offline": "Normal",
+      "offline_conf": 0.9906,
+      "serving": "Normal",
+      "serving_conf": 0.9416,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-7286.png",
+      "offline": "Normal",
+      "offline_conf": 0.9589,
+      "serving": "Normal",
+      "serving_conf": 0.712,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-5972.png",
+      "offline": "Normal",
+      "offline_conf": 1.0,
+      "serving": "Normal",
+      "serving_conf": 0.9998,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-9554.png",
+      "offline": "Normal",
+      "offline_conf": 0.9991,
+      "serving": "Normal",
+      "serving_conf": 0.9983,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-8458.png",
+      "offline": "Normal",
+      "offline_conf": 0.9966,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.8606,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "tbdb_Normal-2777.png",
+      "offline": "Normal",
+      "offline_conf": 1.0,
+      "serving": "Normal",
+      "serving_conf": 0.9955,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-2021.png",
+      "offline": "Normal",
+      "offline_conf": 0.9938,
+      "serving": "COVID-19",
+      "serving_conf": 0.8693,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-1987.png",
+      "offline": "Normal",
+      "offline_conf": 0.9999,
+      "serving": "Normal",
+      "serving_conf": 0.984,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "tbdb_Normal-2496.png",
+      "offline": "Normal",
+      "offline_conf": 0.9868,
+      "serving": "COVID-19",
+      "serving_conf": 0.8014,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-2474.png",
+      "offline": "Normal",
+      "offline_conf": 0.9872,
+      "serving": "Normal",
+      "serving_conf": 0.8899,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-1968.png",
+      "offline": "Normal",
+      "offline_conf": 0.9991,
+      "serving": "Normal",
+      "serving_conf": 0.9374,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-8287.png",
+      "offline": "Normal",
+      "offline_conf": 0.9873,
+      "serving": "Normal",
+      "serving_conf": 0.9713,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-7859.png",
+      "offline": "Normal",
+      "offline_conf": 0.9753,
+      "serving": "Normal",
+      "serving_conf": 0.8157,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-7803.png",
+      "offline": "Normal",
+      "offline_conf": 0.9966,
+      "serving": "Normal",
+      "serving_conf": 0.9661,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-2254.png",
+      "offline": "Normal",
+      "offline_conf": 0.9984,
+      "serving": "Normal",
+      "serving_conf": 0.9954,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-879.png",
+      "offline": "Normal",
+      "offline_conf": 0.8328,
+      "serving": "COVID-19",
+      "serving_conf": 0.7417,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-3140.png",
+      "offline": "Normal",
+      "offline_conf": 0.9999,
+      "serving": "Normal",
+      "serving_conf": 0.9994,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "tbdb_Normal-1559.png",
+      "offline": "Normal",
+      "offline_conf": 0.9996,
+      "serving": "Normal",
+      "serving_conf": 0.9872,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-4455.png",
+      "offline": "Normal",
+      "offline_conf": 0.9985,
+      "serving": "Normal",
+      "serving_conf": 0.9899,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "tbdb_Normal-1079.png",
+      "offline": "Normal",
+      "offline_conf": 0.99,
+      "serving": "Normal",
+      "serving_conf": 0.7835,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-9729.png",
+      "offline": "Normal",
+      "offline_conf": 0.9994,
+      "serving": "Normal",
+      "serving_conf": 0.995,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-1026.png",
+      "offline": "COVID-19",
+      "offline_conf": 0.9503,
+      "serving": "COVID-19",
+      "serving_conf": 0.9908,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-9804.png",
+      "offline": "Normal",
+      "offline_conf": 0.9959,
+      "serving": "Normal",
+      "serving_conf": 0.9582,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-1496.png",
+      "offline": "Normal",
+      "offline_conf": 0.9988,
+      "serving": "Normal",
+      "serving_conf": 0.9913,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "tbdb_Normal-812.png",
+      "offline": "Normal",
+      "offline_conf": 0.9033,
+      "serving": "Normal",
+      "serving_conf": 0.8898,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-1849.png",
+      "offline": "Normal",
+      "offline_conf": 0.9996,
+      "serving": "Normal",
+      "serving_conf": 0.9964,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-484.png",
+      "offline": "Normal",
+      "offline_conf": 0.986,
+      "serving": "Normal",
+      "serving_conf": 0.8011,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "tbdb_Normal-206.png",
+      "offline": "Normal",
+      "offline_conf": 0.9999,
+      "serving": "Normal",
+      "serving_conf": 0.9818,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-10035.png",
+      "offline": "Normal",
+      "offline_conf": 0.9188,
+      "serving": "COVID-19",
+      "serving_conf": 0.8049,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-47.png",
+      "offline": "Normal",
+      "offline_conf": 0.9952,
+      "serving": "Normal",
+      "serving_conf": 0.8687,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-10102.png",
+      "offline": "Normal",
+      "offline_conf": 0.9976,
+      "serving": "COVID-19",
+      "serving_conf": 0.5365,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-8804.png",
+      "offline": "Normal",
+      "offline_conf": 0.9988,
+      "serving": "Normal",
+      "serving_conf": 0.988,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-4763.png",
+      "offline": "Normal",
+      "offline_conf": 0.9941,
+      "serving": "Normal",
+      "serving_conf": 0.8675,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-8862.png",
+      "offline": "Normal",
+      "offline_conf": 0.929,
+      "serving": "Normal",
+      "serving_conf": 0.5354,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-2101.png",
+      "offline": "Normal",
+      "offline_conf": 0.9975,
+      "serving": "Normal",
+      "serving_conf": 0.9935,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-4548.png",
+      "offline": "Normal",
+      "offline_conf": 0.9978,
+      "serving": "Normal",
+      "serving_conf": 0.9922,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "tbdb_Normal-301.png",
+      "offline": "Normal",
+      "offline_conf": 1.0,
+      "serving": "Normal",
+      "serving_conf": 0.8293,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "tbdb_Normal-713.png",
+      "offline": "Normal",
+      "offline_conf": 0.9998,
+      "serving": "Normal",
+      "serving_conf": 0.9489,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-545.png",
+      "offline": "Normal",
+      "offline_conf": 0.6975,
+      "serving": "COVID-19",
+      "serving_conf": 0.9833,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-8427.png",
+      "offline": "Normal",
+      "offline_conf": 0.9825,
+      "serving": "Normal",
+      "serving_conf": 0.8355,
+      "used_seg": false
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-5618.png",
+      "offline": "Normal",
+      "offline_conf": 0.998,
+      "serving": "Normal",
+      "serving_conf": 0.9963,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-3922.png",
+      "offline": "Normal",
+      "offline_conf": 0.9696,
+      "serving": "Normal",
+      "serving_conf": 0.8182,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-888.png",
+      "offline": "Normal",
+      "offline_conf": 0.8677,
+      "serving": "COVID-19",
+      "serving_conf": 0.7157,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "file": "covid19db_Normal-8966.png",
+      "offline": "Normal",
+      "offline_conf": 0.9768,
+      "serving": "Normal",
+      "serving_conf": 0.5152,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-882.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9942,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9976,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1019.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9914,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9533,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-731.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9994,
+      "serving": "Pneumonia",
+      "serving_conf": 0.7984,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-565.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.95,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9343,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1079.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.997,
+      "serving": "Pneumonia",
+      "serving_conf": 0.7123,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-411.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9999,
+      "serving": "Pneumonia",
+      "serving_conf": 0.8048,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-906.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9999,
+      "serving": "Pneumonia",
+      "serving_conf": 0.7452,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-49.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.6877,
+      "serving": "COVID-19",
+      "serving_conf": 0.6036,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1178.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9941,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9689,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-156.png",
+      "offline": "Normal",
+      "offline_conf": 0.8999,
+      "serving": "Normal",
+      "serving_conf": 0.8533,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-701.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9997,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9988,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-176.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9195,
+      "serving": "Pneumonia",
+      "serving_conf": 0.8887,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-769.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9969,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9684,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-980.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9684,
+      "serving": "Pneumonia",
+      "serving_conf": 0.6657,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1120.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9725,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9239,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-39.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9741,
+      "serving": "Pneumonia",
+      "serving_conf": 0.7408,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-474.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9959,
+      "serving": "Pneumonia",
+      "serving_conf": 0.8928,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-989.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9999,
+      "serving": "Pneumonia",
+      "serving_conf": 0.999,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-299.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9997,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9965,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1047.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9994,
+      "serving": "Pneumonia",
+      "serving_conf": 0.8985,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1205.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9981,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9842,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-244.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9405,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9101,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-810.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9998,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9512,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-284.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9988,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9942,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-418.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9985,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9712,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-446.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9952,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9886,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-458.png",
+      "offline": "Normal",
+      "offline_conf": 0.8341,
+      "serving": "Normal",
+      "serving_conf": 0.7969,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-464.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9981,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9585,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-491.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9997,
+      "serving": "COVID-19",
+      "serving_conf": 0.7656,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-123.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9999,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9798,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-644.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9987,
+      "serving": "COVID-19",
+      "serving_conf": 0.9695,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-520.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9994,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9991,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-196.png",
+      "offline": "Normal",
+      "offline_conf": 0.5562,
+      "serving": "COVID-19",
+      "serving_conf": 0.9878,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1101.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9921,
+      "serving": "Pneumonia",
+      "serving_conf": 0.5904,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-527.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9975,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9064,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-87.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9997,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9933,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-712.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9301,
+      "serving": "COVID-19",
+      "serving_conf": 0.9303,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-332.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9999,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9988,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-253.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9971,
+      "serving": "Pneumonia",
+      "serving_conf": 0.6845,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-495.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9998,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9928,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1083.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9979,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9156,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-638.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9986,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9994,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1189.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9305,
+      "serving": "COVID-19",
+      "serving_conf": 0.5172,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1315.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9993,
+      "serving": "Pneumonia",
+      "serving_conf": 0.8561,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-933.png",
+      "offline": "Pneumonia",
+      "offline_conf": 1.0,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9998,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-303.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9994,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9975,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1044.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9652,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9181,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-116.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9874,
+      "serving": "Pneumonia",
+      "serving_conf": 0.8065,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-799.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9979,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9941,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-530.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9997,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9974,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-275.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9969,
+      "serving": "COVID-19",
+      "serving_conf": 0.7746,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-655.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9994,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9977,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-570.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9995,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9767,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-200.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9983,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9932,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-425.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9986,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9837,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-964.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9947,
+      "serving": "COVID-19",
+      "serving_conf": 0.9395,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-211.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9999,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9993,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-970.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9999,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9999,
+      "used_seg": false
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-639.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9988,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9986,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-101.png",
+      "offline": "Pneumonia",
+      "offline_conf": 0.9996,
+      "serving": "Pneumonia",
+      "serving_conf": 0.9923,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-121.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9978,
+      "serving": "COVID-19",
+      "serving_conf": 0.9944,
+      "used_seg": false
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-139.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.7354,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-498.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-671.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.969,
+      "serving": "COVID-19",
+      "serving_conf": 0.6579,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-4.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9558,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.7356,
+      "used_seg": false
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-586.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9999,
+      "serving": "Tuberculosis",
+      "serving_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-185.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9171,
+      "serving": "COVID-19",
+      "serving_conf": 0.5491,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-379.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "Tuberculosis",
+      "serving_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-477.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9984,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-444.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-82.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9996,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9093,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-128.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9962,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-171.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.7277,
+      "serving": "COVID-19",
+      "serving_conf": 0.9532,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-45.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9999,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9738,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-205.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.7919,
+      "serving": "COVID-19",
+      "serving_conf": 0.6729,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-365.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9647,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.8054,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-686.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9999,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-332.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9996,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-5.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9971,
+      "serving": "COVID-19",
+      "serving_conf": 0.5365,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-345.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "Tuberculosis",
+      "serving_conf": 1.0,
+      "used_seg": false
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-455.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9944,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9853,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-321.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9915,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.986,
+      "used_seg": false
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-172.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.6026,
+      "serving": "COVID-19",
+      "serving_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-163.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.8896,
+      "serving": "COVID-19",
+      "serving_conf": 0.6131,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-250.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.7994,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.8193,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-85.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9511,
+      "serving": "COVID-19",
+      "serving_conf": 0.9873,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-218.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9999,
+      "serving": "Tuberculosis",
+      "serving_conf": 1.0,
+      "used_seg": false
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-126.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9998,
+      "serving": "COVID-19",
+      "serving_conf": 0.9964,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-232.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "Tuberculosis",
+      "serving_conf": 1.0,
+      "used_seg": false
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-574.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "Tuberculosis",
+      "serving_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-186.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "Tuberculosis",
+      "serving_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-698.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-317.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9993,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9759,
+      "used_seg": false
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-319.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "Tuberculosis",
+      "serving_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-93.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9992,
+      "serving": "COVID-19",
+      "serving_conf": 0.8413,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-538.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9979,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9978,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-633.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "Tuberculosis",
+      "serving_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-29.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9963,
+      "serving": "COVID-19",
+      "serving_conf": 0.9928,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-579.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9999,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9992,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-195.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9999,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9956,
+      "used_seg": false
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-484.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9998,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9814,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-77.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9996,
+      "serving": "COVID-19",
+      "serving_conf": 0.9965,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-194.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9999,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-48.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9996,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9329,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-72.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9745,
+      "serving": "COVID-19",
+      "serving_conf": 0.7156,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-49.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9996,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.863,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-328.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "COVID-19",
+      "serving_conf": 0.6921,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-396.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.8131,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-92.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9975,
+      "serving": "COVID-19",
+      "serving_conf": 0.9136,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-314.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "Tuberculosis",
+      "serving_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-19.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9876,
+      "serving": "COVID-19",
+      "serving_conf": 0.9564,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-662.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-9.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9996,
+      "serving": "COVID-19",
+      "serving_conf": 0.5609,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-140.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "COVID-19",
+      "serving_conf": 0.8121,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-299.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "Tuberculosis",
+      "serving_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-678.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9998,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9997,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-254.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9785,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.7036,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-540.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9989,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-381.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 0.9992,
+      "serving": "Tuberculosis",
+      "serving_conf": 0.9975,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-257.png",
+      "offline": "Tuberculosis",
+      "offline_conf": 1.0,
+      "serving": "Tuberculosis",
+      "serving_conf": 1.0,
+      "used_seg": true
+    }
+  ]
+}

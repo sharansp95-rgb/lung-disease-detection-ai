@@ -1,0 +1,637 @@
+{
+  "B_wrong_modality": [
+    {
+      "status": 422,
+      "latency_s": 0.097,
+      "body": {
+        "detail": "This does not look like a chest X-ray. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\data\\ct_scan\\test\\Malignant\\Malignant case (109).jpg",
+      "modality": "xray"
+    },
+    {
+      "status": 422,
+      "latency_s": 0.084,
+      "body": {
+        "detail": "This does not look like a chest X-ray. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\data\\ct_scan\\test\\Malignant\\Malignant case (111).jpg",
+      "modality": "xray"
+    },
+    {
+      "status": 422,
+      "latency_s": 0.083,
+      "body": {
+        "detail": "This does not look like a chest X-ray. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\data\\ct_scan\\test\\Malignant\\Malignant case (120).jpg",
+      "modality": "xray"
+    },
+    {
+      "status": 422,
+      "latency_s": 0.056,
+      "body": {
+        "detail": "This does not look like a chest CT scan. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\data\\xray\\test\\Normal\\covid19db_Normal-10002.png",
+      "modality": "ct"
+    },
+    {
+      "status": 422,
+      "latency_s": 0.079,
+      "body": {
+        "detail": "This does not look like a chest CT scan. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\data\\xray\\test\\Normal\\covid19db_Normal-10005.png",
+      "modality": "ct"
+    },
+    {
+      "status": 422,
+      "latency_s": 0.057,
+      "body": {
+        "detail": "This does not look like a chest CT scan. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\data\\xray\\test\\Normal\\covid19db_Normal-10013.png",
+      "modality": "ct"
+    }
+  ],
+  "C_non_scan": [
+    {
+      "status": 400,
+      "latency_s": 0.04,
+      "body": {
+        "detail": "This image has color content that a real X-ray or CT scan wouldn't have. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\photo_landscape.png",
+      "modality": "xray"
+    },
+    {
+      "status": 400,
+      "latency_s": 0.056,
+      "body": {
+        "detail": "This image has color content that a real X-ray or CT scan wouldn't have. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\photo_landscape.png",
+      "modality": "ct"
+    },
+    {
+      "status": 400,
+      "latency_s": 0.056,
+      "body": {
+        "detail": "This image has color content that a real X-ray or CT scan wouldn't have. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\photo_object.png",
+      "modality": "xray"
+    },
+    {
+      "status": 400,
+      "latency_s": 0.048,
+      "body": {
+        "detail": "This image has color content that a real X-ray or CT scan wouldn't have. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\photo_object.png",
+      "modality": "ct"
+    },
+    {
+      "status": 422,
+      "latency_s": 0.057,
+      "body": {
+        "detail": "This does not look like a chest X-ray. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\photo_grayscale.png",
+      "modality": "xray"
+    },
+    {
+      "status": 422,
+      "latency_s": 0.061,
+      "body": {
+        "detail": "This does not look like a chest CT scan. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\photo_grayscale.png",
+      "modality": "ct"
+    },
+    {
+      "status": 400,
+      "latency_s": 0.093,
+      "body": {
+        "detail": "This image has color content that a real X-ray or CT scan wouldn't have. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\screenshot_app.png",
+      "modality": "xray"
+    },
+    {
+      "status": 400,
+      "latency_s": 0.122,
+      "body": {
+        "detail": "This image has color content that a real X-ray or CT scan wouldn't have. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\screenshot_app.png",
+      "modality": "ct"
+    },
+    {
+      "status": 422,
+      "latency_s": 0.084,
+      "body": {
+        "detail": "This does not look like a chest X-ray. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\scanned_document.png",
+      "modality": "xray"
+    },
+    {
+      "status": 422,
+      "latency_s": 0.111,
+      "body": {
+        "detail": "This does not look like a chest CT scan. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\scanned_document.png",
+      "modality": "ct"
+    },
+    {
+      "status": 400,
+      "latency_s": 0.028,
+      "body": {
+        "detail": "Uploaded image appears to be blank or has no visible content. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\solid_gray.png",
+      "modality": "xray"
+    },
+    {
+      "status": 400,
+      "latency_s": 0.007,
+      "body": {
+        "detail": "Uploaded image appears to be blank or has no visible content. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\solid_gray.png",
+      "modality": "ct"
+    },
+    {
+      "status": 400,
+      "latency_s": 0.002,
+      "body": {
+        "detail": "Uploaded image appears to be blank or has no visible content. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\solid_blue.png",
+      "modality": "xray"
+    },
+    {
+      "status": 400,
+      "latency_s": 0.003,
+      "body": {
+        "detail": "Uploaded image appears to be blank or has no visible content. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\solid_blue.png",
+      "modality": "ct"
+    },
+    {
+      "status": 400,
+      "latency_s": 0.002,
+      "body": {
+        "detail": "Uploaded file is not a valid image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\truncated_xray.png",
+      "modality": "xray"
+    },
+    {
+      "status": 400,
+      "latency_s": 0.002,
+      "body": {
+        "detail": "Uploaded file is not a valid image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\truncated_xray.png",
+      "modality": "ct"
+    },
+    {
+      "status": 400,
+      "latency_s": 0.048,
+      "body": {
+        "detail": "Uploaded file is not a valid image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\not_an_image.png",
+      "modality": "xray"
+    },
+    {
+      "status": 400,
+      "latency_s": 0.0,
+      "body": {
+        "detail": "Uploaded file is not a valid image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\not_an_image.png",
+      "modality": "ct"
+    },
+    {
+      "status": 400,
+      "latency_s": 0.0,
+      "body": {
+        "detail": "Uploaded file is empty.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\empty.png",
+      "modality": "xray"
+    },
+    {
+      "status": 400,
+      "latency_s": 0.02,
+      "body": {
+        "detail": "Uploaded file is empty.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\empty.png",
+      "modality": "ct"
+    },
+    {
+      "status": 422,
+      "latency_s": 0.063,
+      "body": {
+        "detail": "This does not look like a chest X-ray. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\random_noise.png",
+      "modality": "xray"
+    },
+    {
+      "status": 422,
+      "latency_s": 0.039,
+      "body": {
+        "detail": "This does not look like a chest CT scan. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\random_noise.png",
+      "modality": "ct"
+    },
+    {
+      "status": 400,
+      "latency_s": 0.008,
+      "body": {
+        "detail": "Uploaded image appears to be blank or has no visible content. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\near_blank.png",
+      "modality": "xray"
+    },
+    {
+      "status": 400,
+      "latency_s": 0.008,
+      "body": {
+        "detail": "Uploaded image appears to be blank or has no visible content. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\near_blank.png",
+      "modality": "ct"
+    }
+  ],
+  "E_seg_stressors": [
+    {
+      "status": 200,
+      "latency_s": 1.654,
+      "body": {
+        "modality": "xray",
+        "predicted_class": "COVID-19",
+        "confidence": 0.8611013293266296,
+        "class_probabilities": {
+          "COVID-19": 0.8611013293266296,
+          "Normal": 0.005392083432525396,
+          "Pneumonia": 0.0030315592885017395,
+          "Tuberculosis": 0.1304750144481659
+        },
+        "report": "The model looked at the X\u2011ray and gave the highest score to the \u201cCOVID\u201119\u201d category, assigning it an 86.1\u202f% probability. It gave very low scores to \u201cNormal\u201d (0.5\u202f%) and \u201cPneumonia\u201d (0.3\u202f%), and a moderate score to \u201cTuberculosis\u201d (13.0\u202f%). These numbers simply reflect how strongly the model\u2019s patterns match each label, not a medical diagnosis.\n\nThis is an automated model output, not a medical diagnosis. Results should be reviewed by a qualified radiologist or physician.",
+        "report_source": "groq",
+        "warnings": [],
+        "_heatmap_len": 41078,
+        "_heatmap_prefix": "data:image/png;base64,iVBORw0KGgoAAAANSU"
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\seg_zoomed_center.png",
+      "modality": "xray"
+    },
+    {
+      "status": 200,
+      "latency_s": 1.386,
+      "body": {
+        "modality": "xray",
+        "predicted_class": "Pneumonia",
+        "confidence": 0.7830973863601685,
+        "class_probabilities": {
+          "COVID-19": 0.01055798027664423,
+          "Normal": 0.07169166952371597,
+          "Pneumonia": 0.7830973863601685,
+          "Tuberculosis": 0.13465294241905212
+        },
+        "report": "The model looked at the X\u2011ray and gave the highest likelihood to the \u201cpneumonia\u201d category, assigning it a 78.3\u202f% chance. It also estimated smaller chances for other possibilities: about 13.5\u202f% for tuberculosis, 7.2\u202f% for a normal (healthy) result, and 1.1\u202f% for COVID\u201119. These percentages reflect how strongly the model\u2019s analysis matches each class, with pneumonia being the most probable according to this particular algorithm.\n\nThis is an automated model output, not a medical diagnosis. Results should be reviewed by a qualified radiologist or physician.",
+        "report_source": "groq",
+        "warnings": [],
+        "_heatmap_len": 53678,
+        "_heatmap_prefix": "data:image/png;base64,iVBORw0KGgoAAAANSU"
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\seg_wide_aspect.png",
+      "modality": "xray"
+    },
+    {
+      "status": 200,
+      "latency_s": 1.251,
+      "body": {
+        "modality": "xray",
+        "predicted_class": "Tuberculosis",
+        "confidence": 0.9948429465293884,
+        "class_probabilities": {
+          "COVID-19": 5.933190550422296e-05,
+          "Normal": 0.005049942526966333,
+          "Pneumonia": 4.7818008169997483e-05,
+          "Tuberculosis": 0.9948429465293884
+        },
+        "report": "The model looked at the chest X\u2011ray and gave a very high score (99.5\u202f%) for the pattern it has learned to associate with tuberculosis, while giving almost no score to COVID\u201119, pneumonia, or a normal scan. In other words, based on the image alone, the system is far more confident that the picture resembles what it has been trained to recognize as tuberculosis than any of the other categories.\n\nThis is an automated model output, not a medical diagnosis. Results should be reviewed by a qualified radiologist or physician.",
+        "report_source": "groq",
+        "warnings": [],
+        "_heatmap_len": 60418,
+        "_heatmap_prefix": "data:image/png;base64,iVBORw0KGgoAAAANSU"
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\seg_tall_aspect.png",
+      "modality": "xray"
+    },
+    {
+      "status": 422,
+      "latency_s": 0.094,
+      "body": {
+        "detail": "This does not look like a chest X-ray. Please upload an actual scan image.",
+        "_heatmap_len": 0,
+        "_heatmap_prefix": null
+      },
+      "file": "d:\\7th sem\\sdp\\eval_run\\fixtures\\seg_mostly_blank.png",
+      "modality": "xray"
+    }
+  ],
+  "D_lung_opacity": [
+    {
+      "status": 200,
+      "latency_s": 1.34,
+      "body": {
+        "modality": "xray",
+        "predicted_class": "COVID-19",
+        "confidence": 0.9966467022895813,
+        "class_probabilities": {
+          "COVID-19": 0.9966467022895813,
+          "Normal": 0.0009820881532505155,
+          "Pneumonia": 0.00031008420046418905,
+          "Tuberculosis": 0.0020611498039215803
+        },
+        "report": "The computer program examined the chest X\u2011ray and assigned a 99.7\u202f% probability that the image matches the pattern it has learned for COVID\u201119, while giving only 0.1\u202f%\n\nThis is an automated model output, not a medical diagnosis. Results should be reviewed by a qualified radiologist or physician.",
+        "report_source": "groq",
+        "warnings": [],
+        "_heatmap_len": 59610,
+        "_heatmap_prefix": "data:image/png;base64,iVBORw0KGgoAAAANSU"
+      },
+      "file": "d:\\7th sem\\sdp\\seg_data\\val\\images\\lung_opacity-Lung_Opacity-5796.png",
+      "modality": "xray"
+    },
+    {
+      "status": 200,
+      "latency_s": 1.19,
+      "body": {
+        "modality": "xray",
+        "predicted_class": "COVID-19",
+        "confidence": 0.823532223701477,
+        "class_probabilities": {
+          "COVID-19": 0.823532223701477,
+          "Normal": 0.16498221457004547,
+          "Pneumonia": 0.0024994509294629097,
+          "Tuberculosis": 0.008986039087176323
+        },
+        "report": "The model looked at the X\u2011ray and gave the highest score to the \u201cCOVID\u201119\u201d category, meaning it thinks there is about an 82\u202f% chance the image shows features typical of COVID\u201119. It assigned lower chances to other possibilities\u2014about 16\u202f% for a normal (healthy) lung, less than 1\u202f% for pneumonia, and roughly 1\u202f% for tuberculosis. These numbers reflect the model\u2019s confidence, not a medical diagnosis.\n\nThis is an automated model output, not a medical diagnosis. Results should be reviewed by a qualified radiologist or physician.",
+        "report_source": "groq",
+        "warnings": [],
+        "_heatmap_len": 73414,
+        "_heatmap_prefix": "data:image/png;base64,iVBORw0KGgoAAAANSU"
+      },
+      "file": "d:\\7th sem\\sdp\\seg_data\\val\\images\\lung_opacity-Lung_Opacity-177.png",
+      "modality": "xray"
+    },
+    {
+      "status": 200,
+      "latency_s": 1.24,
+      "body": {
+        "modality": "xray",
+        "predicted_class": "COVID-19",
+        "confidence": 0.9206006526947021,
+        "class_probabilities": {
+          "COVID-19": 0.9206006526947021,
+          "Normal": 0.07938889414072037,
+          "Pneumonia": 5.426913958217483e-07,
+          "Tuberculosis": 9.9236913229106e-06
+        },
+        "report": "The model looked at the X\u2011ray and found that the pattern it sees most closely matches what it has learned to associate with COVID\u201119, giving that possibility a 92.1% likelihood. In comparison, it assigned a 7.9% chance that the image looks normal and essentially 0% for pneumonia or tuberculosis. These numbers reflect the model\u2019s confidence in each category, not a medical diagnosis.\n\nThis is an automated model output, not a medical diagnosis. Results should be reviewed by a qualified radiologist or physician.",
+        "report_source": "groq",
+        "warnings": [],
+        "_heatmap_len": 70894,
+        "_heatmap_prefix": "data:image/png;base64,iVBORw0KGgoAAAANSU"
+      },
+      "file": "d:\\7th sem\\sdp\\seg_data\\val\\images\\lung_opacity-Lung_Opacity-1480.png",
+      "modality": "xray"
+    },
+    {
+      "status": 200,
+      "latency_s": 1.274,
+      "body": {
+        "modality": "xray",
+        "predicted_class": "COVID-19",
+        "confidence": 0.9999828338623047,
+        "class_probabilities": {
+          "COVID-19": 0.9999828338623047,
+          "Normal": 1.2095447345927823e-05,
+          "Pneumonia": 2.130505833974894e-07,
+          "Tuberculosis": 4.776258720085025e-06
+        },
+        "report": "The model looked at the X\u2011ray and assigned a 100\u202f% probability that the image belongs to the \u201cCOVID\u201119\u201d category, giving it no probability for the other categories (Normal, Pneumonia, Tuberculosis). In other words, based on the patterns it was trained to recognize, the computer is completely confident that this particular image matches the COVID\u201119 class. This is a purely algorithmic output and not a medical diagnosis.\n\nThis is an automated model output, not a medical diagnosis. Results should be reviewed by a qualified radiologist or physician.",
+        "report_source": "groq",
+        "warnings": [],
+        "_heatmap_len": 78662,
+        "_heatmap_prefix": "data:image/png;base64,iVBORw0KGgoAAAANSU"
+      },
+      "file": "d:\\7th sem\\sdp\\seg_data\\val\\images\\lung_opacity-Lung_Opacity-2917.png",
+      "modality": "xray"
+    },
+    {
+      "status": 200,
+      "latency_s": 1.021,
+      "body": {
+        "modality": "xray",
+        "predicted_class": "COVID-19",
+        "confidence": 0.9563299417495728,
+        "class_probabilities": {
+          "COVID-19": 0.9563299417495728,
+          "Normal": 0.04281074181199074,
+          "Pneumonia": 0.0003455168043728918,
+          "Tuberculosis": 0.0005137590924277902
+        },
+        "report": "The model looked at the X\u2011ray and gave a 95.6\u202f% chance that the image matches patterns it has learned for COVID\u201119, while it only saw a 4.3\u202f% chance of it being a normal scan, 0\u202f% for pneumonia, and 0.1\u202f% for tuberculosis. In other words, the computer is very confident that the picture most closely resembles its COVID\u201119 examples, and far less like the other conditions it was trained to recognize.\n\nThis is an automated model output, not a medical diagnosis. Results should be reviewed by a qualified radiologist or physician.",
+        "report_source": "groq",
+        "warnings": [],
+        "_heatmap_len": 72758,
+        "_heatmap_prefix": "data:image/png;base64,iVBORw0KGgoAAAANSU"
+      },
+      "file": "d:\\7th sem\\sdp\\seg_data\\val\\images\\lung_opacity-Lung_Opacity-2705.png",
+      "modality": "xray"
+    },
+    {
+      "status": 200,
+      "latency_s": 1.573,
+      "body": {
+        "modality": "xray",
+        "predicted_class": "COVID-19",
+        "confidence": 0.9992873072624207,
+        "class_probabilities": {
+          "COVID-19": 0.9992873072624207,
+          "Normal": 0.0006538179004564881,
+          "Pneumonia": 5.433589467429556e-05,
+          "Tuberculosis": 4.53774146080832e-06
+        },
+        "report": "The computer program examined the chest X\u2011ray and assigned a 99.9\u202f% chance that the image matches the patterns it has learned for COVID\u201119, while giving only a 0.1\u202f% chance for a normal scan and essentially 0\u202f% for pneumonia or tuberculosis.\n\nThis is an automated model output, not a medical diagnosis. Results should be reviewed by a qualified radiologist or physician.",
+        "report_source": "groq",
+        "warnings": [],
+        "_heatmap_len": 77678,
+        "_heatmap_prefix": "data:image/png;base64,iVBORw0KGgoAAAANSU"
+      },
+      "file": "d:\\7th sem\\sdp\\seg_data\\val\\images\\lung_opacity-Lung_Opacity-5048.png",
+      "modality": "xray"
+    },
+    {
+      "status": 200,
+      "latency_s": 1.208,
+      "body": {
+        "modality": "xray",
+        "predicted_class": "COVID-19",
+        "confidence": 0.99783855676651,
+        "class_probabilities": {
+          "COVID-19": 0.99783855676651,
+          "Normal": 0.001989850075915456,
+          "Pneumonia": 2.376964403083548e-05,
+          "Tuberculosis": 0.00014778293552808464
+        },
+        "report": "The model looked at the X\u2011ray and gave a 99.8\u202f% chance that the image matches the pattern it has learned for COVID\u201119, while assigning only a 0.2\u202f% chance to a normal (healthy) appearance and essentially 0\u202f% to pneumonia or tuberculosis. In other words, based on the data it was trained on, the image most closely resembles what the model has seen in COVID\u201119 cases.\n\nThis is an automated model output, not a medical diagnosis. Results should be reviewed by a qualified radiologist or physician.",
+        "report_source": "groq",
+        "warnings": [],
+        "_heatmap_len": 62026,
+        "_heatmap_prefix": "data:image/png;base64,iVBORw0KGgoAAAANSU"
+      },
+      "file": "d:\\7th sem\\sdp\\seg_data\\val\\images\\lung_opacity-Lung_Opacity-1199.png",
+      "modality": "xray"
+    },
+    {
+      "status": 200,
+      "latency_s": 1.208,
+      "body": {
+        "modality": "xray",
+        "predicted_class": "COVID-19",
+        "confidence": 0.9958232641220093,
+        "class_probabilities": {
+          "COVID-19": 0.9958232641220093,
+          "Normal": 0.004143904894590378,
+          "Pneumonia": 1.6238222087849863e-05,
+          "Tuberculosis": 1.658830115047749e-05
+        },
+        "report": "The AI examined the chest X\u2011ray and assigned a 99.6\u202f% probability that the image matches the patterns it has learned for COVID\u201119, while giving only a 0.4\u202f% chance that it looks normal and virtually 0\u202f% for pneumonia or tuberculosis. In other words, the model is extremely confident that the X\u2011ray resembles those labeled COVID\u201119 in\n\nThis is an automated model output, not a medical diagnosis. Results should be reviewed by a qualified radiologist or physician.",
+        "report_source": "groq",
+        "warnings": [],
+        "_heatmap_len": 69118,
+        "_heatmap_prefix": "data:image/png;base64,iVBORw0KGgoAAAANSU"
+      },
+      "file": "d:\\7th sem\\sdp\\seg_data\\val\\images\\lung_opacity-Lung_Opacity-2860.png",
+      "modality": "xray"
+    },
+    {
+      "status": 200,
+      "latency_s": 1.189,
+      "body": {
+        "modality": "xray",
+        "predicted_class": "COVID-19",
+        "confidence": 0.9829451441764832,
+        "class_probabilities": {
+          "COVID-19": 0.9829451441764832,
+          "Normal": 0.0026476201601326466,
+          "Pneumonia": 6.87837673467584e-05,
+          "Tuberculosis": 0.014338488690555096
+        },
+        "report": "The model looked at the X\u2011ray and gave a 98.3\u202f% chance that the image matches the pattern it has learned for COVID\u201119, while it sees only a 0.3\u202f% chance it looks normal, 0\u202f% for pneumonia, and about a 1.4\u202f% chance it resembles tuberculosis. In other words, the computer is very confident that the X\u2011ray most closely resembles its COVID\u201119 examples compared with the other categories it was trained to recognize.\n\nThis is an automated model output, not a medical diagnosis. Results should be reviewed by a qualified radiologist or physician.",
+        "report_source": "groq",
+        "warnings": [],
+        "_heatmap_len": 71138,
+        "_heatmap_prefix": "data:image/png;base64,iVBORw0KGgoAAAANSU"
+      },
+      "file": "d:\\7th sem\\sdp\\seg_data\\val\\images\\lung_opacity-Lung_Opacity-4464.png",
+      "modality": "xray"
+    },
+    {
+      "status": 200,
+      "latency_s": 1.159,
+      "body": {
+        "modality": "xray",
+        "predicted_class": "Tuberculosis",
+        "confidence": 0.6275969743728638,
+        "class_probabilities": {
+          "COVID-19": 0.36507105827331543,
+          "Normal": 0.005036037415266037,
+          "Pneumonia": 0.0022958850022405386,
+          "Tuberculosis": 0.6275969743728638
+        },
+        "report": "The model looked at the X\u2011ray and gave the highest score to \u201ctuberculosis,\u201d meaning it thinks this is the most likely finding, with a confidence of about 62.8\u202f%. For comparison, the same image was assigned a 36.5\u202f% chance of showing COVID\u201119, and very low chances for \u201cnormal\u201d (0.5\u202f%) or \u201cpneumonia\u201d (0.2\u202f%). These percentages reflect the model\u2019s relative certainty, not a definitive medical diagnosis.\n\nThis is an automated model output, not a medical diagnosis. Results should be reviewed by a qualified radiologist or physician.",
+        "report_source": "groq",
+        "warnings": [],
+        "_heatmap_len": 67390,
+        "_heatmap_prefix": "data:image/png;base64,iVBORw0KGgoAAAANSU"
+      },
+      "file": "d:\\7th sem\\sdp\\seg_data\\val\\images\\lung_opacity-Lung_Opacity-946.png",
+      "modality": "xray"
+    }
+  ]
+}

@@ -1,0 +1,7103 @@
+[
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-100.png",
+  "status": 200,
+  "latency_s": 1.444,
+  "pred": "COVID-19",
+  "conf": 0.9996587038040161,
+  "probs": {
+   "COVID-19": 0.9996587038040161,
+   "Normal": 0.0003203917876817286,
+   "Pneumonia": 5.644880118893525e-08,
+   "Tuberculosis": 2.088718429149594e-05
+  },
+  "heatmap_len": 69374,
+  "report_len": 516,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1005.png",
+  "status": 200,
+  "latency_s": 1.211,
+  "pred": "COVID-19",
+  "conf": 0.9695312976837158,
+  "probs": {
+   "COVID-19": 0.9695312976837158,
+   "Normal": 0.021926430985331535,
+   "Pneumonia": 5.569312270381488e-05,
+   "Tuberculosis": 0.008486524224281311
+  },
+  "heatmap_len": 77506,
+  "report_len": 533,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-101.png",
+  "status": 200,
+  "latency_s": 1.389,
+  "pred": "COVID-19",
+  "conf": 0.9804185032844543,
+  "probs": {
+   "COVID-19": 0.9804185032844543,
+   "Normal": 0.018596746027469635,
+   "Pneumonia": 7.159444794524461e-05,
+   "Tuberculosis": 0.0009131052065640688
+  },
+  "heatmap_len": 78922,
+  "report_len": 510,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1021.png",
+  "status": 200,
+  "latency_s": 1.245,
+  "pred": "COVID-19",
+  "conf": 0.9998199343681335,
+  "probs": {
+   "COVID-19": 0.9998199343681335,
+   "Normal": 7.714846287854016e-05,
+   "Pneumonia": 5.337897732715646e-07,
+   "Tuberculosis": 0.00010246324382023886
+  },
+  "heatmap_len": 76546,
+  "report_len": 473,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1024.png",
+  "status": 200,
+  "latency_s": 0.477,
+  "pred": "COVID-19",
+  "conf": 0.9999982118606567,
+  "probs": {
+   "COVID-19": 0.9999982118606567,
+   "Normal": 4.463809375465644e-07,
+   "Pneumonia": 3.2858130105672956e-10,
+   "Tuberculosis": 1.3932115052739391e-06
+  },
+  "heatmap_len": 76994,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1040.png",
+  "status": 200,
+  "latency_s": 0.477,
+  "pred": "COVID-19",
+  "conf": 0.9999990463256836,
+  "probs": {
+   "COVID-19": 0.9999990463256836,
+   "Normal": 4.963940227753483e-07,
+   "Pneumonia": 2.8564778631334775e-07,
+   "Tuberculosis": 2.079095509088802e-07
+  },
+  "heatmap_len": 82058,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1052.png",
+  "status": 200,
+  "latency_s": 1.609,
+  "pred": "COVID-19",
+  "conf": 0.9999938011169434,
+  "probs": {
+   "COVID-19": 0.9999938011169434,
+   "Normal": 3.3423762602069473e-07,
+   "Pneumonia": 1.2437645864338265e-06,
+   "Tuberculosis": 4.711575911642285e-06
+  },
+  "heatmap_len": 76854,
+  "report_len": 391,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-107.png",
+  "status": 200,
+  "latency_s": 0.473,
+  "pred": "COVID-19",
+  "conf": 0.9999978542327881,
+  "probs": {
+   "COVID-19": 0.9999978542327881,
+   "Normal": 1.4527004168485291e-06,
+   "Pneumonia": 9.653036414647431e-08,
+   "Tuberculosis": 5.228444024396595e-07
+  },
+  "heatmap_len": 75090,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1076.png",
+  "status": 200,
+  "latency_s": 0.448,
+  "pred": "COVID-19",
+  "conf": 0.9996472597122192,
+  "probs": {
+   "COVID-19": 0.9996472597122192,
+   "Normal": 0.00012850102211814374,
+   "Pneumonia": 0.00012721802340820432,
+   "Tuberculosis": 9.692941966932267e-05
+  },
+  "heatmap_len": 83182,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1090.png",
+  "status": 200,
+  "latency_s": 1.211,
+  "pred": "COVID-19",
+  "conf": 0.999994158744812,
+  "probs": {
+   "COVID-19": 0.999994158744812,
+   "Normal": 5.3400167416839395e-06,
+   "Pneumonia": 8.46065901782822e-08,
+   "Tuberculosis": 4.0338301232623053e-07
+  },
+  "heatmap_len": 76818,
+  "report_len": 525,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1096.png",
+  "status": 200,
+  "latency_s": 0.864,
+  "pred": "COVID-19",
+  "conf": 0.9942301511764526,
+  "probs": {
+   "COVID-19": 0.9942301511764526,
+   "Normal": 0.005719789769500494,
+   "Pneumonia": 2.945282176369801e-05,
+   "Tuberculosis": 2.0509194655460306e-05
+  },
+  "heatmap_len": 79978,
+  "report_len": 335,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1108.png",
+  "status": 200,
+  "latency_s": 1.35,
+  "pred": "COVID-19",
+  "conf": 0.9999823570251465,
+  "probs": {
+   "COVID-19": 0.9999823570251465,
+   "Normal": 1.3392391338129528e-05,
+   "Pneumonia": 2.0374775200338036e-09,
+   "Tuberculosis": 4.294543487048941e-06
+  },
+  "heatmap_len": 76710,
+  "report_len": 508,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1113.png",
+  "status": 200,
+  "latency_s": 0.583,
+  "pred": "COVID-19",
+  "conf": 0.9981639981269836,
+  "probs": {
+   "COVID-19": 0.9981639981269836,
+   "Normal": 0.0017741058254614472,
+   "Pneumonia": 3.581065044500065e-08,
+   "Tuberculosis": 6.186625978443772e-05
+  },
+  "heatmap_len": 65210,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1115.png",
+  "status": 200,
+  "latency_s": 0.458,
+  "pred": "COVID-19",
+  "conf": 0.9988434314727783,
+  "probs": {
+   "COVID-19": 0.9988434314727783,
+   "Normal": 3.847602420137264e-05,
+   "Pneumonia": 0.0008568446501158178,
+   "Tuberculosis": 0.0002612365351524204
+  },
+  "heatmap_len": 80674,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1116.png",
+  "status": 200,
+  "latency_s": 1.249,
+  "pred": "COVID-19",
+  "conf": 0.8010016083717346,
+  "probs": {
+   "COVID-19": 0.8010016083717346,
+   "Normal": 0.19815172255039215,
+   "Pneumonia": 9.475531987845898e-05,
+   "Tuberculosis": 0.0007519174832850695
+  },
+  "heatmap_len": 70670,
+  "report_len": 522,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1158.png",
+  "status": 200,
+  "latency_s": 0.795,
+  "pred": "COVID-19",
+  "conf": 0.9870290756225586,
+  "probs": {
+   "COVID-19": 0.9870290756225586,
+   "Normal": 0.012951505370438099,
+   "Pneumonia": 2.146888846255024e-06,
+   "Tuberculosis": 1.7288741219090298e-05
+  },
+  "heatmap_len": 68986,
+  "report_len": 335,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1167.png",
+  "status": 200,
+  "latency_s": 1.46,
+  "pred": "COVID-19",
+  "conf": 0.9999970197677612,
+  "probs": {
+   "COVID-19": 0.9999970197677612,
+   "Normal": 2.6338041152484948e-06,
+   "Pneumonia": 3.5264260844769524e-08,
+   "Tuberculosis": 3.0265891837188974e-07
+  },
+  "heatmap_len": 78190,
+  "report_len": 449,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1171.png",
+  "status": 200,
+  "latency_s": 0.448,
+  "pred": "COVID-19",
+  "conf": 0.9997581839561462,
+  "probs": {
+   "COVID-19": 0.9997581839561462,
+   "Normal": 0.0002397938078502193,
+   "Pneumonia": 1.514739324193215e-06,
+   "Tuberculosis": 5.255603809928289e-07
+  },
+  "heatmap_len": 78946,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1185.png",
+  "status": 200,
+  "latency_s": 0.466,
+  "pred": "COVID-19",
+  "conf": 0.9999241828918457,
+  "probs": {
+   "COVID-19": 0.9999241828918457,
+   "Normal": 5.415617852122523e-05,
+   "Pneumonia": 1.6413428966188803e-05,
+   "Tuberculosis": 5.156067345524207e-06
+  },
+  "heatmap_len": 86010,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1198.png",
+  "status": 200,
+  "latency_s": 1.279,
+  "pred": "COVID-19",
+  "conf": 0.9985541701316833,
+  "probs": {
+   "COVID-19": 0.9985541701316833,
+   "Normal": 0.0014438920188695192,
+   "Pneumonia": 2.2508694996759004e-07,
+   "Tuberculosis": 1.7311730289293337e-06
+  },
+  "heatmap_len": 73598,
+  "report_len": 524,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1204.png",
+  "status": 200,
+  "latency_s": 1.294,
+  "pred": "COVID-19",
+  "conf": 0.9970270991325378,
+  "probs": {
+   "COVID-19": 0.9970270991325378,
+   "Normal": 0.0020367426332086325,
+   "Pneumonia": 4.493958840612322e-06,
+   "Tuberculosis": 0.000931625603698194
+  },
+  "heatmap_len": 72610,
+  "report_len": 532,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1211.png",
+  "status": 200,
+  "latency_s": 1.281,
+  "pred": "COVID-19",
+  "conf": 0.9998800754547119,
+  "probs": {
+   "COVID-19": 0.9998800754547119,
+   "Normal": 3.779705593842664e-06,
+   "Pneumonia": 1.0036947060143575e-06,
+   "Tuberculosis": 0.00011518550309119746
+  },
+  "heatmap_len": 75182,
+  "report_len": 535,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1214.png",
+  "status": 200,
+  "latency_s": 0.879,
+  "pred": "COVID-19",
+  "conf": 0.9836693406105042,
+  "probs": {
+   "COVID-19": 0.9836693406105042,
+   "Normal": 0.014692098833620548,
+   "Pneumonia": 0.0004961388185620308,
+   "Tuberculosis": 0.0011424041585996747
+  },
+  "heatmap_len": 75306,
+  "report_len": 335,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1215.png",
+  "status": 200,
+  "latency_s": 1.183,
+  "pred": "COVID-19",
+  "conf": 0.9999605417251587,
+  "probs": {
+   "COVID-19": 0.9999605417251587,
+   "Normal": 3.5406719689490274e-05,
+   "Pneumonia": 1.7279749897625152e-07,
+   "Tuberculosis": 3.896795533364639e-06
+  },
+  "heatmap_len": 64438,
+  "report_len": 498,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1221.png",
+  "status": 200,
+  "latency_s": 0.591,
+  "pred": "Normal",
+  "conf": 0.6381627321243286,
+  "probs": {
+   "COVID-19": 0.36164239048957825,
+   "Normal": 0.6381627321243286,
+   "Pneumonia": 0.00014900176029186696,
+   "Tuberculosis": 4.5887780288467184e-05
+  },
+  "heatmap_len": 78682,
+  "report_len": 333,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1232.png",
+  "status": 200,
+  "latency_s": 0.484,
+  "pred": "COVID-19",
+  "conf": 0.9174945950508118,
+  "probs": {
+   "COVID-19": 0.9174945950508118,
+   "Normal": 0.05132955685257912,
+   "Pneumonia": 0.0008033394115045667,
+   "Tuberculosis": 0.0303724966943264
+  },
+  "heatmap_len": 60346,
+  "report_len": 335,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1234.png",
+  "status": 200,
+  "latency_s": 1.23,
+  "pred": "COVID-19",
+  "conf": 0.997784435749054,
+  "probs": {
+   "COVID-19": 0.997784435749054,
+   "Normal": 0.002131400629878044,
+   "Pneumonia": 2.8674055130295528e-08,
+   "Tuberculosis": 8.41341243358329e-05
+  },
+  "heatmap_len": 71830,
+  "report_len": 472,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1242.png",
+  "status": 200,
+  "latency_s": 0.588,
+  "pred": "Pneumonia",
+  "conf": 0.9910014271736145,
+  "probs": {
+   "COVID-19": 0.0046903220936656,
+   "Normal": 0.004019881598651409,
+   "Pneumonia": 0.9910014271736145,
+   "Tuberculosis": 0.0002883146225940436
+  },
+  "heatmap_len": 70502,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1247.png",
+  "status": 200,
+  "latency_s": 0.478,
+  "pred": "COVID-19",
+  "conf": 0.9322604537010193,
+  "probs": {
+   "COVID-19": 0.9322604537010193,
+   "Normal": 0.0507732518017292,
+   "Pneumonia": 0.0072019160725176334,
+   "Tuberculosis": 0.009764350950717926
+  },
+  "heatmap_len": 77746,
+  "report_len": 335,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1253.png",
+  "status": 200,
+  "latency_s": 1.193,
+  "pred": "COVID-19",
+  "conf": 0.9964330196380615,
+  "probs": {
+   "COVID-19": 0.9964330196380615,
+   "Normal": 0.0035265737678855658,
+   "Pneumonia": 5.788723228761228e-06,
+   "Tuberculosis": 3.456104968790896e-05
+  },
+  "heatmap_len": 75250,
+  "report_len": 490,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1254.png",
+  "status": 200,
+  "latency_s": 0.494,
+  "pred": "COVID-19",
+  "conf": 0.9983080625534058,
+  "probs": {
+   "COVID-19": 0.9983080625534058,
+   "Normal": 0.0005282006459310651,
+   "Pneumonia": 1.923934632941382e-06,
+   "Tuberculosis": 0.0011618656571954489
+  },
+  "heatmap_len": 66950,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-126.png",
+  "status": 200,
+  "latency_s": 1.248,
+  "pred": "COVID-19",
+  "conf": 0.999930739402771,
+  "probs": {
+   "COVID-19": 0.999930739402771,
+   "Normal": 6.843436858616769e-05,
+   "Pneumonia": 7.776100829914867e-08,
+   "Tuberculosis": 6.507621606033354e-07
+  },
+  "heatmap_len": 71762,
+  "report_len": 484,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1261.png",
+  "status": 200,
+  "latency_s": 0.51,
+  "pred": "COVID-19",
+  "conf": 0.9991647005081177,
+  "probs": {
+   "COVID-19": 0.9991647005081177,
+   "Normal": 0.0008312491117976606,
+   "Pneumonia": 1.8814117765941774e-06,
+   "Tuberculosis": 2.1997548174113035e-06
+  },
+  "heatmap_len": 79910,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1276.png",
+  "status": 200,
+  "latency_s": 0.529,
+  "pred": "COVID-19",
+  "conf": 0.9997226595878601,
+  "probs": {
+   "COVID-19": 0.9997226595878601,
+   "Normal": 0.00023756669543217868,
+   "Pneumonia": 3.712264515343122e-05,
+   "Tuberculosis": 2.7481898996484233e-06
+  },
+  "heatmap_len": 78430,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1289.png",
+  "status": 200,
+  "latency_s": 1.652,
+  "pred": "COVID-19",
+  "conf": 0.9876145124435425,
+  "probs": {
+   "COVID-19": 0.9876145124435425,
+   "Normal": 0.012047911062836647,
+   "Pneumonia": 2.0779611077159643e-05,
+   "Tuberculosis": 0.00031690881587564945
+  },
+  "heatmap_len": 88830,
+  "report_len": 564,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1292.png",
+  "status": 200,
+  "latency_s": 0.813,
+  "pred": "COVID-19",
+  "conf": 0.9998257756233215,
+  "probs": {
+   "COVID-19": 0.9998257756233215,
+   "Normal": 0.00017364897939842194,
+   "Pneumonia": 1.594957943495956e-08,
+   "Tuberculosis": 5.76943705254962e-07
+  },
+  "heatmap_len": 75558,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1313.png",
+  "status": 200,
+  "latency_s": 1.111,
+  "pred": "COVID-19",
+  "conf": 0.9965215921401978,
+  "probs": {
+   "COVID-19": 0.9965215921401978,
+   "Normal": 0.0034556626342236996,
+   "Pneumonia": 1.767068897606805e-05,
+   "Tuberculosis": 5.07983850184246e-06
+  },
+  "heatmap_len": 77634,
+  "report_len": 509,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1319.png",
+  "status": 200,
+  "latency_s": 0.56,
+  "pred": "COVID-19",
+  "conf": 0.9988484382629395,
+  "probs": {
+   "COVID-19": 0.9988484382629395,
+   "Normal": 0.0005366397672332823,
+   "Pneumonia": 0.00032389056286774576,
+   "Tuberculosis": 0.00029104496934451163
+  },
+  "heatmap_len": 70862,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1333.png",
+  "status": 200,
+  "latency_s": 1.439,
+  "pred": "COVID-19",
+  "conf": 0.9971944093704224,
+  "probs": {
+   "COVID-19": 0.9971944093704224,
+   "Normal": 0.0015368511667475104,
+   "Pneumonia": 0.0006963816122151911,
+   "Tuberculosis": 0.0005723192589357495
+  },
+  "heatmap_len": 84846,
+  "report_len": 430,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-134.png",
+  "status": 200,
+  "latency_s": 1.074,
+  "pred": "COVID-19",
+  "conf": 0.9999983310699463,
+  "probs": {
+   "COVID-19": 0.9999983310699463,
+   "Normal": 6.682319053652463e-07,
+   "Pneumonia": 9.4148298046548e-09,
+   "Tuberculosis": 1.044230884872377e-06
+  },
+  "heatmap_len": 74482,
+  "report_len": 524,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1342.png",
+  "status": 200,
+  "latency_s": 1.383,
+  "pred": "COVID-19",
+  "conf": 0.9998965263366699,
+  "probs": {
+   "COVID-19": 0.9998965263366699,
+   "Normal": 5.74759797018487e-05,
+   "Pneumonia": 7.054464958855533e-07,
+   "Tuberculosis": 4.528583667706698e-05
+  },
+  "heatmap_len": 81154,
+  "report_len": 439,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1343.png",
+  "status": 200,
+  "latency_s": 1.266,
+  "pred": "COVID-19",
+  "conf": 0.9999352693557739,
+  "probs": {
+   "COVID-19": 0.9999352693557739,
+   "Normal": 6.175733869895339e-05,
+   "Pneumonia": 2.8353437642181234e-07,
+   "Tuberculosis": 2.759529934337479e-06
+  },
+  "heatmap_len": 75622,
+  "report_len": 531,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1346.png",
+  "status": 200,
+  "latency_s": 1.266,
+  "pred": "COVID-19",
+  "conf": 0.9998703002929688,
+  "probs": {
+   "COVID-19": 0.9998703002929688,
+   "Normal": 0.00012204452650621533,
+   "Pneumonia": 1.7878580393926313e-08,
+   "Tuberculosis": 7.631429070897866e-06
+  },
+  "heatmap_len": 74346,
+  "report_len": 339,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1355.png",
+  "status": 200,
+  "latency_s": 1.547,
+  "pred": "COVID-19",
+  "conf": 0.9999754428863525,
+  "probs": {
+   "COVID-19": 0.9999754428863525,
+   "Normal": 2.19136054511182e-05,
+   "Pneumonia": 1.0073343048588868e-07,
+   "Tuberculosis": 2.5790598101593787e-06
+  },
+  "heatmap_len": 73834,
+  "report_len": 515,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1356.png",
+  "status": 200,
+  "latency_s": 1.284,
+  "pred": "COVID-19",
+  "conf": 0.999879002571106,
+  "probs": {
+   "COVID-19": 0.999879002571106,
+   "Normal": 0.00010548394493525848,
+   "Pneumonia": 4.0433506001136266e-06,
+   "Tuberculosis": 1.1390256076992955e-05
+  },
+  "heatmap_len": 70478,
+  "report_len": 490,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-136.png",
+  "status": 200,
+  "latency_s": 1.241,
+  "pred": "COVID-19",
+  "conf": 0.9713403582572937,
+  "probs": {
+   "COVID-19": 0.9713403582572937,
+   "Normal": 0.006856310646981001,
+   "Pneumonia": 0.007402799092233181,
+   "Tuberculosis": 0.014400619082152843
+  },
+  "heatmap_len": 70518,
+  "report_len": 478,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1361.png",
+  "status": 200,
+  "latency_s": 1.199,
+  "pred": "Normal",
+  "conf": 0.5284660458564758,
+  "probs": {
+   "COVID-19": 0.4613581597805023,
+   "Normal": 0.5284660458564758,
+   "Pneumonia": 0.0030754394829273224,
+   "Tuberculosis": 0.007100363727658987
+  },
+  "heatmap_len": 68926,
+  "report_len": 538,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1370.png",
+  "status": 200,
+  "latency_s": 1.377,
+  "pred": "COVID-19",
+  "conf": 0.9983252882957458,
+  "probs": {
+   "COVID-19": 0.9983252882957458,
+   "Normal": 8.826150587992743e-05,
+   "Pneumonia": 0.000442393880803138,
+   "Tuberculosis": 0.0011440491070970893
+  },
+  "heatmap_len": 72034,
+  "report_len": 544,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1375.png",
+  "status": 200,
+  "latency_s": 1.323,
+  "pred": "COVID-19",
+  "conf": 0.9999827146530151,
+  "probs": {
+   "COVID-19": 0.9999827146530151,
+   "Normal": 7.692381586821284e-06,
+   "Pneumonia": 3.4226936840298094e-09,
+   "Tuberculosis": 9.584341569279786e-06
+  },
+  "heatmap_len": 71530,
+  "report_len": 468,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1376.png",
+  "status": 200,
+  "latency_s": 1.173,
+  "pred": "COVID-19",
+  "conf": 0.9999688863754272,
+  "probs": {
+   "COVID-19": 0.9999688863754272,
+   "Normal": 3.028375249414239e-05,
+   "Pneumonia": 2.8113353867098567e-09,
+   "Tuberculosis": 8.432706977146154e-07
+  },
+  "heatmap_len": 68362,
+  "report_len": 496,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1391.png",
+  "status": 200,
+  "latency_s": 1.176,
+  "pred": "COVID-19",
+  "conf": 0.9716823101043701,
+  "probs": {
+   "COVID-19": 0.9716823101043701,
+   "Normal": 0.013953992165625095,
+   "Pneumonia": 0.001721851876936853,
+   "Tuberculosis": 0.012641836889088154
+  },
+  "heatmap_len": 72610,
+  "report_len": 494,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1401.png",
+  "status": 200,
+  "latency_s": 1.252,
+  "pred": "COVID-19",
+  "conf": 0.9999977350234985,
+  "probs": {
+   "COVID-19": 0.9999977350234985,
+   "Normal": 1.958615257535712e-06,
+   "Pneumonia": 1.4102378154134954e-09,
+   "Tuberculosis": 2.6949524567498884e-07
+  },
+  "heatmap_len": 71750,
+  "report_len": 491,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1403.png",
+  "status": 200,
+  "latency_s": 1.643,
+  "pred": "COVID-19",
+  "conf": 0.9999712705612183,
+  "probs": {
+   "COVID-19": 0.9999712705612183,
+   "Normal": 2.3672408133279532e-05,
+   "Pneumonia": 5.654547976519098e-07,
+   "Tuberculosis": 4.485129920794861e-06
+  },
+  "heatmap_len": 73454,
+  "report_len": 295,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-141.png",
+  "status": 200,
+  "latency_s": 1.24,
+  "pred": "COVID-19",
+  "conf": 0.9945695996284485,
+  "probs": {
+   "COVID-19": 0.9945695996284485,
+   "Normal": 0.0025700433179736137,
+   "Pneumonia": 0.0027493636589497328,
+   "Tuberculosis": 0.0001110331213567406
+  },
+  "heatmap_len": 82910,
+  "report_len": 373,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1411.png",
+  "status": 200,
+  "latency_s": 1.259,
+  "pred": "COVID-19",
+  "conf": 0.9480449557304382,
+  "probs": {
+   "COVID-19": 0.9480449557304382,
+   "Normal": 0.013680401258170605,
+   "Pneumonia": 0.037585463374853134,
+   "Tuberculosis": 0.0006892080418765545
+  },
+  "heatmap_len": 85362,
+  "report_len": 495,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1421.png",
+  "status": 200,
+  "latency_s": 1.088,
+  "pred": "COVID-19",
+  "conf": 0.9994887113571167,
+  "probs": {
+   "COVID-19": 0.9994887113571167,
+   "Normal": 0.00041519966907799244,
+   "Pneumonia": 1.7000274965539575e-05,
+   "Tuberculosis": 7.902519428171217e-05
+  },
+  "heatmap_len": 75550,
+  "report_len": 505,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1445.png",
+  "status": 200,
+  "latency_s": 1.132,
+  "pred": "COVID-19",
+  "conf": 0.9985548853874207,
+  "probs": {
+   "COVID-19": 0.9985548853874207,
+   "Normal": 0.0013609477318823338,
+   "Pneumonia": 7.179076874308521e-06,
+   "Tuberculosis": 7.702748553128913e-05
+  },
+  "heatmap_len": 73450,
+  "report_len": 540,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-146.png",
+  "status": 200,
+  "latency_s": 1.253,
+  "pred": "COVID-19",
+  "conf": 0.9994468092918396,
+  "probs": {
+   "COVID-19": 0.9994468092918396,
+   "Normal": 0.0005522356950677931,
+   "Pneumonia": 4.425891209081101e-09,
+   "Tuberculosis": 1.0006348247770802e-06
+  },
+  "heatmap_len": 70598,
+  "report_len": 544,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1463.png",
+  "status": 200,
+  "latency_s": 1.261,
+  "pred": "COVID-19",
+  "conf": 0.999967098236084,
+  "probs": {
+   "COVID-19": 0.999967098236084,
+   "Normal": 2.8137552362750284e-05,
+   "Pneumonia": 6.847729139281e-08,
+   "Tuberculosis": 4.6346121962415054e-06
+  },
+  "heatmap_len": 73170,
+  "report_len": 533,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1472.png",
+  "status": 200,
+  "latency_s": 1.297,
+  "pred": "COVID-19",
+  "conf": 0.9428365230560303,
+  "probs": {
+   "COVID-19": 0.9428365230560303,
+   "Normal": 0.05640517920255661,
+   "Pneumonia": 0.00017010056762956083,
+   "Tuberculosis": 0.000588231545407325
+  },
+  "heatmap_len": 76706,
+  "report_len": 477,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1487.png",
+  "status": 200,
+  "latency_s": 1.523,
+  "pred": "COVID-19",
+  "conf": 0.9999797344207764,
+  "probs": {
+   "COVID-19": 0.9999797344207764,
+   "Normal": 2.0846630377491238e-06,
+   "Pneumonia": 4.554556198854698e-06,
+   "Tuberculosis": 1.3624548046209384e-05
+  },
+  "heatmap_len": 73634,
+  "report_len": 477,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1509.png",
+  "status": 200,
+  "latency_s": 1.253,
+  "pred": "COVID-19",
+  "conf": 0.9937925934791565,
+  "probs": {
+   "COVID-19": 0.9937925934791565,
+   "Normal": 0.003995249979197979,
+   "Pneumonia": 0.0016642098780721426,
+   "Tuberculosis": 0.0005479794344864786
+  },
+  "heatmap_len": 65634,
+  "report_len": 558,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1513.png",
+  "status": 200,
+  "latency_s": 0.972,
+  "pred": "COVID-19",
+  "conf": 0.9968079924583435,
+  "probs": {
+   "COVID-19": 0.9968079924583435,
+   "Normal": 0.002631084993481636,
+   "Pneumonia": 7.2691623245191295e-06,
+   "Tuberculosis": 0.0005536890239454806
+  },
+  "heatmap_len": 76022,
+  "report_len": 507,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1516.png",
+  "status": 200,
+  "latency_s": 1.152,
+  "pred": "COVID-19",
+  "conf": 0.9998836517333984,
+  "probs": {
+   "COVID-19": 0.9998836517333984,
+   "Normal": 0.00010801775351865217,
+   "Pneumonia": 1.4348508159400808e-08,
+   "Tuberculosis": 8.295814041048288e-06
+  },
+  "heatmap_len": 72358,
+  "report_len": 503,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1526.png",
+  "status": 200,
+  "latency_s": 1.181,
+  "pred": "COVID-19",
+  "conf": 0.9998975992202759,
+  "probs": {
+   "COVID-19": 0.9998975992202759,
+   "Normal": 9.032218804350123e-05,
+   "Pneumonia": 6.055307494534645e-06,
+   "Tuberculosis": 6.045002919563558e-06
+  },
+  "heatmap_len": 77302,
+  "report_len": 461,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1563.png",
+  "status": 200,
+  "latency_s": 1.486,
+  "pred": "COVID-19",
+  "conf": 0.9928441643714905,
+  "probs": {
+   "COVID-19": 0.9928441643714905,
+   "Normal": 0.00020482430409174412,
+   "Pneumonia": 0.0017422239761799574,
+   "Tuberculosis": 0.0052087558433413506
+  },
+  "heatmap_len": 73166,
+  "report_len": 373,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1572.png",
+  "status": 200,
+  "latency_s": 1.351,
+  "pred": "COVID-19",
+  "conf": 0.999346911907196,
+  "probs": {
+   "COVID-19": 0.999346911907196,
+   "Normal": 0.0001524935505585745,
+   "Pneumonia": 6.177557952469215e-05,
+   "Tuberculosis": 0.00043874623952433467
+  },
+  "heatmap_len": 80334,
+  "report_len": 532,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1582.png",
+  "status": 200,
+  "latency_s": 1.239,
+  "pred": "COVID-19",
+  "conf": 0.9880486130714417,
+  "probs": {
+   "COVID-19": 0.9880486130714417,
+   "Normal": 0.01186149101704359,
+   "Pneumonia": 4.277942207409069e-05,
+   "Tuberculosis": 4.7174231440294534e-05
+  },
+  "heatmap_len": 73478,
+  "report_len": 460,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1588.png",
+  "status": 200,
+  "latency_s": 1.423,
+  "pred": "Normal",
+  "conf": 0.8043088912963867,
+  "probs": {
+   "COVID-19": 0.19513516128063202,
+   "Normal": 0.8043088912963867,
+   "Pneumonia": 5.930601400905289e-05,
+   "Tuberculosis": 0.0004966860869899392
+  },
+  "heatmap_len": 70246,
+  "report_len": 526,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-159.png",
+  "status": 200,
+  "latency_s": 1.24,
+  "pred": "COVID-19",
+  "conf": 0.5378158092498779,
+  "probs": {
+   "COVID-19": 0.5378158092498779,
+   "Normal": 0.46148741245269775,
+   "Pneumonia": 1.830413930292707e-05,
+   "Tuberculosis": 0.0006784936413168907
+  },
+  "heatmap_len": 69742,
+  "report_len": 555,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1595.png",
+  "status": 200,
+  "latency_s": 1.18,
+  "pred": "Pneumonia",
+  "conf": 0.7029737234115601,
+  "probs": {
+   "COVID-19": 0.2554192543029785,
+   "Normal": 0.04109297692775726,
+   "Pneumonia": 0.7029737234115601,
+   "Tuberculosis": 0.0005140885477885604
+  },
+  "heatmap_len": 69394,
+  "report_len": 508,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-16.png",
+  "status": 200,
+  "latency_s": 1.298,
+  "pred": "Normal",
+  "conf": 0.8792261481285095,
+  "probs": {
+   "COVID-19": 0.041444871574640274,
+   "Normal": 0.8792261481285095,
+   "Pneumonia": 0.0793130025267601,
+   "Tuberculosis": 1.593919296283275e-05
+  },
+  "heatmap_len": 85902,
+  "report_len": 507,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1601.png",
+  "status": 200,
+  "latency_s": 1.275,
+  "pred": "Tuberculosis",
+  "conf": 0.38471096754074097,
+  "probs": {
+   "COVID-19": 0.08819389343261719,
+   "Normal": 0.3204837143421173,
+   "Pneumonia": 0.20661140978336334,
+   "Tuberculosis": 0.38471096754074097
+  },
+  "heatmap_len": 57286,
+  "report_len": 451,
+  "report_source": "groq",
+  "warnings": [
+   "Confidence (38.5%) is low -- treat this prediction as uncertain."
+  ],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1606.png",
+  "status": 200,
+  "latency_s": 2.016,
+  "pred": "COVID-19",
+  "conf": 0.9963247179985046,
+  "probs": {
+   "COVID-19": 0.9963247179985046,
+   "Normal": 0.0036604059860110283,
+   "Pneumonia": 1.7055386436481967e-08,
+   "Tuberculosis": 1.4871583516651299e-05
+  },
+  "heatmap_len": 65434,
+  "report_len": 394,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1608.png",
+  "status": 200,
+  "latency_s": 1.291,
+  "pred": "Tuberculosis",
+  "conf": 0.6344847679138184,
+  "probs": {
+   "COVID-19": 0.36434638500213623,
+   "Normal": 5.1128154154866934e-05,
+   "Pneumonia": 0.00111770152579993,
+   "Tuberculosis": 0.6344847679138184
+  },
+  "heatmap_len": 85430,
+  "report_len": 495,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1612.png",
+  "status": 200,
+  "latency_s": 1.092,
+  "pred": "COVID-19",
+  "conf": 0.8781129717826843,
+  "probs": {
+   "COVID-19": 0.8781129717826843,
+   "Normal": 0.04929963871836662,
+   "Pneumonia": 0.06241535395383835,
+   "Tuberculosis": 0.010171999223530293
+  },
+  "heatmap_len": 92402,
+  "report_len": 495,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-163.png",
+  "status": 200,
+  "latency_s": 1.266,
+  "pred": "COVID-19",
+  "conf": 0.9999954700469971,
+  "probs": {
+   "COVID-19": 0.9999954700469971,
+   "Normal": 4.280178472981788e-06,
+   "Pneumonia": 1.2645320346393873e-08,
+   "Tuberculosis": 2.46152296767832e-07
+  },
+  "heatmap_len": 73738,
+  "report_len": 530,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1658.png",
+  "status": 200,
+  "latency_s": 1.18,
+  "pred": "COVID-19",
+  "conf": 0.9976814985275269,
+  "probs": {
+   "COVID-19": 0.9976814985275269,
+   "Normal": 0.000148761595482938,
+   "Pneumonia": 0.0005231481045484543,
+   "Tuberculosis": 0.0016464813379570842
+  },
+  "heatmap_len": 89002,
+  "report_len": 524,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1676.png",
+  "status": 200,
+  "latency_s": 1.287,
+  "pred": "COVID-19",
+  "conf": 0.9917719960212708,
+  "probs": {
+   "COVID-19": 0.9917719960212708,
+   "Normal": 0.0008496827213093638,
+   "Pneumonia": 0.00451750960201025,
+   "Tuberculosis": 0.0028607873246073723
+  },
+  "heatmap_len": 83026,
+  "report_len": 537,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1700.png",
+  "status": 200,
+  "latency_s": 1.19,
+  "pred": "COVID-19",
+  "conf": 0.9935398697853088,
+  "probs": {
+   "COVID-19": 0.9935398697853088,
+   "Normal": 0.002490774728357792,
+   "Pneumonia": 3.15401230182033e-05,
+   "Tuberculosis": 0.0039378744550049305
+  },
+  "heatmap_len": 68026,
+  "report_len": 506,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1705.png",
+  "status": 200,
+  "latency_s": 1.12,
+  "pred": "COVID-19",
+  "conf": 0.9991762042045593,
+  "probs": {
+   "COVID-19": 0.9991762042045593,
+   "Normal": 0.0008179194992408156,
+   "Pneumonia": 1.1939029036511783e-06,
+   "Tuberculosis": 4.674389856518246e-06
+  },
+  "heatmap_len": 74514,
+  "report_len": 530,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1708.png",
+  "status": 200,
+  "latency_s": 0.99,
+  "pred": "COVID-19",
+  "conf": 0.9991101622581482,
+  "probs": {
+   "COVID-19": 0.9991101622581482,
+   "Normal": 0.000587472808547318,
+   "Pneumonia": 4.287732008378953e-05,
+   "Tuberculosis": 0.0002594553225208074
+  },
+  "heatmap_len": 74418,
+  "report_len": 526,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1732.png",
+  "status": 422,
+  "latency_s": 0.15,
+  "pred": null,
+  "conf": null,
+  "probs": null,
+  "heatmap_len": 0,
+  "report_len": 0,
+  "report_source": null,
+  "warnings": null,
+  "detail": "This does not look like a chest X-ray. (feature-space distance 10.4 exceeds threshold 8.7)"
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1740.png",
+  "status": 200,
+  "latency_s": 1.728,
+  "pred": "COVID-19",
+  "conf": 0.9999586343765259,
+  "probs": {
+   "COVID-19": 0.9999586343765259,
+   "Normal": 3.001003096869681e-05,
+   "Pneumonia": 4.571391798435798e-08,
+   "Tuberculosis": 1.1343008736730553e-05
+  },
+  "heatmap_len": 66662,
+  "report_len": 499,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1772.png",
+  "status": 200,
+  "latency_s": 1.216,
+  "pred": "COVID-19",
+  "conf": 0.9955926537513733,
+  "probs": {
+   "COVID-19": 0.9955926537513733,
+   "Normal": 0.0011270830873399973,
+   "Pneumonia": 0.0024427941534668207,
+   "Tuberculosis": 0.0008374847820959985
+  },
+  "heatmap_len": 85814,
+  "report_len": 483,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1778.png",
+  "status": 200,
+  "latency_s": 1.455,
+  "pred": "COVID-19",
+  "conf": 0.9996261596679688,
+  "probs": {
+   "COVID-19": 0.9996261596679688,
+   "Normal": 0.0001017034737742506,
+   "Pneumonia": 1.296422487939708e-05,
+   "Tuberculosis": 0.000259184162132442
+  },
+  "heatmap_len": 79018,
+  "report_len": 467,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1780.png",
+  "status": 200,
+  "latency_s": 1.207,
+  "pred": "COVID-19",
+  "conf": 0.9959237575531006,
+  "probs": {
+   "COVID-19": 0.9959237575531006,
+   "Normal": 0.003628608537837863,
+   "Pneumonia": 0.00033236577291972935,
+   "Tuberculosis": 0.00011538338731043041
+  },
+  "heatmap_len": 76990,
+  "report_len": 514,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1783.png",
+  "status": 422,
+  "latency_s": 0.139,
+  "pred": null,
+  "conf": null,
+  "probs": null,
+  "heatmap_len": 0,
+  "report_len": 0,
+  "report_source": null,
+  "warnings": null,
+  "detail": "This does not look like a chest X-ray. (feature-space distance 10.2 exceeds threshold 8.7)"
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1788.png",
+  "status": 200,
+  "latency_s": 1.301,
+  "pred": "COVID-19",
+  "conf": 0.998353123664856,
+  "probs": {
+   "COVID-19": 0.998353123664856,
+   "Normal": 0.0014278963208198547,
+   "Pneumonia": 8.054598765738774e-06,
+   "Tuberculosis": 0.0002108582848450169
+  },
+  "heatmap_len": 73822,
+  "report_len": 511,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-179.png",
+  "status": 200,
+  "latency_s": 1.303,
+  "pred": "Normal",
+  "conf": 0.941439688205719,
+  "probs": {
+   "COVID-19": 0.05641353130340576,
+   "Normal": 0.941439688205719,
+   "Pneumonia": 0.0008728550747036934,
+   "Tuberculosis": 0.0012738867662847042
+  },
+  "heatmap_len": 56934,
+  "report_len": 499,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1793.png",
+  "status": 200,
+  "latency_s": 1.551,
+  "pred": "COVID-19",
+  "conf": 0.9999078512191772,
+  "probs": {
+   "COVID-19": 0.9999078512191772,
+   "Normal": 9.177411266136914e-05,
+   "Pneumonia": 1.5805197506324475e-07,
+   "Tuberculosis": 3.0204401468836295e-07
+  },
+  "heatmap_len": 76210,
+  "report_len": 470,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1805.png",
+  "status": 200,
+  "latency_s": 1.164,
+  "pred": "COVID-19",
+  "conf": 0.9997989535331726,
+  "probs": {
+   "COVID-19": 0.9997989535331726,
+   "Normal": 0.00012249511200934649,
+   "Pneumonia": 6.06238828027017e-08,
+   "Tuberculosis": 7.84537842264399e-05
+  },
+  "heatmap_len": 76434,
+  "report_len": 524,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1808.png",
+  "status": 200,
+  "latency_s": 1.258,
+  "pred": "COVID-19",
+  "conf": 0.9973645806312561,
+  "probs": {
+   "COVID-19": 0.9973645806312561,
+   "Normal": 0.002541805151849985,
+   "Pneumonia": 2.0775441953446716e-06,
+   "Tuberculosis": 9.164243238046765e-05
+  },
+  "heatmap_len": 72982,
+  "report_len": 518,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1809.png",
+  "status": 200,
+  "latency_s": 1.375,
+  "pred": "COVID-19",
+  "conf": 0.9986971020698547,
+  "probs": {
+   "COVID-19": 0.9986971020698547,
+   "Normal": 0.0012579350732266903,
+   "Pneumonia": 1.4407049775400083e-07,
+   "Tuberculosis": 4.4846277887700126e-05
+  },
+  "heatmap_len": 74394,
+  "report_len": 480,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1811.png",
+  "status": 200,
+  "latency_s": 1.231,
+  "pred": "COVID-19",
+  "conf": 0.9997105002403259,
+  "probs": {
+   "COVID-19": 0.9997105002403259,
+   "Normal": 0.00020756087906192988,
+   "Pneumonia": 3.332814230816439e-05,
+   "Tuberculosis": 4.8499659897061065e-05
+  },
+  "heatmap_len": 87962,
+  "report_len": 472,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1822.png",
+  "status": 200,
+  "latency_s": 1.341,
+  "pred": "COVID-19",
+  "conf": 0.9952359795570374,
+  "probs": {
+   "COVID-19": 0.9952359795570374,
+   "Normal": 0.004051255527883768,
+   "Pneumonia": 4.409482556866351e-08,
+   "Tuberculosis": 0.0007127619464881718
+  },
+  "heatmap_len": 76746,
+  "report_len": 493,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1828.png",
+  "status": 200,
+  "latency_s": 1.503,
+  "pred": "COVID-19",
+  "conf": 0.9991037249565125,
+  "probs": {
+   "COVID-19": 0.9991037249565125,
+   "Normal": 0.0007429025135934353,
+   "Pneumonia": 0.00010286532778991386,
+   "Tuberculosis": 5.040816904511303e-05
+  },
+  "heatmap_len": 90566,
+  "report_len": 431,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-184.png",
+  "status": 200,
+  "latency_s": 1.261,
+  "pred": "COVID-19",
+  "conf": 0.9995136260986328,
+  "probs": {
+   "COVID-19": 0.9995136260986328,
+   "Normal": 0.0004181732947472483,
+   "Pneumonia": 2.3078453523339704e-05,
+   "Tuberculosis": 4.50761872343719e-05
+  },
+  "heatmap_len": 61786,
+  "report_len": 507,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1843.png",
+  "status": 422,
+  "latency_s": 0.172,
+  "pred": null,
+  "conf": null,
+  "probs": null,
+  "heatmap_len": 0,
+  "report_len": 0,
+  "report_source": null,
+  "warnings": null,
+  "detail": "This does not look like a chest X-ray. (feature-space distance 9.3 exceeds threshold 8.7)"
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1844.png",
+  "status": 200,
+  "latency_s": 1.398,
+  "pred": "Tuberculosis",
+  "conf": 0.5162368416786194,
+  "probs": {
+   "COVID-19": 0.47391510009765625,
+   "Normal": 0.00981325376778841,
+   "Pneumonia": 3.4833159588743e-05,
+   "Tuberculosis": 0.5162368416786194
+  },
+  "heatmap_len": 68494,
+  "report_len": 537,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1848.png",
+  "status": 200,
+  "latency_s": 0.875,
+  "pred": "Normal",
+  "conf": 0.5960460305213928,
+  "probs": {
+   "COVID-19": 0.31605878472328186,
+   "Normal": 0.5960460305213928,
+   "Pneumonia": 3.257613570895046e-05,
+   "Tuberculosis": 0.08786255121231079
+  },
+  "heatmap_len": 64370,
+  "report_len": 511,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1857.png",
+  "status": 200,
+  "latency_s": 1.348,
+  "pred": "COVID-19",
+  "conf": 0.9999922513961792,
+  "probs": {
+   "COVID-19": 0.9999922513961792,
+   "Normal": 5.007867912354413e-06,
+   "Pneumonia": 1.726803411372657e-08,
+   "Tuberculosis": 2.714661832214915e-06
+  },
+  "heatmap_len": 72942,
+  "report_len": 454,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1858.png",
+  "status": 200,
+  "latency_s": 0.962,
+  "pred": "COVID-19",
+  "conf": 0.9994978904724121,
+  "probs": {
+   "COVID-19": 0.9994978904724121,
+   "Normal": 0.0004879553453065455,
+   "Pneumonia": 3.101721191001161e-08,
+   "Tuberculosis": 1.4156006727716886e-05
+  },
+  "heatmap_len": 64486,
+  "report_len": 482,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1871.png",
+  "status": 200,
+  "latency_s": 1.214,
+  "pred": "COVID-19",
+  "conf": 0.9997746348381042,
+  "probs": {
+   "COVID-19": 0.9997746348381042,
+   "Normal": 0.0002096989774145186,
+   "Pneumonia": 2.849480779332225e-06,
+   "Tuberculosis": 1.2825628800783306e-05
+  },
+  "heatmap_len": 73542,
+  "report_len": 446,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1877.png",
+  "status": 200,
+  "latency_s": 0.496,
+  "pred": "COVID-19",
+  "conf": 0.9991582632064819,
+  "probs": {
+   "COVID-19": 0.9991582632064819,
+   "Normal": 5.6310320360353217e-05,
+   "Pneumonia": 7.179689418990165e-06,
+   "Tuberculosis": 0.0007782872999086976
+  },
+  "heatmap_len": 73462,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1882.png",
+  "status": 200,
+  "latency_s": 1.331,
+  "pred": "COVID-19",
+  "conf": 0.9990636706352234,
+  "probs": {
+   "COVID-19": 0.9990636706352234,
+   "Normal": 0.000431317079346627,
+   "Pneumonia": 1.8497745259082876e-05,
+   "Tuberculosis": 0.00048655192949809134
+  },
+  "heatmap_len": 75218,
+  "report_len": 493,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1888.png",
+  "status": 200,
+  "latency_s": 0.686,
+  "pred": "COVID-19",
+  "conf": 0.9122702479362488,
+  "probs": {
+   "COVID-19": 0.9122702479362488,
+   "Normal": 0.08657178282737732,
+   "Pneumonia": 0.0005790292634628713,
+   "Tuberculosis": 0.0005789298447780311
+  },
+  "heatmap_len": 77170,
+  "report_len": 335,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1896.png",
+  "status": 200,
+  "latency_s": 0.935,
+  "pred": "COVID-19",
+  "conf": 0.9990997314453125,
+  "probs": {
+   "COVID-19": 0.9990997314453125,
+   "Normal": 9.910192602546886e-05,
+   "Pneumonia": 2.1160448682167043e-07,
+   "Tuberculosis": 0.0008009232697077096
+  },
+  "heatmap_len": 69754,
+  "report_len": 462,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1901.png",
+  "status": 200,
+  "latency_s": 0.58,
+  "pred": "COVID-19",
+  "conf": 0.9993027448654175,
+  "probs": {
+   "COVID-19": 0.9993027448654175,
+   "Normal": 0.0006388544570654631,
+   "Pneumonia": 1.43254037539009e-05,
+   "Tuberculosis": 4.409977191244252e-05
+  },
+  "heatmap_len": 73494,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1902.png",
+  "status": 200,
+  "latency_s": 0.593,
+  "pred": "COVID-19",
+  "conf": 0.9969838261604309,
+  "probs": {
+   "COVID-19": 0.9969838261604309,
+   "Normal": 0.002948104403913021,
+   "Pneumonia": 2.1099071091157384e-05,
+   "Tuberculosis": 4.68565194751136e-05
+  },
+  "heatmap_len": 74794,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1909.png",
+  "status": 200,
+  "latency_s": 0.468,
+  "pred": "COVID-19",
+  "conf": 0.9999291896820068,
+  "probs": {
+   "COVID-19": 0.9999291896820068,
+   "Normal": 2.2052046915632673e-05,
+   "Pneumonia": 1.064144726115046e-06,
+   "Tuberculosis": 4.7682908189017326e-05
+  },
+  "heatmap_len": 69606,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1913.png",
+  "status": 200,
+  "latency_s": 1.27,
+  "pred": "COVID-19",
+  "conf": 0.9593280553817749,
+  "probs": {
+   "COVID-19": 0.9593280553817749,
+   "Normal": 0.011408098973333836,
+   "Pneumonia": 0.00046085036592558026,
+   "Tuberculosis": 0.028802987188100815
+  },
+  "heatmap_len": 61758,
+  "report_len": 451,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1916.png",
+  "status": 200,
+  "latency_s": 0.456,
+  "pred": "COVID-19",
+  "conf": 0.9995086193084717,
+  "probs": {
+   "COVID-19": 0.9995086193084717,
+   "Normal": 0.00048160969163291156,
+   "Pneumonia": 1.441362798004775e-07,
+   "Tuberculosis": 9.701968338049483e-06
+  },
+  "heatmap_len": 73970,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1920.png",
+  "status": 200,
+  "latency_s": 1.4,
+  "pred": "COVID-19",
+  "conf": 0.9999959468841553,
+  "probs": {
+   "COVID-19": 0.9999959468841553,
+   "Normal": 2.508955674329627e-07,
+   "Pneumonia": 9.870097628095209e-09,
+   "Tuberculosis": 3.7955758216412505e-06
+  },
+  "heatmap_len": 76722,
+  "report_len": 367,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1926.png",
+  "status": 200,
+  "latency_s": 1.462,
+  "pred": "COVID-19",
+  "conf": 0.9995119571685791,
+  "probs": {
+   "COVID-19": 0.9995119571685791,
+   "Normal": 0.00047464450472034514,
+   "Pneumonia": 2.3029144813335733e-07,
+   "Tuberculosis": 1.3208607924752869e-05
+  },
+  "heatmap_len": 77458,
+  "report_len": 532,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1969.png",
+  "status": 200,
+  "latency_s": 1.281,
+  "pred": "COVID-19",
+  "conf": 0.9984095692634583,
+  "probs": {
+   "COVID-19": 0.9984095692634583,
+   "Normal": 4.1031903492694255e-06,
+   "Pneumonia": 1.544577344247955e-06,
+   "Tuberculosis": 0.0015848445473238826
+  },
+  "heatmap_len": 77714,
+  "report_len": 571,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1970.png",
+  "status": 200,
+  "latency_s": 0.897,
+  "pred": "COVID-19",
+  "conf": 0.9997357726097107,
+  "probs": {
+   "COVID-19": 0.9997357726097107,
+   "Normal": 0.00020618880807887763,
+   "Pneumonia": 1.2316858374106232e-05,
+   "Tuberculosis": 4.581118992064148e-05
+  },
+  "heatmap_len": 77562,
+  "report_len": 480,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1975.png",
+  "status": 200,
+  "latency_s": 1.267,
+  "pred": "COVID-19",
+  "conf": 0.9948910474777222,
+  "probs": {
+   "COVID-19": 0.9948910474777222,
+   "Normal": 0.0026442233938723803,
+   "Pneumonia": 0.0007642391137778759,
+   "Tuberculosis": 0.0017004775581881404
+  },
+  "heatmap_len": 77106,
+  "report_len": 519,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1976.png",
+  "status": 200,
+  "latency_s": 1.217,
+  "pred": "COVID-19",
+  "conf": 0.9999949932098389,
+  "probs": {
+   "COVID-19": 0.9999949932098389,
+   "Normal": 4.53441225545248e-06,
+   "Pneumonia": 1.549250505661348e-08,
+   "Tuberculosis": 4.3532614313335216e-07
+  },
+  "heatmap_len": 66946,
+  "report_len": 497,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1977.png",
+  "status": 200,
+  "latency_s": 1.236,
+  "pred": "COVID-19",
+  "conf": 0.9999864101409912,
+  "probs": {
+   "COVID-19": 0.9999864101409912,
+   "Normal": 5.3223529903334565e-06,
+   "Pneumonia": 4.783834128829767e-08,
+   "Tuberculosis": 8.25730967335403e-06
+  },
+  "heatmap_len": 73278,
+  "report_len": 454,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1978.png",
+  "status": 200,
+  "latency_s": 1.337,
+  "pred": "COVID-19",
+  "conf": 0.9932523369789124,
+  "probs": {
+   "COVID-19": 0.9932523369789124,
+   "Normal": 0.006743514444679022,
+   "Pneumonia": 8.383223359942349e-08,
+   "Tuberculosis": 4.005712071375456e-06
+  },
+  "heatmap_len": 71994,
+  "report_len": 354,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1983.png",
+  "status": 200,
+  "latency_s": 1.291,
+  "pred": "COVID-19",
+  "conf": 0.9996077418327332,
+  "probs": {
+   "COVID-19": 0.9996077418327332,
+   "Normal": 0.00031489270622842014,
+   "Pneumonia": 3.419006304739014e-07,
+   "Tuberculosis": 7.701521826675162e-05
+  },
+  "heatmap_len": 67290,
+  "report_len": 157,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1984.png",
+  "status": 200,
+  "latency_s": 1.234,
+  "pred": "COVID-19",
+  "conf": 0.9985087513923645,
+  "probs": {
+   "COVID-19": 0.9985087513923645,
+   "Normal": 0.0013741456205025315,
+   "Pneumonia": 7.901746721472591e-05,
+   "Tuberculosis": 3.8057351048337296e-05
+  },
+  "heatmap_len": 65310,
+  "report_len": 504,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1987.png",
+  "status": 200,
+  "latency_s": 1.17,
+  "pred": "COVID-19",
+  "conf": 0.6516884565353394,
+  "probs": {
+   "COVID-19": 0.6516884565353394,
+   "Normal": 0.3475767970085144,
+   "Pneumonia": 1.2181349120510276e-05,
+   "Tuberculosis": 0.0007226032903417945
+  },
+  "heatmap_len": 71966,
+  "report_len": 484,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-1995.png",
+  "status": 200,
+  "latency_s": 1.565,
+  "pred": "COVID-19",
+  "conf": 0.999440610408783,
+  "probs": {
+   "COVID-19": 0.999440610408783,
+   "Normal": 0.0005575402174144983,
+   "Pneumonia": 3.4919597169391636e-07,
+   "Tuberculosis": 1.4919437489879783e-06
+  },
+  "heatmap_len": 75082,
+  "report_len": 493,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2012.png",
+  "status": 200,
+  "latency_s": 1.19,
+  "pred": "COVID-19",
+  "conf": 0.9850006103515625,
+  "probs": {
+   "COVID-19": 0.9850006103515625,
+   "Normal": 0.013445340096950531,
+   "Pneumonia": 0.0007866308442316949,
+   "Tuberculosis": 0.0007674964144825935
+  },
+  "heatmap_len": 69990,
+  "report_len": 402,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2023.png",
+  "status": 200,
+  "latency_s": 0.913,
+  "pred": "COVID-19",
+  "conf": 0.9999843835830688,
+  "probs": {
+   "COVID-19": 0.9999843835830688,
+   "Normal": 1.5208487639029045e-05,
+   "Pneumonia": 1.9525307948242698e-07,
+   "Tuberculosis": 1.8118852551651798e-07
+  },
+  "heatmap_len": 72218,
+  "report_len": 474,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2024.png",
+  "status": 200,
+  "latency_s": 1.166,
+  "pred": "COVID-19",
+  "conf": 0.996423065662384,
+  "probs": {
+   "COVID-19": 0.996423065662384,
+   "Normal": 0.0035350359976291656,
+   "Pneumonia": 1.683777736616321e-05,
+   "Tuberculosis": 2.495504122634884e-05
+  },
+  "heatmap_len": 75194,
+  "report_len": 484,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2025.png",
+  "status": 200,
+  "latency_s": 1.205,
+  "pred": "COVID-19",
+  "conf": 0.9977158308029175,
+  "probs": {
+   "COVID-19": 0.9977158308029175,
+   "Normal": 0.0004433579742908478,
+   "Pneumonia": 5.4853986512171105e-05,
+   "Tuberculosis": 0.001786035718396306
+  },
+  "heatmap_len": 65238,
+  "report_len": 513,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2050.png",
+  "status": 200,
+  "latency_s": 1.219,
+  "pred": "COVID-19",
+  "conf": 0.9912912845611572,
+  "probs": {
+   "COVID-19": 0.9912912845611572,
+   "Normal": 0.00869810488075018,
+   "Pneumonia": 8.704469109943602e-06,
+   "Tuberculosis": 1.8358048237132607e-06
+  },
+  "heatmap_len": 68322,
+  "report_len": 432,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2066.png",
+  "status": 200,
+  "latency_s": 1.583,
+  "pred": "COVID-19",
+  "conf": 0.9987404942512512,
+  "probs": {
+   "COVID-19": 0.9987404942512512,
+   "Normal": 0.0012578758178278804,
+   "Pneumonia": 5.581275672739139e-07,
+   "Tuberculosis": 1.0826757943505072e-06
+  },
+  "heatmap_len": 75022,
+  "report_len": 447,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-208.png",
+  "status": 200,
+  "latency_s": 1.383,
+  "pred": "COVID-19",
+  "conf": 0.9998071789741516,
+  "probs": {
+   "COVID-19": 0.9998071789741516,
+   "Normal": 0.00017113256035372615,
+   "Pneumonia": 5.1644253318272604e-08,
+   "Tuberculosis": 2.167589991586283e-05
+  },
+  "heatmap_len": 77422,
+  "report_len": 549,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2081.png",
+  "status": 200,
+  "latency_s": 1.196,
+  "pred": "COVID-19",
+  "conf": 0.9803855419158936,
+  "probs": {
+   "COVID-19": 0.9803855419158936,
+   "Normal": 0.019595101475715637,
+   "Pneumonia": 2.815092784658191e-06,
+   "Tuberculosis": 1.6520276403753087e-05
+  },
+  "heatmap_len": 65638,
+  "report_len": 448,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2100.png",
+  "status": 200,
+  "latency_s": 1.342,
+  "pred": "COVID-19",
+  "conf": 0.9892861247062683,
+  "probs": {
+   "COVID-19": 0.9892861247062683,
+   "Normal": 0.01054388377815485,
+   "Pneumonia": 9.90086336969398e-05,
+   "Tuberculosis": 7.092961459420621e-05
+  },
+  "heatmap_len": 78366,
+  "report_len": 410,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2134.png",
+  "status": 422,
+  "latency_s": 0.074,
+  "pred": null,
+  "conf": null,
+  "probs": null,
+  "heatmap_len": 0,
+  "report_len": 0,
+  "report_source": null,
+  "warnings": null,
+  "detail": "This does not look like a chest X-ray. (feature-space distance 8.8 exceeds threshold 8.7)"
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-215.png",
+  "status": 200,
+  "latency_s": 1.39,
+  "pred": "COVID-19",
+  "conf": 0.999940037727356,
+  "probs": {
+   "COVID-19": 0.999940037727356,
+   "Normal": 5.0496622861828655e-05,
+   "Pneumonia": 5.552429627186939e-09,
+   "Tuberculosis": 9.436606887902599e-06
+  },
+  "heatmap_len": 72938,
+  "report_len": 505,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2160.png",
+  "status": 200,
+  "latency_s": 1.13,
+  "pred": "COVID-19",
+  "conf": 0.6509412527084351,
+  "probs": {
+   "COVID-19": 0.6509412527084351,
+   "Normal": 0.34334424138069153,
+   "Pneumonia": 0.005701318383216858,
+   "Tuberculosis": 1.3196741747378837e-05
+  },
+  "heatmap_len": 72394,
+  "report_len": 513,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2164.png",
+  "status": 200,
+  "latency_s": 1.027,
+  "pred": "COVID-19",
+  "conf": 0.9517499804496765,
+  "probs": {
+   "COVID-19": 0.9517499804496765,
+   "Normal": 0.04793985188007355,
+   "Pneumonia": 3.3849075862235622e-06,
+   "Tuberculosis": 0.00030673734727315605
+  },
+  "heatmap_len": 74246,
+  "report_len": 513,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2196.png",
+  "status": 200,
+  "latency_s": 1.687,
+  "pred": "COVID-19",
+  "conf": 0.9710921049118042,
+  "probs": {
+   "COVID-19": 0.9710921049118042,
+   "Normal": 0.028444932773709297,
+   "Pneumonia": 1.922289993672166e-05,
+   "Tuberculosis": 0.00044381862971931696
+  },
+  "heatmap_len": 71894,
+  "report_len": 563,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2197.png",
+  "status": 200,
+  "latency_s": 1.179,
+  "pred": "COVID-19",
+  "conf": 0.9999234676361084,
+  "probs": {
+   "COVID-19": 0.9999234676361084,
+   "Normal": 7.465149246854708e-05,
+   "Pneumonia": 4.270472686584981e-08,
+   "Tuberculosis": 1.825440790526045e-06
+  },
+  "heatmap_len": 73206,
+  "report_len": 515,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2219.png",
+  "status": 200,
+  "latency_s": 0.561,
+  "pred": "COVID-19",
+  "conf": 0.9998635053634644,
+  "probs": {
+   "COVID-19": 0.9998635053634644,
+   "Normal": 0.00013431721890810877,
+   "Pneumonia": 9.661998490173573e-08,
+   "Tuberculosis": 2.065686658170307e-06
+  },
+  "heatmap_len": 70814,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2241.png",
+  "status": 200,
+  "latency_s": 1.11,
+  "pred": "COVID-19",
+  "conf": 0.9998865127563477,
+  "probs": {
+   "COVID-19": 0.9998865127563477,
+   "Normal": 0.00010048592230305076,
+   "Pneumonia": 1.1306087799312081e-07,
+   "Tuberculosis": 1.281828463106649e-05
+  },
+  "heatmap_len": 75198,
+  "report_len": 457,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2247.png",
+  "status": 200,
+  "latency_s": 0.554,
+  "pred": "COVID-19",
+  "conf": 0.9999940395355225,
+  "probs": {
+   "COVID-19": 0.9999940395355225,
+   "Normal": 2.185156290579471e-06,
+   "Pneumonia": 1.9690877195444045e-07,
+   "Tuberculosis": 3.4809045246220194e-06
+  },
+  "heatmap_len": 76170,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2251.png",
+  "status": 200,
+  "latency_s": 1.185,
+  "pred": "COVID-19",
+  "conf": 0.9855822920799255,
+  "probs": {
+   "COVID-19": 0.9855822920799255,
+   "Normal": 0.014392275363206863,
+   "Pneumonia": 9.153115456683736e-07,
+   "Tuberculosis": 2.456960646668449e-05
+  },
+  "heatmap_len": 69030,
+  "report_len": 526,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2255.png",
+  "status": 200,
+  "latency_s": 0.486,
+  "pred": "COVID-19",
+  "conf": 0.9894921779632568,
+  "probs": {
+   "COVID-19": 0.9894921779632568,
+   "Normal": 0.010486206971108913,
+   "Pneumonia": 2.061659188257181e-06,
+   "Tuberculosis": 1.9578297724365257e-05
+  },
+  "heatmap_len": 76842,
+  "report_len": 335,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2269.png",
+  "status": 200,
+  "latency_s": 1.458,
+  "pred": "COVID-19",
+  "conf": 0.9933187961578369,
+  "probs": {
+   "COVID-19": 0.9933187961578369,
+   "Normal": 0.006674552336335182,
+   "Pneumonia": 9.704684771350003e-07,
+   "Tuberculosis": 5.710307505069068e-06
+  },
+  "heatmap_len": 77086,
+  "report_len": 442,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2307.png",
+  "status": 200,
+  "latency_s": 0.76,
+  "pred": "COVID-19",
+  "conf": 0.9997555613517761,
+  "probs": {
+   "COVID-19": 0.9997555613517761,
+   "Normal": 0.00024078565184026957,
+   "Pneumonia": 4.181456247920323e-08,
+   "Tuberculosis": 3.6457790884014685e-06
+  },
+  "heatmap_len": 73182,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2310.png",
+  "status": 200,
+  "latency_s": 1.204,
+  "pred": "COVID-19",
+  "conf": 0.9999982118606567,
+  "probs": {
+   "COVID-19": 0.9999982118606567,
+   "Normal": 1.759238898557669e-06,
+   "Pneumonia": 1.7465148216544435e-09,
+   "Tuberculosis": 5.7212549364749066e-08
+  },
+  "heatmap_len": 72026,
+  "report_len": 558,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2324.png",
+  "status": 422,
+  "latency_s": 0.142,
+  "pred": null,
+  "conf": null,
+  "probs": null,
+  "heatmap_len": 0,
+  "report_len": 0,
+  "report_source": null,
+  "warnings": null,
+  "detail": "This does not look like a chest X-ray. (feature-space distance 8.8 exceeds threshold 8.7)"
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2334.png",
+  "status": 200,
+  "latency_s": 1.149,
+  "pred": "COVID-19",
+  "conf": 0.9999909400939941,
+  "probs": {
+   "COVID-19": 0.9999909400939941,
+   "Normal": 6.594686055905186e-06,
+   "Pneumonia": 2.329441306514468e-09,
+   "Tuberculosis": 2.444063056827872e-06
+  },
+  "heatmap_len": 69234,
+  "report_len": 441,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2335.png",
+  "status": 200,
+  "latency_s": 0.59,
+  "pred": "COVID-19",
+  "conf": 0.9997662901878357,
+  "probs": {
+   "COVID-19": 0.9997662901878357,
+   "Normal": 0.0002243237686343491,
+   "Pneumonia": 7.814784908077854e-08,
+   "Tuberculosis": 9.269805559597444e-06
+  },
+  "heatmap_len": 71618,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2339.png",
+  "status": 200,
+  "latency_s": 1.242,
+  "pred": "COVID-19",
+  "conf": 0.9666748642921448,
+  "probs": {
+   "COVID-19": 0.9666748642921448,
+   "Normal": 0.033283885568380356,
+   "Pneumonia": 2.39790750811153e-07,
+   "Tuberculosis": 4.106138294446282e-05
+  },
+  "heatmap_len": 69226,
+  "report_len": 515,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2346.png",
+  "status": 200,
+  "latency_s": 1.092,
+  "pred": "COVID-19",
+  "conf": 0.9998328685760498,
+  "probs": {
+   "COVID-19": 0.9998328685760498,
+   "Normal": 0.00014844027464278042,
+   "Pneumonia": 7.4065565058845095e-06,
+   "Tuberculosis": 1.1276398254267406e-05
+  },
+  "heatmap_len": 67014,
+  "report_len": 502,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2366.png",
+  "status": 200,
+  "latency_s": 0.488,
+  "pred": "COVID-19",
+  "conf": 0.9991274476051331,
+  "probs": {
+   "COVID-19": 0.9991274476051331,
+   "Normal": 0.0008658027509227395,
+   "Pneumonia": 3.3362418889737455e-06,
+   "Tuberculosis": 3.4029064863716485e-06
+  },
+  "heatmap_len": 73498,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2378.png",
+  "status": 200,
+  "latency_s": 0.549,
+  "pred": "COVID-19",
+  "conf": 0.9930881857872009,
+  "probs": {
+   "COVID-19": 0.9930881857872009,
+   "Normal": 0.006767330225557089,
+   "Pneumonia": 1.0240957635687664e-05,
+   "Tuberculosis": 0.00013421803305391222
+  },
+  "heatmap_len": 73158,
+  "report_len": 335,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-238.png",
+  "status": 200,
+  "latency_s": 0.455,
+  "pred": "COVID-19",
+  "conf": 0.9999967813491821,
+  "probs": {
+   "COVID-19": 0.9999967813491821,
+   "Normal": 1.733935164338618e-06,
+   "Pneumonia": 1.0524101590192458e-08,
+   "Tuberculosis": 1.4280410596256843e-06
+  },
+  "heatmap_len": 72646,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2397.png",
+  "status": 200,
+  "latency_s": 1.534,
+  "pred": "COVID-19",
+  "conf": 0.9999673366546631,
+  "probs": {
+   "COVID-19": 0.9999673366546631,
+   "Normal": 3.1810228392714635e-05,
+   "Pneumonia": 7.118794442817489e-10,
+   "Tuberculosis": 8.172670504791313e-07
+  },
+  "heatmap_len": 74774,
+  "report_len": 405,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2399.png",
+  "status": 200,
+  "latency_s": 0.546,
+  "pred": "COVID-19",
+  "conf": 0.9999395608901978,
+  "probs": {
+   "COVID-19": 0.9999395608901978,
+   "Normal": 5.9084657550556585e-05,
+   "Pneumonia": 5.924809087787253e-08,
+   "Tuberculosis": 1.4023742096469505e-06
+  },
+  "heatmap_len": 72010,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-240.png",
+  "status": 200,
+  "latency_s": 1.457,
+  "pred": "COVID-19",
+  "conf": 0.8159042596817017,
+  "probs": {
+   "COVID-19": 0.8159042596817017,
+   "Normal": 0.17985664308071136,
+   "Pneumonia": 1.0488547559361905e-05,
+   "Tuberculosis": 0.004228604957461357
+  },
+  "heatmap_len": 71402,
+  "report_len": 533,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2401.png",
+  "status": 200,
+  "latency_s": 0.61,
+  "pred": "COVID-19",
+  "conf": 0.9999856948852539,
+  "probs": {
+   "COVID-19": 0.9999856948852539,
+   "Normal": 1.3191145626478828e-05,
+   "Pneumonia": 1.47826412444374e-07,
+   "Tuberculosis": 9.414416126674041e-07
+  },
+  "heatmap_len": 68402,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2408.png",
+  "status": 200,
+  "latency_s": 1.132,
+  "pred": "COVID-19",
+  "conf": 0.9999871253967285,
+  "probs": {
+   "COVID-19": 0.9999871253967285,
+   "Normal": 1.0715732059907168e-05,
+   "Pneumonia": 2.9977442750350747e-09,
+   "Tuberculosis": 2.212938852608204e-06
+  },
+  "heatmap_len": 74114,
+  "report_len": 397,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2420.png",
+  "status": 200,
+  "latency_s": 0.476,
+  "pred": "COVID-19",
+  "conf": 0.9998787641525269,
+  "probs": {
+   "COVID-19": 0.9998787641525269,
+   "Normal": 0.00010946344991680235,
+   "Pneumonia": 1.0644865142239723e-05,
+   "Tuberculosis": 1.0941741948045092e-06
+  },
+  "heatmap_len": 73798,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2443.png",
+  "status": 200,
+  "latency_s": 1.446,
+  "pred": "COVID-19",
+  "conf": 0.9972449541091919,
+  "probs": {
+   "COVID-19": 0.9972449541091919,
+   "Normal": 0.001825688756071031,
+   "Pneumonia": 0.00046869978541508317,
+   "Tuberculosis": 0.0004606237926054746
+  },
+  "heatmap_len": 78478,
+  "report_len": 554,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2463.png",
+  "status": 200,
+  "latency_s": 1.414,
+  "pred": "COVID-19",
+  "conf": 0.9999449253082275,
+  "probs": {
+   "COVID-19": 0.9999449253082275,
+   "Normal": 3.306883809273131e-05,
+   "Pneumonia": 5.786126848761342e-07,
+   "Tuberculosis": 2.1366859073168598e-05
+  },
+  "heatmap_len": 72298,
+  "report_len": 563,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2476.png",
+  "status": 200,
+  "latency_s": 0.472,
+  "pred": "COVID-19",
+  "conf": 0.9984316229820251,
+  "probs": {
+   "COVID-19": 0.9984316229820251,
+   "Normal": 0.0015651893336325884,
+   "Pneumonia": 1.0850197185163779e-08,
+   "Tuberculosis": 3.218774054403184e-06
+  },
+  "heatmap_len": 76530,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2477.png",
+  "status": 200,
+  "latency_s": 1.484,
+  "pred": "COVID-19",
+  "conf": 0.999177873134613,
+  "probs": {
+   "COVID-19": 0.999177873134613,
+   "Normal": 0.0006900871521793306,
+   "Pneumonia": 6.969666719669476e-05,
+   "Tuberculosis": 6.238828063942492e-05
+  },
+  "heatmap_len": 74126,
+  "report_len": 473,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2483.png",
+  "status": 200,
+  "latency_s": 0.461,
+  "pred": "COVID-19",
+  "conf": 0.5332284569740295,
+  "probs": {
+   "COVID-19": 0.5332284569740295,
+   "Normal": 0.46200448274612427,
+   "Pneumonia": 0.0033655143342912197,
+   "Tuberculosis": 0.0014015736524015665
+  },
+  "heatmap_len": 74750,
+  "report_len": 335,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2484.png",
+  "status": 200,
+  "latency_s": 1.275,
+  "pred": "Normal",
+  "conf": 0.9740678668022156,
+  "probs": {
+   "COVID-19": 0.025862036272883415,
+   "Normal": 0.9740678668022156,
+   "Pneumonia": 2.7669182145473314e-07,
+   "Tuberculosis": 6.980640318943188e-05
+  },
+  "heatmap_len": 67070,
+  "report_len": 488,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-249.png",
+  "status": 200,
+  "latency_s": 0.473,
+  "pred": "COVID-19",
+  "conf": 0.9817361831665039,
+  "probs": {
+   "COVID-19": 0.9817361831665039,
+   "Normal": 0.01815885677933693,
+   "Pneumonia": 1.7270258467760868e-06,
+   "Tuberculosis": 0.00010314560495316982
+  },
+  "heatmap_len": 66186,
+  "report_len": 335,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2503.png",
+  "status": 200,
+  "latency_s": 1.208,
+  "pred": "Normal",
+  "conf": 0.6066628098487854,
+  "probs": {
+   "COVID-19": 0.392940491437912,
+   "Normal": 0.6066628098487854,
+   "Pneumonia": 9.12929044716293e-06,
+   "Tuberculosis": 0.0003875365073326975
+  },
+  "heatmap_len": 68646,
+  "report_len": 421,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2506.png",
+  "status": 200,
+  "latency_s": 0.463,
+  "pred": "COVID-19",
+  "conf": 0.9847767353057861,
+  "probs": {
+   "COVID-19": 0.9847767353057861,
+   "Normal": 0.0009031743975356221,
+   "Pneumonia": 4.247118340572342e-06,
+   "Tuberculosis": 0.014315884560346603
+  },
+  "heatmap_len": 80694,
+  "report_len": 335,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2520.png",
+  "status": 200,
+  "latency_s": 1.313,
+  "pred": "COVID-19",
+  "conf": 0.9966800212860107,
+  "probs": {
+   "COVID-19": 0.9966800212860107,
+   "Normal": 0.003270525485277176,
+   "Pneumonia": 7.545727385149803e-06,
+   "Tuberculosis": 4.1848230466712266e-05
+  },
+  "heatmap_len": 75482,
+  "report_len": 375,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2552.png",
+  "status": 200,
+  "latency_s": 1.179,
+  "pred": "COVID-19",
+  "conf": 0.9641549587249756,
+  "probs": {
+   "COVID-19": 0.9641549587249756,
+   "Normal": 0.029553517699241638,
+   "Pneumonia": 0.0017164028249680996,
+   "Tuberculosis": 0.004575036000460386
+  },
+  "heatmap_len": 69250,
+  "report_len": 501,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2561.png",
+  "status": 200,
+  "latency_s": 1.148,
+  "pred": "COVID-19",
+  "conf": 0.9228362441062927,
+  "probs": {
+   "COVID-19": 0.9228362441062927,
+   "Normal": 0.06608182191848755,
+   "Pneumonia": 0.0013312502996996045,
+   "Tuberculosis": 0.009750700555741787
+  },
+  "heatmap_len": 77778,
+  "report_len": 538,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2562.png",
+  "status": 200,
+  "latency_s": 1.148,
+  "pred": "COVID-19",
+  "conf": 0.9971596002578735,
+  "probs": {
+   "COVID-19": 0.9971596002578735,
+   "Normal": 0.00282445945776999,
+   "Pneumonia": 1.7944444152817596e-07,
+   "Tuberculosis": 1.5773712220834568e-05
+  },
+  "heatmap_len": 68246,
+  "report_len": 503,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2564.png",
+  "status": 200,
+  "latency_s": 1.634,
+  "pred": "COVID-19",
+  "conf": 0.9999970197677612,
+  "probs": {
+   "COVID-19": 0.9999970197677612,
+   "Normal": 1.900509460028843e-06,
+   "Pneumonia": 2.761273378837359e-07,
+   "Tuberculosis": 8.703971161594382e-07
+  },
+  "heatmap_len": 73374,
+  "report_len": 553,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2565.png",
+  "status": 200,
+  "latency_s": 1.383,
+  "pred": "COVID-19",
+  "conf": 0.9999474287033081,
+  "probs": {
+   "COVID-19": 0.9999474287033081,
+   "Normal": 2.8789860152755864e-05,
+   "Pneumonia": 3.129633796561393e-07,
+   "Tuberculosis": 2.345157008676324e-05
+  },
+  "heatmap_len": 71826,
+  "report_len": 571,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2566.png",
+  "status": 200,
+  "latency_s": 1.109,
+  "pred": "COVID-19",
+  "conf": 0.9987207055091858,
+  "probs": {
+   "COVID-19": 0.9987207055091858,
+   "Normal": 0.0011118256952613592,
+   "Pneumonia": 3.806234599323943e-05,
+   "Tuberculosis": 0.00012930692173540592
+  },
+  "heatmap_len": 73414,
+  "report_len": 542,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2567.png",
+  "status": 200,
+  "latency_s": 1.412,
+  "pred": "COVID-19",
+  "conf": 0.9996283054351807,
+  "probs": {
+   "COVID-19": 0.9996283054351807,
+   "Normal": 0.0002322273066965863,
+   "Pneumonia": 0.0001318855065619573,
+   "Tuberculosis": 7.50752860767534e-06
+  },
+  "heatmap_len": 67682,
+  "report_len": 436,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2585.png",
+  "status": 200,
+  "latency_s": 1.265,
+  "pred": "COVID-19",
+  "conf": 0.5647545456886292,
+  "probs": {
+   "COVID-19": 0.5647545456886292,
+   "Normal": 0.4295269548892975,
+   "Pneumonia": 0.0006158692995086312,
+   "Tuberculosis": 0.005102626048028469
+  },
+  "heatmap_len": 75906,
+  "report_len": 512,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2595.png",
+  "status": 200,
+  "latency_s": 1.248,
+  "pred": "COVID-19",
+  "conf": 0.9717922806739807,
+  "probs": {
+   "COVID-19": 0.9717922806739807,
+   "Normal": 0.02680191583931446,
+   "Pneumonia": 0.00015482229355257004,
+   "Tuberculosis": 0.0012510487576946616
+  },
+  "heatmap_len": 79962,
+  "report_len": 525,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2608.png",
+  "status": 200,
+  "latency_s": 1.192,
+  "pred": "COVID-19",
+  "conf": 0.980886697769165,
+  "probs": {
+   "COVID-19": 0.980886697769165,
+   "Normal": 0.019059082493185997,
+   "Pneumonia": 2.5294860961366794e-07,
+   "Tuberculosis": 5.3985899285180494e-05
+  },
+  "heatmap_len": 76602,
+  "report_len": 536,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2620.png",
+  "status": 200,
+  "latency_s": 1.125,
+  "pred": "Tuberculosis",
+  "conf": 0.4262135922908783,
+  "probs": {
+   "COVID-19": 0.18638840317726135,
+   "Normal": 0.38685595989227295,
+   "Pneumonia": 0.0005420033121481538,
+   "Tuberculosis": 0.4262135922908783
+  },
+  "heatmap_len": 69438,
+  "report_len": 552,
+  "report_source": "groq",
+  "warnings": [
+   "Confidence (42.6%) is low -- treat this prediction as uncertain."
+  ],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-264.png",
+  "status": 200,
+  "latency_s": 1.038,
+  "pred": "COVID-19",
+  "conf": 0.7913344502449036,
+  "probs": {
+   "COVID-19": 0.7913344502449036,
+   "Normal": 0.20858794450759888,
+   "Pneumonia": 3.3017371606547385e-05,
+   "Tuberculosis": 4.461668140720576e-05
+  },
+  "heatmap_len": 76254,
+  "report_len": 426,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-266.png",
+  "status": 200,
+  "latency_s": 1.319,
+  "pred": "COVID-19",
+  "conf": 0.9951494336128235,
+  "probs": {
+   "COVID-19": 0.9951494336128235,
+   "Normal": 0.004776479676365852,
+   "Pneumonia": 6.864096846470602e-09,
+   "Tuberculosis": 7.406331860693172e-05
+  },
+  "heatmap_len": 72766,
+  "report_len": 392,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2661.png",
+  "status": 200,
+  "latency_s": 1.224,
+  "pred": "COVID-19",
+  "conf": 0.9832106828689575,
+  "probs": {
+   "COVID-19": 0.9832106828689575,
+   "Normal": 0.016424313187599182,
+   "Pneumonia": 5.2089467317273375e-06,
+   "Tuberculosis": 0.00035987916635349393
+  },
+  "heatmap_len": 68862,
+  "report_len": 421,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2671.png",
+  "status": 200,
+  "latency_s": 1.188,
+  "pred": "COVID-19",
+  "conf": 0.9985878467559814,
+  "probs": {
+   "COVID-19": 0.9985878467559814,
+   "Normal": 0.0014107009628787637,
+   "Pneumonia": 9.399839200341376e-07,
+   "Tuberculosis": 5.178001174499514e-07
+  },
+  "heatmap_len": 72110,
+  "report_len": 411,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-268.png",
+  "status": 200,
+  "latency_s": 1.589,
+  "pred": "COVID-19",
+  "conf": 0.9998111128807068,
+  "probs": {
+   "COVID-19": 0.9998111128807068,
+   "Normal": 0.00018583903147373348,
+   "Pneumonia": 4.296282085647363e-08,
+   "Tuberculosis": 3.0297010198410135e-06
+  },
+  "heatmap_len": 68766,
+  "report_len": 473,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2680.png",
+  "status": 200,
+  "latency_s": 1.132,
+  "pred": "COVID-19",
+  "conf": 0.9989691972732544,
+  "probs": {
+   "COVID-19": 0.9989691972732544,
+   "Normal": 0.0009495823178440332,
+   "Pneumonia": 1.7589199785561505e-07,
+   "Tuberculosis": 8.110492490231991e-05
+  },
+  "heatmap_len": 69458,
+  "report_len": 478,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2685.png",
+  "status": 200,
+  "latency_s": 1.339,
+  "pred": "COVID-19",
+  "conf": 0.999861478805542,
+  "probs": {
+   "COVID-19": 0.999861478805542,
+   "Normal": 0.00010349379590479657,
+   "Pneumonia": 3.4857575883506797e-06,
+   "Tuberculosis": 3.156758612021804e-05
+  },
+  "heatmap_len": 70046,
+  "report_len": 422,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-27.png",
+  "status": 200,
+  "latency_s": 1.64,
+  "pred": "COVID-19",
+  "conf": 0.9853658676147461,
+  "probs": {
+   "COVID-19": 0.9853658676147461,
+   "Normal": 0.013997221365571022,
+   "Pneumonia": 3.7375946703832597e-05,
+   "Tuberculosis": 0.000599509512539953
+  },
+  "heatmap_len": 72742,
+  "report_len": 555,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2700.png",
+  "status": 200,
+  "latency_s": 1.678,
+  "pred": "COVID-19",
+  "conf": 0.9999996423721313,
+  "probs": {
+   "COVID-19": 0.9999996423721313,
+   "Normal": 2.1113623915880453e-07,
+   "Pneumonia": 1.5278556197984017e-09,
+   "Tuberculosis": 1.9350926550032455e-07
+  },
+  "heatmap_len": 78962,
+  "report_len": 529,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2711.png",
+  "status": 200,
+  "latency_s": 1.215,
+  "pred": "COVID-19",
+  "conf": 0.8322119116783142,
+  "probs": {
+   "COVID-19": 0.8322119116783142,
+   "Normal": 0.1296728551387787,
+   "Pneumonia": 3.4641163892956683e-07,
+   "Tuberculosis": 0.03811492770910263
+  },
+  "heatmap_len": 67242,
+  "report_len": 512,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2712.png",
+  "status": 200,
+  "latency_s": 1.313,
+  "pred": "COVID-19",
+  "conf": 0.9960267543792725,
+  "probs": {
+   "COVID-19": 0.9960267543792725,
+   "Normal": 0.0030546169728040695,
+   "Pneumonia": 7.772717799525708e-05,
+   "Tuberculosis": 0.000840919092297554
+  },
+  "heatmap_len": 80410,
+  "report_len": 499,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2732.png",
+  "status": 200,
+  "latency_s": 1.361,
+  "pred": "COVID-19",
+  "conf": 0.9998637437820435,
+  "probs": {
+   "COVID-19": 0.9998637437820435,
+   "Normal": 0.00013557718193624169,
+   "Pneumonia": 1.0380479115168484e-10,
+   "Tuberculosis": 6.38787753359793e-07
+  },
+  "heatmap_len": 68410,
+  "report_len": 540,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2737.png",
+  "status": 200,
+  "latency_s": 1.169,
+  "pred": "COVID-19",
+  "conf": 0.9998773336410522,
+  "probs": {
+   "COVID-19": 0.9998773336410522,
+   "Normal": 2.865383294192725e-06,
+   "Pneumonia": 1.0651058507393785e-10,
+   "Tuberculosis": 0.00011981832358287647
+  },
+  "heatmap_len": 79714,
+  "report_len": 454,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2754.png",
+  "status": 200,
+  "latency_s": 1.373,
+  "pred": "COVID-19",
+  "conf": 0.9999897480010986,
+  "probs": {
+   "COVID-19": 0.9999897480010986,
+   "Normal": 4.505498509388417e-06,
+   "Pneumonia": 1.2965964515387896e-06,
+   "Tuberculosis": 4.460437594389077e-06
+  },
+  "heatmap_len": 71650,
+  "report_len": 535,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2755.png",
+  "status": 200,
+  "latency_s": 1.128,
+  "pred": "COVID-19",
+  "conf": 0.9976392984390259,
+  "probs": {
+   "COVID-19": 0.9976392984390259,
+   "Normal": 0.000218111090362072,
+   "Pneumonia": 0.0001110780649469234,
+   "Tuberculosis": 0.002031475305557251
+  },
+  "heatmap_len": 70774,
+  "report_len": 479,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2763.png",
+  "status": 200,
+  "latency_s": 1.428,
+  "pred": "COVID-19",
+  "conf": 0.9996304512023926,
+  "probs": {
+   "COVID-19": 0.9996304512023926,
+   "Normal": 0.00035870762076228857,
+   "Pneumonia": 2.2417307263822295e-06,
+   "Tuberculosis": 8.512705790053587e-06
+  },
+  "heatmap_len": 73062,
+  "report_len": 562,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2788.png",
+  "status": 200,
+  "latency_s": 1.295,
+  "pred": "COVID-19",
+  "conf": 0.9996101260185242,
+  "probs": {
+   "COVID-19": 0.9996101260185242,
+   "Normal": 0.00015814324433449656,
+   "Pneumonia": 6.803965516155586e-05,
+   "Tuberculosis": 0.00016370519006159157
+  },
+  "heatmap_len": 84618,
+  "report_len": 276,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2803.png",
+  "status": 200,
+  "latency_s": 1.311,
+  "pred": "COVID-19",
+  "conf": 0.9077548384666443,
+  "probs": {
+   "COVID-19": 0.9077548384666443,
+   "Normal": 0.09205878525972366,
+   "Pneumonia": 1.9193796561012277e-06,
+   "Tuberculosis": 0.00018445542082190514
+  },
+  "heatmap_len": 77762,
+  "report_len": 496,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2804.png",
+  "status": 200,
+  "latency_s": 1.321,
+  "pred": "COVID-19",
+  "conf": 0.9647630453109741,
+  "probs": {
+   "COVID-19": 0.9647630453109741,
+   "Normal": 0.01812596060335636,
+   "Pneumonia": 9.745949500938877e-05,
+   "Tuberculosis": 0.017013592645525932
+  },
+  "heatmap_len": 70506,
+  "report_len": 489,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2806.png",
+  "status": 200,
+  "latency_s": 1.232,
+  "pred": "COVID-19",
+  "conf": 0.8154348134994507,
+  "probs": {
+   "COVID-19": 0.8154348134994507,
+   "Normal": 0.0761958658695221,
+   "Pneumonia": 0.000221806374611333,
+   "Tuberculosis": 0.10814746469259262
+  },
+  "heatmap_len": 68630,
+  "report_len": 546,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2820.png",
+  "status": 200,
+  "latency_s": 1.176,
+  "pred": "COVID-19",
+  "conf": 0.9979565143585205,
+  "probs": {
+   "COVID-19": 0.9979565143585205,
+   "Normal": 0.001810590736567974,
+   "Pneumonia": 1.6046412838477409e-06,
+   "Tuberculosis": 0.00023133140348363668
+  },
+  "heatmap_len": 72514,
+  "report_len": 540,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-284.png",
+  "status": 200,
+  "latency_s": 1.404,
+  "pred": "COVID-19",
+  "conf": 0.9999451637268066,
+  "probs": {
+   "COVID-19": 0.9999451637268066,
+   "Normal": 1.4236332390282769e-05,
+   "Pneumonia": 2.8451383968786104e-06,
+   "Tuberculosis": 3.777809615712613e-05
+  },
+  "heatmap_len": 77450,
+  "report_len": 522,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2860.png",
+  "status": 200,
+  "latency_s": 1.393,
+  "pred": "COVID-19",
+  "conf": 0.8158278465270996,
+  "probs": {
+   "COVID-19": 0.8158278465270996,
+   "Normal": 0.1678556501865387,
+   "Pneumonia": 0.01210776623338461,
+   "Tuberculosis": 0.004208741243928671
+  },
+  "heatmap_len": 75050,
+  "report_len": 532,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2866.png",
+  "status": 200,
+  "latency_s": 0.981,
+  "pred": "COVID-19",
+  "conf": 0.9989500641822815,
+  "probs": {
+   "COVID-19": 0.9989500641822815,
+   "Normal": 0.0007183432462625206,
+   "Pneumonia": 0.0002057177189271897,
+   "Tuberculosis": 0.0001259283017134294
+  },
+  "heatmap_len": 78894,
+  "report_len": 520,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2883.png",
+  "status": 200,
+  "latency_s": 1.202,
+  "pred": "COVID-19",
+  "conf": 0.9930381178855896,
+  "probs": {
+   "COVID-19": 0.9930381178855896,
+   "Normal": 0.0069555616937577724,
+   "Pneumonia": 1.431207152791103e-07,
+   "Tuberculosis": 6.195570676936768e-06
+  },
+  "heatmap_len": 73914,
+  "report_len": 490,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2892.png",
+  "status": 200,
+  "latency_s": 1.317,
+  "pred": "COVID-19",
+  "conf": 0.9511191248893738,
+  "probs": {
+   "COVID-19": 0.9511191248893738,
+   "Normal": 0.04470333829522133,
+   "Pneumonia": 0.0014520284021273255,
+   "Tuberculosis": 0.0027255502063781023
+  },
+  "heatmap_len": 69178,
+  "report_len": 386,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-29.png",
+  "status": 200,
+  "latency_s": 1.45,
+  "pred": "COVID-19",
+  "conf": 0.9765436053276062,
+  "probs": {
+   "COVID-19": 0.9765436053276062,
+   "Normal": 0.022891221567988396,
+   "Pneumonia": 1.569068081153091e-05,
+   "Tuberculosis": 0.0005494594806805253
+  },
+  "heatmap_len": 84730,
+  "report_len": 531,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2915.png",
+  "status": 200,
+  "latency_s": 1.326,
+  "pred": "COVID-19",
+  "conf": 0.9996438026428223,
+  "probs": {
+   "COVID-19": 0.9996438026428223,
+   "Normal": 0.00022036679729353637,
+   "Pneumonia": 9.962916374206543e-05,
+   "Tuberculosis": 3.625150930020027e-05
+  },
+  "heatmap_len": 72838,
+  "report_len": 312,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2928.png",
+  "status": 200,
+  "latency_s": 1.314,
+  "pred": "COVID-19",
+  "conf": 0.9943464398384094,
+  "probs": {
+   "COVID-19": 0.9943464398384094,
+   "Normal": 0.0020069240126758814,
+   "Pneumonia": 0.002543979324400425,
+   "Tuberculosis": 0.0011025910498574376
+  },
+  "heatmap_len": 81186,
+  "report_len": 479,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2967.png",
+  "status": 200,
+  "latency_s": 1.155,
+  "pred": "COVID-19",
+  "conf": 0.8236653208732605,
+  "probs": {
+   "COVID-19": 0.8236653208732605,
+   "Normal": 0.08549535274505615,
+   "Pneumonia": 0.053991612046957016,
+   "Tuberculosis": 0.03684763237833977
+  },
+  "heatmap_len": 74070,
+  "report_len": 519,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2972.png",
+  "status": 200,
+  "latency_s": 1.354,
+  "pred": "COVID-19",
+  "conf": 0.9429691433906555,
+  "probs": {
+   "COVID-19": 0.9429691433906555,
+   "Normal": 0.05565555766224861,
+   "Pneumonia": 5.062678951617272e-07,
+   "Tuberculosis": 0.0013747104676440358
+  },
+  "heatmap_len": 66554,
+  "report_len": 529,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2977.png",
+  "status": 200,
+  "latency_s": 1.295,
+  "pred": "COVID-19",
+  "conf": 0.996615469455719,
+  "probs": {
+   "COVID-19": 0.996615469455719,
+   "Normal": 0.0021933214738965034,
+   "Pneumonia": 1.1829011782538146e-05,
+   "Tuberculosis": 0.0011793413432314992
+  },
+  "heatmap_len": 74138,
+  "report_len": 508,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2985.png",
+  "status": 200,
+  "latency_s": 1.455,
+  "pred": "COVID-19",
+  "conf": 0.9999064207077026,
+  "probs": {
+   "COVID-19": 0.9999064207077026,
+   "Normal": 1.5174777217907831e-05,
+   "Pneumonia": 2.7593121558311395e-05,
+   "Tuberculosis": 5.087460522190668e-05
+  },
+  "heatmap_len": 80938,
+  "report_len": 503,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2990.png",
+  "status": 200,
+  "latency_s": 1.157,
+  "pred": "COVID-19",
+  "conf": 0.753101110458374,
+  "probs": {
+   "COVID-19": 0.753101110458374,
+   "Normal": 0.2466515600681305,
+   "Pneumonia": 2.4535650027246447e-06,
+   "Tuberculosis": 0.0002448607119731605
+  },
+  "heatmap_len": 80086,
+  "report_len": 473,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-2999.png",
+  "status": 200,
+  "latency_s": 1.316,
+  "pred": "COVID-19",
+  "conf": 0.9979015588760376,
+  "probs": {
+   "COVID-19": 0.9979015588760376,
+   "Normal": 0.0020250757224857807,
+   "Pneumonia": 3.604531957535073e-05,
+   "Tuberculosis": 3.727295916178264e-05
+  },
+  "heatmap_len": 71766,
+  "report_len": 531,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-300.png",
+  "status": 200,
+  "latency_s": 1.238,
+  "pred": "COVID-19",
+  "conf": 0.9999345541000366,
+  "probs": {
+   "COVID-19": 0.9999345541000366,
+   "Normal": 3.756636886009801e-07,
+   "Pneumonia": 2.918757457948118e-09,
+   "Tuberculosis": 6.501971074612811e-05
+  },
+  "heatmap_len": 74114,
+  "report_len": 435,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3007.png",
+  "status": 200,
+  "latency_s": 1.327,
+  "pred": "COVID-19",
+  "conf": 0.9912846088409424,
+  "probs": {
+   "COVID-19": 0.9912846088409424,
+   "Normal": 0.0011175096733495593,
+   "Pneumonia": 1.6290041457978077e-05,
+   "Tuberculosis": 0.007581619545817375
+  },
+  "heatmap_len": 73718,
+  "report_len": 559,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3008.png",
+  "status": 200,
+  "latency_s": 1.254,
+  "pred": "COVID-19",
+  "conf": 0.9988319277763367,
+  "probs": {
+   "COVID-19": 0.9988319277763367,
+   "Normal": 0.0011673090048134327,
+   "Pneumonia": 6.301562649468906e-08,
+   "Tuberculosis": 6.103896339482162e-07
+  },
+  "heatmap_len": 75662,
+  "report_len": 546,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3009.png",
+  "status": 200,
+  "latency_s": 1.335,
+  "pred": "COVID-19",
+  "conf": 0.9987583160400391,
+  "probs": {
+   "COVID-19": 0.9987583160400391,
+   "Normal": 0.0012142754858359694,
+   "Pneumonia": 2.6097170575667406e-06,
+   "Tuberculosis": 2.4745293558225967e-05
+  },
+  "heatmap_len": 71234,
+  "report_len": 457,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3013.png",
+  "status": 200,
+  "latency_s": 1.177,
+  "pred": "COVID-19",
+  "conf": 0.999975323677063,
+  "probs": {
+   "COVID-19": 0.999975323677063,
+   "Normal": 2.096511707350146e-05,
+   "Pneumonia": 5.600261920868377e-10,
+   "Tuberculosis": 3.6994374568166677e-06
+  },
+  "heatmap_len": 70398,
+  "report_len": 496,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-303.png",
+  "status": 200,
+  "latency_s": 1.29,
+  "pred": "COVID-19",
+  "conf": 0.9999929666519165,
+  "probs": {
+   "COVID-19": 0.9999929666519165,
+   "Normal": 5.601814336841926e-06,
+   "Pneumonia": 1.9975580300979345e-08,
+   "Tuberculosis": 1.4817844657954993e-06
+  },
+  "heatmap_len": 73374,
+  "report_len": 346,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3030.png",
+  "status": 200,
+  "latency_s": 1.372,
+  "pred": "COVID-19",
+  "conf": 0.9304630160331726,
+  "probs": {
+   "COVID-19": 0.9304630160331726,
+   "Normal": 0.0687059760093689,
+   "Pneumonia": 0.0006311556207947433,
+   "Tuberculosis": 0.00019986469123978168
+  },
+  "heatmap_len": 74566,
+  "report_len": 415,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3047.png",
+  "status": 200,
+  "latency_s": 1.195,
+  "pred": "COVID-19",
+  "conf": 0.8917106986045837,
+  "probs": {
+   "COVID-19": 0.8917106986045837,
+   "Normal": 0.008243479765951633,
+   "Pneumonia": 0.0019849068485200405,
+   "Tuberculosis": 0.09806091338396072
+  },
+  "heatmap_len": 71614,
+  "report_len": 415,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-305.png",
+  "status": 200,
+  "latency_s": 1.238,
+  "pred": "COVID-19",
+  "conf": 0.9999586343765259,
+  "probs": {
+   "COVID-19": 0.9999586343765259,
+   "Normal": 3.831721187452786e-05,
+   "Pneumonia": 3.6717032969590946e-08,
+   "Tuberculosis": 3.001367758770357e-06
+  },
+  "heatmap_len": 70990,
+  "report_len": 441,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3056.png",
+  "status": 200,
+  "latency_s": 0.487,
+  "pred": "COVID-19",
+  "conf": 0.9999855756759644,
+  "probs": {
+   "COVID-19": 0.9999855756759644,
+   "Normal": 9.863565537671093e-06,
+   "Pneumonia": 3.330893036945781e-07,
+   "Tuberculosis": 4.223551513860002e-06
+  },
+  "heatmap_len": 72386,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3060.png",
+  "status": 200,
+  "latency_s": 1.479,
+  "pred": "COVID-19",
+  "conf": 0.9998443126678467,
+  "probs": {
+   "COVID-19": 0.9998443126678467,
+   "Normal": 0.00013967887207400054,
+   "Pneumonia": 1.3446626780933002e-06,
+   "Tuberculosis": 1.4725497749168426e-05
+  },
+  "heatmap_len": 68326,
+  "report_len": 517,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3062.png",
+  "status": 200,
+  "latency_s": 1.139,
+  "pred": "COVID-19",
+  "conf": 0.500472903251648,
+  "probs": {
+   "COVID-19": 0.500472903251648,
+   "Normal": 0.4992838501930237,
+   "Pneumonia": 4.304077720007626e-06,
+   "Tuberculosis": 0.00023889823933131993
+  },
+  "heatmap_len": 69618,
+  "report_len": 503,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3074.png",
+  "status": 200,
+  "latency_s": 1.323,
+  "pred": "COVID-19",
+  "conf": 0.8837490677833557,
+  "probs": {
+   "COVID-19": 0.8837490677833557,
+   "Normal": 0.10331708192825317,
+   "Pneumonia": 4.407254891702905e-06,
+   "Tuberculosis": 0.012929375283420086
+  },
+  "heatmap_len": 69714,
+  "report_len": 590,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-309.png",
+  "status": 422,
+  "latency_s": 0.074,
+  "pred": null,
+  "conf": null,
+  "probs": null,
+  "heatmap_len": 0,
+  "report_len": 0,
+  "report_source": null,
+  "warnings": null,
+  "detail": "This does not look like a chest X-ray. (feature-space distance 10.4 exceeds threshold 8.7)"
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3090.png",
+  "status": 200,
+  "latency_s": 1.386,
+  "pred": "COVID-19",
+  "conf": 0.9991036057472229,
+  "probs": {
+   "COVID-19": 0.9991036057472229,
+   "Normal": 0.0006885449984110892,
+   "Pneumonia": 0.00019411544781178236,
+   "Tuberculosis": 1.3632735317514744e-05
+  },
+  "heatmap_len": 81494,
+  "report_len": 336,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3111.png",
+  "status": 200,
+  "latency_s": 1.16,
+  "pred": "COVID-19",
+  "conf": 0.9995162487030029,
+  "probs": {
+   "COVID-19": 0.9995162487030029,
+   "Normal": 0.0004754976253025234,
+   "Pneumonia": 4.8003241381877615e-09,
+   "Tuberculosis": 8.258237357949838e-06
+  },
+  "heatmap_len": 76442,
+  "report_len": 478,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3125.png",
+  "status": 200,
+  "latency_s": 1.371,
+  "pred": "COVID-19",
+  "conf": 0.9932000041007996,
+  "probs": {
+   "COVID-19": 0.9932000041007996,
+   "Normal": 0.004116787575185299,
+   "Pneumonia": 0.00025718490360304713,
+   "Tuberculosis": 0.002425986574962735
+  },
+  "heatmap_len": 79766,
+  "report_len": 533,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3149.png",
+  "status": 200,
+  "latency_s": 1.185,
+  "pred": "COVID-19",
+  "conf": 0.8702108263969421,
+  "probs": {
+   "COVID-19": 0.8702108263969421,
+   "Normal": 0.12684467434883118,
+   "Pneumonia": 0.002331189112737775,
+   "Tuberculosis": 0.0006132447742857039
+  },
+  "heatmap_len": 75506,
+  "report_len": 521,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3152.png",
+  "status": 200,
+  "latency_s": 1.258,
+  "pred": "COVID-19",
+  "conf": 0.9758754968643188,
+  "probs": {
+   "COVID-19": 0.9758754968643188,
+   "Normal": 0.02402338944375515,
+   "Pneumonia": 2.7731293812394142e-05,
+   "Tuberculosis": 7.344632467720658e-05
+  },
+  "heatmap_len": 74950,
+  "report_len": 511,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3176.png",
+  "status": 200,
+  "latency_s": 1.349,
+  "pred": "COVID-19",
+  "conf": 0.999993085861206,
+  "probs": {
+   "COVID-19": 0.999993085861206,
+   "Normal": 1.3367900919547537e-06,
+   "Pneumonia": 7.658999834347924e-08,
+   "Tuberculosis": 5.427063115348574e-06
+  },
+  "heatmap_len": 72730,
+  "report_len": 497,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-318.png",
+  "status": 422,
+  "latency_s": 0.065,
+  "pred": null,
+  "conf": null,
+  "probs": null,
+  "heatmap_len": 0,
+  "report_len": 0,
+  "report_source": null,
+  "warnings": null,
+  "detail": "This does not look like a chest X-ray. (feature-space distance 9.0 exceeds threshold 8.7)"
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3193.png",
+  "status": 200,
+  "latency_s": 1.374,
+  "pred": "COVID-19",
+  "conf": 0.9992590546607971,
+  "probs": {
+   "COVID-19": 0.9992590546607971,
+   "Normal": 0.0005147861666046083,
+   "Pneumonia": 3.2550771720707417e-05,
+   "Tuberculosis": 0.0001936088956426829
+  },
+  "heatmap_len": 72470,
+  "report_len": 501,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3194.png",
+  "status": 200,
+  "latency_s": 1.308,
+  "pred": "COVID-19",
+  "conf": 0.9998785257339478,
+  "probs": {
+   "COVID-19": 0.9998785257339478,
+   "Normal": 1.0977636520692613e-05,
+   "Pneumonia": 3.472304967999662e-07,
+   "Tuberculosis": 0.00011007351713487878
+  },
+  "heatmap_len": 79030,
+  "report_len": 572,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3197.png",
+  "status": 200,
+  "latency_s": 1.204,
+  "pred": "COVID-19",
+  "conf": 0.9968749284744263,
+  "probs": {
+   "COVID-19": 0.9968749284744263,
+   "Normal": 0.003120735054835677,
+   "Pneumonia": 2.0471227344387444e-06,
+   "Tuberculosis": 2.3366615096165333e-06
+  },
+  "heatmap_len": 71250,
+  "report_len": 478,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3200.png",
+  "status": 200,
+  "latency_s": 1.577,
+  "pred": "COVID-19",
+  "conf": 0.99943608045578,
+  "probs": {
+   "COVID-19": 0.99943608045578,
+   "Normal": 0.0004952095914632082,
+   "Pneumonia": 5.988106295262696e-06,
+   "Tuberculosis": 6.275143823586404e-05
+  },
+  "heatmap_len": 81594,
+  "report_len": 444,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3224.png",
+  "status": 200,
+  "latency_s": 1.221,
+  "pred": "COVID-19",
+  "conf": 1.0,
+  "probs": {
+   "COVID-19": 1.0,
+   "Normal": 2.5047901530683703e-08,
+   "Pneumonia": 2.449094260725815e-10,
+   "Tuberculosis": 2.8537590068822283e-08
+  },
+  "heatmap_len": 71758,
+  "report_len": 526,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3226.png",
+  "status": 200,
+  "latency_s": 1.333,
+  "pred": "COVID-19",
+  "conf": 0.9999250173568726,
+  "probs": {
+   "COVID-19": 0.9999250173568726,
+   "Normal": 8.337599865626544e-06,
+   "Pneumonia": 7.596921136610035e-07,
+   "Tuberculosis": 6.595266313524917e-05
+  },
+  "heatmap_len": 74462,
+  "report_len": 461,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3236.png",
+  "status": 200,
+  "latency_s": 1.168,
+  "pred": "COVID-19",
+  "conf": 0.9913451671600342,
+  "probs": {
+   "COVID-19": 0.9913451671600342,
+   "Normal": 0.0070028104819357395,
+   "Pneumonia": 0.0007636424852535129,
+   "Tuberculosis": 0.0008883296977728605
+  },
+  "heatmap_len": 71130,
+  "report_len": 509,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3247.png",
+  "status": 200,
+  "latency_s": 1.259,
+  "pred": "COVID-19",
+  "conf": 0.9999698400497437,
+  "probs": {
+   "COVID-19": 0.9999698400497437,
+   "Normal": 2.8706526791211218e-05,
+   "Pneumonia": 1.9480052060316666e-07,
+   "Tuberculosis": 1.2209998203616124e-06
+  },
+  "heatmap_len": 74914,
+  "report_len": 534,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3253.png",
+  "status": 200,
+  "latency_s": 1.375,
+  "pred": "COVID-19",
+  "conf": 0.9976128339767456,
+  "probs": {
+   "COVID-19": 0.9976128339767456,
+   "Normal": 0.0018707138951867819,
+   "Pneumonia": 1.693404954039579e-07,
+   "Tuberculosis": 0.0005163537571206689
+  },
+  "heatmap_len": 70586,
+  "report_len": 520,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3264.png",
+  "status": 200,
+  "latency_s": 1.371,
+  "pred": "COVID-19",
+  "conf": 0.9996412992477417,
+  "probs": {
+   "COVID-19": 0.9996412992477417,
+   "Normal": 0.00017710505926515907,
+   "Pneumonia": 1.3935049310020986e-06,
+   "Tuberculosis": 0.00018020674178842455
+  },
+  "heatmap_len": 73902,
+  "report_len": 358,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3273.png",
+  "status": 200,
+  "latency_s": 1.279,
+  "pred": "COVID-19",
+  "conf": 0.8461860418319702,
+  "probs": {
+   "COVID-19": 0.8461860418319702,
+   "Normal": 0.15154412388801575,
+   "Pneumonia": 0.00018000822456087917,
+   "Tuberculosis": 0.0020898820366710424
+  },
+  "heatmap_len": 64018,
+  "report_len": 518,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3274.png",
+  "status": 200,
+  "latency_s": 1.153,
+  "pred": "COVID-19",
+  "conf": 0.9985049962997437,
+  "probs": {
+   "COVID-19": 0.9985049962997437,
+   "Normal": 0.0001443185465177521,
+   "Pneumonia": 0.0012501586461439729,
+   "Tuberculosis": 0.00010048822878161445
+  },
+  "heatmap_len": 73570,
+  "report_len": 436,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3309.png",
+  "status": 200,
+  "latency_s": 1.465,
+  "pred": "COVID-19",
+  "conf": 0.9993962049484253,
+  "probs": {
+   "COVID-19": 0.9993962049484253,
+   "Normal": 0.0004628151364158839,
+   "Pneumonia": 6.619506365268535e-08,
+   "Tuberculosis": 0.00014088583702687174
+  },
+  "heatmap_len": 66902,
+  "report_len": 560,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3334.png",
+  "status": 200,
+  "latency_s": 1.265,
+  "pred": "COVID-19",
+  "conf": 0.9063194394111633,
+  "probs": {
+   "COVID-19": 0.9063194394111633,
+   "Normal": 0.09350578486919403,
+   "Pneumonia": 9.67031519394368e-05,
+   "Tuberculosis": 7.811046816641465e-05
+  },
+  "heatmap_len": 75342,
+  "report_len": 461,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3342.png",
+  "status": 200,
+  "latency_s": 1.356,
+  "pred": "COVID-19",
+  "conf": 0.9984208345413208,
+  "probs": {
+   "COVID-19": 0.9984208345413208,
+   "Normal": 4.1656181565485895e-05,
+   "Pneumonia": 0.0014202917227521539,
+   "Tuberculosis": 0.00011724364594556391
+  },
+  "heatmap_len": 65518,
+  "report_len": 553,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3346.png",
+  "status": 200,
+  "latency_s": 1.137,
+  "pred": "COVID-19",
+  "conf": 0.3333587348461151,
+  "probs": {
+   "COVID-19": 0.3333587348461151,
+   "Normal": 0.17761197686195374,
+   "Pneumonia": 0.27475324273109436,
+   "Tuberculosis": 0.21427606046199799
+  },
+  "heatmap_len": 69274,
+  "report_len": 486,
+  "report_source": "groq",
+  "warnings": [
+   "Confidence (33.3%) is low -- treat this prediction as uncertain."
+  ],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3355.png",
+  "status": 200,
+  "latency_s": 1.23,
+  "pred": "COVID-19",
+  "conf": 0.9968253374099731,
+  "probs": {
+   "COVID-19": 0.9968253374099731,
+   "Normal": 0.003087146207690239,
+   "Pneumonia": 9.980061804526486e-06,
+   "Tuberculosis": 7.756547711323947e-05
+  },
+  "heatmap_len": 76742,
+  "report_len": 500,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-337.png",
+  "status": 200,
+  "latency_s": 1.219,
+  "pred": "COVID-19",
+  "conf": 0.9999939203262329,
+  "probs": {
+   "COVID-19": 0.9999939203262329,
+   "Normal": 5.835869160364382e-06,
+   "Pneumonia": 8.360715497701676e-08,
+   "Tuberculosis": 1.0155189755778338e-07
+  },
+  "heatmap_len": 74682,
+  "report_len": 415,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3372.png",
+  "status": 200,
+  "latency_s": 1.282,
+  "pred": "COVID-19",
+  "conf": 0.9779174327850342,
+  "probs": {
+   "COVID-19": 0.9779174327850342,
+   "Normal": 0.021970180794596672,
+   "Pneumonia": 1.0340814071696514e-07,
+   "Tuberculosis": 0.00011223751789657399
+  },
+  "heatmap_len": 68682,
+  "report_len": 559,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3388.png",
+  "status": 200,
+  "latency_s": 1.347,
+  "pred": "COVID-19",
+  "conf": 0.9945907592773438,
+  "probs": {
+   "COVID-19": 0.9945907592773438,
+   "Normal": 0.0029635890386998653,
+   "Pneumonia": 0.0005761953070759773,
+   "Tuberculosis": 0.0018695087637752295
+  },
+  "heatmap_len": 79722,
+  "report_len": 378,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-339.png",
+  "status": 200,
+  "latency_s": 1.194,
+  "pred": "COVID-19",
+  "conf": 0.9999884366989136,
+  "probs": {
+   "COVID-19": 0.9999884366989136,
+   "Normal": 8.097792488115374e-06,
+   "Pneumonia": 1.3051550240561482e-06,
+   "Tuberculosis": 2.1530070171138505e-06
+  },
+  "heatmap_len": 78558,
+  "report_len": 523,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3391.png",
+  "status": 200,
+  "latency_s": 1.206,
+  "pred": "COVID-19",
+  "conf": 0.9987928867340088,
+  "probs": {
+   "COVID-19": 0.9987928867340088,
+   "Normal": 0.0008029587334021926,
+   "Pneumonia": 1.3802221474179532e-05,
+   "Tuberculosis": 0.0003903163014911115
+  },
+  "heatmap_len": 77234,
+  "report_len": 300,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3395.png",
+  "status": 200,
+  "latency_s": 1.451,
+  "pred": "COVID-19",
+  "conf": 0.9738041758537292,
+  "probs": {
+   "COVID-19": 0.9738041758537292,
+   "Normal": 0.025360409170389175,
+   "Pneumonia": 1.9301842257846147e-05,
+   "Tuberculosis": 0.0008161878795363009
+  },
+  "heatmap_len": 74810,
+  "report_len": 325,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3401.png",
+  "status": 200,
+  "latency_s": 1.244,
+  "pred": "COVID-19",
+  "conf": 0.5139456987380981,
+  "probs": {
+   "COVID-19": 0.5139456987380981,
+   "Normal": 0.4739474356174469,
+   "Pneumonia": 0.0026393283624202013,
+   "Tuberculosis": 0.00946757197380066
+  },
+  "heatmap_len": 73290,
+  "report_len": 524,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3414.png",
+  "status": 200,
+  "latency_s": 1.2,
+  "pred": "COVID-19",
+  "conf": 0.9995220899581909,
+  "probs": {
+   "COVID-19": 0.9995220899581909,
+   "Normal": 0.00046087210648693144,
+   "Pneumonia": 5.760623267292431e-08,
+   "Tuberculosis": 1.7022923202603124e-05
+  },
+  "heatmap_len": 71374,
+  "report_len": 394,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3421.png",
+  "status": 200,
+  "latency_s": 1.148,
+  "pred": "COVID-19",
+  "conf": 0.9271381497383118,
+  "probs": {
+   "COVID-19": 0.9271381497383118,
+   "Normal": 0.06981262564659119,
+   "Pneumonia": 0.0002445552672725171,
+   "Tuberculosis": 0.0028046572115272284
+  },
+  "heatmap_len": 78482,
+  "report_len": 544,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-343.png",
+  "status": 200,
+  "latency_s": 1.687,
+  "pred": "COVID-19",
+  "conf": 0.999212384223938,
+  "probs": {
+   "COVID-19": 0.999212384223938,
+   "Normal": 0.0003858803538605571,
+   "Pneumonia": 7.263166708071367e-07,
+   "Tuberculosis": 0.0004009860276710242
+  },
+  "heatmap_len": 65078,
+  "report_len": 431,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3439.png",
+  "status": 200,
+  "latency_s": 1.512,
+  "pred": "COVID-19",
+  "conf": 0.9991956353187561,
+  "probs": {
+   "COVID-19": 0.9991956353187561,
+   "Normal": 0.0007713548839092255,
+   "Pneumonia": 1.5183541108854115e-05,
+   "Tuberculosis": 1.7873819160740823e-05
+  },
+  "heatmap_len": 80858,
+  "report_len": 310,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3443.png",
+  "status": 200,
+  "latency_s": 1.195,
+  "pred": "COVID-19",
+  "conf": 0.9991968274116516,
+  "probs": {
+   "COVID-19": 0.9991968274116516,
+   "Normal": 0.0001555523049319163,
+   "Pneumonia": 1.737204729579389e-05,
+   "Tuberculosis": 0.0006302098627202213
+  },
+  "heatmap_len": 70718,
+  "report_len": 499,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3450.png",
+  "status": 200,
+  "latency_s": 1.236,
+  "pred": "COVID-19",
+  "conf": 0.9999463558197021,
+  "probs": {
+   "COVID-19": 0.9999463558197021,
+   "Normal": 5.00073037983384e-05,
+   "Pneumonia": 2.6866308644457604e-07,
+   "Tuberculosis": 3.3486639949842356e-06
+  },
+  "heatmap_len": 72674,
+  "report_len": 482,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3464.png",
+  "status": 200,
+  "latency_s": 1.228,
+  "pred": "COVID-19",
+  "conf": 0.8764287233352661,
+  "probs": {
+   "COVID-19": 0.8764287233352661,
+   "Normal": 0.0003484093467704952,
+   "Pneumonia": 0.12312748283147812,
+   "Tuberculosis": 9.539245365886018e-05
+  },
+  "heatmap_len": 77470,
+  "report_len": 528,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3467.png",
+  "status": 200,
+  "latency_s": 1.217,
+  "pred": "Tuberculosis",
+  "conf": 0.8774953484535217,
+  "probs": {
+   "COVID-19": 0.08573195338249207,
+   "Normal": 0.03534954413771629,
+   "Pneumonia": 0.00142308184877038,
+   "Tuberculosis": 0.8774953484535217
+  },
+  "heatmap_len": 72546,
+  "report_len": 507,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3472.png",
+  "status": 200,
+  "latency_s": 1.207,
+  "pred": "COVID-19",
+  "conf": 0.9897496104240417,
+  "probs": {
+   "COVID-19": 0.9897496104240417,
+   "Normal": 0.009952664375305176,
+   "Pneumonia": 1.3336664778762497e-05,
+   "Tuberculosis": 0.0002843431429937482
+  },
+  "heatmap_len": 76110,
+  "report_len": 573,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3501.png",
+  "status": 200,
+  "latency_s": 1.139,
+  "pred": "COVID-19",
+  "conf": 0.9999127388000488,
+  "probs": {
+   "COVID-19": 0.9999127388000488,
+   "Normal": 2.3130544377636397e-06,
+   "Pneumonia": 4.221337235321698e-07,
+   "Tuberculosis": 8.44794703880325e-05
+  },
+  "heatmap_len": 76062,
+  "report_len": 477,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3506.png",
+  "status": 200,
+  "latency_s": 1.284,
+  "pred": "COVID-19",
+  "conf": 0.9992401599884033,
+  "probs": {
+   "COVID-19": 0.9992401599884033,
+   "Normal": 0.0007589904707856476,
+   "Pneumonia": 5.814734471698557e-09,
+   "Tuberculosis": 9.139831149695965e-07
+  },
+  "heatmap_len": 69478,
+  "report_len": 558,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3511.png",
+  "status": 200,
+  "latency_s": 1.34,
+  "pred": "COVID-19",
+  "conf": 0.9958037734031677,
+  "probs": {
+   "COVID-19": 0.9958037734031677,
+   "Normal": 0.001445641741156578,
+   "Pneumonia": 0.002725892001762986,
+   "Tuberculosis": 2.474117536621634e-05
+  },
+  "heatmap_len": 79854,
+  "report_len": 597,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3519.png",
+  "status": 200,
+  "latency_s": 1.299,
+  "pred": "COVID-19",
+  "conf": 0.9254410862922668,
+  "probs": {
+   "COVID-19": 0.9254410862922668,
+   "Normal": 0.01764204539358616,
+   "Pneumonia": 0.04000619053840637,
+   "Tuberculosis": 0.016910647973418236
+  },
+  "heatmap_len": 70162,
+  "report_len": 517,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3530.png",
+  "status": 200,
+  "latency_s": 1.29,
+  "pred": "COVID-19",
+  "conf": 0.9992832541465759,
+  "probs": {
+   "COVID-19": 0.9992832541465759,
+   "Normal": 0.00034263834822922945,
+   "Pneumonia": 2.7951742595178075e-05,
+   "Tuberculosis": 0.00034607970155775547
+  },
+  "heatmap_len": 72782,
+  "report_len": 568,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3544.png",
+  "status": 200,
+  "latency_s": 1.27,
+  "pred": "COVID-19",
+  "conf": 0.9753473997116089,
+  "probs": {
+   "COVID-19": 0.9753473997116089,
+   "Normal": 0.024497289210557938,
+   "Pneumonia": 0.00013180624227970839,
+   "Tuberculosis": 2.3410209905705415e-05
+  },
+  "heatmap_len": 76910,
+  "report_len": 471,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3545.png",
+  "status": 200,
+  "latency_s": 1.262,
+  "pred": "COVID-19",
+  "conf": 0.9977395534515381,
+  "probs": {
+   "COVID-19": 0.9977395534515381,
+   "Normal": 0.002237766981124878,
+   "Pneumonia": 1.989385054912418e-05,
+   "Tuberculosis": 2.8233998818905093e-06
+  },
+  "heatmap_len": 77730,
+  "report_len": 501,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-355.png",
+  "status": 200,
+  "latency_s": 1.15,
+  "pred": "COVID-19",
+  "conf": 0.9994925260543823,
+  "probs": {
+   "COVID-19": 0.9994925260543823,
+   "Normal": 7.998829096322879e-05,
+   "Pneumonia": 1.094358822228969e-06,
+   "Tuberculosis": 0.0004264226299710572
+  },
+  "heatmap_len": 81922,
+  "report_len": 453,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3556.png",
+  "status": 200,
+  "latency_s": 1.383,
+  "pred": "COVID-19",
+  "conf": 0.9926663041114807,
+  "probs": {
+   "COVID-19": 0.9926663041114807,
+   "Normal": 0.007061764132231474,
+   "Pneumonia": 4.9905822379514575e-05,
+   "Tuberculosis": 0.0002219408779637888
+  },
+  "heatmap_len": 74058,
+  "report_len": 439,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3560.png",
+  "status": 200,
+  "latency_s": 1.115,
+  "pred": "COVID-19",
+  "conf": 0.9977012276649475,
+  "probs": {
+   "COVID-19": 0.9977012276649475,
+   "Normal": 0.000956003088504076,
+   "Pneumonia": 0.0006559593603014946,
+   "Tuberculosis": 0.0006868113414384425
+  },
+  "heatmap_len": 71250,
+  "report_len": 522,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3573.png",
+  "status": 200,
+  "latency_s": 1.296,
+  "pred": "COVID-19",
+  "conf": 0.9967377781867981,
+  "probs": {
+   "COVID-19": 0.9967377781867981,
+   "Normal": 0.003182597691193223,
+   "Pneumonia": 2.928007688751677e-06,
+   "Tuberculosis": 7.659618131583557e-05
+  },
+  "heatmap_len": 73238,
+  "report_len": 517,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3580.png",
+  "status": 200,
+  "latency_s": 1.266,
+  "pred": "COVID-19",
+  "conf": 0.9962759017944336,
+  "probs": {
+   "COVID-19": 0.9962759017944336,
+   "Normal": 0.0028517593163996935,
+   "Pneumonia": 4.5865999709349126e-07,
+   "Tuberculosis": 0.0008718696190044284
+  },
+  "heatmap_len": 72122,
+  "report_len": 479,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3607.png",
+  "status": 200,
+  "latency_s": 1.241,
+  "pred": "COVID-19",
+  "conf": 0.9999985694885254,
+  "probs": {
+   "COVID-19": 0.9999985694885254,
+   "Normal": 3.631337790466205e-07,
+   "Pneumonia": 1.1517207099132065e-07,
+   "Tuberculosis": 9.99627445708029e-07
+  },
+  "heatmap_len": 76262,
+  "report_len": 465,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-3612.png",
+  "status": 200,
+  "latency_s": 1.314,
+  "pred": "COVID-19",
+  "conf": 0.981827437877655,
+  "probs": {
+   "COVID-19": 0.981827437877655,
+   "Normal": 0.01794608309864998,
+   "Pneumonia": 6.731183475494618e-06,
+   "Tuberculosis": 0.00021966871281620115
+  },
+  "heatmap_len": 73306,
+  "report_len": 546,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-37.png",
+  "status": 200,
+  "latency_s": 1.235,
+  "pred": "COVID-19",
+  "conf": 0.8285861015319824,
+  "probs": {
+   "COVID-19": 0.8285861015319824,
+   "Normal": 0.002272251294925809,
+   "Pneumonia": 0.005337248090654612,
+   "Tuberculosis": 0.16380445659160614
+  },
+  "heatmap_len": 67538,
+  "report_len": 524,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-371.png",
+  "status": 200,
+  "latency_s": 1.299,
+  "pred": "COVID-19",
+  "conf": 0.9966118931770325,
+  "probs": {
+   "COVID-19": 0.9966118931770325,
+   "Normal": 7.176559302024543e-05,
+   "Pneumonia": 4.5851113100070506e-05,
+   "Tuberculosis": 0.003270474961027503
+  },
+  "heatmap_len": 74982,
+  "report_len": 539,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-381.png",
+  "status": 200,
+  "latency_s": 1.148,
+  "pred": "COVID-19",
+  "conf": 0.9983090162277222,
+  "probs": {
+   "COVID-19": 0.9983090162277222,
+   "Normal": 0.00038935872726142406,
+   "Pneumonia": 0.0011185946641489863,
+   "Tuberculosis": 0.00018311401072423905
+  },
+  "heatmap_len": 76366,
+  "report_len": 450,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-394.png",
+  "status": 200,
+  "latency_s": 1.102,
+  "pred": "COVID-19",
+  "conf": 0.9997579455375671,
+  "probs": {
+   "COVID-19": 0.9997579455375671,
+   "Normal": 0.00011765430099330842,
+   "Pneumonia": 2.9839911803719588e-06,
+   "Tuberculosis": 0.00012136740406276658
+  },
+  "heatmap_len": 73170,
+  "report_len": 527,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-412.png",
+  "status": 422,
+  "latency_s": 0.252,
+  "pred": null,
+  "conf": null,
+  "probs": null,
+  "heatmap_len": 0,
+  "report_len": 0,
+  "report_source": null,
+  "warnings": null,
+  "detail": "This does not look like a chest X-ray. (feature-space distance 9.0 exceeds threshold 8.7)"
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-423.png",
+  "status": 200,
+  "latency_s": 1.225,
+  "pred": "COVID-19",
+  "conf": 0.6751497983932495,
+  "probs": {
+   "COVID-19": 0.6751497983932495,
+   "Normal": 0.2341969758272171,
+   "Pneumonia": 0.07868708670139313,
+   "Tuberculosis": 0.011966168880462646
+  },
+  "heatmap_len": 79714,
+  "report_len": 510,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-430.png",
+  "status": 200,
+  "latency_s": 1.365,
+  "pred": "COVID-19",
+  "conf": 0.9998277425765991,
+  "probs": {
+   "COVID-19": 0.9998277425765991,
+   "Normal": 0.00010189526801696047,
+   "Pneumonia": 5.173505996936001e-07,
+   "Tuberculosis": 6.988328095758334e-05
+  },
+  "heatmap_len": 76694,
+  "report_len": 430,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-437.png",
+  "status": 200,
+  "latency_s": 1.341,
+  "pred": "COVID-19",
+  "conf": 0.9775204062461853,
+  "probs": {
+   "COVID-19": 0.9775204062461853,
+   "Normal": 0.022395677864551544,
+   "Pneumonia": 6.871875484648626e-06,
+   "Tuberculosis": 7.702734001213685e-05
+  },
+  "heatmap_len": 67514,
+  "report_len": 426,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-441.png",
+  "status": 200,
+  "latency_s": 1.136,
+  "pred": "COVID-19",
+  "conf": 0.9999755620956421,
+  "probs": {
+   "COVID-19": 0.9999755620956421,
+   "Normal": 2.4139133529388346e-05,
+   "Pneumonia": 3.90650214399102e-08,
+   "Tuberculosis": 2.3929041503834014e-07
+  },
+  "heatmap_len": 68586,
+  "report_len": 593,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-446.png",
+  "status": 200,
+  "latency_s": 1.344,
+  "pred": "COVID-19",
+  "conf": 0.9995966553688049,
+  "probs": {
+   "COVID-19": 0.9995966553688049,
+   "Normal": 0.00022315002570394427,
+   "Pneumonia": 0.00017943712009582669,
+   "Tuberculosis": 7.053646982058126e-07
+  },
+  "heatmap_len": 55770,
+  "report_len": 486,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-450.png",
+  "status": 200,
+  "latency_s": 1.224,
+  "pred": "COVID-19",
+  "conf": 0.9979331493377686,
+  "probs": {
+   "COVID-19": 0.9979331493377686,
+   "Normal": 9.612526628188789e-05,
+   "Pneumonia": 0.0008410409791395068,
+   "Tuberculosis": 0.0011297041783109307
+  },
+  "heatmap_len": 81814,
+  "report_len": 547,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-469.png",
+  "status": 200,
+  "latency_s": 1.253,
+  "pred": "COVID-19",
+  "conf": 0.9999580383300781,
+  "probs": {
+   "COVID-19": 0.9999580383300781,
+   "Normal": 4.026540045742877e-05,
+   "Pneumonia": 2.2691034473609761e-07,
+   "Tuberculosis": 1.4320593209049548e-06
+  },
+  "heatmap_len": 74358,
+  "report_len": 519,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-472.png",
+  "status": 200,
+  "latency_s": 1.184,
+  "pred": "COVID-19",
+  "conf": 0.9216563105583191,
+  "probs": {
+   "COVID-19": 0.9216563105583191,
+   "Normal": 0.07832448929548264,
+   "Pneumonia": 1.9009938796443748e-06,
+   "Tuberculosis": 1.7303951608482748e-05
+  },
+  "heatmap_len": 64342,
+  "report_len": 539,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-474.png",
+  "status": 200,
+  "latency_s": 1.188,
+  "pred": "COVID-19",
+  "conf": 0.9998445510864258,
+  "probs": {
+   "COVID-19": 0.9998445510864258,
+   "Normal": 3.53292198269628e-05,
+   "Pneumonia": 1.5225819538500218e-07,
+   "Tuberculosis": 0.0001199717225972563
+  },
+  "heatmap_len": 70758,
+  "report_len": 460,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-475.png",
+  "status": 200,
+  "latency_s": 1.347,
+  "pred": "COVID-19",
+  "conf": 0.9972677230834961,
+  "probs": {
+   "COVID-19": 0.9972677230834961,
+   "Normal": 0.002685821382328868,
+   "Pneumonia": 3.1058658578331233e-07,
+   "Tuberculosis": 4.612802877090871e-05
+  },
+  "heatmap_len": 68090,
+  "report_len": 513,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-478.png",
+  "status": 200,
+  "latency_s": 1.507,
+  "pred": "COVID-19",
+  "conf": 0.9384781718254089,
+  "probs": {
+   "COVID-19": 0.9384781718254089,
+   "Normal": 0.06089895963668823,
+   "Pneumonia": 7.69386169849895e-05,
+   "Tuberculosis": 0.0005458437371999025
+  },
+  "heatmap_len": 65810,
+  "report_len": 504,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-482.png",
+  "status": 200,
+  "latency_s": 1.231,
+  "pred": "COVID-19",
+  "conf": 0.9998810291290283,
+  "probs": {
+   "COVID-19": 0.9998810291290283,
+   "Normal": 0.00010156480857403949,
+   "Pneumonia": 3.6032033676747233e-06,
+   "Tuberculosis": 1.3849778042640537e-05
+  },
+  "heatmap_len": 75526,
+  "report_len": 389,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-5.png",
+  "status": 200,
+  "latency_s": 1.282,
+  "pred": "COVID-19",
+  "conf": 0.9613974690437317,
+  "probs": {
+   "COVID-19": 0.9613974690437317,
+   "Normal": 0.016580095514655113,
+   "Pneumonia": 0.013141377829015255,
+   "Tuberculosis": 0.00888106133788824
+  },
+  "heatmap_len": 76678,
+  "report_len": 466,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-514.png",
+  "status": 200,
+  "latency_s": 1.302,
+  "pred": "COVID-19",
+  "conf": 0.9999929666519165,
+  "probs": {
+   "COVID-19": 0.9999929666519165,
+   "Normal": 2.2023027668183204e-06,
+   "Pneumonia": 8.538399498547733e-08,
+   "Tuberculosis": 4.7301027734647505e-06
+  },
+  "heatmap_len": 75098,
+  "report_len": 428,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-518.png",
+  "status": 200,
+  "latency_s": 1.299,
+  "pred": "COVID-19",
+  "conf": 0.9999996423721313,
+  "probs": {
+   "COVID-19": 0.9999996423721313,
+   "Normal": 5.799356728175553e-08,
+   "Pneumonia": 2.276480781659984e-09,
+   "Tuberculosis": 3.1985413784241246e-07
+  },
+  "heatmap_len": 66838,
+  "report_len": 500,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-531.png",
+  "status": 200,
+  "latency_s": 1.451,
+  "pred": "COVID-19",
+  "conf": 0.9998788833618164,
+  "probs": {
+   "COVID-19": 0.9998788833618164,
+   "Normal": 0.00011938837269553915,
+   "Pneumonia": 9.526534654469287e-07,
+   "Tuberculosis": 7.911901889201545e-07
+  },
+  "heatmap_len": 76074,
+  "report_len": 556,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-539.png",
+  "status": 200,
+  "latency_s": 1.178,
+  "pred": "COVID-19",
+  "conf": 0.9999455213546753,
+  "probs": {
+   "COVID-19": 0.9999455213546753,
+   "Normal": 3.379152258276008e-05,
+   "Pneumonia": 4.16778185297062e-08,
+   "Tuberculosis": 2.0736755686812103e-05
+  },
+  "heatmap_len": 71486,
+  "report_len": 503,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-553.png",
+  "status": 200,
+  "latency_s": 1.342,
+  "pred": "COVID-19",
+  "conf": 0.9967201352119446,
+  "probs": {
+   "COVID-19": 0.9967201352119446,
+   "Normal": 0.001675151288509369,
+   "Pneumonia": 0.0015704971738159657,
+   "Tuberculosis": 3.4210992453154176e-05
+  },
+  "heatmap_len": 67350,
+  "report_len": 378,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-563.png",
+  "status": 200,
+  "latency_s": 1.279,
+  "pred": "COVID-19",
+  "conf": 0.9653110504150391,
+  "probs": {
+   "COVID-19": 0.9653110504150391,
+   "Normal": 0.001156271668151021,
+   "Pneumonia": 3.97537587559782e-06,
+   "Tuberculosis": 0.033528637140989304
+  },
+  "heatmap_len": 66902,
+  "report_len": 505,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-57.png",
+  "status": 200,
+  "latency_s": 1.213,
+  "pred": "Pneumonia",
+  "conf": 0.5429749488830566,
+  "probs": {
+   "COVID-19": 0.45444634556770325,
+   "Normal": 0.002382229082286358,
+   "Pneumonia": 0.5429749488830566,
+   "Tuberculosis": 0.00019647898443508893
+  },
+  "heatmap_len": 68186,
+  "report_len": 530,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-571.png",
+  "status": 200,
+  "latency_s": 1.24,
+  "pred": "COVID-19",
+  "conf": 0.8624906539916992,
+  "probs": {
+   "COVID-19": 0.8624906539916992,
+   "Normal": 0.13121682405471802,
+   "Pneumonia": 0.00024835995282046497,
+   "Tuberculosis": 0.006044155452400446
+  },
+  "heatmap_len": 75882,
+  "report_len": 550,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-583.png",
+  "status": 200,
+  "latency_s": 1.425,
+  "pred": "COVID-19",
+  "conf": 0.99709153175354,
+  "probs": {
+   "COVID-19": 0.99709153175354,
+   "Normal": 0.002515970729291439,
+   "Pneumonia": 2.0638708519982174e-06,
+   "Tuberculosis": 0.00039046775782480836
+  },
+  "heatmap_len": 68426,
+  "report_len": 427,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-59.png",
+  "status": 200,
+  "latency_s": 1.279,
+  "pred": "COVID-19",
+  "conf": 0.9983723759651184,
+  "probs": {
+   "COVID-19": 0.9983723759651184,
+   "Normal": 0.0007317152922041714,
+   "Pneumonia": 0.0007686636527068913,
+   "Tuberculosis": 0.00012716949277091771
+  },
+  "heatmap_len": 63594,
+  "report_len": 552,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-594.png",
+  "status": 200,
+  "latency_s": 1.227,
+  "pred": "COVID-19",
+  "conf": 0.9999759197235107,
+  "probs": {
+   "COVID-19": 0.9999759197235107,
+   "Normal": 2.3933387637953274e-05,
+   "Pneumonia": 6.894918413991036e-08,
+   "Tuberculosis": 7.563521364772896e-08
+  },
+  "heatmap_len": 70618,
+  "report_len": 486,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-597.png",
+  "status": 200,
+  "latency_s": 1.539,
+  "pred": "COVID-19",
+  "conf": 0.9999994039535522,
+  "probs": {
+   "COVID-19": 0.9999994039535522,
+   "Normal": 3.089716926751862e-08,
+   "Pneumonia": 1.4829537597904618e-09,
+   "Tuberculosis": 5.714077815355267e-07
+  },
+  "heatmap_len": 74810,
+  "report_len": 523,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-60.png",
+  "status": 200,
+  "latency_s": 1.071,
+  "pred": "COVID-19",
+  "conf": 0.6147658824920654,
+  "probs": {
+   "COVID-19": 0.6147658824920654,
+   "Normal": 0.0021854129154235125,
+   "Pneumonia": 0.3816119432449341,
+   "Tuberculosis": 0.0014367917319759727
+  },
+  "heatmap_len": 79986,
+  "report_len": 518,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-608.png",
+  "status": 200,
+  "latency_s": 1.25,
+  "pred": "COVID-19",
+  "conf": 0.9972019195556641,
+  "probs": {
+   "COVID-19": 0.9972019195556641,
+   "Normal": 0.0026475570630282164,
+   "Pneumonia": 3.084846184719936e-06,
+   "Tuberculosis": 0.0001475086173741147
+  },
+  "heatmap_len": 80050,
+  "report_len": 478,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-618.png",
+  "status": 200,
+  "latency_s": 1.296,
+  "pred": "COVID-19",
+  "conf": 0.9997952580451965,
+  "probs": {
+   "COVID-19": 0.9997952580451965,
+   "Normal": 0.0001088777426048182,
+   "Pneumonia": 2.042786917400008e-07,
+   "Tuberculosis": 9.568138921167701e-05
+  },
+  "heatmap_len": 71470,
+  "report_len": 430,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-619.png",
+  "status": 200,
+  "latency_s": 1.385,
+  "pred": "COVID-19",
+  "conf": 0.9999954700469971,
+  "probs": {
+   "COVID-19": 0.9999954700469971,
+   "Normal": 4.325101599533809e-06,
+   "Pneumonia": 4.489673521845816e-09,
+   "Tuberculosis": 2.636691363022692e-07
+  },
+  "heatmap_len": 73678,
+  "report_len": 526,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-635.png",
+  "status": 200,
+  "latency_s": 1.502,
+  "pred": "COVID-19",
+  "conf": 0.9981738328933716,
+  "probs": {
+   "COVID-19": 0.9981738328933716,
+   "Normal": 0.0017557104583829641,
+   "Pneumonia": 2.4598526579211466e-05,
+   "Tuberculosis": 4.5766366383759305e-05
+  },
+  "heatmap_len": 70678,
+  "report_len": 374,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-646.png",
+  "status": 200,
+  "latency_s": 1.285,
+  "pred": "COVID-19",
+  "conf": 0.6779687404632568,
+  "probs": {
+   "COVID-19": 0.6779687404632568,
+   "Normal": 0.31476885080337524,
+   "Pneumonia": 0.0016015931032598019,
+   "Tuberculosis": 0.005660797469317913
+  },
+  "heatmap_len": 73554,
+  "report_len": 509,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-656.png",
+  "status": 200,
+  "latency_s": 1.269,
+  "pred": "COVID-19",
+  "conf": 0.9993701577186584,
+  "probs": {
+   "COVID-19": 0.9993701577186584,
+   "Normal": 0.00016741629224270582,
+   "Pneumonia": 6.257972563616931e-05,
+   "Tuberculosis": 0.0003999104374088347
+  },
+  "heatmap_len": 71038,
+  "report_len": 468,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-673.png",
+  "status": 200,
+  "latency_s": 1.506,
+  "pred": "COVID-19",
+  "conf": 0.9988874793052673,
+  "probs": {
+   "COVID-19": 0.9988874793052673,
+   "Normal": 0.001077459193766117,
+   "Pneumonia": 1.162178614322329e-05,
+   "Tuberculosis": 2.336399302294012e-05
+  },
+  "heatmap_len": 69346,
+  "report_len": 536,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-676.png",
+  "status": 200,
+  "latency_s": 1.414,
+  "pred": "COVID-19",
+  "conf": 0.9999587535858154,
+  "probs": {
+   "COVID-19": 0.9999587535858154,
+   "Normal": 2.2343181626638398e-05,
+   "Pneumonia": 1.0295458196196705e-05,
+   "Tuberculosis": 8.643243745609652e-06
+  },
+  "heatmap_len": 71058,
+  "report_len": 472,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-678.png",
+  "status": 200,
+  "latency_s": 1.408,
+  "pred": "COVID-19",
+  "conf": 0.9999988079071045,
+  "probs": {
+   "COVID-19": 0.9999988079071045,
+   "Normal": 4.2952140688612417e-07,
+   "Pneumonia": 2.066264386257899e-07,
+   "Tuberculosis": 5.426367692962231e-07
+  },
+  "heatmap_len": 75770,
+  "report_len": 494,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-68.png",
+  "status": 200,
+  "latency_s": 1.234,
+  "pred": "COVID-19",
+  "conf": 0.999996542930603,
+  "probs": {
+   "COVID-19": 0.999996542930603,
+   "Normal": 3.09174538415391e-06,
+   "Pneumonia": 7.07702063618143e-10,
+   "Tuberculosis": 3.8307118188640743e-07
+  },
+  "heatmap_len": 68562,
+  "report_len": 342,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-705.png",
+  "status": 200,
+  "latency_s": 1.284,
+  "pred": "COVID-19",
+  "conf": 0.8157389760017395,
+  "probs": {
+   "COVID-19": 0.8157389760017395,
+   "Normal": 0.14856675267219543,
+   "Pneumonia": 0.0005017387447878718,
+   "Tuberculosis": 0.03519241511821747
+  },
+  "heatmap_len": 66834,
+  "report_len": 535,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-732.png",
+  "status": 200,
+  "latency_s": 1.399,
+  "pred": "COVID-19",
+  "conf": 0.9290977716445923,
+  "probs": {
+   "COVID-19": 0.9290977716445923,
+   "Normal": 0.04699770733714104,
+   "Pneumonia": 0.02359909564256668,
+   "Tuberculosis": 0.0003054737753700465
+  },
+  "heatmap_len": 76006,
+  "report_len": 490,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-745.png",
+  "status": 200,
+  "latency_s": 1.213,
+  "pred": "COVID-19",
+  "conf": 0.9903224110603333,
+  "probs": {
+   "COVID-19": 0.9903224110603333,
+   "Normal": 0.007931843400001526,
+   "Pneumonia": 0.0003592229331843555,
+   "Tuberculosis": 0.0013865540968254209
+  },
+  "heatmap_len": 72322,
+  "report_len": 516,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-753.png",
+  "status": 200,
+  "latency_s": 1.45,
+  "pred": "COVID-19",
+  "conf": 0.9999356269836426,
+  "probs": {
+   "COVID-19": 0.9999356269836426,
+   "Normal": 3.7921141483820975e-05,
+   "Pneumonia": 1.986335291803698e-07,
+   "Tuberculosis": 2.6228010028717108e-05
+  },
+  "heatmap_len": 73174,
+  "report_len": 463,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-755.png",
+  "status": 200,
+  "latency_s": 1.331,
+  "pred": "COVID-19",
+  "conf": 0.9999589920043945,
+  "probs": {
+   "COVID-19": 0.9999589920043945,
+   "Normal": 3.678460416267626e-05,
+   "Pneumonia": 3.8645694075967185e-06,
+   "Tuberculosis": 4.14960425132449e-07
+  },
+  "heatmap_len": 75742,
+  "report_len": 518,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-756.png",
+  "status": 200,
+  "latency_s": 1.472,
+  "pred": "COVID-19",
+  "conf": 0.9961376786231995,
+  "probs": {
+   "COVID-19": 0.9961376786231995,
+   "Normal": 0.0038204523734748363,
+   "Pneumonia": 2.8772028599632904e-05,
+   "Tuberculosis": 1.3126895282766782e-05
+  },
+  "heatmap_len": 75086,
+  "report_len": 377,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-76.png",
+  "status": 200,
+  "latency_s": 1.5,
+  "pred": "COVID-19",
+  "conf": 0.9994264841079712,
+  "probs": {
+   "COVID-19": 0.9994264841079712,
+   "Normal": 0.0005128372577019036,
+   "Pneumonia": 1.0453047138980764e-07,
+   "Tuberculosis": 6.0640064475592226e-05
+  },
+  "heatmap_len": 73738,
+  "report_len": 427,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-760.png",
+  "status": 200,
+  "latency_s": 1.469,
+  "pred": "COVID-19",
+  "conf": 0.9998598098754883,
+  "probs": {
+   "COVID-19": 0.9998598098754883,
+   "Normal": 0.000131381704704836,
+   "Pneumonia": 1.0425873142594355e-07,
+   "Tuberculosis": 8.63442983245477e-06
+  },
+  "heatmap_len": 68806,
+  "report_len": 487,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-77.png",
+  "status": 200,
+  "latency_s": 1.453,
+  "pred": "COVID-19",
+  "conf": 0.9995874762535095,
+  "probs": {
+   "COVID-19": 0.9995874762535095,
+   "Normal": 1.2750828318530694e-05,
+   "Pneumonia": 2.054332071566023e-06,
+   "Tuberculosis": 0.00039772538002580404
+  },
+  "heatmap_len": 70114,
+  "report_len": 441,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-779.png",
+  "status": 200,
+  "latency_s": 1.222,
+  "pred": "COVID-19",
+  "conf": 0.997138500213623,
+  "probs": {
+   "COVID-19": 0.997138500213623,
+   "Normal": 0.0024529006332159042,
+   "Pneumonia": 6.370047049131244e-05,
+   "Tuberculosis": 0.000344855769071728
+  },
+  "heatmap_len": 72774,
+  "report_len": 554,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-815.png",
+  "status": 200,
+  "latency_s": 1.327,
+  "pred": "COVID-19",
+  "conf": 0.9997970461845398,
+  "probs": {
+   "COVID-19": 0.9997970461845398,
+   "Normal": 0.00016438716556876898,
+   "Pneumonia": 1.1761810725374744e-07,
+   "Tuberculosis": 3.851470319204964e-05
+  },
+  "heatmap_len": 68690,
+  "report_len": 564,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-820.png",
+  "status": 200,
+  "latency_s": 1.213,
+  "pred": "COVID-19",
+  "conf": 0.9998301267623901,
+  "probs": {
+   "COVID-19": 0.9998301267623901,
+   "Normal": 0.00015240760694723576,
+   "Pneumonia": 5.68240193388192e-06,
+   "Tuberculosis": 1.1762796020775568e-05
+  },
+  "heatmap_len": 70878,
+  "report_len": 489,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-843.png",
+  "status": 200,
+  "latency_s": 1.221,
+  "pred": "COVID-19",
+  "conf": 0.9999620914459229,
+  "probs": {
+   "COVID-19": 0.9999620914459229,
+   "Normal": 2.7586107535171323e-05,
+   "Pneumonia": 1.7280493480598125e-08,
+   "Tuberculosis": 1.035520381265087e-05
+  },
+  "heatmap_len": 70670,
+  "report_len": 536,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-855.png",
+  "status": 422,
+  "latency_s": 0.09,
+  "pred": null,
+  "conf": null,
+  "probs": null,
+  "heatmap_len": 0,
+  "report_len": 0,
+  "report_source": null,
+  "warnings": null,
+  "detail": "This does not look like a chest X-ray. (feature-space distance 9.4 exceeds threshold 8.7)"
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-860.png",
+  "status": 200,
+  "latency_s": 1.41,
+  "pred": "COVID-19",
+  "conf": 0.9999731779098511,
+  "probs": {
+   "COVID-19": 0.9999731779098511,
+   "Normal": 1.0040778761322144e-05,
+   "Pneumonia": 2.5885120713553533e-09,
+   "Tuberculosis": 1.6787291315267794e-05
+  },
+  "heatmap_len": 75418,
+  "report_len": 378,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-883.png",
+  "status": 200,
+  "latency_s": 1.41,
+  "pred": "COVID-19",
+  "conf": 0.9998279809951782,
+  "probs": {
+   "COVID-19": 0.9998279809951782,
+   "Normal": 0.00015550843090750277,
+   "Pneumonia": 9.464915819989983e-07,
+   "Tuberculosis": 1.5547795555903576e-05
+  },
+  "heatmap_len": 69306,
+  "report_len": 322,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-893.png",
+  "status": 200,
+  "latency_s": 1.343,
+  "pred": "COVID-19",
+  "conf": 0.9890636801719666,
+  "probs": {
+   "COVID-19": 0.9890636801719666,
+   "Normal": 7.496772741433233e-05,
+   "Pneumonia": 0.0032154659274965525,
+   "Tuberculosis": 0.007645785342901945
+  },
+  "heatmap_len": 57222,
+  "report_len": 547,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-905.png",
+  "status": 200,
+  "latency_s": 1.195,
+  "pred": "COVID-19",
+  "conf": 0.9764813780784607,
+  "probs": {
+   "COVID-19": 0.9764813780784607,
+   "Normal": 0.007924269884824753,
+   "Pneumonia": 0.00013687257887795568,
+   "Tuberculosis": 0.015457392670214176
+  },
+  "heatmap_len": 73258,
+  "report_len": 451,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-91.png",
+  "status": 200,
+  "latency_s": 1.304,
+  "pred": "COVID-19",
+  "conf": 0.9736063480377197,
+  "probs": {
+   "COVID-19": 0.9736063480377197,
+   "Normal": 0.026127060875296593,
+   "Pneumonia": 1.0995383490808308e-05,
+   "Tuberculosis": 0.00025558756897225976
+  },
+  "heatmap_len": 72690,
+  "report_len": 537,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-940.png",
+  "status": 200,
+  "latency_s": 1.265,
+  "pred": "COVID-19",
+  "conf": 0.9367974400520325,
+  "probs": {
+   "COVID-19": 0.9367974400520325,
+   "Normal": 0.06318759173154831,
+   "Pneumonia": 9.390544619236607e-06,
+   "Tuberculosis": 5.5470673032687046e-06
+  },
+  "heatmap_len": 73954,
+  "report_len": 514,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-943.png",
+  "status": 200,
+  "latency_s": 1.088,
+  "pred": "COVID-19",
+  "conf": 0.9223384261131287,
+  "probs": {
+   "COVID-19": 0.9223384261131287,
+   "Normal": 0.07713088393211365,
+   "Pneumonia": 1.5028340385470074e-05,
+   "Tuberculosis": 0.0005155789549462497
+  },
+  "heatmap_len": 74670,
+  "report_len": 512,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-953.png",
+  "status": 200,
+  "latency_s": 1.379,
+  "pred": "COVID-19",
+  "conf": 0.9993019104003906,
+  "probs": {
+   "COVID-19": 0.9993019104003906,
+   "Normal": 0.0004876040620729327,
+   "Pneumonia": 6.267064804887923e-07,
+   "Tuberculosis": 0.00020989748009014875
+  },
+  "heatmap_len": 74946,
+  "report_len": 459,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-96.png",
+  "status": 200,
+  "latency_s": 1.136,
+  "pred": "COVID-19",
+  "conf": 0.9755703210830688,
+  "probs": {
+   "COVID-19": 0.9755703210830688,
+   "Normal": 0.01977378875017166,
+   "Pneumonia": 0.004595485515892506,
+   "Tuberculosis": 6.04625565756578e-05
+  },
+  "heatmap_len": 80322,
+  "report_len": 526,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-960.png",
+  "status": 200,
+  "latency_s": 1.272,
+  "pred": "COVID-19",
+  "conf": 0.9999954700469971,
+  "probs": {
+   "COVID-19": 0.9999954700469971,
+   "Normal": 1.8240025383420289e-06,
+   "Pneumonia": 3.3739235849594706e-09,
+   "Tuberculosis": 2.729571860982105e-06
+  },
+  "heatmap_len": 72070,
+  "report_len": 508,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-970.png",
+  "status": 200,
+  "latency_s": 1.276,
+  "pred": "COVID-19",
+  "conf": 0.9999613761901855,
+  "probs": {
+   "COVID-19": 0.9999613761901855,
+   "Normal": 2.0147663235547952e-05,
+   "Pneumonia": 4.79101481687394e-06,
+   "Tuberculosis": 1.3748948731517885e-05
+  },
+  "heatmap_len": 72530,
+  "report_len": 517,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-974.png",
+  "status": 200,
+  "latency_s": 1.207,
+  "pred": "COVID-19",
+  "conf": 0.9986806511878967,
+  "probs": {
+   "COVID-19": 0.9986806511878967,
+   "Normal": 4.0724022255744785e-05,
+   "Pneumonia": 0.00016771040100138634,
+   "Tuberculosis": 0.001110903569497168
+  },
+  "heatmap_len": 67834,
+  "report_len": 414,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-976.png",
+  "status": 200,
+  "latency_s": 1.359,
+  "pred": "COVID-19",
+  "conf": 0.919154167175293,
+  "probs": {
+   "COVID-19": 0.919154167175293,
+   "Normal": 0.06834515929222107,
+   "Pneumonia": 0.0001757549325702712,
+   "Tuberculosis": 0.01232489850372076
+  },
+  "heatmap_len": 67806,
+  "report_len": 346,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-985.png",
+  "status": 200,
+  "latency_s": 1.211,
+  "pred": "COVID-19",
+  "conf": 0.9990574717521667,
+  "probs": {
+   "COVID-19": 0.9990574717521667,
+   "Normal": 0.0009275318589061499,
+   "Pneumonia": 9.647372280596755e-06,
+   "Tuberculosis": 5.34092487214366e-06
+  },
+  "heatmap_len": 72030,
+  "report_len": 346,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-992.png",
+  "status": 200,
+  "latency_s": 1.209,
+  "pred": "COVID-19",
+  "conf": 0.9989879727363586,
+  "probs": {
+   "COVID-19": 0.9989879727363586,
+   "Normal": 2.7458050681161694e-05,
+   "Pneumonia": 0.0001252810616279021,
+   "Tuberculosis": 0.0008593068341724575
+  },
+  "heatmap_len": 52302,
+  "report_len": 489,
+  "report_source": "groq",
+  "warnings": [],
+  "detail": null
+ },
+ {
+  "modality": "xray",
+  "true": "COVID-19",
+  "file": "covid19db_COVID-998.png",
+  "status": 200,
+  "latency_s": 0.568,
+  "pred": "COVID-19",
+  "conf": 0.9998682737350464,
+  "probs": {
+   "COVID-19": 0.9998682737350464,
+   "Normal": 1.1309177807561355e-06,
+   "Pneumonia": 2.2647461719316198e-06,
+   "Tuberculosis": 0.00012836602400057018
+  },
+  "heatmap_len": 63530,
+  "report_len": 336,
+  "report_source": "template_fallback",
+  "warnings": [],
+  "detail": null
+ }
+]

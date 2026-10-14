@@ -1,0 +1,25 @@
+@startuml
+left to right direction
+!include style.iuml
+skinparam defaultFontSize 13
+skinparam linetype ortho
+package "Client (React)" {
+  component "Pages\n(Login, Upload, Results)" as P
+  component "AuthProvider / ThemeContext\n<<Provider pattern>>" as CTX
+  component "api.js\n<<Facade>>" as FAC
+}
+package "Server (FastAPI)" {
+  component "Depends(require_verified)\n<<Dependency Injection>>" as DI
+  component "Guard chain: validate -> sanity\n-> modality -> OOD\n<<Chain of Responsibility>>" as CH
+  component "Preprocess + Grad-CAM by backbone\n(XRV vs ImageNet)\n<<Strategy>>" as ST
+  component "Models loaded once, behind a lock\n<<Singleton>>" as SG
+  component "Groq report / template report\n<<Fallback>>" as FB
+}
+P --> CTX
+P --> FAC
+FAC --> DI
+DI --> CH
+CH --> ST
+ST --> SG
+ST --> FB
+@enduml

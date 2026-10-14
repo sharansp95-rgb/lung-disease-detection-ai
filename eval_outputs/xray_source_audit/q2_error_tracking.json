@@ -1,0 +1,30 @@
+{
+  "covid19db": {
+    "n": 1019,
+    "recall_on_normal": 0.9921,
+    "n_errors": 8,
+    "error_counts": {
+      "Pneumonia": 7,
+      "COVID-19": 1
+    },
+    "error_distribution": {
+      "Pneumonia": 0.875,
+      "COVID-19": 0.125
+    },
+    "exclusive_class": "COVID-19",
+    "exclusive_class_share_of_errors": 0.125
+  },
+  "tbdb": {
+    "n": 349,
+    "recall_on_normal": 0.9971,
+    "n_errors": 1,
+    "error_counts": {
+      "Tuberculosis": 1
+    },
+    "error_distribution": {
+      "Tuberculosis": 1.0
+    },
+    "exclusive_class": "Tuberculosis",
+    "exclusive_class_share_of_errors": 1.0
+  }
+}

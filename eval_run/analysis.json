@@ -1,0 +1,167 @@
+{
+  "xray": {
+    "n_requested": 447,
+    "n_http_200": 436,
+    "n_non_200": 11,
+    "non_200_detail": [
+      [
+        [
+          422,
+          "This does not look like a chest X-ray. (feature-space distan"
+        ],
+        11
+      ]
+    ],
+    "confusion_matrix_rows_true_cols_pred": {
+      "COVID-19": {
+        "COVID-19": 332,
+        "Normal": 8,
+        "Pneumonia": 3,
+        "Tuberculosis": 5
+      },
+      "Normal": {
+        "COVID-19": 9,
+        "Normal": 29,
+        "Pneumonia": 0,
+        "Tuberculosis": 2
+      },
+      "Pneumonia": {
+        "COVID-19": 1,
+        "Normal": 1,
+        "Pneumonia": 23,
+        "Tuberculosis": 0
+      },
+      "Tuberculosis": {
+        "COVID-19": 8,
+        "Normal": 0,
+        "Pneumonia": 0,
+        "Tuberculosis": 15
+      }
+    },
+    "accuracy_on_200s": 0.9151,
+    "accuracy_counting_non200_as_wrong": 0.8926,
+    "per_class": {
+      "COVID-19": {
+        "n_tested": 348,
+        "tp": 332,
+        "precision": 0.9486,
+        "recall": 0.954,
+        "f1": 0.9513
+      },
+      "Normal": {
+        "n_tested": 40,
+        "tp": 29,
+        "precision": 0.7632,
+        "recall": 0.725,
+        "f1": 0.7436
+      },
+      "Pneumonia": {
+        "n_tested": 25,
+        "tp": 23,
+        "precision": 0.8846,
+        "recall": 0.92,
+        "f1": 0.902
+      },
+      "Tuberculosis": {
+        "n_tested": 23,
+        "tp": 15,
+        "precision": 0.6818,
+        "recall": 0.6522,
+        "f1": 0.6667
+      }
+    },
+    "macro_f1": 0.8159,
+    "latency_s": {
+      "n": 436,
+      "mean": 1.193,
+      "median": 1.241,
+      "p95": 1.516,
+      "min": 0.448,
+      "max": 2.016
+    },
+    "report_sources": {
+      "groq": 384,
+      "template_fallback": 52
+    },
+    "n_missing_heatmap": 0,
+    "n_missing_report": 0,
+    "n_with_warnings": 4,
+    "mean_confidence": 0.9397,
+    "pred_distribution": {
+      "COVID-19": 350,
+      "Normal": 38,
+      "Pneumonia": 26,
+      "Tuberculosis": 22
+    }
+  },
+  "ct": {
+    "n_requested": 62,
+    "n_http_200": 62,
+    "n_non_200": 0,
+    "non_200_detail": [],
+    "confusion_matrix_rows_true_cols_pred": {
+      "Benign": {
+        "Benign": 10,
+        "Malignant": 0,
+        "Normal": 2
+      },
+      "Malignant": {
+        "Benign": 0,
+        "Malignant": 25,
+        "Normal": 0
+      },
+      "Normal": {
+        "Benign": 0,
+        "Malignant": 0,
+        "Normal": 25
+      }
+    },
+    "accuracy_on_200s": 0.9677,
+    "accuracy_counting_non200_as_wrong": 0.9677,
+    "per_class": {
+      "Benign": {
+        "n_tested": 12,
+        "tp": 10,
+        "precision": 1.0,
+        "recall": 0.8333,
+        "f1": 0.9091
+      },
+      "Malignant": {
+        "n_tested": 25,
+        "tp": 25,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Normal": {
+        "n_tested": 25,
+        "tp": 25,
+        "precision": 0.9259,
+        "recall": 1.0,
+        "f1": 0.9615
+      }
+    },
+    "macro_f1": 0.9569,
+    "latency_s": {
+      "n": 62,
+      "mean": 1.051,
+      "median": 1.177,
+      "p95": 1.317,
+      "min": 0.463,
+      "max": 1.539
+    },
+    "report_sources": {
+      "groq": 47,
+      "template_fallback": 15
+    },
+    "n_missing_heatmap": 0,
+    "n_missing_report": 0,
+    "n_with_warnings": 2,
+    "mean_confidence": 0.9453,
+    "pred_distribution": {
+      "Benign": 10,
+      "Normal": 27,
+      "Malignant": 25
+    }
+  }
+}

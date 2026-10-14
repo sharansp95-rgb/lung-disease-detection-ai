@@ -1,0 +1,76 @@
+{
+  "baseline (unaltered)": {
+    "kept": 14,
+    "flipped": 0,
+    "rejected": 0,
+    "gates": {},
+    "n": 14
+  },
+  "resize 512 roundtrip": {
+    "kept": 14,
+    "flipped": 0,
+    "rejected": 0,
+    "gates": {},
+    "n": 14
+  },
+  "JPEG quality 60": {
+    "kept": 14,
+    "flipped": 0,
+    "rejected": 0,
+    "gates": {},
+    "n": 14
+  },
+  "black border 10%": {
+    "kept": 12,
+    "flipped": 2,
+    "rejected": 0,
+    "gates": {},
+    "n": 14
+  },
+  "gamma 0.7": {
+    "kept": 13,
+    "flipped": 1,
+    "rejected": 0,
+    "gates": {},
+    "n": 14
+  },
+  "gamma 1.4": {
+    "kept": 14,
+    "flipped": 0,
+    "rejected": 0,
+    "gates": {},
+    "n": 14
+  },
+  "contrast x0.7": {
+    "kept": 14,
+    "flipped": 0,
+    "rejected": 0,
+    "gates": {},
+    "n": 14
+  },
+  "contrast x1.4": {
+    "kept": 13,
+    "flipped": 1,
+    "rejected": 0,
+    "gates": {},
+    "n": 14
+  },
+  "intensity inverted": {
+    "kept": 11,
+    "flipped": 2,
+    "rejected": 1,
+    "gates": {
+      "MODALITY_GATE": 1
+    },
+    "n": 14
+  },
+  "histogram equalized": {
+    "kept": 9,
+    "flipped": 4,
+    "rejected": 1,
+    "gates": {
+      "SANITY_GATE": 1
+    },
+    "n": 14
+  }
+}

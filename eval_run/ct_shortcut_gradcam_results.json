@@ -1,0 +1,278 @@
+[
+  {
+    "file": "adenocarcinoma_000108.png",
+    "original_phase35_v2": {
+      "pred": "Malignant",
+      "conf": 0.9517,
+      "probs": {
+        "Benign": 0.0406,
+        "Malignant": 0.9517,
+        "Normal": 0.0077
+      },
+      "heatmap": "adenocarcinoma_000108__original_phase35_v2.png"
+    },
+    "retrained_phase36_normal_fix": {
+      "pred": "Normal",
+      "conf": 0.9731,
+      "probs": {
+        "Benign": 0.0221,
+        "Malignant": 0.0047,
+        "Normal": 0.9731
+      },
+      "heatmap": "adenocarcinoma_000108__retrained_phase36_normal_fix.png"
+    }
+  },
+  {
+    "file": "adenocarcinoma_000109.png",
+    "original_phase35_v2": {
+      "pred": "Malignant",
+      "conf": 0.9731,
+      "probs": {
+        "Benign": 0.0251,
+        "Malignant": 0.9731,
+        "Normal": 0.0018
+      },
+      "heatmap": "adenocarcinoma_000109__original_phase35_v2.png"
+    },
+    "retrained_phase36_normal_fix": {
+      "pred": "Normal",
+      "conf": 0.7785,
+      "probs": {
+        "Benign": 0.0121,
+        "Malignant": 0.2094,
+        "Normal": 0.7785
+      },
+      "heatmap": "adenocarcinoma_000109__retrained_phase36_normal_fix.png"
+    }
+  },
+  {
+    "file": "adenocarcinoma_000112.png",
+    "original_phase35_v2": {
+      "pred": "Malignant",
+      "conf": 0.9873,
+      "probs": {
+        "Benign": 0.0106,
+        "Malignant": 0.9873,
+        "Normal": 0.0021
+      },
+      "heatmap": "adenocarcinoma_000112__original_phase35_v2.png"
+    },
+    "retrained_phase36_normal_fix": {
+      "pred": "Normal",
+      "conf": 0.9872,
+      "probs": {
+        "Benign": 0.0044,
+        "Malignant": 0.0084,
+        "Normal": 0.9872
+      },
+      "heatmap": "adenocarcinoma_000112__retrained_phase36_normal_fix.png"
+    }
+  },
+  {
+    "file": "adenocarcinoma_000113.png",
+    "original_phase35_v2": {
+      "pred": "Malignant",
+      "conf": 0.9834,
+      "probs": {
+        "Benign": 0.0118,
+        "Malignant": 0.9834,
+        "Normal": 0.0048
+      },
+      "heatmap": "adenocarcinoma_000113__original_phase35_v2.png"
+    },
+    "retrained_phase36_normal_fix": {
+      "pred": "Normal",
+      "conf": 0.983,
+      "probs": {
+        "Benign": 0.0072,
+        "Malignant": 0.0098,
+        "Normal": 0.983
+      },
+      "heatmap": "adenocarcinoma_000113__retrained_phase36_normal_fix.png"
+    }
+  },
+  {
+    "file": "large_cell_000108.png",
+    "original_phase35_v2": {
+      "pred": "Malignant",
+      "conf": 0.7759,
+      "probs": {
+        "Benign": 0.2154,
+        "Malignant": 0.7759,
+        "Normal": 0.0087
+      },
+      "heatmap": "large_cell_000108__original_phase35_v2.png"
+    },
+    "retrained_phase36_normal_fix": {
+      "pred": "Normal",
+      "conf": 0.7937,
+      "probs": {
+        "Benign": 0.2056,
+        "Malignant": 0.0007,
+        "Normal": 0.7937
+      },
+      "heatmap": "large_cell_000108__retrained_phase36_normal_fix.png"
+    }
+  },
+  {
+    "file": "large_cell_000110.png",
+    "original_phase35_v2": {
+      "pred": "Malignant",
+      "conf": 0.9889,
+      "probs": {
+        "Benign": 0.0091,
+        "Malignant": 0.9889,
+        "Normal": 0.002
+      },
+      "heatmap": "large_cell_000110__original_phase35_v2.png"
+    },
+    "retrained_phase36_normal_fix": {
+      "pred": "Normal",
+      "conf": 0.7917,
+      "probs": {
+        "Benign": 0.0064,
+        "Malignant": 0.2019,
+        "Normal": 0.7917
+      },
+      "heatmap": "large_cell_000110__retrained_phase36_normal_fix.png"
+    }
+  },
+  {
+    "file": "large_cell_000111.png",
+    "original_phase35_v2": {
+      "pred": "Malignant",
+      "conf": 0.7481,
+      "probs": {
+        "Benign": 0.2436,
+        "Malignant": 0.7481,
+        "Normal": 0.0083
+      },
+      "heatmap": "large_cell_000111__original_phase35_v2.png"
+    },
+    "retrained_phase36_normal_fix": {
+      "pred": "Normal",
+      "conf": 0.8486,
+      "probs": {
+        "Benign": 0.1506,
+        "Malignant": 0.0008,
+        "Normal": 0.8486
+      },
+      "heatmap": "large_cell_000111__retrained_phase36_normal_fix.png"
+    }
+  },
+  {
+    "file": "large_cell_000113.png",
+    "original_phase35_v2": {
+      "pred": "Malignant",
+      "conf": 0.882,
+      "probs": {
+        "Benign": 0.1118,
+        "Malignant": 0.882,
+        "Normal": 0.0062
+      },
+      "heatmap": "large_cell_000113__original_phase35_v2.png"
+    },
+    "retrained_phase36_normal_fix": {
+      "pred": "Normal",
+      "conf": 0.912,
+      "probs": {
+        "Benign": 0.087,
+        "Malignant": 0.001,
+        "Normal": 0.912
+      },
+      "heatmap": "large_cell_000113__retrained_phase36_normal_fix.png"
+    }
+  },
+  {
+    "file": "squamous_000108.png",
+    "original_phase35_v2": {
+      "pred": "Malignant",
+      "conf": 0.9232,
+      "probs": {
+        "Benign": 0.0717,
+        "Malignant": 0.9232,
+        "Normal": 0.0051
+      },
+      "heatmap": "squamous_000108__original_phase35_v2.png"
+    },
+    "retrained_phase36_normal_fix": {
+      "pred": "Normal",
+      "conf": 0.9198,
+      "probs": {
+        "Benign": 0.0792,
+        "Malignant": 0.001,
+        "Normal": 0.9198
+      },
+      "heatmap": "squamous_000108__retrained_phase36_normal_fix.png"
+    }
+  },
+  {
+    "file": "squamous_000110.png",
+    "original_phase35_v2": {
+      "pred": "Malignant",
+      "conf": 0.9768,
+      "probs": {
+        "Benign": 0.0219,
+        "Malignant": 0.9768,
+        "Normal": 0.0013
+      },
+      "heatmap": "squamous_000110__original_phase35_v2.png"
+    },
+    "retrained_phase36_normal_fix": {
+      "pred": "Normal",
+      "conf": 0.8359,
+      "probs": {
+        "Benign": 0.0315,
+        "Malignant": 0.1326,
+        "Normal": 0.8359
+      },
+      "heatmap": "squamous_000110__retrained_phase36_normal_fix.png"
+    }
+  },
+  {
+    "file": "squamous_000111.png",
+    "original_phase35_v2": {
+      "pred": "Malignant",
+      "conf": 0.9937,
+      "probs": {
+        "Benign": 0.0052,
+        "Malignant": 0.9937,
+        "Normal": 0.0011
+      },
+      "heatmap": "squamous_000111__original_phase35_v2.png"
+    },
+    "retrained_phase36_normal_fix": {
+      "pred": "Normal",
+      "conf": 0.3872,
+      "probs": {
+        "Benign": 0.368,
+        "Malignant": 0.2448,
+        "Normal": 0.3872
+      },
+      "heatmap": "squamous_000111__retrained_phase36_normal_fix.png"
+    }
+  },
+  {
+    "file": "squamous_000112.png",
+    "original_phase35_v2": {
+      "pred": "Malignant",
+      "conf": 0.9908,
+      "probs": {
+        "Benign": 0.0072,
+        "Malignant": 0.9908,
+        "Normal": 0.002
+      },
+      "heatmap": "squamous_000112__original_phase35_v2.png"
+    },
+    "retrained_phase36_normal_fix": {
+      "pred": "Normal",
+      "conf": 0.8965,
+      "probs": {
+        "Benign": 0.0153,
+        "Malignant": 0.0882,
+        "Normal": 0.8965
+      },
+      "heatmap": "squamous_000112__retrained_phase36_normal_fix.png"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+@startuml
+!include style.iuml
+skinparam defaultFontSize 12
+autonumber
+actor User
+participant "React UI" as UI
+participant "FastAPI" as API
+participant "Sanity &\nmodality gates" as GT
+participant "U-Net crop" as SEG
+participant "DenseNet-121\n+ Grad-CAM" as CLS
+participant "Groq LLM" as LLM
+database "SQLite" as DB
+User -> UI : choose X-ray, upload
+UI -> API : POST /predict/xray (file + JWT)
+API -> API : validate size, blank, colour
+API -> GT : sanity gate, modality gate
+GT --> API : scan, "xray" (p >= 0.90)
+API -> SEG : compute_lung_crop(image)
+SEG --> API : cropped 224x224
+API -> CLS : OOD distance, then classify
+CLS --> API : probabilities + heatmap
+API -> LLM : generate report
+LLM --> API : plain-language text
+API -> DB : INSERT scan
+API --> UI : 200 PredictionResponse
+UI --> User : class, heatmap, report
+alt any check fails
+  API --> UI : 400 / 413 / 422 + reason
+end
+@enduml

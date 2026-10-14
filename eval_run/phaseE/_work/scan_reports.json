@@ -1,0 +1,5742 @@
+[
+ {
+  "series_dir": "D:\\7th sem\\sdp\\eval_run\\phaseD\\_work\\volumes\\LIDC-IDRI-0657",
+  "series": {
+   "n_slices": 413,
+   "shape_xyz": [
+    512,
+    512,
+    413
+   ],
+   "pixel_spacing": [
+    0.703125,
+    0.703125
+   ],
+   "slice_spacing_mm": 0.625,
+   "manufacturer": "GE MEDICAL SYSTEMS",
+   "resampled_shape": [
+    512,
+    512,
+    207
+   ]
+  },
+  "config": {
+   "roi": [
+    192,
+    192,
+    80
+   ],
+   "overlap": 0.25,
+   "device": "cuda",
+   "crop_mm": 28.0,
+   "classifier": {
+    "file": "ct_lidc_nodulecrop_v2_jitter.pt",
+    "epoch": 15,
+    "val_acc": 0.849802371541502,
+    "val_balanced_acc": 0.8179189584700005,
+    "class_names": [
+     "Benign",
+     "Malignant",
+     "Normal"
+    ]
+   }
+  },
+  "timings": {
+   "read_and_resample_sec": 18.1,
+   "detect_sec": 26.8,
+   "classify_sec": 0.4,
+   "total_sec": 45.4
+  },
+  "resources": {
+   "gpu_after_detect": {
+    "allocated_gb": 0.104,
+    "peak_allocated_gb": 0.719,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "gpu_end": {
+    "allocated_gb": 0.136,
+    "peak_allocated_gb": 0.719,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "host_rss_gb": 2.34,
+   "host_rss_peak_gb": 5.05
+  },
+  "n_raw_detections": 12,
+  "candidates": [
+   {
+    "candidate_id": "c00",
+    "detector_score": 0.9843,
+    "center_ras_mm": [
+     36.8,
+     -81.5,
+     -74.3
+    ],
+    "box_size_mm": [
+     5.1,
+     5.1,
+     5.1
+    ],
+    "crop": {
+     "slice_index": 295,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.113340205006955246848409270180",
+     "center_row": 360.04,
+     "center_col": 161.5,
+     "dz_to_slice_mm": 0.18,
+     "px_mm": 0.7031,
+     "box": [
+      340,
+      142,
+      380,
+      182
+     ]
+    },
+    "probs": [
+     0.9552,
+     0.0384,
+     0.0063
+    ],
+    "pred": "Benign",
+    "confidence": 0.9552
+   },
+   {
+    "candidate_id": "c01",
+    "detector_score": 0.4533,
+    "center_ras_mm": [
+     -9.8,
+     70.8,
+     -145.6
+    ],
+    "box_size_mm": [
+     3.9,
+     3.9,
+     3.7
+    ],
+    "crop": {
+     "slice_index": 181,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.186600291489285569911249991274",
+     "center_row": 143.48,
+     "center_col": 227.79,
+     "dz_to_slice_mm": 0.18,
+     "px_mm": 0.7031,
+     "box": [
+      123,
+      208,
+      163,
+      248
+     ]
+    },
+    "probs": [
+     0.9574,
+     0.0036,
+     0.039
+    ],
+    "pred": "Benign",
+    "confidence": 0.9574
+   },
+   {
+    "candidate_id": "c02",
+    "detector_score": 0.3674,
+    "center_ras_mm": [
+     -114.9,
+     -73.9,
+     -173.7
+    ],
+    "box_size_mm": [
+     5.9,
+     5.9,
+     5.6
+    ],
+    "crop": {
+     "slice_index": 136,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.257664622806725288954643369586",
+     "center_row": 349.32,
+     "center_col": 377.38,
+     "dz_to_slice_mm": 0.16,
+     "px_mm": 0.7031,
+     "box": [
+      329,
+      357,
+      369,
+      397
+     ]
+    },
+    "probs": [
+     0.0218,
+     0.0068,
+     0.9714
+    ],
+    "pred": "Normal",
+    "confidence": 0.9714
+   }
+  ],
+  "reports": {
+   "0.5": {
+    "threshold": 0.5,
+    "scan_call": "Benign",
+    "n_candidates": 1,
+    "driver": "c00",
+    "max_p_malignant": 0.0384,
+    "counts": {
+     "Benign": 1,
+     "Malignant": 0,
+     "Normal": 0
+    },
+    "candidates": [
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.9843,
+      "center_ras_mm": [
+       36.8,
+       -81.5,
+       -74.3
+      ],
+      "box_size_mm": [
+       5.1,
+       5.1,
+       5.1
+      ],
+      "crop": {
+       "slice_index": 295,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.113340205006955246848409270180",
+       "center_row": 360.04,
+       "center_col": 161.5,
+       "dz_to_slice_mm": 0.18,
+       "px_mm": 0.7031,
+       "box": [
+        340,
+        142,
+        380,
+        182
+       ]
+      },
+      "probs": [
+       0.9552,
+       0.0384,
+       0.0063
+      ],
+      "pred": "Benign",
+      "confidence": 0.9552
+     }
+    ]
+   },
+   "0.3": {
+    "threshold": 0.3,
+    "scan_call": "Benign",
+    "n_candidates": 3,
+    "driver": "c00",
+    "max_p_malignant": 0.0384,
+    "counts": {
+     "Benign": 2,
+     "Malignant": 0,
+     "Normal": 1
+    },
+    "candidates": [
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.9843,
+      "center_ras_mm": [
+       36.8,
+       -81.5,
+       -74.3
+      ],
+      "box_size_mm": [
+       5.1,
+       5.1,
+       5.1
+      ],
+      "crop": {
+       "slice_index": 295,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.113340205006955246848409270180",
+       "center_row": 360.04,
+       "center_col": 161.5,
+       "dz_to_slice_mm": 0.18,
+       "px_mm": 0.7031,
+       "box": [
+        340,
+        142,
+        380,
+        182
+       ]
+      },
+      "probs": [
+       0.9552,
+       0.0384,
+       0.0063
+      ],
+      "pred": "Benign",
+      "confidence": 0.9552
+     },
+     {
+      "candidate_id": "c02",
+      "detector_score": 0.3674,
+      "center_ras_mm": [
+       -114.9,
+       -73.9,
+       -173.7
+      ],
+      "box_size_mm": [
+       5.9,
+       5.9,
+       5.6
+      ],
+      "crop": {
+       "slice_index": 136,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.257664622806725288954643369586",
+       "center_row": 349.32,
+       "center_col": 377.38,
+       "dz_to_slice_mm": 0.16,
+       "px_mm": 0.7031,
+       "box": [
+        329,
+        357,
+        369,
+        397
+       ]
+      },
+      "probs": [
+       0.0218,
+       0.0068,
+       0.9714
+      ],
+      "pred": "Normal",
+      "confidence": 0.9714
+     },
+     {
+      "candidate_id": "c01",
+      "detector_score": 0.4533,
+      "center_ras_mm": [
+       -9.8,
+       70.8,
+       -145.6
+      ],
+      "box_size_mm": [
+       3.9,
+       3.9,
+       3.7
+      ],
+      "crop": {
+       "slice_index": 181,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.186600291489285569911249991274",
+       "center_row": 143.48,
+       "center_col": 227.79,
+       "dz_to_slice_mm": 0.18,
+       "px_mm": 0.7031,
+       "box": [
+        123,
+        208,
+        163,
+        248
+       ]
+      },
+      "probs": [
+       0.9574,
+       0.0036,
+       0.039
+      ],
+      "pred": "Benign",
+      "confidence": 0.9574
+     }
+    ]
+   }
+  }
+ },
+ {
+  "series_dir": "D:\\7th sem\\sdp\\eval_run\\phaseD\\_work\\volumes\\LIDC-IDRI-0828",
+  "series": {
+   "n_slices": 255,
+   "shape_xyz": [
+    512,
+    512,
+    255
+   ],
+   "pixel_spacing": [
+    0.625,
+    0.625
+   ],
+   "slice_spacing_mm": 1.25,
+   "manufacturer": "GE MEDICAL SYSTEMS",
+   "resampled_shape": [
+    455,
+    455,
+    255
+   ]
+  },
+  "config": {
+   "roi": [
+    192,
+    192,
+    80
+   ],
+   "overlap": 0.25,
+   "device": "cuda",
+   "crop_mm": 28.0,
+   "classifier": {
+    "file": "ct_lidc_nodulecrop_v2_jitter.pt",
+    "epoch": 15,
+    "val_acc": 0.849802371541502,
+    "val_balanced_acc": 0.8179189584700005,
+    "class_names": [
+     "Benign",
+     "Malignant",
+     "Normal"
+    ]
+   }
+  },
+  "timings": {
+   "read_and_resample_sec": 7.3,
+   "detect_sec": 14.9,
+   "classify_sec": 0.2,
+   "total_sec": 22.4
+  },
+  "resources": {
+   "gpu_after_detect": {
+    "allocated_gb": 0.136,
+    "peak_allocated_gb": 0.751,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "gpu_end": {
+    "allocated_gb": 0.136,
+    "peak_allocated_gb": 0.751,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "host_rss_gb": 5.5,
+   "host_rss_peak_gb": 5.56
+  },
+  "n_raw_detections": 5,
+  "candidates": [
+   {
+    "candidate_id": "c00",
+    "detector_score": 0.9891,
+    "center_ras_mm": [
+     -105.6,
+     -61.9,
+     -168.8
+    ],
+    "box_size_mm": [
+     4.8,
+     4.8,
+     4.7
+    ],
+    "crop": {
+     "slice_index": 133,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.316382807082713539079728207267",
+     "center_row": 335.83,
+     "center_col": 417.44,
+     "dz_to_slice_mm": 0.58,
+     "px_mm": 0.625,
+     "box": [
+      314,
+      395,
+      358,
+      439
+     ]
+    },
+    "probs": [
+     0.4723,
+     0.5272,
+     0.0005
+    ],
+    "pred": "Malignant",
+    "confidence": 0.5272
+   },
+   {
+    "candidate_id": "c01",
+    "detector_score": 0.9252,
+    "center_ras_mm": [
+     50.8,
+     -55.0,
+     -206.9
+    ],
+    "box_size_mm": [
+     5.1,
+     5.1,
+     5.2
+    ],
+    "crop": {
+     "slice_index": 103,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.169557587923860566362081250979",
+     "center_row": 324.81,
+     "center_col": 167.15,
+     "dz_to_slice_mm": -0.11,
+     "px_mm": 0.625,
+     "box": [
+      303,
+      145,
+      347,
+      189
+     ]
+    },
+    "probs": [
+     0.2919,
+     0.0385,
+     0.6696
+    ],
+    "pred": "Normal",
+    "confidence": 0.6696
+   }
+  ],
+  "reports": {
+   "0.5": {
+    "threshold": 0.5,
+    "scan_call": "Malignant",
+    "n_candidates": 2,
+    "driver": "c00",
+    "max_p_malignant": 0.5272,
+    "counts": {
+     "Benign": 0,
+     "Malignant": 1,
+     "Normal": 1
+    },
+    "candidates": [
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.9891,
+      "center_ras_mm": [
+       -105.6,
+       -61.9,
+       -168.8
+      ],
+      "box_size_mm": [
+       4.8,
+       4.8,
+       4.7
+      ],
+      "crop": {
+       "slice_index": 133,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.316382807082713539079728207267",
+       "center_row": 335.83,
+       "center_col": 417.44,
+       "dz_to_slice_mm": 0.58,
+       "px_mm": 0.625,
+       "box": [
+        314,
+        395,
+        358,
+        439
+       ]
+      },
+      "probs": [
+       0.4723,
+       0.5272,
+       0.0005
+      ],
+      "pred": "Malignant",
+      "confidence": 0.5272
+     },
+     {
+      "candidate_id": "c01",
+      "detector_score": 0.9252,
+      "center_ras_mm": [
+       50.8,
+       -55.0,
+       -206.9
+      ],
+      "box_size_mm": [
+       5.1,
+       5.1,
+       5.2
+      ],
+      "crop": {
+       "slice_index": 103,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.169557587923860566362081250979",
+       "center_row": 324.81,
+       "center_col": 167.15,
+       "dz_to_slice_mm": -0.11,
+       "px_mm": 0.625,
+       "box": [
+        303,
+        145,
+        347,
+        189
+       ]
+      },
+      "probs": [
+       0.2919,
+       0.0385,
+       0.6696
+      ],
+      "pred": "Normal",
+      "confidence": 0.6696
+     }
+    ]
+   },
+   "0.3": {
+    "threshold": 0.3,
+    "scan_call": "Malignant",
+    "n_candidates": 2,
+    "driver": "c00",
+    "max_p_malignant": 0.5272,
+    "counts": {
+     "Benign": 0,
+     "Malignant": 1,
+     "Normal": 1
+    },
+    "candidates": [
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.9891,
+      "center_ras_mm": [
+       -105.6,
+       -61.9,
+       -168.8
+      ],
+      "box_size_mm": [
+       4.8,
+       4.8,
+       4.7
+      ],
+      "crop": {
+       "slice_index": 133,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.316382807082713539079728207267",
+       "center_row": 335.83,
+       "center_col": 417.44,
+       "dz_to_slice_mm": 0.58,
+       "px_mm": 0.625,
+       "box": [
+        314,
+        395,
+        358,
+        439
+       ]
+      },
+      "probs": [
+       0.4723,
+       0.5272,
+       0.0005
+      ],
+      "pred": "Malignant",
+      "confidence": 0.5272
+     },
+     {
+      "candidate_id": "c01",
+      "detector_score": 0.9252,
+      "center_ras_mm": [
+       50.8,
+       -55.0,
+       -206.9
+      ],
+      "box_size_mm": [
+       5.1,
+       5.1,
+       5.2
+      ],
+      "crop": {
+       "slice_index": 103,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.169557587923860566362081250979",
+       "center_row": 324.81,
+       "center_col": 167.15,
+       "dz_to_slice_mm": -0.11,
+       "px_mm": 0.625,
+       "box": [
+        303,
+        145,
+        347,
+        189
+       ]
+      },
+      "probs": [
+       0.2919,
+       0.0385,
+       0.6696
+      ],
+      "pred": "Normal",
+      "confidence": 0.6696
+     }
+    ]
+   }
+  }
+ },
+ {
+  "series_dir": "D:\\7th sem\\sdp\\eval_run\\phaseD\\_work\\volumes\\LIDC-IDRI-0059",
+  "series": {
+   "n_slices": 133,
+   "shape_xyz": [
+    512,
+    512,
+    133
+   ],
+   "pixel_spacing": [
+    0.703125,
+    0.703125
+   ],
+   "slice_spacing_mm": 2.5,
+   "manufacturer": "GE MEDICAL SYSTEMS",
+   "resampled_shape": [
+    512,
+    512,
+    265
+   ]
+  },
+  "config": {
+   "roi": [
+    192,
+    192,
+    80
+   ],
+   "overlap": 0.25,
+   "device": "cuda",
+   "crop_mm": 28.0,
+   "classifier": {
+    "file": "ct_lidc_nodulecrop_v2_jitter.pt",
+    "epoch": 15,
+    "val_acc": 0.849802371541502,
+    "val_balanced_acc": 0.8179189584700005,
+    "class_names": [
+     "Benign",
+     "Malignant",
+     "Normal"
+    ]
+   }
+  },
+  "timings": {
+   "read_and_resample_sec": 6.6,
+   "detect_sec": 32.9,
+   "classify_sec": 0.0,
+   "total_sec": 39.5
+  },
+  "resources": {
+   "gpu_after_detect": {
+    "allocated_gb": 0.136,
+    "peak_allocated_gb": 0.751,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "gpu_end": {
+    "allocated_gb": 0.136,
+    "peak_allocated_gb": 0.751,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "host_rss_gb": 3.52,
+   "host_rss_peak_gb": 6.04
+  },
+  "n_raw_detections": 12,
+  "candidates": [
+   {
+    "candidate_id": "c00",
+    "detector_score": 0.9885,
+    "center_ras_mm": [
+     -31.6,
+     -85.3,
+     -99.1
+    ],
+    "box_size_mm": [
+     9.0,
+     10.4,
+     10.3
+    ],
+    "crop": {
+     "slice_index": 102,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.276510521741860354277968386678",
+     "center_row": 377.33,
+     "center_col": 320.19,
+     "dz_to_slice_mm": -0.78,
+     "px_mm": 0.7031,
+     "box": [
+      357,
+      300,
+      397,
+      340
+     ]
+    },
+    "probs": [
+     0.053,
+     0.9464,
+     0.0006
+    ],
+    "pred": "Malignant",
+    "confidence": 0.9464
+   },
+   {
+    "candidate_id": "c01",
+    "detector_score": 0.8047,
+    "center_ras_mm": [
+     94.9,
+     50.9,
+     -191.1
+    ],
+    "box_size_mm": [
+     5.3,
+     5.4,
+     5.6
+    ],
+    "crop": {
+     "slice_index": 65,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.324914566736836146703311314730",
+     "center_row": 183.64,
+     "center_col": 140.25,
+     "dz_to_slice_mm": -0.31,
+     "px_mm": 0.7031,
+     "box": [
+      164,
+      120,
+      204,
+      160
+     ]
+    },
+    "probs": [
+     0.8996,
+     0.0134,
+     0.087
+    ],
+    "pred": "Benign",
+    "confidence": 0.8996
+   },
+   {
+    "candidate_id": "c02",
+    "detector_score": 0.3448,
+    "center_ras_mm": [
+     46.8,
+     -40.0,
+     -94.7
+    ],
+    "box_size_mm": [
+     4.4,
+     4.4,
+     4.2
+    ],
+    "crop": {
+     "slice_index": 103,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.556911758518483576920939455225",
+     "center_row": 312.93,
+     "center_col": 208.66,
+     "dz_to_slice_mm": 1.14,
+     "px_mm": 0.7031,
+     "box": [
+      293,
+      189,
+      333,
+      229
+     ]
+    },
+    "probs": [
+     0.5949,
+     0.002,
+     0.4031
+    ],
+    "pred": "Benign",
+    "confidence": 0.5949
+   }
+  ],
+  "reports": {
+   "0.5": {
+    "threshold": 0.5,
+    "scan_call": "Malignant",
+    "n_candidates": 2,
+    "driver": "c00",
+    "max_p_malignant": 0.9464,
+    "counts": {
+     "Benign": 1,
+     "Malignant": 1,
+     "Normal": 0
+    },
+    "candidates": [
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.9885,
+      "center_ras_mm": [
+       -31.6,
+       -85.3,
+       -99.1
+      ],
+      "box_size_mm": [
+       9.0,
+       10.4,
+       10.3
+      ],
+      "crop": {
+       "slice_index": 102,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.276510521741860354277968386678",
+       "center_row": 377.33,
+       "center_col": 320.19,
+       "dz_to_slice_mm": -0.78,
+       "px_mm": 0.7031,
+       "box": [
+        357,
+        300,
+        397,
+        340
+       ]
+      },
+      "probs": [
+       0.053,
+       0.9464,
+       0.0006
+      ],
+      "pred": "Malignant",
+      "confidence": 0.9464
+     },
+     {
+      "candidate_id": "c01",
+      "detector_score": 0.8047,
+      "center_ras_mm": [
+       94.9,
+       50.9,
+       -191.1
+      ],
+      "box_size_mm": [
+       5.3,
+       5.4,
+       5.6
+      ],
+      "crop": {
+       "slice_index": 65,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.324914566736836146703311314730",
+       "center_row": 183.64,
+       "center_col": 140.25,
+       "dz_to_slice_mm": -0.31,
+       "px_mm": 0.7031,
+       "box": [
+        164,
+        120,
+        204,
+        160
+       ]
+      },
+      "probs": [
+       0.8996,
+       0.0134,
+       0.087
+      ],
+      "pred": "Benign",
+      "confidence": 0.8996
+     }
+    ]
+   },
+   "0.3": {
+    "threshold": 0.3,
+    "scan_call": "Malignant",
+    "n_candidates": 3,
+    "driver": "c00",
+    "max_p_malignant": 0.9464,
+    "counts": {
+     "Benign": 2,
+     "Malignant": 1,
+     "Normal": 0
+    },
+    "candidates": [
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.9885,
+      "center_ras_mm": [
+       -31.6,
+       -85.3,
+       -99.1
+      ],
+      "box_size_mm": [
+       9.0,
+       10.4,
+       10.3
+      ],
+      "crop": {
+       "slice_index": 102,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.276510521741860354277968386678",
+       "center_row": 377.33,
+       "center_col": 320.19,
+       "dz_to_slice_mm": -0.78,
+       "px_mm": 0.7031,
+       "box": [
+        357,
+        300,
+        397,
+        340
+       ]
+      },
+      "probs": [
+       0.053,
+       0.9464,
+       0.0006
+      ],
+      "pred": "Malignant",
+      "confidence": 0.9464
+     },
+     {
+      "candidate_id": "c01",
+      "detector_score": 0.8047,
+      "center_ras_mm": [
+       94.9,
+       50.9,
+       -191.1
+      ],
+      "box_size_mm": [
+       5.3,
+       5.4,
+       5.6
+      ],
+      "crop": {
+       "slice_index": 65,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.324914566736836146703311314730",
+       "center_row": 183.64,
+       "center_col": 140.25,
+       "dz_to_slice_mm": -0.31,
+       "px_mm": 0.7031,
+       "box": [
+        164,
+        120,
+        204,
+        160
+       ]
+      },
+      "probs": [
+       0.8996,
+       0.0134,
+       0.087
+      ],
+      "pred": "Benign",
+      "confidence": 0.8996
+     },
+     {
+      "candidate_id": "c02",
+      "detector_score": 0.3448,
+      "center_ras_mm": [
+       46.8,
+       -40.0,
+       -94.7
+      ],
+      "box_size_mm": [
+       4.4,
+       4.4,
+       4.2
+      ],
+      "crop": {
+       "slice_index": 103,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.556911758518483576920939455225",
+       "center_row": 312.93,
+       "center_col": 208.66,
+       "dz_to_slice_mm": 1.14,
+       "px_mm": 0.7031,
+       "box": [
+        293,
+        189,
+        333,
+        229
+       ]
+      },
+      "probs": [
+       0.5949,
+       0.002,
+       0.4031
+      ],
+      "pred": "Benign",
+      "confidence": 0.5949
+     }
+    ]
+   }
+  }
+ },
+ {
+  "series_dir": "D:\\7th sem\\sdp\\eval_run\\phaseD\\_work\\volumes\\LIDC-IDRI-0670",
+  "series": {
+   "n_slices": 172,
+   "shape_xyz": [
+    512,
+    512,
+    172
+   ],
+   "pixel_spacing": [
+    0.60546875,
+    0.60546875
+   ],
+   "slice_spacing_mm": 1.8,
+   "manufacturer": "SIEMENS",
+   "resampled_shape": [
+    441,
+    441,
+    247
+   ]
+  },
+  "config": {
+   "roi": [
+    192,
+    192,
+    80
+   ],
+   "overlap": 0.25,
+   "device": "cuda",
+   "crop_mm": 28.0,
+   "classifier": {
+    "file": "ct_lidc_nodulecrop_v2_jitter.pt",
+    "epoch": 15,
+    "val_acc": 0.849802371541502,
+    "val_balanced_acc": 0.8179189584700005,
+    "class_names": [
+     "Benign",
+     "Malignant",
+     "Normal"
+    ]
+   }
+  },
+  "timings": {
+   "read_and_resample_sec": 3.4,
+   "detect_sec": 15.1,
+   "classify_sec": 0.0,
+   "total_sec": 18.5
+  },
+  "resources": {
+   "gpu_after_detect": {
+    "allocated_gb": 0.136,
+    "peak_allocated_gb": 0.751,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "gpu_end": {
+    "allocated_gb": 0.136,
+    "peak_allocated_gb": 0.751,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "host_rss_gb": 4.81,
+   "host_rss_peak_gb": 6.04
+  },
+  "n_raw_detections": 9,
+  "candidates": [
+   {
+    "candidate_id": "c00",
+    "detector_score": 0.6067,
+    "center_ras_mm": [
+     28.5,
+     179.5,
+     -137.2
+    ],
+    "box_size_mm": [
+     7.3,
+     7.3,
+     7.4
+    ],
+    "crop": {
+     "slice_index": 128,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.265727767099863099388547196749",
+     "center_row": 234.86,
+     "center_col": 185.23,
+     "dz_to_slice_mm": 0.21,
+     "px_mm": 0.6055,
+     "box": [
+      212,
+      162,
+      258,
+      208
+     ]
+    },
+    "probs": [
+     0.12,
+     0.0277,
+     0.8523
+    ],
+    "pred": "Normal",
+    "confidence": 0.8523
+   },
+   {
+    "candidate_id": "c01",
+    "detector_score": 0.3538,
+    "center_ras_mm": [
+     37.5,
+     179.8,
+     -247.2
+    ],
+    "box_size_mm": [
+     4.5,
+     4.5,
+     4.5
+    ],
+    "crop": {
+     "slice_index": 67,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.240986788301635188002527528984",
+     "center_row": 234.34,
+     "center_col": 170.42,
+     "dz_to_slice_mm": 0.02,
+     "px_mm": 0.6055,
+     "box": [
+      211,
+      147,
+      257,
+      193
+     ]
+    },
+    "probs": [
+     0.0389,
+     0.0177,
+     0.9434
+    ],
+    "pred": "Normal",
+    "confidence": 0.9434
+   }
+  ],
+  "reports": {
+   "0.5": {
+    "threshold": 0.5,
+    "scan_call": "No nodule confirmed (all candidates classified Normal)",
+    "n_candidates": 1,
+    "driver": "c00",
+    "max_p_malignant": 0.0277,
+    "counts": {
+     "Benign": 0,
+     "Malignant": 0,
+     "Normal": 1
+    },
+    "candidates": [
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.6067,
+      "center_ras_mm": [
+       28.5,
+       179.5,
+       -137.2
+      ],
+      "box_size_mm": [
+       7.3,
+       7.3,
+       7.4
+      ],
+      "crop": {
+       "slice_index": 128,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.265727767099863099388547196749",
+       "center_row": 234.86,
+       "center_col": 185.23,
+       "dz_to_slice_mm": 0.21,
+       "px_mm": 0.6055,
+       "box": [
+        212,
+        162,
+        258,
+        208
+       ]
+      },
+      "probs": [
+       0.12,
+       0.0277,
+       0.8523
+      ],
+      "pred": "Normal",
+      "confidence": 0.8523
+     }
+    ]
+   },
+   "0.3": {
+    "threshold": 0.3,
+    "scan_call": "No nodule confirmed (all candidates classified Normal)",
+    "n_candidates": 2,
+    "driver": "c00",
+    "max_p_malignant": 0.0277,
+    "counts": {
+     "Benign": 0,
+     "Malignant": 0,
+     "Normal": 2
+    },
+    "candidates": [
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.6067,
+      "center_ras_mm": [
+       28.5,
+       179.5,
+       -137.2
+      ],
+      "box_size_mm": [
+       7.3,
+       7.3,
+       7.4
+      ],
+      "crop": {
+       "slice_index": 128,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.265727767099863099388547196749",
+       "center_row": 234.86,
+       "center_col": 185.23,
+       "dz_to_slice_mm": 0.21,
+       "px_mm": 0.6055,
+       "box": [
+        212,
+        162,
+        258,
+        208
+       ]
+      },
+      "probs": [
+       0.12,
+       0.0277,
+       0.8523
+      ],
+      "pred": "Normal",
+      "confidence": 0.8523
+     },
+     {
+      "candidate_id": "c01",
+      "detector_score": 0.3538,
+      "center_ras_mm": [
+       37.5,
+       179.8,
+       -247.2
+      ],
+      "box_size_mm": [
+       4.5,
+       4.5,
+       4.5
+      ],
+      "crop": {
+       "slice_index": 67,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.240986788301635188002527528984",
+       "center_row": 234.34,
+       "center_col": 170.42,
+       "dz_to_slice_mm": 0.02,
+       "px_mm": 0.6055,
+       "box": [
+        211,
+        147,
+        257,
+        193
+       ]
+      },
+      "probs": [
+       0.0389,
+       0.0177,
+       0.9434
+      ],
+      "pred": "Normal",
+      "confidence": 0.9434
+     }
+    ]
+   }
+  }
+ },
+ {
+  "series_dir": "D:\\7th sem\\sdp\\eval_run\\phaseD\\_work\\volumes\\LIDC-IDRI-0182",
+  "series": {
+   "n_slices": 133,
+   "shape_xyz": [
+    512,
+    512,
+    133
+   ],
+   "pixel_spacing": [
+    0.703125,
+    0.703125
+   ],
+   "slice_spacing_mm": 2.5,
+   "manufacturer": "GE MEDICAL SYSTEMS",
+   "resampled_shape": [
+    512,
+    512,
+    265
+   ]
+  },
+  "config": {
+   "roi": [
+    192,
+    192,
+    80
+   ],
+   "overlap": 0.25,
+   "device": "cuda",
+   "crop_mm": 28.0,
+   "classifier": {
+    "file": "ct_lidc_nodulecrop_v2_jitter.pt",
+    "epoch": 15,
+    "val_acc": 0.849802371541502,
+    "val_balanced_acc": 0.8179189584700005,
+    "class_names": [
+     "Benign",
+     "Malignant",
+     "Normal"
+    ]
+   }
+  },
+  "timings": {
+   "read_and_resample_sec": 4.6,
+   "detect_sec": 32.9,
+   "classify_sec": 0.2,
+   "total_sec": 37.7
+  },
+  "resources": {
+   "gpu_after_detect": {
+    "allocated_gb": 0.136,
+    "peak_allocated_gb": 0.751,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "gpu_end": {
+    "allocated_gb": 0.136,
+    "peak_allocated_gb": 0.751,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "host_rss_gb": 5.05,
+   "host_rss_peak_gb": 6.99
+  },
+  "n_raw_detections": 8,
+  "candidates": [
+   {
+    "candidate_id": "c00",
+    "detector_score": 0.9989,
+    "center_ras_mm": [
+     -78.8,
+     -51.7,
+     -148.5
+    ],
+    "box_size_mm": [
+     9.8,
+     9.8,
+     9.9
+    ],
+    "crop": {
+     "slice_index": 77,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.175065559711471148223644504960",
+     "center_row": 283.94,
+     "center_col": 350.38,
+     "dz_to_slice_mm": 0.54,
+     "px_mm": 0.7031,
+     "box": [
+      264,
+      330,
+      304,
+      370
+     ]
+    },
+    "probs": [
+     0.0434,
+     0.9477,
+     0.0089
+    ],
+    "pred": "Malignant",
+    "confidence": 0.9477
+   },
+   {
+    "candidate_id": "c01",
+    "detector_score": 0.7677,
+    "center_ras_mm": [
+     71.6,
+     -55.1,
+     -198.6
+    ],
+    "box_size_mm": [
+     6.4,
+     6.4,
+     6.6
+    ],
+    "crop": {
+     "slice_index": 57,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.289979932474807830821414000081",
+     "center_row": 288.75,
+     "center_col": 136.47,
+     "dz_to_slice_mm": 0.37,
+     "px_mm": 0.7031,
+     "box": [
+      269,
+      116,
+      309,
+      156
+     ]
+    },
+    "probs": [
+     0.4671,
+     0.0013,
+     0.5316
+    ],
+    "pred": "Normal",
+    "confidence": 0.5316
+   },
+   {
+    "candidate_id": "c02",
+    "detector_score": 0.6704,
+    "center_ras_mm": [
+     56.2,
+     -108.2,
+     -204.6
+    ],
+    "box_size_mm": [
+     5.9,
+     3.2,
+     6.0
+    ],
+    "crop": {
+     "slice_index": 55,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.185221503896588746661244160550",
+     "center_row": 364.23,
+     "center_col": 158.46,
+     "dz_to_slice_mm": -0.59,
+     "px_mm": 0.7031,
+     "box": [
+      344,
+      138,
+      384,
+      178
+     ]
+    },
+    "probs": [
+     0.8864,
+     0.0718,
+     0.0417
+    ],
+    "pred": "Benign",
+    "confidence": 0.8864
+   },
+   {
+    "candidate_id": "c03",
+    "detector_score": 0.5013,
+    "center_ras_mm": [
+     -65.8,
+     37.7,
+     -166.6
+    ],
+    "box_size_mm": [
+     5.2,
+     5.3,
+     5.4
+    ],
+    "crop": {
+     "slice_index": 70,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280420365107163765312977576045",
+     "center_row": 156.74,
+     "center_col": 332.01,
+     "dz_to_slice_mm": -0.05,
+     "px_mm": 0.7031,
+     "box": [
+      137,
+      312,
+      177,
+      352
+     ]
+    },
+    "probs": [
+     0.8918,
+     0.0076,
+     0.1005
+    ],
+    "pred": "Benign",
+    "confidence": 0.8918
+   }
+  ],
+  "reports": {
+   "0.5": {
+    "threshold": 0.5,
+    "scan_call": "Malignant",
+    "n_candidates": 4,
+    "driver": "c00",
+    "max_p_malignant": 0.9477,
+    "counts": {
+     "Benign": 2,
+     "Malignant": 1,
+     "Normal": 1
+    },
+    "candidates": [
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.9989,
+      "center_ras_mm": [
+       -78.8,
+       -51.7,
+       -148.5
+      ],
+      "box_size_mm": [
+       9.8,
+       9.8,
+       9.9
+      ],
+      "crop": {
+       "slice_index": 77,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.175065559711471148223644504960",
+       "center_row": 283.94,
+       "center_col": 350.38,
+       "dz_to_slice_mm": 0.54,
+       "px_mm": 0.7031,
+       "box": [
+        264,
+        330,
+        304,
+        370
+       ]
+      },
+      "probs": [
+       0.0434,
+       0.9477,
+       0.0089
+      ],
+      "pred": "Malignant",
+      "confidence": 0.9477
+     },
+     {
+      "candidate_id": "c02",
+      "detector_score": 0.6704,
+      "center_ras_mm": [
+       56.2,
+       -108.2,
+       -204.6
+      ],
+      "box_size_mm": [
+       5.9,
+       3.2,
+       6.0
+      ],
+      "crop": {
+       "slice_index": 55,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.185221503896588746661244160550",
+       "center_row": 364.23,
+       "center_col": 158.46,
+       "dz_to_slice_mm": -0.59,
+       "px_mm": 0.7031,
+       "box": [
+        344,
+        138,
+        384,
+        178
+       ]
+      },
+      "probs": [
+       0.8864,
+       0.0718,
+       0.0417
+      ],
+      "pred": "Benign",
+      "confidence": 0.8864
+     },
+     {
+      "candidate_id": "c03",
+      "detector_score": 0.5013,
+      "center_ras_mm": [
+       -65.8,
+       37.7,
+       -166.6
+      ],
+      "box_size_mm": [
+       5.2,
+       5.3,
+       5.4
+      ],
+      "crop": {
+       "slice_index": 70,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280420365107163765312977576045",
+       "center_row": 156.74,
+       "center_col": 332.01,
+       "dz_to_slice_mm": -0.05,
+       "px_mm": 0.7031,
+       "box": [
+        137,
+        312,
+        177,
+        352
+       ]
+      },
+      "probs": [
+       0.8918,
+       0.0076,
+       0.1005
+      ],
+      "pred": "Benign",
+      "confidence": 0.8918
+     },
+     {
+      "candidate_id": "c01",
+      "detector_score": 0.7677,
+      "center_ras_mm": [
+       71.6,
+       -55.1,
+       -198.6
+      ],
+      "box_size_mm": [
+       6.4,
+       6.4,
+       6.6
+      ],
+      "crop": {
+       "slice_index": 57,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.289979932474807830821414000081",
+       "center_row": 288.75,
+       "center_col": 136.47,
+       "dz_to_slice_mm": 0.37,
+       "px_mm": 0.7031,
+       "box": [
+        269,
+        116,
+        309,
+        156
+       ]
+      },
+      "probs": [
+       0.4671,
+       0.0013,
+       0.5316
+      ],
+      "pred": "Normal",
+      "confidence": 0.5316
+     }
+    ]
+   },
+   "0.3": {
+    "threshold": 0.3,
+    "scan_call": "Malignant",
+    "n_candidates": 4,
+    "driver": "c00",
+    "max_p_malignant": 0.9477,
+    "counts": {
+     "Benign": 2,
+     "Malignant": 1,
+     "Normal": 1
+    },
+    "candidates": [
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.9989,
+      "center_ras_mm": [
+       -78.8,
+       -51.7,
+       -148.5
+      ],
+      "box_size_mm": [
+       9.8,
+       9.8,
+       9.9
+      ],
+      "crop": {
+       "slice_index": 77,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.175065559711471148223644504960",
+       "center_row": 283.94,
+       "center_col": 350.38,
+       "dz_to_slice_mm": 0.54,
+       "px_mm": 0.7031,
+       "box": [
+        264,
+        330,
+        304,
+        370
+       ]
+      },
+      "probs": [
+       0.0434,
+       0.9477,
+       0.0089
+      ],
+      "pred": "Malignant",
+      "confidence": 0.9477
+     },
+     {
+      "candidate_id": "c02",
+      "detector_score": 0.6704,
+      "center_ras_mm": [
+       56.2,
+       -108.2,
+       -204.6
+      ],
+      "box_size_mm": [
+       5.9,
+       3.2,
+       6.0
+      ],
+      "crop": {
+       "slice_index": 55,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.185221503896588746661244160550",
+       "center_row": 364.23,
+       "center_col": 158.46,
+       "dz_to_slice_mm": -0.59,
+       "px_mm": 0.7031,
+       "box": [
+        344,
+        138,
+        384,
+        178
+       ]
+      },
+      "probs": [
+       0.8864,
+       0.0718,
+       0.0417
+      ],
+      "pred": "Benign",
+      "confidence": 0.8864
+     },
+     {
+      "candidate_id": "c03",
+      "detector_score": 0.5013,
+      "center_ras_mm": [
+       -65.8,
+       37.7,
+       -166.6
+      ],
+      "box_size_mm": [
+       5.2,
+       5.3,
+       5.4
+      ],
+      "crop": {
+       "slice_index": 70,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.280420365107163765312977576045",
+       "center_row": 156.74,
+       "center_col": 332.01,
+       "dz_to_slice_mm": -0.05,
+       "px_mm": 0.7031,
+       "box": [
+        137,
+        312,
+        177,
+        352
+       ]
+      },
+      "probs": [
+       0.8918,
+       0.0076,
+       0.1005
+      ],
+      "pred": "Benign",
+      "confidence": 0.8918
+     },
+     {
+      "candidate_id": "c01",
+      "detector_score": 0.7677,
+      "center_ras_mm": [
+       71.6,
+       -55.1,
+       -198.6
+      ],
+      "box_size_mm": [
+       6.4,
+       6.4,
+       6.6
+      ],
+      "crop": {
+       "slice_index": 57,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.289979932474807830821414000081",
+       "center_row": 288.75,
+       "center_col": 136.47,
+       "dz_to_slice_mm": 0.37,
+       "px_mm": 0.7031,
+       "box": [
+        269,
+        116,
+        309,
+        156
+       ]
+      },
+      "probs": [
+       0.4671,
+       0.0013,
+       0.5316
+      ],
+      "pred": "Normal",
+      "confidence": 0.5316
+     }
+    ]
+   }
+  }
+ },
+ {
+  "series_dir": "D:\\7th sem\\sdp\\eval_run\\phaseD\\_work\\volumes\\LIDC-IDRI-0586",
+  "series": {
+   "n_slices": 120,
+   "shape_xyz": [
+    512,
+    512,
+    120
+   ],
+   "pixel_spacing": [
+    0.576172,
+    0.576172
+   ],
+   "slice_spacing_mm": 2.5,
+   "manufacturer": "GE MEDICAL SYSTEMS",
+   "resampled_shape": [
+    420,
+    420,
+    239
+   ]
+  },
+  "config": {
+   "roi": [
+    192,
+    192,
+    80
+   ],
+   "overlap": 0.25,
+   "device": "cuda",
+   "crop_mm": 28.0,
+   "classifier": {
+    "file": "ct_lidc_nodulecrop_v2_jitter.pt",
+    "epoch": 15,
+    "val_acc": 0.849802371541502,
+    "val_balanced_acc": 0.8179189584700005,
+    "class_names": [
+     "Benign",
+     "Malignant",
+     "Normal"
+    ]
+   }
+  },
+  "timings": {
+   "read_and_resample_sec": 4.9,
+   "detect_sec": 15.0,
+   "classify_sec": 0.2,
+   "total_sec": 20.0
+  },
+  "resources": {
+   "gpu_after_detect": {
+    "allocated_gb": 0.136,
+    "peak_allocated_gb": 0.751,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "gpu_end": {
+    "allocated_gb": 0.136,
+    "peak_allocated_gb": 0.751,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "host_rss_gb": 5.24,
+   "host_rss_peak_gb": 6.99
+  },
+  "n_raw_detections": 15,
+  "candidates": [
+   {
+    "candidate_id": "c00",
+    "detector_score": 0.9395,
+    "center_ras_mm": [
+     79.0,
+     -42.9,
+     -148.7
+    ],
+    "box_size_mm": [
+     5.1,
+     5.2,
+     5.2
+    ],
+    "crop": {
+     "slice_index": 70,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.155017317466806191706981672708",
+     "center_row": 324.13,
+     "center_col": 127.87,
+     "dz_to_slice_mm": 0.63,
+     "px_mm": 0.5762,
+     "box": [
+      300,
+      104,
+      348,
+      152
+     ]
+    },
+    "probs": [
+     0.9437,
+     0.0335,
+     0.0229
+    ],
+    "pred": "Benign",
+    "confidence": 0.9437
+   },
+   {
+    "candidate_id": "c01",
+    "detector_score": 0.9289,
+    "center_ras_mm": [
+     -91.9,
+     -12.4,
+     -217.9
+    ],
+    "box_size_mm": [
+     4.4,
+     4.5,
+     4.4
+    ],
+    "crop": {
+     "slice_index": 43,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.147854342714257195876187411114",
+     "center_row": 271.29,
+     "center_col": 424.57,
+     "dz_to_slice_mm": -1.15,
+     "px_mm": 0.5762,
+     "box": [
+      247,
+      401,
+      295,
+      449
+     ]
+    },
+    "probs": [
+     0.9108,
+     0.059,
+     0.0302
+    ],
+    "pred": "Benign",
+    "confidence": 0.9108
+   },
+   {
+    "candidate_id": "c02",
+    "detector_score": 0.8374,
+    "center_ras_mm": [
+     109.5,
+     -7.9,
+     -230.2
+    ],
+    "box_size_mm": [
+     4.7,
+     4.7,
+     4.7
+    ],
+    "crop": {
+     "slice_index": 38,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.980012618695764274399977804925",
+     "center_row": 263.43,
+     "center_col": 74.91,
+     "dz_to_slice_mm": -0.9,
+     "px_mm": 0.5762,
+     "box": [
+      239,
+      51,
+      287,
+      99
+     ]
+    },
+    "probs": [
+     0.9811,
+     0.0185,
+     0.0004
+    ],
+    "pred": "Benign",
+    "confidence": 0.9811
+   },
+   {
+    "candidate_id": "c03",
+    "detector_score": 0.586,
+    "center_ras_mm": [
+     -85.2,
+     47.6,
+     -195.8
+    ],
+    "box_size_mm": [
+     3.8,
+     3.9,
+     3.8
+    ],
+    "crop": {
+     "slice_index": 51,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.302060211818558535730844995055",
+     "center_row": 167.18,
+     "center_col": 412.95,
+     "dz_to_slice_mm": 0.98,
+     "px_mm": 0.5762,
+     "box": [
+      143,
+      389,
+      191,
+      437
+     ]
+    },
+    "probs": [
+     0.9739,
+     0.026,
+     0.0001
+    ],
+    "pred": "Benign",
+    "confidence": 0.9739
+   },
+   {
+    "candidate_id": "c04",
+    "detector_score": 0.521,
+    "center_ras_mm": [
+     39.8,
+     -47.2,
+     -67.7
+    ],
+    "box_size_mm": [
+     6.9,
+     3.7,
+     7.1
+    ],
+    "crop": {
+     "slice_index": 103,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.784436296713717367207602001833",
+     "center_row": 331.66,
+     "center_col": 195.87,
+     "dz_to_slice_mm": -0.92,
+     "px_mm": 0.5762,
+     "box": [
+      308,
+      172,
+      356,
+      220
+     ]
+    },
+    "probs": [
+     0.0152,
+     0.0071,
+     0.9777
+    ],
+    "pred": "Normal",
+    "confidence": 0.9777
+   }
+  ],
+  "reports": {
+   "0.5": {
+    "threshold": 0.5,
+    "scan_call": "Benign",
+    "n_candidates": 5,
+    "driver": "c01",
+    "max_p_malignant": 0.059,
+    "counts": {
+     "Benign": 4,
+     "Malignant": 0,
+     "Normal": 1
+    },
+    "candidates": [
+     {
+      "candidate_id": "c01",
+      "detector_score": 0.9289,
+      "center_ras_mm": [
+       -91.9,
+       -12.4,
+       -217.9
+      ],
+      "box_size_mm": [
+       4.4,
+       4.5,
+       4.4
+      ],
+      "crop": {
+       "slice_index": 43,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.147854342714257195876187411114",
+       "center_row": 271.29,
+       "center_col": 424.57,
+       "dz_to_slice_mm": -1.15,
+       "px_mm": 0.5762,
+       "box": [
+        247,
+        401,
+        295,
+        449
+       ]
+      },
+      "probs": [
+       0.9108,
+       0.059,
+       0.0302
+      ],
+      "pred": "Benign",
+      "confidence": 0.9108
+     },
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.9395,
+      "center_ras_mm": [
+       79.0,
+       -42.9,
+       -148.7
+      ],
+      "box_size_mm": [
+       5.1,
+       5.2,
+       5.2
+      ],
+      "crop": {
+       "slice_index": 70,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.155017317466806191706981672708",
+       "center_row": 324.13,
+       "center_col": 127.87,
+       "dz_to_slice_mm": 0.63,
+       "px_mm": 0.5762,
+       "box": [
+        300,
+        104,
+        348,
+        152
+       ]
+      },
+      "probs": [
+       0.9437,
+       0.0335,
+       0.0229
+      ],
+      "pred": "Benign",
+      "confidence": 0.9437
+     },
+     {
+      "candidate_id": "c03",
+      "detector_score": 0.586,
+      "center_ras_mm": [
+       -85.2,
+       47.6,
+       -195.8
+      ],
+      "box_size_mm": [
+       3.8,
+       3.9,
+       3.8
+      ],
+      "crop": {
+       "slice_index": 51,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.302060211818558535730844995055",
+       "center_row": 167.18,
+       "center_col": 412.95,
+       "dz_to_slice_mm": 0.98,
+       "px_mm": 0.5762,
+       "box": [
+        143,
+        389,
+        191,
+        437
+       ]
+      },
+      "probs": [
+       0.9739,
+       0.026,
+       0.0001
+      ],
+      "pred": "Benign",
+      "confidence": 0.9739
+     },
+     {
+      "candidate_id": "c02",
+      "detector_score": 0.8374,
+      "center_ras_mm": [
+       109.5,
+       -7.9,
+       -230.2
+      ],
+      "box_size_mm": [
+       4.7,
+       4.7,
+       4.7
+      ],
+      "crop": {
+       "slice_index": 38,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.980012618695764274399977804925",
+       "center_row": 263.43,
+       "center_col": 74.91,
+       "dz_to_slice_mm": -0.9,
+       "px_mm": 0.5762,
+       "box": [
+        239,
+        51,
+        287,
+        99
+       ]
+      },
+      "probs": [
+       0.9811,
+       0.0185,
+       0.0004
+      ],
+      "pred": "Benign",
+      "confidence": 0.9811
+     },
+     {
+      "candidate_id": "c04",
+      "detector_score": 0.521,
+      "center_ras_mm": [
+       39.8,
+       -47.2,
+       -67.7
+      ],
+      "box_size_mm": [
+       6.9,
+       3.7,
+       7.1
+      ],
+      "crop": {
+       "slice_index": 103,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.784436296713717367207602001833",
+       "center_row": 331.66,
+       "center_col": 195.87,
+       "dz_to_slice_mm": -0.92,
+       "px_mm": 0.5762,
+       "box": [
+        308,
+        172,
+        356,
+        220
+       ]
+      },
+      "probs": [
+       0.0152,
+       0.0071,
+       0.9777
+      ],
+      "pred": "Normal",
+      "confidence": 0.9777
+     }
+    ]
+   },
+   "0.3": {
+    "threshold": 0.3,
+    "scan_call": "Benign",
+    "n_candidates": 5,
+    "driver": "c01",
+    "max_p_malignant": 0.059,
+    "counts": {
+     "Benign": 4,
+     "Malignant": 0,
+     "Normal": 1
+    },
+    "candidates": [
+     {
+      "candidate_id": "c01",
+      "detector_score": 0.9289,
+      "center_ras_mm": [
+       -91.9,
+       -12.4,
+       -217.9
+      ],
+      "box_size_mm": [
+       4.4,
+       4.5,
+       4.4
+      ],
+      "crop": {
+       "slice_index": 43,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.147854342714257195876187411114",
+       "center_row": 271.29,
+       "center_col": 424.57,
+       "dz_to_slice_mm": -1.15,
+       "px_mm": 0.5762,
+       "box": [
+        247,
+        401,
+        295,
+        449
+       ]
+      },
+      "probs": [
+       0.9108,
+       0.059,
+       0.0302
+      ],
+      "pred": "Benign",
+      "confidence": 0.9108
+     },
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.9395,
+      "center_ras_mm": [
+       79.0,
+       -42.9,
+       -148.7
+      ],
+      "box_size_mm": [
+       5.1,
+       5.2,
+       5.2
+      ],
+      "crop": {
+       "slice_index": 70,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.155017317466806191706981672708",
+       "center_row": 324.13,
+       "center_col": 127.87,
+       "dz_to_slice_mm": 0.63,
+       "px_mm": 0.5762,
+       "box": [
+        300,
+        104,
+        348,
+        152
+       ]
+      },
+      "probs": [
+       0.9437,
+       0.0335,
+       0.0229
+      ],
+      "pred": "Benign",
+      "confidence": 0.9437
+     },
+     {
+      "candidate_id": "c03",
+      "detector_score": 0.586,
+      "center_ras_mm": [
+       -85.2,
+       47.6,
+       -195.8
+      ],
+      "box_size_mm": [
+       3.8,
+       3.9,
+       3.8
+      ],
+      "crop": {
+       "slice_index": 51,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.302060211818558535730844995055",
+       "center_row": 167.18,
+       "center_col": 412.95,
+       "dz_to_slice_mm": 0.98,
+       "px_mm": 0.5762,
+       "box": [
+        143,
+        389,
+        191,
+        437
+       ]
+      },
+      "probs": [
+       0.9739,
+       0.026,
+       0.0001
+      ],
+      "pred": "Benign",
+      "confidence": 0.9739
+     },
+     {
+      "candidate_id": "c02",
+      "detector_score": 0.8374,
+      "center_ras_mm": [
+       109.5,
+       -7.9,
+       -230.2
+      ],
+      "box_size_mm": [
+       4.7,
+       4.7,
+       4.7
+      ],
+      "crop": {
+       "slice_index": 38,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.980012618695764274399977804925",
+       "center_row": 263.43,
+       "center_col": 74.91,
+       "dz_to_slice_mm": -0.9,
+       "px_mm": 0.5762,
+       "box": [
+        239,
+        51,
+        287,
+        99
+       ]
+      },
+      "probs": [
+       0.9811,
+       0.0185,
+       0.0004
+      ],
+      "pred": "Benign",
+      "confidence": 0.9811
+     },
+     {
+      "candidate_id": "c04",
+      "detector_score": 0.521,
+      "center_ras_mm": [
+       39.8,
+       -47.2,
+       -67.7
+      ],
+      "box_size_mm": [
+       6.9,
+       3.7,
+       7.1
+      ],
+      "crop": {
+       "slice_index": 103,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.784436296713717367207602001833",
+       "center_row": 331.66,
+       "center_col": 195.87,
+       "dz_to_slice_mm": -0.92,
+       "px_mm": 0.5762,
+       "box": [
+        308,
+        172,
+        356,
+        220
+       ]
+      },
+      "probs": [
+       0.0152,
+       0.0071,
+       0.9777
+      ],
+      "pred": "Normal",
+      "confidence": 0.9777
+     }
+    ]
+   }
+  }
+ },
+ {
+  "series_dir": "D:\\7th sem\\sdp\\eval_run\\phaseD\\_work\\volumes\\LIDC-IDRI-0933",
+  "series": {
+   "n_slices": 179,
+   "shape_xyz": [
+    512,
+    512,
+    179
+   ],
+   "pixel_spacing": [
+    0.6640625,
+    0.6640625
+   ],
+   "slice_spacing_mm": 1.8,
+   "manufacturer": "SIEMENS",
+   "resampled_shape": [
+    484,
+    484,
+    257
+   ]
+  },
+  "config": {
+   "roi": [
+    192,
+    192,
+    80
+   ],
+   "overlap": 0.25,
+   "device": "cuda",
+   "crop_mm": 28.0,
+   "classifier": {
+    "file": "ct_lidc_nodulecrop_v2_jitter.pt",
+    "epoch": 15,
+    "val_acc": 0.849802371541502,
+    "val_balanced_acc": 0.8179189584700005,
+    "class_names": [
+     "Benign",
+     "Malignant",
+     "Normal"
+    ]
+   }
+  },
+  "timings": {
+   "read_and_resample_sec": 3.8,
+   "detect_sec": 33.5,
+   "classify_sec": 0.2,
+   "total_sec": 37.4
+  },
+  "resources": {
+   "gpu_after_detect": {
+    "allocated_gb": 0.136,
+    "peak_allocated_gb": 0.751,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "gpu_end": {
+    "allocated_gb": 0.136,
+    "peak_allocated_gb": 0.751,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "host_rss_gb": 5.77,
+   "host_rss_peak_gb": 6.99
+  },
+  "n_raw_detections": 26,
+  "candidates": [
+   {
+    "candidate_id": "c00",
+    "detector_score": 0.9965,
+    "center_ras_mm": [
+     65.6,
+     94.4,
+     -152.0
+    ],
+    "box_size_mm": [
+     10.7,
+     10.8,
+     10.8
+    ],
+    "crop": {
+     "slice_index": 114,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.218194830680823118139767856072",
+     "center_row": 319.72,
+     "center_col": 150.72,
+     "dz_to_slice_mm": -0.32,
+     "px_mm": 0.6641,
+     "box": [
+      299,
+      130,
+      341,
+      172
+     ]
+    },
+    "probs": [
+     0.715,
+     0.2408,
+     0.0443
+    ],
+    "pred": "Benign",
+    "confidence": 0.715
+   },
+   {
+    "candidate_id": "c01",
+    "detector_score": 0.9954,
+    "center_ras_mm": [
+     92.2,
+     160.6,
+     -179.6
+    ],
+    "box_size_mm": [
+     6.2,
+     6.2,
+     6.2
+    ],
+    "crop": {
+     "slice_index": 98,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.375828953458542848639196772211",
+     "center_row": 220.02,
+     "center_col": 110.59,
+     "dz_to_slice_mm": 0.87,
+     "px_mm": 0.6641,
+     "box": [
+      199,
+      90,
+      241,
+      132
+     ]
+    },
+    "probs": [
+     0.9905,
+     0.0047,
+     0.0048
+    ],
+    "pred": "Benign",
+    "confidence": 0.9905
+   },
+   {
+    "candidate_id": "c02",
+    "detector_score": 0.9894,
+    "center_ras_mm": [
+     -109.1,
+     227.1,
+     -183.2
+    ],
+    "box_size_mm": [
+     5.1,
+     5.1,
+     5.0
+    ],
+    "crop": {
+     "slice_index": 96,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.518426408598648693559942284614",
+     "center_row": 119.81,
+     "center_col": 413.8,
+     "dz_to_slice_mm": 0.9,
+     "px_mm": 0.6641,
+     "box": [
+      99,
+      393,
+      141,
+      435
+     ]
+    },
+    "probs": [
+     0.9866,
+     0.0131,
+     0.0003
+    ],
+    "pred": "Benign",
+    "confidence": 0.9866
+   },
+   {
+    "candidate_id": "c03",
+    "detector_score": 0.9867,
+    "center_ras_mm": [
+     103.6,
+     185.2,
+     -192.8
+    ],
+    "box_size_mm": [
+     4.7,
+     4.7,
+     4.7
+    ],
+    "crop": {
+     "slice_index": 91,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.507391217665359470440748977317",
+     "center_row": 182.99,
+     "center_col": 93.51,
+     "dz_to_slice_mm": 0.28,
+     "px_mm": 0.6641,
+     "box": [
+      162,
+      73,
+      204,
+      115
+     ]
+    },
+    "probs": [
+     0.9885,
+     0.0017,
+     0.0099
+    ],
+    "pred": "Benign",
+    "confidence": 0.9885
+   },
+   {
+    "candidate_id": "c04",
+    "detector_score": 0.97,
+    "center_ras_mm": [
+     79.3,
+     239.1,
+     -187.6
+    ],
+    "box_size_mm": [
+     6.0,
+     6.0,
+     6.1
+    ],
+    "crop": {
+     "slice_index": 94,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.327736946460039476344499542466",
+     "center_row": 101.79,
+     "center_col": 130.05,
+     "dz_to_slice_mm": 0.06,
+     "px_mm": 0.6641,
+     "box": [
+      81,
+      109,
+      123,
+      151
+     ]
+    },
+    "probs": [
+     0.9365,
+     0.063,
+     0.0005
+    ],
+    "pred": "Benign",
+    "confidence": 0.9365
+   },
+   {
+    "candidate_id": "c05",
+    "detector_score": 0.7212,
+    "center_ras_mm": [
+     -112.1,
+     101.6,
+     -264.6
+    ],
+    "box_size_mm": [
+     4.2,
+     3.8,
+     4.0
+    ],
+    "crop": {
+     "slice_index": 51,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.294201324804578717113397246301",
+     "center_row": 308.75,
+     "center_col": 418.26,
+     "dz_to_slice_mm": 0.51,
+     "px_mm": 0.6641,
+     "box": [
+      288,
+      397,
+      330,
+      439
+     ]
+    },
+    "probs": [
+     0.9951,
+     0.0021,
+     0.0028
+    ],
+    "pred": "Benign",
+    "confidence": 0.9951
+   },
+   {
+    "candidate_id": "c06",
+    "detector_score": 0.721,
+    "center_ras_mm": [
+     -118.2,
+     168.9,
+     -202.1
+    ],
+    "box_size_mm": [
+     4.1,
+     4.1,
+     4.0
+    ],
+    "crop": {
+     "slice_index": 86,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.311319142596968227844759323358",
+     "center_row": 207.47,
+     "center_col": 427.46,
+     "dz_to_slice_mm": -0.03,
+     "px_mm": 0.6641,
+     "box": [
+      186,
+      406,
+      228,
+      448
+     ]
+    },
+    "probs": [
+     0.2708,
+     0.0031,
+     0.7261
+    ],
+    "pred": "Normal",
+    "confidence": 0.7261
+   },
+   {
+    "candidate_id": "c07",
+    "detector_score": 0.5977,
+    "center_ras_mm": [
+     50.3,
+     103.3,
+     -179.4
+    ],
+    "box_size_mm": [
+     4.9,
+     4.9,
+     5.0
+    ],
+    "crop": {
+     "slice_index": 99,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.113253491155495086408841564503",
+     "center_row": 306.2,
+     "center_col": 173.73,
+     "dz_to_slice_mm": -0.7,
+     "px_mm": 0.6641,
+     "box": [
+      285,
+      153,
+      327,
+      195
+     ]
+    },
+    "probs": [
+     0.7429,
+     0.1991,
+     0.058
+    ],
+    "pred": "Benign",
+    "confidence": 0.7429
+   },
+   {
+    "candidate_id": "c08",
+    "detector_score": 0.3835,
+    "center_ras_mm": [
+     30.3,
+     246.4,
+     -224.7
+    ],
+    "box_size_mm": [
+     3.1,
+     5.1,
+     5.0
+    ],
+    "crop": {
+     "slice_index": 73,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.868536641356025116241967467278",
+     "center_row": 90.73,
+     "center_col": 203.8,
+     "dz_to_slice_mm": 0.78,
+     "px_mm": 0.6641,
+     "box": [
+      70,
+      183,
+      112,
+      225
+     ]
+    },
+    "probs": [
+     0.1272,
+     0.3831,
+     0.4898
+    ],
+    "pred": "Normal",
+    "confidence": 0.4898
+   }
+  ],
+  "reports": {
+   "0.5": {
+    "threshold": 0.5,
+    "scan_call": "Benign",
+    "n_candidates": 8,
+    "driver": "c00",
+    "max_p_malignant": 0.2408,
+    "counts": {
+     "Benign": 7,
+     "Malignant": 0,
+     "Normal": 1
+    },
+    "candidates": [
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.9965,
+      "center_ras_mm": [
+       65.6,
+       94.4,
+       -152.0
+      ],
+      "box_size_mm": [
+       10.7,
+       10.8,
+       10.8
+      ],
+      "crop": {
+       "slice_index": 114,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.218194830680823118139767856072",
+       "center_row": 319.72,
+       "center_col": 150.72,
+       "dz_to_slice_mm": -0.32,
+       "px_mm": 0.6641,
+       "box": [
+        299,
+        130,
+        341,
+        172
+       ]
+      },
+      "probs": [
+       0.715,
+       0.2408,
+       0.0443
+      ],
+      "pred": "Benign",
+      "confidence": 0.715
+     },
+     {
+      "candidate_id": "c07",
+      "detector_score": 0.5977,
+      "center_ras_mm": [
+       50.3,
+       103.3,
+       -179.4
+      ],
+      "box_size_mm": [
+       4.9,
+       4.9,
+       5.0
+      ],
+      "crop": {
+       "slice_index": 99,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.113253491155495086408841564503",
+       "center_row": 306.2,
+       "center_col": 173.73,
+       "dz_to_slice_mm": -0.7,
+       "px_mm": 0.6641,
+       "box": [
+        285,
+        153,
+        327,
+        195
+       ]
+      },
+      "probs": [
+       0.7429,
+       0.1991,
+       0.058
+      ],
+      "pred": "Benign",
+      "confidence": 0.7429
+     },
+     {
+      "candidate_id": "c04",
+      "detector_score": 0.97,
+      "center_ras_mm": [
+       79.3,
+       239.1,
+       -187.6
+      ],
+      "box_size_mm": [
+       6.0,
+       6.0,
+       6.1
+      ],
+      "crop": {
+       "slice_index": 94,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.327736946460039476344499542466",
+       "center_row": 101.79,
+       "center_col": 130.05,
+       "dz_to_slice_mm": 0.06,
+       "px_mm": 0.6641,
+       "box": [
+        81,
+        109,
+        123,
+        151
+       ]
+      },
+      "probs": [
+       0.9365,
+       0.063,
+       0.0005
+      ],
+      "pred": "Benign",
+      "confidence": 0.9365
+     },
+     {
+      "candidate_id": "c02",
+      "detector_score": 0.9894,
+      "center_ras_mm": [
+       -109.1,
+       227.1,
+       -183.2
+      ],
+      "box_size_mm": [
+       5.1,
+       5.1,
+       5.0
+      ],
+      "crop": {
+       "slice_index": 96,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.518426408598648693559942284614",
+       "center_row": 119.81,
+       "center_col": 413.8,
+       "dz_to_slice_mm": 0.9,
+       "px_mm": 0.6641,
+       "box": [
+        99,
+        393,
+        141,
+        435
+       ]
+      },
+      "probs": [
+       0.9866,
+       0.0131,
+       0.0003
+      ],
+      "pred": "Benign",
+      "confidence": 0.9866
+     },
+     {
+      "candidate_id": "c01",
+      "detector_score": 0.9954,
+      "center_ras_mm": [
+       92.2,
+       160.6,
+       -179.6
+      ],
+      "box_size_mm": [
+       6.2,
+       6.2,
+       6.2
+      ],
+      "crop": {
+       "slice_index": 98,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.375828953458542848639196772211",
+       "center_row": 220.02,
+       "center_col": 110.59,
+       "dz_to_slice_mm": 0.87,
+       "px_mm": 0.6641,
+       "box": [
+        199,
+        90,
+        241,
+        132
+       ]
+      },
+      "probs": [
+       0.9905,
+       0.0047,
+       0.0048
+      ],
+      "pred": "Benign",
+      "confidence": 0.9905
+     },
+     {
+      "candidate_id": "c06",
+      "detector_score": 0.721,
+      "center_ras_mm": [
+       -118.2,
+       168.9,
+       -202.1
+      ],
+      "box_size_mm": [
+       4.1,
+       4.1,
+       4.0
+      ],
+      "crop": {
+       "slice_index": 86,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.311319142596968227844759323358",
+       "center_row": 207.47,
+       "center_col": 427.46,
+       "dz_to_slice_mm": -0.03,
+       "px_mm": 0.6641,
+       "box": [
+        186,
+        406,
+        228,
+        448
+       ]
+      },
+      "probs": [
+       0.2708,
+       0.0031,
+       0.7261
+      ],
+      "pred": "Normal",
+      "confidence": 0.7261
+     },
+     {
+      "candidate_id": "c05",
+      "detector_score": 0.7212,
+      "center_ras_mm": [
+       -112.1,
+       101.6,
+       -264.6
+      ],
+      "box_size_mm": [
+       4.2,
+       3.8,
+       4.0
+      ],
+      "crop": {
+       "slice_index": 51,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.294201324804578717113397246301",
+       "center_row": 308.75,
+       "center_col": 418.26,
+       "dz_to_slice_mm": 0.51,
+       "px_mm": 0.6641,
+       "box": [
+        288,
+        397,
+        330,
+        439
+       ]
+      },
+      "probs": [
+       0.9951,
+       0.0021,
+       0.0028
+      ],
+      "pred": "Benign",
+      "confidence": 0.9951
+     },
+     {
+      "candidate_id": "c03",
+      "detector_score": 0.9867,
+      "center_ras_mm": [
+       103.6,
+       185.2,
+       -192.8
+      ],
+      "box_size_mm": [
+       4.7,
+       4.7,
+       4.7
+      ],
+      "crop": {
+       "slice_index": 91,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.507391217665359470440748977317",
+       "center_row": 182.99,
+       "center_col": 93.51,
+       "dz_to_slice_mm": 0.28,
+       "px_mm": 0.6641,
+       "box": [
+        162,
+        73,
+        204,
+        115
+       ]
+      },
+      "probs": [
+       0.9885,
+       0.0017,
+       0.0099
+      ],
+      "pred": "Benign",
+      "confidence": 0.9885
+     }
+    ]
+   },
+   "0.3": {
+    "threshold": 0.3,
+    "scan_call": "Benign",
+    "n_candidates": 9,
+    "driver": "c08",
+    "max_p_malignant": 0.3831,
+    "counts": {
+     "Benign": 7,
+     "Malignant": 0,
+     "Normal": 2
+    },
+    "candidates": [
+     {
+      "candidate_id": "c08",
+      "detector_score": 0.3835,
+      "center_ras_mm": [
+       30.3,
+       246.4,
+       -224.7
+      ],
+      "box_size_mm": [
+       3.1,
+       5.1,
+       5.0
+      ],
+      "crop": {
+       "slice_index": 73,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.868536641356025116241967467278",
+       "center_row": 90.73,
+       "center_col": 203.8,
+       "dz_to_slice_mm": 0.78,
+       "px_mm": 0.6641,
+       "box": [
+        70,
+        183,
+        112,
+        225
+       ]
+      },
+      "probs": [
+       0.1272,
+       0.3831,
+       0.4898
+      ],
+      "pred": "Normal",
+      "confidence": 0.4898
+     },
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.9965,
+      "center_ras_mm": [
+       65.6,
+       94.4,
+       -152.0
+      ],
+      "box_size_mm": [
+       10.7,
+       10.8,
+       10.8
+      ],
+      "crop": {
+       "slice_index": 114,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.218194830680823118139767856072",
+       "center_row": 319.72,
+       "center_col": 150.72,
+       "dz_to_slice_mm": -0.32,
+       "px_mm": 0.6641,
+       "box": [
+        299,
+        130,
+        341,
+        172
+       ]
+      },
+      "probs": [
+       0.715,
+       0.2408,
+       0.0443
+      ],
+      "pred": "Benign",
+      "confidence": 0.715
+     },
+     {
+      "candidate_id": "c07",
+      "detector_score": 0.5977,
+      "center_ras_mm": [
+       50.3,
+       103.3,
+       -179.4
+      ],
+      "box_size_mm": [
+       4.9,
+       4.9,
+       5.0
+      ],
+      "crop": {
+       "slice_index": 99,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.113253491155495086408841564503",
+       "center_row": 306.2,
+       "center_col": 173.73,
+       "dz_to_slice_mm": -0.7,
+       "px_mm": 0.6641,
+       "box": [
+        285,
+        153,
+        327,
+        195
+       ]
+      },
+      "probs": [
+       0.7429,
+       0.1991,
+       0.058
+      ],
+      "pred": "Benign",
+      "confidence": 0.7429
+     },
+     {
+      "candidate_id": "c04",
+      "detector_score": 0.97,
+      "center_ras_mm": [
+       79.3,
+       239.1,
+       -187.6
+      ],
+      "box_size_mm": [
+       6.0,
+       6.0,
+       6.1
+      ],
+      "crop": {
+       "slice_index": 94,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.327736946460039476344499542466",
+       "center_row": 101.79,
+       "center_col": 130.05,
+       "dz_to_slice_mm": 0.06,
+       "px_mm": 0.6641,
+       "box": [
+        81,
+        109,
+        123,
+        151
+       ]
+      },
+      "probs": [
+       0.9365,
+       0.063,
+       0.0005
+      ],
+      "pred": "Benign",
+      "confidence": 0.9365
+     },
+     {
+      "candidate_id": "c02",
+      "detector_score": 0.9894,
+      "center_ras_mm": [
+       -109.1,
+       227.1,
+       -183.2
+      ],
+      "box_size_mm": [
+       5.1,
+       5.1,
+       5.0
+      ],
+      "crop": {
+       "slice_index": 96,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.518426408598648693559942284614",
+       "center_row": 119.81,
+       "center_col": 413.8,
+       "dz_to_slice_mm": 0.9,
+       "px_mm": 0.6641,
+       "box": [
+        99,
+        393,
+        141,
+        435
+       ]
+      },
+      "probs": [
+       0.9866,
+       0.0131,
+       0.0003
+      ],
+      "pred": "Benign",
+      "confidence": 0.9866
+     },
+     {
+      "candidate_id": "c01",
+      "detector_score": 0.9954,
+      "center_ras_mm": [
+       92.2,
+       160.6,
+       -179.6
+      ],
+      "box_size_mm": [
+       6.2,
+       6.2,
+       6.2
+      ],
+      "crop": {
+       "slice_index": 98,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.375828953458542848639196772211",
+       "center_row": 220.02,
+       "center_col": 110.59,
+       "dz_to_slice_mm": 0.87,
+       "px_mm": 0.6641,
+       "box": [
+        199,
+        90,
+        241,
+        132
+       ]
+      },
+      "probs": [
+       0.9905,
+       0.0047,
+       0.0048
+      ],
+      "pred": "Benign",
+      "confidence": 0.9905
+     },
+     {
+      "candidate_id": "c06",
+      "detector_score": 0.721,
+      "center_ras_mm": [
+       -118.2,
+       168.9,
+       -202.1
+      ],
+      "box_size_mm": [
+       4.1,
+       4.1,
+       4.0
+      ],
+      "crop": {
+       "slice_index": 86,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.311319142596968227844759323358",
+       "center_row": 207.47,
+       "center_col": 427.46,
+       "dz_to_slice_mm": -0.03,
+       "px_mm": 0.6641,
+       "box": [
+        186,
+        406,
+        228,
+        448
+       ]
+      },
+      "probs": [
+       0.2708,
+       0.0031,
+       0.7261
+      ],
+      "pred": "Normal",
+      "confidence": 0.7261
+     },
+     {
+      "candidate_id": "c05",
+      "detector_score": 0.7212,
+      "center_ras_mm": [
+       -112.1,
+       101.6,
+       -264.6
+      ],
+      "box_size_mm": [
+       4.2,
+       3.8,
+       4.0
+      ],
+      "crop": {
+       "slice_index": 51,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.294201324804578717113397246301",
+       "center_row": 308.75,
+       "center_col": 418.26,
+       "dz_to_slice_mm": 0.51,
+       "px_mm": 0.6641,
+       "box": [
+        288,
+        397,
+        330,
+        439
+       ]
+      },
+      "probs": [
+       0.9951,
+       0.0021,
+       0.0028
+      ],
+      "pred": "Benign",
+      "confidence": 0.9951
+     },
+     {
+      "candidate_id": "c03",
+      "detector_score": 0.9867,
+      "center_ras_mm": [
+       103.6,
+       185.2,
+       -192.8
+      ],
+      "box_size_mm": [
+       4.7,
+       4.7,
+       4.7
+      ],
+      "crop": {
+       "slice_index": 91,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.507391217665359470440748977317",
+       "center_row": 182.99,
+       "center_col": 93.51,
+       "dz_to_slice_mm": 0.28,
+       "px_mm": 0.6641,
+       "box": [
+        162,
+        73,
+        204,
+        115
+       ]
+      },
+      "probs": [
+       0.9885,
+       0.0017,
+       0.0099
+      ],
+      "pred": "Benign",
+      "confidence": 0.9885
+     }
+    ]
+   }
+  }
+ },
+ {
+  "series_dir": "D:\\7th sem\\sdp\\eval_run\\phaseD\\_work\\volumes\\LIDC-IDRI-0648",
+  "series": {
+   "n_slices": 764,
+   "shape_xyz": [
+    512,
+    512,
+    764
+   ],
+   "pixel_spacing": [
+    0.646484375,
+    0.646484375
+   ],
+   "slice_spacing_mm": 0.5,
+   "manufacturer": "SIEMENS",
+   "resampled_shape": [
+    471,
+    471,
+    306
+   ]
+  },
+  "config": {
+   "roi": [
+    192,
+    192,
+    80
+   ],
+   "overlap": 0.25,
+   "device": "cuda",
+   "crop_mm": 28.0,
+   "classifier": {
+    "file": "ct_lidc_nodulecrop_v2_jitter.pt",
+    "epoch": 15,
+    "val_acc": 0.849802371541502,
+    "val_balanced_acc": 0.8179189584700005,
+    "class_names": [
+     "Benign",
+     "Malignant",
+     "Normal"
+    ]
+   }
+  },
+  "timings": {
+   "read_and_resample_sec": 15.1,
+   "detect_sec": 19.4,
+   "classify_sec": 0.1,
+   "total_sec": 34.7
+  },
+  "resources": {
+   "gpu_after_detect": {
+    "allocated_gb": 0.136,
+    "peak_allocated_gb": 0.751,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "gpu_end": {
+    "allocated_gb": 0.136,
+    "peak_allocated_gb": 0.751,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "host_rss_gb": 5.34,
+   "host_rss_peak_gb": 8.23
+  },
+  "n_raw_detections": 22,
+  "candidates": [
+   {
+    "candidate_id": "c00",
+    "detector_score": 0.9989,
+    "center_ras_mm": [
+     -14.2,
+     83.6,
+     -178.5
+    ],
+    "box_size_mm": [
+     9.2,
+     9.2,
+     9.2
+    ],
+    "crop": {
+     "slice_index": 507,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.119285216262319482720346008708",
+     "center_row": 389.17,
+     "center_col": 289.86,
+     "dz_to_slice_mm": -0.02,
+     "px_mm": 0.6465,
+     "box": [
+      367,
+      268,
+      411,
+      312
+     ]
+    },
+    "probs": [
+     0.9986,
+     0.0004,
+     0.0009
+    ],
+    "pred": "Benign",
+    "confidence": 0.9986
+   },
+   {
+    "candidate_id": "c01",
+    "detector_score": 0.9143,
+    "center_ras_mm": [
+     -56.1,
+     94.4,
+     -186.1
+    ],
+    "box_size_mm": [
+     4.5,
+     4.5,
+     4.2
+    ],
+    "crop": {
+     "slice_index": 492,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.116162130731617253769689920904",
+     "center_row": 372.39,
+     "center_col": 354.66,
+     "dz_to_slice_mm": -0.15,
+     "px_mm": 0.6465,
+     "box": [
+      350,
+      333,
+      394,
+      377
+     ]
+    },
+    "probs": [
+     0.9823,
+     0.0072,
+     0.0106
+    ],
+    "pred": "Benign",
+    "confidence": 0.9823
+   },
+   {
+    "candidate_id": "c02",
+    "detector_score": 0.709,
+    "center_ras_mm": [
+     81.4,
+     101.0,
+     -97.8
+    ],
+    "box_size_mm": [
+     4.0,
+     4.0,
+     3.8
+    ],
+    "crop": {
+     "slice_index": 668,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.292082913321054125215546557702",
+     "center_row": 362.19,
+     "center_col": 142.0,
+     "dz_to_slice_mm": 0.23,
+     "px_mm": 0.6465,
+     "box": [
+      340,
+      120,
+      384,
+      164
+     ]
+    },
+    "probs": [
+     0.0222,
+     0.0351,
+     0.9427
+    ],
+    "pred": "Normal",
+    "confidence": 0.9427
+   },
+   {
+    "candidate_id": "c03",
+    "detector_score": 0.3975,
+    "center_ras_mm": [
+     95.6,
+     291.2,
+     -200.0
+    ],
+    "box_size_mm": [
+     4.8,
+     4.9,
+     4.8
+    ],
+    "crop": {
+     "slice_index": 464,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.244045383928135049734874646634",
+     "center_row": 67.99,
+     "center_col": 119.96,
+     "dz_to_slice_mm": -0.01,
+     "px_mm": 0.6465,
+     "box": [
+      46,
+      98,
+      90,
+      142
+     ]
+    },
+    "probs": [
+     0.0373,
+     0.1904,
+     0.7723
+    ],
+    "pred": "Normal",
+    "confidence": 0.7723
+   }
+  ],
+  "reports": {
+   "0.5": {
+    "threshold": 0.5,
+    "scan_call": "Benign",
+    "n_candidates": 3,
+    "driver": "c02",
+    "max_p_malignant": 0.0351,
+    "counts": {
+     "Benign": 2,
+     "Malignant": 0,
+     "Normal": 1
+    },
+    "candidates": [
+     {
+      "candidate_id": "c02",
+      "detector_score": 0.709,
+      "center_ras_mm": [
+       81.4,
+       101.0,
+       -97.8
+      ],
+      "box_size_mm": [
+       4.0,
+       4.0,
+       3.8
+      ],
+      "crop": {
+       "slice_index": 668,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.292082913321054125215546557702",
+       "center_row": 362.19,
+       "center_col": 142.0,
+       "dz_to_slice_mm": 0.23,
+       "px_mm": 0.6465,
+       "box": [
+        340,
+        120,
+        384,
+        164
+       ]
+      },
+      "probs": [
+       0.0222,
+       0.0351,
+       0.9427
+      ],
+      "pred": "Normal",
+      "confidence": 0.9427
+     },
+     {
+      "candidate_id": "c01",
+      "detector_score": 0.9143,
+      "center_ras_mm": [
+       -56.1,
+       94.4,
+       -186.1
+      ],
+      "box_size_mm": [
+       4.5,
+       4.5,
+       4.2
+      ],
+      "crop": {
+       "slice_index": 492,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.116162130731617253769689920904",
+       "center_row": 372.39,
+       "center_col": 354.66,
+       "dz_to_slice_mm": -0.15,
+       "px_mm": 0.6465,
+       "box": [
+        350,
+        333,
+        394,
+        377
+       ]
+      },
+      "probs": [
+       0.9823,
+       0.0072,
+       0.0106
+      ],
+      "pred": "Benign",
+      "confidence": 0.9823
+     },
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.9989,
+      "center_ras_mm": [
+       -14.2,
+       83.6,
+       -178.5
+      ],
+      "box_size_mm": [
+       9.2,
+       9.2,
+       9.2
+      ],
+      "crop": {
+       "slice_index": 507,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.119285216262319482720346008708",
+       "center_row": 389.17,
+       "center_col": 289.86,
+       "dz_to_slice_mm": -0.02,
+       "px_mm": 0.6465,
+       "box": [
+        367,
+        268,
+        411,
+        312
+       ]
+      },
+      "probs": [
+       0.9986,
+       0.0004,
+       0.0009
+      ],
+      "pred": "Benign",
+      "confidence": 0.9986
+     }
+    ]
+   },
+   "0.3": {
+    "threshold": 0.3,
+    "scan_call": "Benign",
+    "n_candidates": 4,
+    "driver": "c03",
+    "max_p_malignant": 0.1904,
+    "counts": {
+     "Benign": 2,
+     "Malignant": 0,
+     "Normal": 2
+    },
+    "candidates": [
+     {
+      "candidate_id": "c03",
+      "detector_score": 0.3975,
+      "center_ras_mm": [
+       95.6,
+       291.2,
+       -200.0
+      ],
+      "box_size_mm": [
+       4.8,
+       4.9,
+       4.8
+      ],
+      "crop": {
+       "slice_index": 464,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.244045383928135049734874646634",
+       "center_row": 67.99,
+       "center_col": 119.96,
+       "dz_to_slice_mm": -0.01,
+       "px_mm": 0.6465,
+       "box": [
+        46,
+        98,
+        90,
+        142
+       ]
+      },
+      "probs": [
+       0.0373,
+       0.1904,
+       0.7723
+      ],
+      "pred": "Normal",
+      "confidence": 0.7723
+     },
+     {
+      "candidate_id": "c02",
+      "detector_score": 0.709,
+      "center_ras_mm": [
+       81.4,
+       101.0,
+       -97.8
+      ],
+      "box_size_mm": [
+       4.0,
+       4.0,
+       3.8
+      ],
+      "crop": {
+       "slice_index": 668,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.292082913321054125215546557702",
+       "center_row": 362.19,
+       "center_col": 142.0,
+       "dz_to_slice_mm": 0.23,
+       "px_mm": 0.6465,
+       "box": [
+        340,
+        120,
+        384,
+        164
+       ]
+      },
+      "probs": [
+       0.0222,
+       0.0351,
+       0.9427
+      ],
+      "pred": "Normal",
+      "confidence": 0.9427
+     },
+     {
+      "candidate_id": "c01",
+      "detector_score": 0.9143,
+      "center_ras_mm": [
+       -56.1,
+       94.4,
+       -186.1
+      ],
+      "box_size_mm": [
+       4.5,
+       4.5,
+       4.2
+      ],
+      "crop": {
+       "slice_index": 492,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.116162130731617253769689920904",
+       "center_row": 372.39,
+       "center_col": 354.66,
+       "dz_to_slice_mm": -0.15,
+       "px_mm": 0.6465,
+       "box": [
+        350,
+        333,
+        394,
+        377
+       ]
+      },
+      "probs": [
+       0.9823,
+       0.0072,
+       0.0106
+      ],
+      "pred": "Benign",
+      "confidence": 0.9823
+     },
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.9989,
+      "center_ras_mm": [
+       -14.2,
+       83.6,
+       -178.5
+      ],
+      "box_size_mm": [
+       9.2,
+       9.2,
+       9.2
+      ],
+      "crop": {
+       "slice_index": 507,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.119285216262319482720346008708",
+       "center_row": 389.17,
+       "center_col": 289.86,
+       "dz_to_slice_mm": -0.02,
+       "px_mm": 0.6465,
+       "box": [
+        367,
+        268,
+        411,
+        312
+       ]
+      },
+      "probs": [
+       0.9986,
+       0.0004,
+       0.0009
+      ],
+      "pred": "Benign",
+      "confidence": 0.9986
+     }
+    ]
+   }
+  }
+ },
+ {
+  "series_dir": "D:\\7th sem\\sdp\\eval_run\\phaseD\\_work\\volumes\\LIDC-IDRI-0433",
+  "series": {
+   "n_slices": 305,
+   "shape_xyz": [
+    512,
+    512,
+    305
+   ],
+   "pixel_spacing": [
+    0.833984375,
+    0.833984375
+   ],
+   "slice_spacing_mm": 1.0,
+   "manufacturer": "Philips",
+   "resampled_shape": [
+    607,
+    607,
+    244
+   ]
+  },
+  "config": {
+   "roi": [
+    192,
+    192,
+    80
+   ],
+   "overlap": 0.25,
+   "device": "cuda",
+   "crop_mm": 28.0,
+   "classifier": {
+    "file": "ct_lidc_nodulecrop_v2_jitter.pt",
+    "epoch": 15,
+    "val_acc": 0.849802371541502,
+    "val_balanced_acc": 0.8179189584700005,
+    "class_names": [
+     "Benign",
+     "Malignant",
+     "Normal"
+    ]
+   }
+  },
+  "timings": {
+   "read_and_resample_sec": 11.5,
+   "detect_sec": 27.1,
+   "classify_sec": 0.1,
+   "total_sec": 38.8
+  },
+  "resources": {
+   "gpu_after_detect": {
+    "allocated_gb": 0.136,
+    "peak_allocated_gb": 0.751,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "gpu_end": {
+    "allocated_gb": 0.136,
+    "peak_allocated_gb": 0.751,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "host_rss_gb": 2.92,
+   "host_rss_peak_gb": 8.23
+  },
+  "n_raw_detections": 6,
+  "candidates": [
+   {
+    "candidate_id": "c00",
+    "detector_score": 0.9919,
+    "center_ras_mm": [
+     96.0,
+     -176.3,
+     -527.1
+    ],
+    "box_size_mm": [
+     5.1,
+     5.5,
+     5.6
+    ],
+    "crop": {
+     "slice_index": 189,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.200552294687596356035795325967",
+     "center_row": 353.54,
+     "center_col": 156.43,
+     "dz_to_slice_mm": -0.34,
+     "px_mm": 0.834,
+     "box": [
+      337,
+      139,
+      371,
+      173
+     ]
+    },
+    "probs": [
+     0.9747,
+     0.0017,
+     0.0236
+    ],
+    "pred": "Benign",
+    "confidence": 0.9747
+   },
+   {
+    "candidate_id": "c01",
+    "detector_score": 0.9724,
+    "center_ras_mm": [
+     -83.1,
+     -181.7,
+     -553.0
+    ],
+    "box_size_mm": [
+     5.5,
+     5.6,
+     5.6
+    ],
+    "crop": {
+     "slice_index": 163,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.321750002649169540417655901028",
+     "center_row": 359.9,
+     "center_col": 371.21,
+     "dz_to_slice_mm": -0.21,
+     "px_mm": 0.834,
+     "box": [
+      343,
+      354,
+      377,
+      388
+     ]
+    },
+    "probs": [
+     0.9342,
+     0.0601,
+     0.0057
+    ],
+    "pred": "Benign",
+    "confidence": 0.9342
+   },
+   {
+    "candidate_id": "c02",
+    "detector_score": 0.9565,
+    "center_ras_mm": [
+     70.8,
+     -228.0,
+     -601.3
+    ],
+    "box_size_mm": [
+     4.2,
+     4.2,
+     3.9
+    ],
+    "crop": {
+     "slice_index": 114,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.839928822312048374003722980086",
+     "center_row": 415.43,
+     "center_col": 186.65,
+     "dz_to_slice_mm": 0.49,
+     "px_mm": 0.834,
+     "box": [
+      398,
+      170,
+      432,
+      204
+     ]
+    },
+    "probs": [
+     0.0512,
+     0.5443,
+     0.4045
+    ],
+    "pred": "Malignant",
+    "confidence": 0.5443
+   },
+   {
+    "candidate_id": "c03",
+    "detector_score": 0.598,
+    "center_ras_mm": [
+     96.6,
+     -38.7,
+     -553.3
+    ],
+    "box_size_mm": [
+     3.6,
+     3.7,
+     3.6
+    ],
+    "crop": {
+     "slice_index": 162,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.193927542259702905335839613202",
+     "center_row": 188.45,
+     "center_col": 155.75,
+     "dz_to_slice_mm": 0.47,
+     "px_mm": 0.834,
+     "box": [
+      171,
+      139,
+      205,
+      173
+     ]
+    },
+    "probs": [
+     0.975,
+     0.0003,
+     0.0247
+    ],
+    "pred": "Benign",
+    "confidence": 0.975
+   },
+   {
+    "candidate_id": "c04",
+    "detector_score": 0.4671,
+    "center_ras_mm": [
+     125.1,
+     -99.3,
+     -546.8
+    ],
+    "box_size_mm": [
+     4.0,
+     4.0,
+     3.8
+    ],
+    "crop": {
+     "slice_index": 169,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.844787949197866770655302129673",
+     "center_row": 261.16,
+     "center_col": 121.57,
+     "dz_to_slice_mm": -0.03,
+     "px_mm": 0.834,
+     "box": [
+      244,
+      105,
+      278,
+      139
+     ]
+    },
+    "probs": [
+     0.2087,
+     0.0002,
+     0.7911
+    ],
+    "pred": "Normal",
+    "confidence": 0.7911
+   }
+  ],
+  "reports": {
+   "0.5": {
+    "threshold": 0.5,
+    "scan_call": "Malignant",
+    "n_candidates": 4,
+    "driver": "c02",
+    "max_p_malignant": 0.5443,
+    "counts": {
+     "Benign": 3,
+     "Malignant": 1,
+     "Normal": 0
+    },
+    "candidates": [
+     {
+      "candidate_id": "c02",
+      "detector_score": 0.9565,
+      "center_ras_mm": [
+       70.8,
+       -228.0,
+       -601.3
+      ],
+      "box_size_mm": [
+       4.2,
+       4.2,
+       3.9
+      ],
+      "crop": {
+       "slice_index": 114,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.839928822312048374003722980086",
+       "center_row": 415.43,
+       "center_col": 186.65,
+       "dz_to_slice_mm": 0.49,
+       "px_mm": 0.834,
+       "box": [
+        398,
+        170,
+        432,
+        204
+       ]
+      },
+      "probs": [
+       0.0512,
+       0.5443,
+       0.4045
+      ],
+      "pred": "Malignant",
+      "confidence": 0.5443
+     },
+     {
+      "candidate_id": "c01",
+      "detector_score": 0.9724,
+      "center_ras_mm": [
+       -83.1,
+       -181.7,
+       -553.0
+      ],
+      "box_size_mm": [
+       5.5,
+       5.6,
+       5.6
+      ],
+      "crop": {
+       "slice_index": 163,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.321750002649169540417655901028",
+       "center_row": 359.9,
+       "center_col": 371.21,
+       "dz_to_slice_mm": -0.21,
+       "px_mm": 0.834,
+       "box": [
+        343,
+        354,
+        377,
+        388
+       ]
+      },
+      "probs": [
+       0.9342,
+       0.0601,
+       0.0057
+      ],
+      "pred": "Benign",
+      "confidence": 0.9342
+     },
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.9919,
+      "center_ras_mm": [
+       96.0,
+       -176.3,
+       -527.1
+      ],
+      "box_size_mm": [
+       5.1,
+       5.5,
+       5.6
+      ],
+      "crop": {
+       "slice_index": 189,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.200552294687596356035795325967",
+       "center_row": 353.54,
+       "center_col": 156.43,
+       "dz_to_slice_mm": -0.34,
+       "px_mm": 0.834,
+       "box": [
+        337,
+        139,
+        371,
+        173
+       ]
+      },
+      "probs": [
+       0.9747,
+       0.0017,
+       0.0236
+      ],
+      "pred": "Benign",
+      "confidence": 0.9747
+     },
+     {
+      "candidate_id": "c03",
+      "detector_score": 0.598,
+      "center_ras_mm": [
+       96.6,
+       -38.7,
+       -553.3
+      ],
+      "box_size_mm": [
+       3.6,
+       3.7,
+       3.6
+      ],
+      "crop": {
+       "slice_index": 162,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.193927542259702905335839613202",
+       "center_row": 188.45,
+       "center_col": 155.75,
+       "dz_to_slice_mm": 0.47,
+       "px_mm": 0.834,
+       "box": [
+        171,
+        139,
+        205,
+        173
+       ]
+      },
+      "probs": [
+       0.975,
+       0.0003,
+       0.0247
+      ],
+      "pred": "Benign",
+      "confidence": 0.975
+     }
+    ]
+   },
+   "0.3": {
+    "threshold": 0.3,
+    "scan_call": "Malignant",
+    "n_candidates": 5,
+    "driver": "c02",
+    "max_p_malignant": 0.5443,
+    "counts": {
+     "Benign": 3,
+     "Malignant": 1,
+     "Normal": 1
+    },
+    "candidates": [
+     {
+      "candidate_id": "c02",
+      "detector_score": 0.9565,
+      "center_ras_mm": [
+       70.8,
+       -228.0,
+       -601.3
+      ],
+      "box_size_mm": [
+       4.2,
+       4.2,
+       3.9
+      ],
+      "crop": {
+       "slice_index": 114,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.839928822312048374003722980086",
+       "center_row": 415.43,
+       "center_col": 186.65,
+       "dz_to_slice_mm": 0.49,
+       "px_mm": 0.834,
+       "box": [
+        398,
+        170,
+        432,
+        204
+       ]
+      },
+      "probs": [
+       0.0512,
+       0.5443,
+       0.4045
+      ],
+      "pred": "Malignant",
+      "confidence": 0.5443
+     },
+     {
+      "candidate_id": "c01",
+      "detector_score": 0.9724,
+      "center_ras_mm": [
+       -83.1,
+       -181.7,
+       -553.0
+      ],
+      "box_size_mm": [
+       5.5,
+       5.6,
+       5.6
+      ],
+      "crop": {
+       "slice_index": 163,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.321750002649169540417655901028",
+       "center_row": 359.9,
+       "center_col": 371.21,
+       "dz_to_slice_mm": -0.21,
+       "px_mm": 0.834,
+       "box": [
+        343,
+        354,
+        377,
+        388
+       ]
+      },
+      "probs": [
+       0.9342,
+       0.0601,
+       0.0057
+      ],
+      "pred": "Benign",
+      "confidence": 0.9342
+     },
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.9919,
+      "center_ras_mm": [
+       96.0,
+       -176.3,
+       -527.1
+      ],
+      "box_size_mm": [
+       5.1,
+       5.5,
+       5.6
+      ],
+      "crop": {
+       "slice_index": 189,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.200552294687596356035795325967",
+       "center_row": 353.54,
+       "center_col": 156.43,
+       "dz_to_slice_mm": -0.34,
+       "px_mm": 0.834,
+       "box": [
+        337,
+        139,
+        371,
+        173
+       ]
+      },
+      "probs": [
+       0.9747,
+       0.0017,
+       0.0236
+      ],
+      "pred": "Benign",
+      "confidence": 0.9747
+     },
+     {
+      "candidate_id": "c03",
+      "detector_score": 0.598,
+      "center_ras_mm": [
+       96.6,
+       -38.7,
+       -553.3
+      ],
+      "box_size_mm": [
+       3.6,
+       3.7,
+       3.6
+      ],
+      "crop": {
+       "slice_index": 162,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.193927542259702905335839613202",
+       "center_row": 188.45,
+       "center_col": 155.75,
+       "dz_to_slice_mm": 0.47,
+       "px_mm": 0.834,
+       "box": [
+        171,
+        139,
+        205,
+        173
+       ]
+      },
+      "probs": [
+       0.975,
+       0.0003,
+       0.0247
+      ],
+      "pred": "Benign",
+      "confidence": 0.975
+     },
+     {
+      "candidate_id": "c04",
+      "detector_score": 0.4671,
+      "center_ras_mm": [
+       125.1,
+       -99.3,
+       -546.8
+      ],
+      "box_size_mm": [
+       4.0,
+       4.0,
+       3.8
+      ],
+      "crop": {
+       "slice_index": 169,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.844787949197866770655302129673",
+       "center_row": 261.16,
+       "center_col": 121.57,
+       "dz_to_slice_mm": -0.03,
+       "px_mm": 0.834,
+       "box": [
+        244,
+        105,
+        278,
+        139
+       ]
+      },
+      "probs": [
+       0.2087,
+       0.0002,
+       0.7911
+      ],
+      "pred": "Normal",
+      "confidence": 0.7911
+     }
+    ]
+   }
+  }
+ },
+ {
+  "series_dir": "D:\\7th sem\\sdp\\eval_run\\phaseD\\_work\\volumes\\LIDC-IDRI-0321",
+  "series": {
+   "n_slices": 265,
+   "shape_xyz": [
+    512,
+    512,
+    265
+   ],
+   "pixel_spacing": [
+    0.664062,
+    0.664062
+   ],
+   "slice_spacing_mm": 1.25,
+   "manufacturer": "GE MEDICAL SYSTEMS",
+   "resampled_shape": [
+    484,
+    484,
+    265
+   ]
+  },
+  "config": {
+   "roi": [
+    192,
+    192,
+    80
+   ],
+   "overlap": 0.25,
+   "device": "cuda",
+   "crop_mm": 28.0,
+   "classifier": {
+    "file": "ct_lidc_nodulecrop_v2_jitter.pt",
+    "epoch": 15,
+    "val_acc": 0.849802371541502,
+    "val_balanced_acc": 0.8179189584700005,
+    "class_names": [
+     "Benign",
+     "Malignant",
+     "Normal"
+    ]
+   }
+  },
+  "timings": {
+   "read_and_resample_sec": 6.0,
+   "detect_sec": 33.6,
+   "classify_sec": 0.2,
+   "total_sec": 39.8
+  },
+  "resources": {
+   "gpu_after_detect": {
+    "allocated_gb": 0.136,
+    "peak_allocated_gb": 0.751,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "gpu_end": {
+    "allocated_gb": 0.136,
+    "peak_allocated_gb": 0.751,
+    "reserved_gb": 0.941,
+    "peak_reserved_gb": 0.941
+   },
+   "host_rss_gb": 6.56,
+   "host_rss_peak_gb": 8.23
+  },
+  "n_raw_detections": 30,
+  "candidates": [
+   {
+    "candidate_id": "c00",
+    "detector_score": 0.9963,
+    "center_ras_mm": [
+     -65.9,
+     3.8,
+     -96.3
+    ],
+    "box_size_mm": [
+     8.1,
+     8.2,
+     8.1
+    ],
+    "crop": {
+     "slice_index": 179,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.155628723434117398638829965693",
+     "center_row": 289.22,
+     "center_col": 402.75,
+     "dz_to_slice_mm": -0.06,
+     "px_mm": 0.6641,
+     "box": [
+      268,
+      382,
+      310,
+      424
+     ]
+    },
+    "probs": [
+     0.4013,
+     0.5891,
+     0.0096
+    ],
+    "pred": "Malignant",
+    "confidence": 0.5891
+   },
+   {
+    "candidate_id": "c01",
+    "detector_score": 0.991,
+    "center_ras_mm": [
+     96.6,
+     -64.9,
+     -153.8
+    ],
+    "box_size_mm": [
+     6.2,
+     6.3,
+     6.3
+    ],
+    "crop": {
+     "slice_index": 133,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.309002517490459505785972039226",
+     "center_row": 392.7,
+     "center_col": 158.09,
+     "dz_to_slice_mm": -0.02,
+     "px_mm": 0.6641,
+     "box": [
+      372,
+      137,
+      414,
+      179
+     ]
+    },
+    "probs": [
+     0.0167,
+     0.5159,
+     0.4674
+    ],
+    "pred": "Malignant",
+    "confidence": 0.5159
+   },
+   {
+    "candidate_id": "c02",
+    "detector_score": 0.9756,
+    "center_ras_mm": [
+     51.6,
+     -22.0,
+     -61.7
+    ],
+    "box_size_mm": [
+     4.8,
+     4.8,
+     4.8
+    ],
+    "crop": {
+     "slice_index": 207,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.840050814667668992055754811618",
+     "center_row": 328.09,
+     "center_col": 225.87,
+     "dz_to_slice_mm": -0.45,
+     "px_mm": 0.6641,
+     "box": [
+      307,
+      205,
+      349,
+      247
+     ]
+    },
+    "probs": [
+     0.6969,
+     0.1759,
+     0.1272
+    ],
+    "pred": "Benign",
+    "confidence": 0.6969
+   },
+   {
+    "candidate_id": "c03",
+    "detector_score": 0.9723,
+    "center_ras_mm": [
+     -74.4,
+     -37.2,
+     -172.0
+    ],
+    "box_size_mm": [
+     3.7,
+     3.7,
+     3.4
+    ],
+    "crop": {
+     "slice_index": 118,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.313148159705802098654968071295",
+     "center_row": 350.98,
+     "center_col": 415.61,
+     "dz_to_slice_mm": 0.55,
+     "px_mm": 0.6641,
+     "box": [
+      330,
+      395,
+      372,
+      437
+     ]
+    },
+    "probs": [
+     0.9748,
+     0.0223,
+     0.0029
+    ],
+    "pred": "Benign",
+    "confidence": 0.9748
+   },
+   {
+    "candidate_id": "c04",
+    "detector_score": 0.956,
+    "center_ras_mm": [
+     -51.1,
+     -0.1,
+     -105.6
+    ],
+    "box_size_mm": [
+     4.0,
+     4.0,
+     3.9
+    ],
+    "crop": {
+     "slice_index": 172,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.781659219772988320876620349964",
+     "center_row": 295.14,
+     "center_col": 380.6,
+     "dz_to_slice_mm": -0.62,
+     "px_mm": 0.6641,
+     "box": [
+      274,
+      360,
+      316,
+      402
+     ]
+    },
+    "probs": [
+     0.0185,
+     0.0109,
+     0.9705
+    ],
+    "pred": "Normal",
+    "confidence": 0.9705
+   },
+   {
+    "candidate_id": "c05",
+    "detector_score": 0.8867,
+    "center_ras_mm": [
+     137.7,
+     54.4,
+     -145.4
+    ],
+    "box_size_mm": [
+     3.8,
+     3.8,
+     3.5
+    ],
+    "crop": {
+     "slice_index": 140,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.241988984674975165433275738347",
+     "center_row": 213.11,
+     "center_col": 96.16,
+     "dz_to_slice_mm": -0.36,
+     "px_mm": 0.6641,
+     "box": [
+      192,
+      75,
+      234,
+      117
+     ]
+    },
+    "probs": [
+     0.8492,
+     0.0067,
+     0.1441
+    ],
+    "pred": "Benign",
+    "confidence": 0.8492
+   },
+   {
+    "candidate_id": "c06",
+    "detector_score": 0.8089,
+    "center_ras_mm": [
+     44.9,
+     -14.8,
+     -72.2
+    ],
+    "box_size_mm": [
+     4.3,
+     4.3,
+     4.1
+    ],
+    "crop": {
+     "slice_index": 198,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.133717034810410658343885853583",
+     "center_row": 317.23,
+     "center_col": 235.96,
+     "dz_to_slice_mm": 0.31,
+     "px_mm": 0.6641,
+     "box": [
+      296,
+      215,
+      338,
+      257
+     ]
+    },
+    "probs": [
+     0.1734,
+     0.146,
+     0.6806
+    ],
+    "pred": "Normal",
+    "confidence": 0.6806
+   },
+   {
+    "candidate_id": "c07",
+    "detector_score": 0.8041,
+    "center_ras_mm": [
+     -37.5,
+     14.7,
+     -89.8
+    ],
+    "box_size_mm": [
+     3.9,
+     3.9,
+     3.7
+    ],
+    "crop": {
+     "slice_index": 184,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.306901759958959720514853884067",
+     "center_row": 272.92,
+     "center_col": 360.0,
+     "dz_to_slice_mm": 0.22,
+     "px_mm": 0.6641,
+     "box": [
+      252,
+      339,
+      294,
+      381
+     ]
+    },
+    "probs": [
+     0.1287,
+     0.0031,
+     0.8682
+    ],
+    "pred": "Normal",
+    "confidence": 0.8682
+   },
+   {
+    "candidate_id": "c08",
+    "detector_score": 0.7925,
+    "center_ras_mm": [
+     -76.6,
+     3.4,
+     -177.5
+    ],
+    "box_size_mm": [
+     3.8,
+     3.9,
+     3.6
+    ],
+    "crop": {
+     "slice_index": 114,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.159792825274780944706022468237",
+     "center_row": 289.82,
+     "center_col": 419.01,
+     "dz_to_slice_mm": 0.03,
+     "px_mm": 0.6641,
+     "box": [
+      269,
+      398,
+      311,
+      440
+     ]
+    },
+    "probs": [
+     0.5806,
+     0.0129,
+     0.4065
+    ],
+    "pred": "Benign",
+    "confidence": 0.5806
+   },
+   {
+    "candidate_id": "c09",
+    "detector_score": 0.715,
+    "center_ras_mm": [
+     124.6,
+     128.0,
+     -238.3
+    ],
+    "box_size_mm": [
+     17.6,
+     17.8,
+     14.7
+    ],
+    "crop": {
+     "slice_index": 65,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.246891736714535352300185499620",
+     "center_row": 102.23,
+     "center_col": 115.99,
+     "dz_to_slice_mm": 0.47,
+     "px_mm": 0.6641,
+     "box": [
+      81,
+      95,
+      123,
+      137
+     ]
+    },
+    "probs": [
+     0.0044,
+     0.984,
+     0.0117
+    ],
+    "pred": "Malignant",
+    "confidence": 0.984
+   },
+   {
+    "candidate_id": "c10",
+    "detector_score": 0.4507,
+    "center_ras_mm": [
+     100.7,
+     83.4,
+     -172.6
+    ],
+    "box_size_mm": [
+     3.5,
+     3.6,
+     3.5
+    ],
+    "crop": {
+     "slice_index": 118,
+     "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.313148159705802098654968071295",
+     "center_row": 169.48,
+     "center_col": 151.9,
+     "dz_to_slice_mm": -0.09,
+     "px_mm": 0.6641,
+     "box": [
+      148,
+      131,
+      190,
+      173
+     ]
+    },
+    "probs": [
+     0.9113,
+     0.0281,
+     0.0605
+    ],
+    "pred": "Benign",
+    "confidence": 0.9113
+   }
+  ],
+  "reports": {
+   "0.5": {
+    "threshold": 0.5,
+    "scan_call": "Malignant",
+    "n_candidates": 10,
+    "driver": "c09",
+    "max_p_malignant": 0.984,
+    "counts": {
+     "Benign": 4,
+     "Malignant": 3,
+     "Normal": 3
+    },
+    "candidates": [
+     {
+      "candidate_id": "c09",
+      "detector_score": 0.715,
+      "center_ras_mm": [
+       124.6,
+       128.0,
+       -238.3
+      ],
+      "box_size_mm": [
+       17.6,
+       17.8,
+       14.7
+      ],
+      "crop": {
+       "slice_index": 65,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.246891736714535352300185499620",
+       "center_row": 102.23,
+       "center_col": 115.99,
+       "dz_to_slice_mm": 0.47,
+       "px_mm": 0.6641,
+       "box": [
+        81,
+        95,
+        123,
+        137
+       ]
+      },
+      "probs": [
+       0.0044,
+       0.984,
+       0.0117
+      ],
+      "pred": "Malignant",
+      "confidence": 0.984
+     },
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.9963,
+      "center_ras_mm": [
+       -65.9,
+       3.8,
+       -96.3
+      ],
+      "box_size_mm": [
+       8.1,
+       8.2,
+       8.1
+      ],
+      "crop": {
+       "slice_index": 179,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.155628723434117398638829965693",
+       "center_row": 289.22,
+       "center_col": 402.75,
+       "dz_to_slice_mm": -0.06,
+       "px_mm": 0.6641,
+       "box": [
+        268,
+        382,
+        310,
+        424
+       ]
+      },
+      "probs": [
+       0.4013,
+       0.5891,
+       0.0096
+      ],
+      "pred": "Malignant",
+      "confidence": 0.5891
+     },
+     {
+      "candidate_id": "c01",
+      "detector_score": 0.991,
+      "center_ras_mm": [
+       96.6,
+       -64.9,
+       -153.8
+      ],
+      "box_size_mm": [
+       6.2,
+       6.3,
+       6.3
+      ],
+      "crop": {
+       "slice_index": 133,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.309002517490459505785972039226",
+       "center_row": 392.7,
+       "center_col": 158.09,
+       "dz_to_slice_mm": -0.02,
+       "px_mm": 0.6641,
+       "box": [
+        372,
+        137,
+        414,
+        179
+       ]
+      },
+      "probs": [
+       0.0167,
+       0.5159,
+       0.4674
+      ],
+      "pred": "Malignant",
+      "confidence": 0.5159
+     },
+     {
+      "candidate_id": "c02",
+      "detector_score": 0.9756,
+      "center_ras_mm": [
+       51.6,
+       -22.0,
+       -61.7
+      ],
+      "box_size_mm": [
+       4.8,
+       4.8,
+       4.8
+      ],
+      "crop": {
+       "slice_index": 207,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.840050814667668992055754811618",
+       "center_row": 328.09,
+       "center_col": 225.87,
+       "dz_to_slice_mm": -0.45,
+       "px_mm": 0.6641,
+       "box": [
+        307,
+        205,
+        349,
+        247
+       ]
+      },
+      "probs": [
+       0.6969,
+       0.1759,
+       0.1272
+      ],
+      "pred": "Benign",
+      "confidence": 0.6969
+     },
+     {
+      "candidate_id": "c06",
+      "detector_score": 0.8089,
+      "center_ras_mm": [
+       44.9,
+       -14.8,
+       -72.2
+      ],
+      "box_size_mm": [
+       4.3,
+       4.3,
+       4.1
+      ],
+      "crop": {
+       "slice_index": 198,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.133717034810410658343885853583",
+       "center_row": 317.23,
+       "center_col": 235.96,
+       "dz_to_slice_mm": 0.31,
+       "px_mm": 0.6641,
+       "box": [
+        296,
+        215,
+        338,
+        257
+       ]
+      },
+      "probs": [
+       0.1734,
+       0.146,
+       0.6806
+      ],
+      "pred": "Normal",
+      "confidence": 0.6806
+     },
+     {
+      "candidate_id": "c03",
+      "detector_score": 0.9723,
+      "center_ras_mm": [
+       -74.4,
+       -37.2,
+       -172.0
+      ],
+      "box_size_mm": [
+       3.7,
+       3.7,
+       3.4
+      ],
+      "crop": {
+       "slice_index": 118,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.313148159705802098654968071295",
+       "center_row": 350.98,
+       "center_col": 415.61,
+       "dz_to_slice_mm": 0.55,
+       "px_mm": 0.6641,
+       "box": [
+        330,
+        395,
+        372,
+        437
+       ]
+      },
+      "probs": [
+       0.9748,
+       0.0223,
+       0.0029
+      ],
+      "pred": "Benign",
+      "confidence": 0.9748
+     },
+     {
+      "candidate_id": "c08",
+      "detector_score": 0.7925,
+      "center_ras_mm": [
+       -76.6,
+       3.4,
+       -177.5
+      ],
+      "box_size_mm": [
+       3.8,
+       3.9,
+       3.6
+      ],
+      "crop": {
+       "slice_index": 114,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.159792825274780944706022468237",
+       "center_row": 289.82,
+       "center_col": 419.01,
+       "dz_to_slice_mm": 0.03,
+       "px_mm": 0.6641,
+       "box": [
+        269,
+        398,
+        311,
+        440
+       ]
+      },
+      "probs": [
+       0.5806,
+       0.0129,
+       0.4065
+      ],
+      "pred": "Benign",
+      "confidence": 0.5806
+     },
+     {
+      "candidate_id": "c04",
+      "detector_score": 0.956,
+      "center_ras_mm": [
+       -51.1,
+       -0.1,
+       -105.6
+      ],
+      "box_size_mm": [
+       4.0,
+       4.0,
+       3.9
+      ],
+      "crop": {
+       "slice_index": 172,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.781659219772988320876620349964",
+       "center_row": 295.14,
+       "center_col": 380.6,
+       "dz_to_slice_mm": -0.62,
+       "px_mm": 0.6641,
+       "box": [
+        274,
+        360,
+        316,
+        402
+       ]
+      },
+      "probs": [
+       0.0185,
+       0.0109,
+       0.9705
+      ],
+      "pred": "Normal",
+      "confidence": 0.9705
+     },
+     {
+      "candidate_id": "c05",
+      "detector_score": 0.8867,
+      "center_ras_mm": [
+       137.7,
+       54.4,
+       -145.4
+      ],
+      "box_size_mm": [
+       3.8,
+       3.8,
+       3.5
+      ],
+      "crop": {
+       "slice_index": 140,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.241988984674975165433275738347",
+       "center_row": 213.11,
+       "center_col": 96.16,
+       "dz_to_slice_mm": -0.36,
+       "px_mm": 0.6641,
+       "box": [
+        192,
+        75,
+        234,
+        117
+       ]
+      },
+      "probs": [
+       0.8492,
+       0.0067,
+       0.1441
+      ],
+      "pred": "Benign",
+      "confidence": 0.8492
+     },
+     {
+      "candidate_id": "c07",
+      "detector_score": 0.8041,
+      "center_ras_mm": [
+       -37.5,
+       14.7,
+       -89.8
+      ],
+      "box_size_mm": [
+       3.9,
+       3.9,
+       3.7
+      ],
+      "crop": {
+       "slice_index": 184,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.306901759958959720514853884067",
+       "center_row": 272.92,
+       "center_col": 360.0,
+       "dz_to_slice_mm": 0.22,
+       "px_mm": 0.6641,
+       "box": [
+        252,
+        339,
+        294,
+        381
+       ]
+      },
+      "probs": [
+       0.1287,
+       0.0031,
+       0.8682
+      ],
+      "pred": "Normal",
+      "confidence": 0.8682
+     }
+    ]
+   },
+   "0.3": {
+    "threshold": 0.3,
+    "scan_call": "Malignant",
+    "n_candidates": 11,
+    "driver": "c09",
+    "max_p_malignant": 0.984,
+    "counts": {
+     "Benign": 5,
+     "Malignant": 3,
+     "Normal": 3
+    },
+    "candidates": [
+     {
+      "candidate_id": "c09",
+      "detector_score": 0.715,
+      "center_ras_mm": [
+       124.6,
+       128.0,
+       -238.3
+      ],
+      "box_size_mm": [
+       17.6,
+       17.8,
+       14.7
+      ],
+      "crop": {
+       "slice_index": 65,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.246891736714535352300185499620",
+       "center_row": 102.23,
+       "center_col": 115.99,
+       "dz_to_slice_mm": 0.47,
+       "px_mm": 0.6641,
+       "box": [
+        81,
+        95,
+        123,
+        137
+       ]
+      },
+      "probs": [
+       0.0044,
+       0.984,
+       0.0117
+      ],
+      "pred": "Malignant",
+      "confidence": 0.984
+     },
+     {
+      "candidate_id": "c00",
+      "detector_score": 0.9963,
+      "center_ras_mm": [
+       -65.9,
+       3.8,
+       -96.3
+      ],
+      "box_size_mm": [
+       8.1,
+       8.2,
+       8.1
+      ],
+      "crop": {
+       "slice_index": 179,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.155628723434117398638829965693",
+       "center_row": 289.22,
+       "center_col": 402.75,
+       "dz_to_slice_mm": -0.06,
+       "px_mm": 0.6641,
+       "box": [
+        268,
+        382,
+        310,
+        424
+       ]
+      },
+      "probs": [
+       0.4013,
+       0.5891,
+       0.0096
+      ],
+      "pred": "Malignant",
+      "confidence": 0.5891
+     },
+     {
+      "candidate_id": "c01",
+      "detector_score": 0.991,
+      "center_ras_mm": [
+       96.6,
+       -64.9,
+       -153.8
+      ],
+      "box_size_mm": [
+       6.2,
+       6.3,
+       6.3
+      ],
+      "crop": {
+       "slice_index": 133,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.309002517490459505785972039226",
+       "center_row": 392.7,
+       "center_col": 158.09,
+       "dz_to_slice_mm": -0.02,
+       "px_mm": 0.6641,
+       "box": [
+        372,
+        137,
+        414,
+        179
+       ]
+      },
+      "probs": [
+       0.0167,
+       0.5159,
+       0.4674
+      ],
+      "pred": "Malignant",
+      "confidence": 0.5159
+     },
+     {
+      "candidate_id": "c02",
+      "detector_score": 0.9756,
+      "center_ras_mm": [
+       51.6,
+       -22.0,
+       -61.7
+      ],
+      "box_size_mm": [
+       4.8,
+       4.8,
+       4.8
+      ],
+      "crop": {
+       "slice_index": 207,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.840050814667668992055754811618",
+       "center_row": 328.09,
+       "center_col": 225.87,
+       "dz_to_slice_mm": -0.45,
+       "px_mm": 0.6641,
+       "box": [
+        307,
+        205,
+        349,
+        247
+       ]
+      },
+      "probs": [
+       0.6969,
+       0.1759,
+       0.1272
+      ],
+      "pred": "Benign",
+      "confidence": 0.6969
+     },
+     {
+      "candidate_id": "c06",
+      "detector_score": 0.8089,
+      "center_ras_mm": [
+       44.9,
+       -14.8,
+       -72.2
+      ],
+      "box_size_mm": [
+       4.3,
+       4.3,
+       4.1
+      ],
+      "crop": {
+       "slice_index": 198,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.133717034810410658343885853583",
+       "center_row": 317.23,
+       "center_col": 235.96,
+       "dz_to_slice_mm": 0.31,
+       "px_mm": 0.6641,
+       "box": [
+        296,
+        215,
+        338,
+        257
+       ]
+      },
+      "probs": [
+       0.1734,
+       0.146,
+       0.6806
+      ],
+      "pred": "Normal",
+      "confidence": 0.6806
+     },
+     {
+      "candidate_id": "c10",
+      "detector_score": 0.4507,
+      "center_ras_mm": [
+       100.7,
+       83.4,
+       -172.6
+      ],
+      "box_size_mm": [
+       3.5,
+       3.6,
+       3.5
+      ],
+      "crop": {
+       "slice_index": 118,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.313148159705802098654968071295",
+       "center_row": 169.48,
+       "center_col": 151.9,
+       "dz_to_slice_mm": -0.09,
+       "px_mm": 0.6641,
+       "box": [
+        148,
+        131,
+        190,
+        173
+       ]
+      },
+      "probs": [
+       0.9113,
+       0.0281,
+       0.0605
+      ],
+      "pred": "Benign",
+      "confidence": 0.9113
+     },
+     {
+      "candidate_id": "c03",
+      "detector_score": 0.9723,
+      "center_ras_mm": [
+       -74.4,
+       -37.2,
+       -172.0
+      ],
+      "box_size_mm": [
+       3.7,
+       3.7,
+       3.4
+      ],
+      "crop": {
+       "slice_index": 118,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.313148159705802098654968071295",
+       "center_row": 350.98,
+       "center_col": 415.61,
+       "dz_to_slice_mm": 0.55,
+       "px_mm": 0.6641,
+       "box": [
+        330,
+        395,
+        372,
+        437
+       ]
+      },
+      "probs": [
+       0.9748,
+       0.0223,
+       0.0029
+      ],
+      "pred": "Benign",
+      "confidence": 0.9748
+     },
+     {
+      "candidate_id": "c08",
+      "detector_score": 0.7925,
+      "center_ras_mm": [
+       -76.6,
+       3.4,
+       -177.5
+      ],
+      "box_size_mm": [
+       3.8,
+       3.9,
+       3.6
+      ],
+      "crop": {
+       "slice_index": 114,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.159792825274780944706022468237",
+       "center_row": 289.82,
+       "center_col": 419.01,
+       "dz_to_slice_mm": 0.03,
+       "px_mm": 0.6641,
+       "box": [
+        269,
+        398,
+        311,
+        440
+       ]
+      },
+      "probs": [
+       0.5806,
+       0.0129,
+       0.4065
+      ],
+      "pred": "Benign",
+      "confidence": 0.5806
+     },
+     {
+      "candidate_id": "c04",
+      "detector_score": 0.956,
+      "center_ras_mm": [
+       -51.1,
+       -0.1,
+       -105.6
+      ],
+      "box_size_mm": [
+       4.0,
+       4.0,
+       3.9
+      ],
+      "crop": {
+       "slice_index": 172,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.781659219772988320876620349964",
+       "center_row": 295.14,
+       "center_col": 380.6,
+       "dz_to_slice_mm": -0.62,
+       "px_mm": 0.6641,
+       "box": [
+        274,
+        360,
+        316,
+        402
+       ]
+      },
+      "probs": [
+       0.0185,
+       0.0109,
+       0.9705
+      ],
+      "pred": "Normal",
+      "confidence": 0.9705
+     },
+     {
+      "candidate_id": "c05",
+      "detector_score": 0.8867,
+      "center_ras_mm": [
+       137.7,
+       54.4,
+       -145.4
+      ],
+      "box_size_mm": [
+       3.8,
+       3.8,
+       3.5
+      ],
+      "crop": {
+       "slice_index": 140,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.241988984674975165433275738347",
+       "center_row": 213.11,
+       "center_col": 96.16,
+       "dz_to_slice_mm": -0.36,
+       "px_mm": 0.6641,
+       "box": [
+        192,
+        75,
+        234,
+        117
+       ]
+      },
+      "probs": [
+       0.8492,
+       0.0067,
+       0.1441
+      ],
+      "pred": "Benign",
+      "confidence": 0.8492
+     },
+     {
+      "candidate_id": "c07",
+      "detector_score": 0.8041,
+      "center_ras_mm": [
+       -37.5,
+       14.7,
+       -89.8
+      ],
+      "box_size_mm": [
+       3.9,
+       3.9,
+       3.7
+      ],
+      "crop": {
+       "slice_index": 184,
+       "sop_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.306901759958959720514853884067",
+       "center_row": 272.92,
+       "center_col": 360.0,
+       "dz_to_slice_mm": 0.22,
+       "px_mm": 0.6641,
+       "box": [
+        252,
+        339,
+        294,
+        381
+       ]
+      },
+      "probs": [
+       0.1287,
+       0.0031,
+       0.8682
+      ],
+      "pred": "Normal",
+      "confidence": 0.8682
+     }
+    ]
+   }
+  }
+ }
+]

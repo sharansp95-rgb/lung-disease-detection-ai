@@ -1,0 +1,407 @@
+{
+  "concurrent_wall_s": 2.04,
+  "concurrent": [
+    {
+      "mod": "xray",
+      "file": "covid19db_COVID-100.png",
+      "status": 200,
+      "latency_s": 2.039,
+      "pred": "COVID-19",
+      "conf": 0.9996587038040161,
+      "probs": {
+        "COVID-19": 0.9996587038040161,
+        "Normal": 0.0003203917876817286,
+        "Pneumonia": 5.644880118893525e-08,
+        "Tuberculosis": 2.088718429149594e-05
+      },
+      "heatmap_sha": "fe1c798cc8b9fdba",
+      "heatmap_len": 69374,
+      "detail": null
+    },
+    {
+      "mod": "xray",
+      "file": "covid19db_Normal-10002.png",
+      "status": 200,
+      "latency_s": 1.629,
+      "pred": "Normal",
+      "conf": 0.9809224009513855,
+      "probs": {
+        "COVID-19": 0.014629610814154148,
+        "Normal": 0.9809224009513855,
+        "Pneumonia": 1.6166814020834863e-06,
+        "Tuberculosis": 0.004446395672857761
+      },
+      "heatmap_sha": "48a8e7aa04158764",
+      "heatmap_len": 72866,
+      "detail": null
+    },
+    {
+      "mod": "xray",
+      "file": "covid19db_Viral Pneumonia-101.png",
+      "status": 200,
+      "latency_s": 1.894,
+      "pred": "Pneumonia",
+      "conf": 0.992295503616333,
+      "probs": {
+        "COVID-19": 0.0012238450581207871,
+        "Normal": 0.006478331051766872,
+        "Pneumonia": 0.992295503616333,
+        "Tuberculosis": 2.3436043647961924e-06
+      },
+      "heatmap_sha": "1f12bc73dd907098",
+      "heatmap_len": 84198,
+      "detail": null
+    },
+    {
+      "mod": "xray",
+      "file": "tbdb_Tuberculosis-104.png",
+      "status": 200,
+      "latency_s": 1.44,
+      "pred": "COVID-19",
+      "conf": 0.7272837162017822,
+      "probs": {
+        "COVID-19": 0.7272837162017822,
+        "Normal": 0.15388353168964386,
+        "Pneumonia": 0.0001948497665580362,
+        "Tuberculosis": 0.11863796412944794
+      },
+      "heatmap_sha": "7a82f8501aefe8d1",
+      "heatmap_len": 66210,
+      "detail": null
+    },
+    {
+      "mod": "ct",
+      "file": "Bengin case (1).jpg",
+      "status": 200,
+      "latency_s": 1.8,
+      "pred": "Benign",
+      "conf": 0.9292371869087219,
+      "probs": {
+        "Benign": 0.9292371869087219,
+        "Malignant": 0.002619074657559395,
+        "Normal": 0.06814373284578323
+      },
+      "heatmap_sha": "948f3f14228b8cf8",
+      "heatmap_len": 91358,
+      "detail": null
+    },
+    {
+      "mod": "ct",
+      "file": "Bengin case (108).jpg",
+      "status": 200,
+      "latency_s": 1.987,
+      "pred": "Benign",
+      "conf": 0.9869582056999207,
+      "probs": {
+        "Benign": 0.9869582056999207,
+        "Malignant": 0.0006562603521160781,
+        "Normal": 0.01238549966365099
+      },
+      "heatmap_sha": "ec888b9c153698da",
+      "heatmap_len": 110422,
+      "detail": null
+    },
+    {
+      "mod": "ct",
+      "file": "Malignant case (109).jpg",
+      "status": 200,
+      "latency_s": 1.574,
+      "pred": "Malignant",
+      "conf": 0.9944794178009033,
+      "probs": {
+        "Benign": 0.003724954091012478,
+        "Malignant": 0.9944794178009033,
+        "Normal": 0.0017956444062292576
+      },
+      "heatmap_sha": "7b2badc7cdda86e1",
+      "heatmap_len": 77230,
+      "detail": null
+    },
+    {
+      "mod": "ct",
+      "file": "Malignant case (111).jpg",
+      "status": 200,
+      "latency_s": 1.537,
+      "pred": "Malignant",
+      "conf": 0.9915675520896912,
+      "probs": {
+        "Benign": 0.00254030036740005,
+        "Malignant": 0.9915675520896912,
+        "Normal": 0.005892085377126932
+      },
+      "heatmap_sha": "d35ac089762985bd",
+      "heatmap_len": 90646,
+      "detail": null
+    },
+    {
+      "mod": "ct",
+      "file": "Normal case (112).jpg",
+      "status": 200,
+      "latency_s": 1.327,
+      "pred": "Normal",
+      "conf": 0.5102757215499878,
+      "probs": {
+        "Benign": 0.42363235354423523,
+        "Malignant": 0.06609196960926056,
+        "Normal": 0.5102757215499878
+      },
+      "heatmap_sha": "cc51f564aeed7be5",
+      "heatmap_len": 88290,
+      "detail": null
+    },
+    {
+      "mod": "ct",
+      "file": "Normal case (127).jpg",
+      "status": 200,
+      "latency_s": 1.74,
+      "pred": "Normal",
+      "conf": 0.9241191148757935,
+      "probs": {
+        "Benign": 0.02644159458577633,
+        "Malignant": 0.04943936690688133,
+        "Normal": 0.9241191148757935
+      },
+      "heatmap_sha": "dc3e69966e6b4539",
+      "heatmap_len": 83718,
+      "detail": null
+    },
+    {
+      "mod": "xray",
+      "file": "covid19db_COVID-1005.png",
+      "status": 200,
+      "latency_s": 1.857,
+      "pred": "COVID-19",
+      "conf": 0.9695312976837158,
+      "probs": {
+        "COVID-19": 0.9695312976837158,
+        "Normal": 0.021926430985331535,
+        "Pneumonia": 5.569312270381488e-05,
+        "Tuberculosis": 0.008486524224281311
+      },
+      "heatmap_sha": "ca1520d19add1c00",
+      "heatmap_len": 77506,
+      "detail": null
+    },
+    {
+      "mod": "xray",
+      "file": "covid19db_Normal-10005.png",
+      "status": 200,
+      "latency_s": 2.016,
+      "pred": "Normal",
+      "conf": 0.9673104286193848,
+      "probs": {
+        "COVID-19": 0.03161846101284027,
+        "Normal": 0.9673104286193848,
+        "Pneumonia": 0.0010177306830883026,
+        "Tuberculosis": 5.3350202506408095e-05
+      },
+      "heatmap_sha": "e02d9c56d30431a1",
+      "heatmap_len": 72522,
+      "detail": null
+    }
+  ],
+  "sequential": [
+    {
+      "mod": "xray",
+      "file": "covid19db_COVID-100.png",
+      "status": 200,
+      "latency_s": 1.45,
+      "pred": "COVID-19",
+      "conf": 0.9996587038040161,
+      "probs": {
+        "COVID-19": 0.9996587038040161,
+        "Normal": 0.0003203917876817286,
+        "Pneumonia": 5.644880118893525e-08,
+        "Tuberculosis": 2.088718429149594e-05
+      },
+      "heatmap_sha": "fe1c798cc8b9fdba",
+      "heatmap_len": 69374,
+      "detail": null
+    },
+    {
+      "mod": "xray",
+      "file": "covid19db_Normal-10002.png",
+      "status": 200,
+      "latency_s": 1.261,
+      "pred": "Normal",
+      "conf": 0.9809224009513855,
+      "probs": {
+        "COVID-19": 0.014629610814154148,
+        "Normal": 0.9809224009513855,
+        "Pneumonia": 1.6166814020834863e-06,
+        "Tuberculosis": 0.004446395672857761
+      },
+      "heatmap_sha": "48a8e7aa04158764",
+      "heatmap_len": 72866,
+      "detail": null
+    },
+    {
+      "mod": "xray",
+      "file": "covid19db_Viral Pneumonia-101.png",
+      "status": 200,
+      "latency_s": 1.431,
+      "pred": "Pneumonia",
+      "conf": 0.992295503616333,
+      "probs": {
+        "COVID-19": 0.0012238450581207871,
+        "Normal": 0.006478331051766872,
+        "Pneumonia": 0.992295503616333,
+        "Tuberculosis": 2.3436043647961924e-06
+      },
+      "heatmap_sha": "1f12bc73dd907098",
+      "heatmap_len": 84198,
+      "detail": null
+    },
+    {
+      "mod": "xray",
+      "file": "tbdb_Tuberculosis-104.png",
+      "status": 200,
+      "latency_s": 1.233,
+      "pred": "COVID-19",
+      "conf": 0.7272837162017822,
+      "probs": {
+        "COVID-19": 0.7272837162017822,
+        "Normal": 0.15388353168964386,
+        "Pneumonia": 0.0001948497665580362,
+        "Tuberculosis": 0.11863796412944794
+      },
+      "heatmap_sha": "7a82f8501aefe8d1",
+      "heatmap_len": 66210,
+      "detail": null
+    },
+    {
+      "mod": "ct",
+      "file": "Bengin case (1).jpg",
+      "status": 200,
+      "latency_s": 1.353,
+      "pred": "Benign",
+      "conf": 0.9292371869087219,
+      "probs": {
+        "Benign": 0.9292371869087219,
+        "Malignant": 0.002619074657559395,
+        "Normal": 0.06814373284578323
+      },
+      "heatmap_sha": "948f3f14228b8cf8",
+      "heatmap_len": 91358,
+      "detail": null
+    },
+    {
+      "mod": "ct",
+      "file": "Bengin case (108).jpg",
+      "status": 200,
+      "latency_s": 1.233,
+      "pred": "Benign",
+      "conf": 0.9869582056999207,
+      "probs": {
+        "Benign": 0.9869582056999207,
+        "Malignant": 0.0006562603521160781,
+        "Normal": 0.01238549966365099
+      },
+      "heatmap_sha": "ec888b9c153698da",
+      "heatmap_len": 110422,
+      "detail": null
+    },
+    {
+      "mod": "ct",
+      "file": "Malignant case (109).jpg",
+      "status": 200,
+      "latency_s": 1.327,
+      "pred": "Malignant",
+      "conf": 0.9944794178009033,
+      "probs": {
+        "Benign": 0.003724954091012478,
+        "Malignant": 0.9944794178009033,
+        "Normal": 0.0017956444062292576
+      },
+      "heatmap_sha": "7b2badc7cdda86e1",
+      "heatmap_len": 77230,
+      "detail": null
+    },
+    {
+      "mod": "ct",
+      "file": "Malignant case (111).jpg",
+      "status": 200,
+      "latency_s": 1.357,
+      "pred": "Malignant",
+      "conf": 0.9915675520896912,
+      "probs": {
+        "Benign": 0.00254030036740005,
+        "Malignant": 0.9915675520896912,
+        "Normal": 0.005892085377126932
+      },
+      "heatmap_sha": "d35ac089762985bd",
+      "heatmap_len": 90646,
+      "detail": null
+    },
+    {
+      "mod": "ct",
+      "file": "Normal case (112).jpg",
+      "status": 200,
+      "latency_s": 1.151,
+      "pred": "Normal",
+      "conf": 0.5102757215499878,
+      "probs": {
+        "Benign": 0.42363235354423523,
+        "Malignant": 0.06609196960926056,
+        "Normal": 0.5102757215499878
+      },
+      "heatmap_sha": "cc51f564aeed7be5",
+      "heatmap_len": 88290,
+      "detail": null
+    },
+    {
+      "mod": "ct",
+      "file": "Normal case (127).jpg",
+      "status": 200,
+      "latency_s": 1.224,
+      "pred": "Normal",
+      "conf": 0.9241191148757935,
+      "probs": {
+        "Benign": 0.02644159458577633,
+        "Malignant": 0.04943936690688133,
+        "Normal": 0.9241191148757935
+      },
+      "heatmap_sha": "dc3e69966e6b4539",
+      "heatmap_len": 83718,
+      "detail": null
+    },
+    {
+      "mod": "xray",
+      "file": "covid19db_COVID-1005.png",
+      "status": 200,
+      "latency_s": 1.232,
+      "pred": "COVID-19",
+      "conf": 0.9695312976837158,
+      "probs": {
+        "COVID-19": 0.9695312976837158,
+        "Normal": 0.021926430985331535,
+        "Pneumonia": 5.569312270381488e-05,
+        "Tuberculosis": 0.008486524224281311
+      },
+      "heatmap_sha": "ca1520d19add1c00",
+      "heatmap_len": 77506,
+      "detail": null
+    },
+    {
+      "mod": "xray",
+      "file": "covid19db_Normal-10005.png",
+      "status": 200,
+      "latency_s": 1.59,
+      "pred": "Normal",
+      "conf": 0.9673104286193848,
+      "probs": {
+        "COVID-19": 0.03161846101284027,
+        "Normal": 0.9673104286193848,
+        "Pneumonia": 0.0010177306830883026,
+        "Tuberculosis": 5.3350202506408095e-05
+      },
+      "heatmap_sha": "e02d9c56d30431a1",
+      "heatmap_len": 72522,
+      "detail": null
+    }
+  ],
+  "mismatches": [],
+  "n_mismatch": 0,
+  "unique_heatmaps_concurrent": 12,
+  "n_ok": 12
+}

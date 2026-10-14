@@ -1,0 +1,37 @@
+{
+  "backbone": "densenet121",
+  "n_splits": 5,
+  "epochs": 10,
+  "seed": 42,
+  "classes": [
+    "Benign",
+    "Malignant",
+    "Normal"
+  ],
+  "dataset_size": 1097,
+  "fold_results": [
+    {
+      "fold": 1,
+      "best_val_acc": 0.9819004524886877
+    },
+    {
+      "fold": 2,
+      "best_val_acc": 0.9863013698630136
+    },
+    {
+      "fold": 3,
+      "best_val_acc": 0.9771689497716894
+    },
+    {
+      "fold": 4,
+      "best_val_acc": 0.9863013698630136
+    },
+    {
+      "fold": 5,
+      "best_val_acc": 0.9863013698630136
+    }
+  ],
+  "mean_val_acc": 0.9835947023698836,
+  "std_val_acc": 0.003637002223486584,
+  "elapsed_min": 18.3
+}

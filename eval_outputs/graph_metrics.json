@@ -1,0 +1,805 @@
+{
+  "generated_on": "2026-09-15",
+  "xray": {
+    "checkpoint": "checkpoints/xray_txrv_densenet121_best.pt",
+    "classes": [
+      "COVID-19",
+      "Normal",
+      "Pneumonia",
+      "Tuberculosis"
+    ],
+    "startup_reproduction_check": {
+      "checkpoint_val_acc": 0.96462,
+      "reproduced_val_acc": 0.96462
+    },
+    "test_offline": {
+      "source": "recomputed today (2026-09-15) by scripts/export_graph_metrics.py; classifier only; U-Net lung crop (seg_utils.compute_lung_crop) -> preprocess_image_xrv",
+      "n": 1922,
+      "accuracy": 0.917274,
+      "macro_precision": 0.829352,
+      "macro_recall": 0.929656,
+      "macro_f1": 0.873352,
+      "weighted_f1": 0.920008,
+      "per_class": {
+        "COVID-19": {
+          "precision": 0.786543,
+          "recall": 0.94958,
+          "f1": 0.860406,
+          "support": 357
+        },
+        "Normal": {
+          "precision": 0.989633,
+          "recall": 0.907164,
+          "f1": 0.946606,
+          "support": 1368
+        },
+        "Pneumonia": {
+          "precision": 0.775,
+          "recall": 0.925373,
+          "f1": 0.843537,
+          "support": 134
+        },
+        "Tuberculosis": {
+          "precision": 0.766234,
+          "recall": 0.936508,
+          "f1": 0.842857,
+          "support": 63
+        }
+      },
+      "confusion_matrix": [
+        [
+          339,
+          9,
+          7,
+          2
+        ],
+        [
+          82,
+          1241,
+          29,
+          16
+        ],
+        [
+          6,
+          4,
+          124,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          59
+        ]
+      ],
+      "confusion_matrix_order": "rows = true class, columns = predicted class, both in `classes` order"
+    },
+    "test_full_pipeline_sim": {
+      "source": "recomputed today (2026-09-15) by scripts/export_graph_metrics.py; offline re-creation of /predict/xray guardrails (blank/colour -> sanity -> modality gate@0.9 -> OOD), no HTTP",
+      "n": 1922,
+      "served": 1909,
+      "accuracy_counting_rejections_as_wrong": 0.91051,
+      "accuracy_over_served_only": 0.91671,
+      "macro_f1_counting_rejections_as_wrong": 0.85594,
+      "per_class_counting_rejections_as_wrong": {
+        "COVID-19": {
+          "precision": 0.783529,
+          "recall": 0.932773,
+          "f1": 0.851662
+        },
+        "Normal": {
+          "precision": 0.989633,
+          "recall": 0.907164,
+          "f1": 0.946606
+        },
+        "Pneumonia": {
+          "precision": 0.775,
+          "recall": 0.925373,
+          "f1": 0.843537
+        },
+        "Tuberculosis": {
+          "precision": 0.742857,
+          "recall": 0.825397,
+          "f1": 0.781955
+        }
+      },
+      "rejected": {
+        "blank": 0,
+        "color": 0,
+        "sanity": 0,
+        "gate": 0,
+        "ood": 13
+      },
+      "rejected_by_true_class": {
+        "COVID-19": {
+          "ood": 6
+        },
+        "Normal": {},
+        "Pneumonia": {},
+        "Tuberculosis": {
+          "ood": 7
+        }
+      },
+      "low_confidence_warnings_on_served": 26,
+      "confusion_matrix": [
+        [
+          333,
+          9,
+          7,
+          2,
+          6
+        ],
+        [
+          82,
+          1241,
+          29,
+          16,
+          0
+        ],
+        [
+          6,
+          4,
+          124,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          52,
+          7
+        ]
+      ],
+      "confusion_matrix_order": "rows = true class (['COVID-19', 'Normal', 'Pneumonia', 'Tuberculosis']), columns = ['COVID-19', 'Normal', 'Pneumonia', 'Tuberculosis', 'REJECTED']"
+    },
+    "test_live_api": {
+      "source": "CLASSIFIER_EVALUATION_REPORT.md (Condition B, live FastAPI HTTP, 2026-09-10)",
+      "n": 1922,
+      "served": 1909,
+      "accuracy": 0.91051,
+      "accuracy_convention": "rejections counted as incorrect",
+      "macro_f1": 0.85594,
+      "weighted_f1": 0.916388,
+      "macro_and_weighted_f1_note": "derived here from the recorded per-class values (not stored in the report)",
+      "per_class": {
+        "COVID-19": {
+          "precision": 0.783529,
+          "recall": 0.932773,
+          "f1": 0.851662,
+          "support": 357
+        },
+        "Normal": {
+          "precision": 0.989633,
+          "recall": 0.907164,
+          "f1": 0.946606,
+          "support": 1368
+        },
+        "Pneumonia": {
+          "precision": 0.775,
+          "recall": 0.925373,
+          "f1": 0.843537,
+          "support": 134
+        },
+        "Tuberculosis": {
+          "precision": 0.742857,
+          "recall": 0.825397,
+          "f1": 0.781955,
+          "support": 63
+        }
+      },
+      "confusion_matrix": [
+        [
+          333,
+          9,
+          7,
+          2,
+          6
+        ],
+        [
+          82,
+          1241,
+          29,
+          16,
+          0
+        ],
+        [
+          6,
+          4,
+          124,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          52,
+          7
+        ]
+      ],
+      "confusion_matrix_order": "rows = true, columns = ['COVID-19', 'Normal', 'Pneumonia', 'Tuberculosis', 'REJECTED']",
+      "rejected": {
+        "sanity": 0,
+        "gate": 0,
+        "ood": 13,
+        "input_validation": 0,
+        "other": 0
+      },
+      "rejected_by_true_class": {
+        "COVID-19": 6,
+        "Tuberculosis": 7
+      }
+    },
+    "external": [
+      {
+        "name": "External X-ray probe, Kaggle jtiptj/chest-xray-pneumoniacovid19tuberculosis, 10 per class",
+        "source": "eval_run/phaseI_final_numbers.md (live /predict HTTP, 2026-09-10) -- confusion breakdown \u00a72; dataset name from eval_outputs/extracted_results_for_plotting.json and eval_run/make_charts_with_external.py",
+        "images_on_disk": "images deleted (was eval_run/external_samples/xray/)",
+        "n": 40,
+        "served": 33,
+        "accuracy": 0.775,
+        "accuracy_convention": "rejections counted as incorrect (31/40); over served only = 31/33 = 0.939394",
+        "accuracy_over_served": 0.939394,
+        "per_class": {
+          "COVID-19": {
+            "correct": 5,
+            "total": 10
+          },
+          "Normal": {
+            "correct": 10,
+            "total": 10
+          },
+          "Pneumonia": {
+            "correct": 10,
+            "total": 10
+          },
+          "Tuberculosis": {
+            "correct": 6,
+            "total": 10
+          }
+        },
+        "predicted_counts": {
+          "COVID-19": {
+            "COVID-19": 5,
+            "Normal": 2,
+            "Pneumonia": 0,
+            "Tuberculosis": 0,
+            "REJECTED": 3
+          },
+          "Normal": {
+            "COVID-19": 0,
+            "Normal": 10,
+            "Pneumonia": 0,
+            "Tuberculosis": 0,
+            "REJECTED": 0
+          },
+          "Pneumonia": {
+            "COVID-19": 0,
+            "Normal": 0,
+            "Pneumonia": 10,
+            "Tuberculosis": 0,
+            "REJECTED": 0
+          },
+          "Tuberculosis": {
+            "COVID-19": 0,
+            "Normal": 0,
+            "Pneumonia": 0,
+            "Tuberculosis": 6,
+            "REJECTED": 4
+          }
+        },
+        "rejected": 7,
+        "rejected_by_type": {
+          "ood": 3,
+          "color": 4,
+          "sanity": 0,
+          "gate": 0
+        }
+      }
+    ],
+    "test_offline_without_lung_crop_superseded": {
+      "source": "eval_outputs/xray_txrv_densenet121/xray_txrv_densenet121_test_metrics.json (2026-09-06; XRV transform on data/xray/test WITHOUT the backend U-Net lung crop -- not the served path)",
+      "n": 1922,
+      "accuracy": 0.965661,
+      "macro_f1": 0.953813,
+      "weighted_f1": 0.965791,
+      "per_class": {
+        "COVID-19": {
+          "precision": 0.925824,
+          "recall": 0.943978,
+          "f1": 0.934813,
+          "support": 357
+        },
+        "Normal": {
+          "precision": 0.982275,
+          "recall": 0.972222,
+          "f1": 0.977223,
+          "support": 1368
+        },
+        "Pneumonia": {
+          "precision": 0.913043,
+          "recall": 0.940299,
+          "f1": 0.926471,
+          "support": 134
+        },
+        "Tuberculosis": {
+          "precision": 0.954545,
+          "recall": 1.0,
+          "f1": 0.976744,
+          "support": 63
+        }
+      },
+      "confusion_matrix": [
+        [
+          337,
+          16,
+          4,
+          0
+        ],
+        [
+          27,
+          1330,
+          8,
+          3
+        ],
+        [
+          0,
+          8,
+          126,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          63
+        ]
+      ]
+    }
+  },
+  "ct": {
+    "checkpoint": "checkpoints/ct_best_model_phase35_v2.pt",
+    "classes": [
+      "Benign",
+      "Malignant",
+      "Normal"
+    ],
+    "startup_reproduction_check": {
+      "checkpoint_val_acc": 0.990385,
+      "reproduced_val_acc": 0.990385
+    },
+    "test_offline": {
+      "source": "recomputed today (2026-09-15) by scripts/export_graph_metrics.py; classifier only; preprocess_image (ImageNet, no crop)",
+      "n": 103,
+      "accuracy": 0.980583,
+      "macro_precision": 0.984496,
+      "macro_recall": 0.944444,
+      "macro_f1": 0.96176,
+      "weighted_f1": 0.979931,
+      "per_class": {
+        "Benign": {
+          "precision": 1.0,
+          "recall": 0.833333,
+          "f1": 0.909091,
+          "support": 12
+        },
+        "Malignant": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 50
+        },
+        "Normal": {
+          "precision": 0.953488,
+          "recall": 1.0,
+          "f1": 0.97619,
+          "support": 41
+        }
+      },
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          2
+        ],
+        [
+          0,
+          50,
+          0
+        ],
+        [
+          0,
+          0,
+          41
+        ]
+      ],
+      "confusion_matrix_order": "rows = true class, columns = predicted class, both in `classes` order"
+    },
+    "test_full_pipeline_sim": {
+      "source": "recomputed today (2026-09-15) by scripts/export_graph_metrics.py; offline re-creation of /predict/ct guardrails (blank/colour -> sanity -> modality gate@0.9 -> OOD), no HTTP",
+      "n": 103,
+      "served": 103,
+      "accuracy_counting_rejections_as_wrong": 0.980583,
+      "accuracy_over_served_only": 0.980583,
+      "macro_f1_counting_rejections_as_wrong": 0.96176,
+      "per_class_counting_rejections_as_wrong": {
+        "Benign": {
+          "precision": 1.0,
+          "recall": 0.833333,
+          "f1": 0.909091
+        },
+        "Malignant": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Normal": {
+          "precision": 0.953488,
+          "recall": 1.0,
+          "f1": 0.97619
+        }
+      },
+      "rejected": {
+        "blank": 0,
+        "color": 0,
+        "sanity": 0,
+        "gate": 0,
+        "ood": 0
+      },
+      "rejected_by_true_class": {
+        "Benign": {},
+        "Malignant": {},
+        "Normal": {}
+      },
+      "low_confidence_warnings_on_served": 4,
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          41,
+          0
+        ]
+      ],
+      "confusion_matrix_order": "rows = true class (['Benign', 'Malignant', 'Normal']), columns = ['Benign', 'Malignant', 'Normal', 'REJECTED']"
+    },
+    "test_live_api": {
+      "source": "CLASSIFIER_EVALUATION_REPORT.md (Condition B, live FastAPI HTTP, 2026-09-10)",
+      "n": 103,
+      "served": 103,
+      "accuracy": 0.980583,
+      "accuracy_convention": "rejections counted as incorrect",
+      "macro_f1": 0.96176,
+      "weighted_f1": 0.979931,
+      "macro_and_weighted_f1_note": "derived here from the recorded per-class values (not stored in the report)",
+      "per_class": {
+        "Benign": {
+          "precision": 1.0,
+          "recall": 0.833333,
+          "f1": 0.909091,
+          "support": 12
+        },
+        "Malignant": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 50
+        },
+        "Normal": {
+          "precision": 0.953488,
+          "recall": 1.0,
+          "f1": 0.97619,
+          "support": 41
+        }
+      },
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          2
+        ],
+        [
+          0,
+          50,
+          0
+        ],
+        [
+          0,
+          0,
+          41
+        ]
+      ],
+      "confusion_matrix_order": "rows = true, columns = ['Benign', 'Malignant', 'Normal']",
+      "rejected": {
+        "sanity": 0,
+        "gate": 0,
+        "ood": 0,
+        "input_validation": 0,
+        "other": 0
+      },
+      "rejected_by_true_class": {}
+    },
+    "external": [
+      {
+        "name": "External CT probe (Kaggle mohamedhanyyy/chest-ctscan-images): 12 Malignant + 9 Normal; no external Benign source exists",
+        "source": "eval_run/phaseI_final_numbers.md (live /predict HTTP, 2026-09-10) -- master table",
+        "images_on_disk": "images deleted (was eval_run/external_samples/ct/)",
+        "n": 21,
+        "served": 21,
+        "accuracy": 0.571429,
+        "per_class": {
+          "Benign": {
+            "correct": 0,
+            "total": 0
+          },
+          "Malignant": {
+            "correct": 12,
+            "total": 12
+          },
+          "Normal": {
+            "correct": 0,
+            "total": 9
+          }
+        },
+        "predicted_counts": {
+          "Benign": {},
+          "Malignant": {
+            "Benign": 0,
+            "Malignant": 12,
+            "Normal": 0
+          },
+          "Normal": {
+            "Benign": 2,
+            "Malignant": 7,
+            "Normal": 0
+          }
+        },
+        "predicted_counts_note": "Normal row split (7 Malignant / 2 Benign) from phaseI_final_numbers.md \u00a7'Numbers that differ' item 5",
+        "rejected": 0,
+        "overlaps_with": "its 9 Normal images are a subset of Group B mohamedhanyyy (99)"
+      },
+      {
+        "name": "External Normal, original 9-image failure set (Kaggle mohamedhanyyy/chest-ctscan-images)",
+        "source": "eval_run/results_ct_retrain_before.json (groups.ext_normal_9); classifier only, no guardrails",
+        "images_on_disk": "images deleted (was eval_run/external_samples/ct/normal); these 9 are ALSO inside groupB_mohamedhanyyy -- do not add them to it",
+        "n": 9,
+        "accuracy": 0.0,
+        "per_class": {
+          "Normal": {
+            "correct": 0,
+            "total": 9
+          }
+        },
+        "predicted_counts": {
+          "Normal": {
+            "Benign": 2,
+            "Malignant": 7,
+            "Normal": 0
+          }
+        },
+        "rejected": null,
+        "rejected_note": "not measured (offline classifier-only run)",
+        "overlaps_with": "same 9 images as the Normal row of the Phase I live CT probe; also a subset of Group B mohamedhanyyy (99)"
+      },
+      {
+        "name": "External Malignant (Kaggle mohamedhanyyy/chest-ctscan-images: adenocarcinoma / large-cell / squamous)",
+        "source": "eval_run/results_ct_retrain_before.json (groups.ext_malignant_12); classifier only, no guardrails",
+        "images_on_disk": "images deleted (was eval_run/external_samples/ct/malignant)",
+        "n": 12,
+        "accuracy": 1.0,
+        "per_class": {
+          "Malignant": {
+            "correct": 12,
+            "total": 12
+          }
+        },
+        "predicted_counts": {
+          "Malignant": {
+            "Benign": 0,
+            "Malignant": 12,
+            "Normal": 0
+          }
+        },
+        "rejected": null,
+        "rejected_note": "not measured (offline classifier-only run)",
+        "overlaps_with": "same 12 images as the Malignant row of the Phase I live CT probe"
+      },
+      {
+        "name": "External Normal, held-out Group B, mohamedhanyyy (9 patients)",
+        "source": "eval_run/results_ct_retrain_before.json (groups.groupB_mohamedhanyyy); classifier only, no guardrails",
+        "images_on_disk": "images deleted (was eval_run/ct_normal_heldout/groupB_mohamedhanyyy)",
+        "n": 99,
+        "accuracy": 0.0,
+        "per_class": {
+          "Normal": {
+            "correct": 0,
+            "total": 99
+          }
+        },
+        "predicted_counts": {
+          "Normal": {
+            "Benign": 36,
+            "Malignant": 63,
+            "Normal": 0
+          }
+        },
+        "rejected": null,
+        "rejected_note": "not measured (offline classifier-only run)"
+      },
+      {
+        "name": "External Normal, held-out Group B, Kaggle maedemaftouni/large-covid19-ct-slice-dataset 1NonCOVID (44 patients)",
+        "source": "eval_run/results_ct_retrain_before.json (groups.groupB_maftouni); classifier only, no guardrails",
+        "images_on_disk": "images deleted (was eval_run/ct_normal_heldout/groupB_maftouni)",
+        "n": 165,
+        "accuracy": 0.0,
+        "per_class": {
+          "Normal": {
+            "correct": 0,
+            "total": 165
+          }
+        },
+        "predicted_counts": {
+          "Normal": {
+            "Benign": 1,
+            "Malignant": 164,
+            "Normal": 0
+          }
+        },
+        "rejected": null,
+        "rejected_note": "not measured (offline classifier-only run)"
+      },
+      {
+        "name": "External Normal, Group A pool, Kaggle maedemaftouni/large-covid19-ct-slice-dataset 1NonCOVID (110 patients)",
+        "source": "recomputed today (2026-09-15) by scripts/export_graph_metrics.py; images at datasets/ct_normal_extra/groupA/maftouni; classifier only (full-pipeline counts in 'full_pipeline_sim')",
+        "images_on_disk": "yes: datasets/ct_normal_extra/groupA/maftouni",
+        "n": 405,
+        "accuracy": 0.002469,
+        "per_class": {
+          "Normal": {
+            "correct": 1,
+            "total": 405
+          }
+        },
+        "predicted_counts": {
+          "Normal": {
+            "Benign": 2,
+            "Malignant": 402,
+            "Normal": 1
+          }
+        },
+        "rejected": 6,
+        "rejected_note": "from full_pipeline_sim (offline guardrail simulation)",
+        "full_pipeline_sim": {
+          "served": 399,
+          "correct": 1,
+          "accuracy_over_served": 0.002506,
+          "accuracy_counting_rejections_as_wrong": 0.002469,
+          "predicted_counts": {
+            "Normal": {
+              "Benign": 2,
+              "Malignant": 396,
+              "Normal": 1
+            }
+          },
+          "rejected": {
+            "blank": 3,
+            "color": 0,
+            "sanity": 3,
+            "gate": 0,
+            "ood": 0
+          }
+        },
+        "sha256_overlap_with_data_ct_scan": 0,
+        "note": "Group A was training data for the unserved phase36/phase37 retrains, never for the served phase35_v2 -- external for the served model"
+      },
+      {
+        "name": "External Normal, Group A pool, Kaggle mohamedhanyyy/chest-ctscan-images (18 patient groups)",
+        "source": "recomputed today (2026-09-15) by scripts/export_graph_metrics.py; images at datasets/ct_normal_extra/groupA/mohamedhanyyy; classifier only (full-pipeline counts in 'full_pipeline_sim')",
+        "images_on_disk": "yes: datasets/ct_normal_extra/groupA/mohamedhanyyy",
+        "n": 18,
+        "accuracy": 0.0,
+        "per_class": {
+          "Normal": {
+            "correct": 0,
+            "total": 18
+          }
+        },
+        "predicted_counts": {
+          "Normal": {
+            "Benign": 5,
+            "Malignant": 13,
+            "Normal": 0
+          }
+        },
+        "rejected": 0,
+        "rejected_note": "from full_pipeline_sim (offline guardrail simulation)",
+        "full_pipeline_sim": {
+          "served": 18,
+          "correct": 0,
+          "accuracy_over_served": 0.0,
+          "accuracy_counting_rejections_as_wrong": 0.0,
+          "predicted_counts": {
+            "Normal": {
+              "Benign": 5,
+              "Malignant": 13,
+              "Normal": 0
+            }
+          },
+          "rejected": {
+            "blank": 0,
+            "color": 0,
+            "sanity": 0,
+            "gate": 0,
+            "ood": 0
+          }
+        },
+        "sha256_overlap_with_data_ct_scan": 0,
+        "note": "Group A was training data for the unserved phase36/phase37 retrains, never for the served phase35_v2 -- external for the served model"
+      }
+    ]
+  },
+  "ct_volume_pipeline_removed": {
+    "source": "eval_run/phaseJ_external_validation.md (live /predict/ct/volume, 2026-09-10)",
+    "model": "MONAI 3D RetinaNet nodule detector + checkpoints/ct_lidc_nodulecrop_v4_stack3.pt nodule-crop classifier -- NOT the served whole-slice CT classifier",
+    "external_dataset": "SPIE-AAPM-NCI Lung CT Challenge (LUNGx), 14 nodules / 11 patients",
+    "n": 14,
+    "accuracy": 0.285714,
+    "wilson_95ci": [
+      0.117,
+      0.546
+    ],
+    "per_class": {
+      "Malignant": {
+        "correct": 4,
+        "total": 5
+      },
+      "Benign": {
+        "correct": 0,
+        "total": 9
+      }
+    },
+    "internal_lidc_idri_for_comparison": {
+      "source": "eval_run/phaseI_final_numbers.md",
+      "n": 84,
+      "accuracy": 0.630952
+    },
+    "notes": "Verdict NO-GO; route, pipeline and frontend page were subsequently removed from the codebase. Do not plot alongside the served CT classifier as if it were the same model."
+  },
+  "cross_checks": {
+    "full_pipeline_sim_confusion_matrix_equals_recorded_live_http": {
+      "xray": true,
+      "ct": true
+    },
+    "xray_offline_with_lung_crop_vs_without": {
+      "with_crop_served_path": 0.917274,
+      "without_crop_superseded": 0.965661
+    }
+  },
+  "caveats": [
+    "X-ray 'test_offline' (served preprocessing, with U-Net lung crop) is the number to plot for the served model. The older 96.57% (eval_outputs/xray_txrv_densenet121, CLASSIFIER_EVALUATION_REPORT.md Condition A) skips the lung crop the backend applies to every upload.",
+    "data/xray/test images were already lung-cropped at dataset-prep time; the backend crops again on upload. The served-path number therefore includes this double-crop, which is exactly what happens when a test-split file is uploaded to the app.",
+    "Internal CT test split is small: 103 images, only 12 Benign (1 image = 8.3 points of Benign recall).",
+    "All external X-ray and CT probe rows are tiny (n = 9 to 12 per class) except the CT Normal pools; the Phase I probes should be plotted with their denominators.",
+    "No external CT Benign data exists for any source; the Benign external bar must be shown as n=0, not 0%.",
+    "External CT is effectively two sources (Kaggle mohamedhanyyy/chest-ctscan-images and maedemaftouni/large-covid19-ct-slice-dataset); several recorded rows reuse the same images (see 'overlaps_with'). Non-overlapping set: Malignant 12, Group B mohamedhanyyy 99, Group B maftouni 165, Group A maftouni 405, Group A mohamedhanyyy 18.",
+    "mohamedhanyyy/chest-ctscan-images was the project's originally-chosen CT dataset before it was replaced by IQ-OTH/NCCD (data/README.md); it was not used to train the served CT model. Group A/B were never in the served model's training data; Group A has 0 SHA-256 overlap with data/ct_scan (recomputed today).",
+    "External X-ray source (Kaggle jtiptj/chest-xray-pneumoniacovid19tuberculosis) was NEVER provenance-checked against the COVID-19 Radiography / TB Chest Radiography training sources; such Kaggle aggregates often re-host those databases, so overlap is possible and unverified. The images are deleted, so this cannot be checked now.",
+    "Recorded external probe images (eval_run/external_samples/, eval_run/ct_normal_heldout/) were deleted in a later cleanup; those rows are transcribed from recorded results and cannot be re-run.",
+    "The Group B and Phase I CT results were run offline (classifier only) or live on 2026-09-10; no guardrail rejection data exists for the Group B rows.",
+    "'Recomputed today' predictions use torch.no_grad forward passes; the live route computes the same logits inside Grad-CAM with gradients enabled. The confusion matrices are identical to the recorded live run, so this makes no measurable difference.",
+    "Live-API macro/weighted F1 are derived from the recorded per-class values; the report itself stores only accuracy and per-class metrics.",
+    "The CT volume pipeline's 28.6% (Phase J) belongs to a different, removed model (MONAI detector + LIDC nodule-crop classifier) and must not be plotted as the served CT classifier."
+  ]
+}

@@ -1,0 +1,2234 @@
+{
+  "overall": {
+    "n": 240,
+    "serving_acc": 0.95,
+    "nocrop_acc": 0.8042,
+    "unmatched_raw_files": {}
+  },
+  "per_class": {
+    "COVID-19": {
+      "n": 60,
+      "serving_acc": 0.9333,
+      "serving_preds": {
+        "COVID-19": 56,
+        "Pneumonia": 1,
+        "Normal": 3
+      },
+      "nocrop_acc": 0.4,
+      "nocrop_preds": {
+        "COVID-19": 24,
+        "Tuberculosis": 11,
+        "Normal": 23,
+        "Pneumonia": 2
+      },
+      "seg_used_frac": 0.983
+    },
+    "Normal": {
+      "n": 60,
+      "serving_acc": 0.95,
+      "serving_preds": {
+        "Normal": 57,
+        "Tuberculosis": 1,
+        "COVID-19": 2
+      },
+      "nocrop_acc": 0.95,
+      "nocrop_preds": {
+        "Normal": 57,
+        "Pneumonia": 1,
+        "Tuberculosis": 1,
+        "COVID-19": 1
+      },
+      "seg_used_frac": 1.0
+    },
+    "Pneumonia": {
+      "n": 60,
+      "serving_acc": 0.9667,
+      "serving_preds": {
+        "Pneumonia": 58,
+        "Normal": 2
+      },
+      "nocrop_acc": 0.8833,
+      "nocrop_preds": {
+        "Pneumonia": 53,
+        "Normal": 7
+      },
+      "seg_used_frac": 1.0
+    },
+    "Tuberculosis": {
+      "n": 60,
+      "serving_acc": 0.95,
+      "serving_preds": {
+        "Tuberculosis": 57,
+        "COVID-19": 3
+      },
+      "nocrop_acc": 0.9833,
+      "nocrop_preds": {
+        "Tuberculosis": 59,
+        "Normal": 1
+      },
+      "seg_used_frac": 1.0
+    }
+  },
+  "rows": [
+    {
+      "true": "COVID-19",
+      "raw": "COVID-77.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9974,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.9916,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-1780.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9931,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.9279,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-1732.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 1.0,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.9951,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-3607.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.4663,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-2255.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9438,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.8889,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-3511.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9998,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.508,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-1809.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9932,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.9665,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-2503.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9619,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9984,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-1877.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9966,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.96,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-860.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9945,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.9686,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-339.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9999,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.7233,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-3253.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9901,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9431,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-3309.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9987,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9882,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-441.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9977,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.7419,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-163.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9999,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.999,
+      "used_seg": false
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-3545.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9996,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9167,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-284.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9994,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.9131,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-2477.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9978,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.5861,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-1343.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9998,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.8928,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-1526.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9991,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.947,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-437.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9873,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.5955,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-2562.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9972,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.9991,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-1052.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9999,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.4531,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-1595.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9902,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.539,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-3464.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.8792,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.8114,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-1909.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9997,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.4991,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-2520.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9922,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.5648,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-1976.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9906,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-2620.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9012,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9813,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-355.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9999,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.8176,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-3443.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9994,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.7411,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-2160.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.8381,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9988,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-583.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9971,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.9641,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-1214.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9999,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.776,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-240.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.5532,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.6227,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-1313.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9994,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9972,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-2081.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9246,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.8845,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-179.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9189,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9947,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-27.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9767,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.5062,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-3111.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9963,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.8553,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-2680.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9969,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.5585,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-1221.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9264,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9982,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-1115.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9991,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.9764,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-3580.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9823,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.7266,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-2608.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9521,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.92,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-732.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9216,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.4671,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-755.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9979,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.9912,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-76.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9982,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.5417,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-2928.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9991,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.3664,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-3149.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9728,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9438,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-3372.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9836,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9694,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-3247.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9999,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.5079,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-126.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9994,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.7886,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-1247.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.5965,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.6496,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-1778.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9775,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.7032,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-779.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9939,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.6687,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-3414.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9994,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.9965,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-1676.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9997,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.9806,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-2269.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9818,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.8505,
+      "used_seg": true
+    },
+    {
+      "true": "COVID-19",
+      "raw": "COVID-264.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9602,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.7259,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-6434.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9517,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9973,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-5570.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9195,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9998,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-5163.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9932,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9944,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-1465.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.997,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-1602.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9988,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9847,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-2903.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9995,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9985,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-1187.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.8898,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9897,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-8062.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9729,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9997,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-3936.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9999,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-3040.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.995,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9974,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-734.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9943,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9965,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-7252.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9267,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9938,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-1956.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9696,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9931,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-4504.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9958,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9981,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-8734.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9992,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9983,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-9315.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.999,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9972,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-6847.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9998,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9998,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-3222.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9996,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9996,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-2122.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9951,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9998,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-6012.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9882,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.994,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-7251.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9976,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9982,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-773.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9488,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9816,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-2838.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9914,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-206.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.8745,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9862,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-3080.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9986,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9997,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-9931.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9993,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9995,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-6481.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9999,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9978,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-656.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.6683,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.8769,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-2875.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9974,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9974,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-71.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.6905,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.526,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-9000.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9993,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-1701.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9884,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9995,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-3642.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9887,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9847,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-2742.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9978,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-9308.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.5701,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.8061,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-2099.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9946,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9987,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-9128.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9941,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-7966.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9992,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9995,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-4927.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.7738,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.8312,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-1408.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.651,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9984,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-187.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.5975,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9511,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-3196.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9986,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9998,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-19.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9992,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9997,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-8113.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.7525,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9452,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-2280.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9976,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9843,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-3021.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9775,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9696,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-1885.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9473,
+      "nocrop_pred": "COVID-19",
+      "nocrop_conf": 0.5871,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-10029.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9288,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9993,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-7046.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9964,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9345,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-6962.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9976,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9997,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-616.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9722,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9924,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-1132.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.8155,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9848,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-111.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9598,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9916,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-2535.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9671,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9997,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-2791.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9763,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9741,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-6284.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9996,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9978,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-1558.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9949,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9073,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-884.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.9869,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9866,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-6427.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.8516,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9992,
+      "used_seg": true
+    },
+    {
+      "true": "Normal",
+      "raw": "Normal-1278.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.5712,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.6738,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-57.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9986,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9551,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-1127.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9822,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.6948,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-638.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9984,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.8949,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-179.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9999,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9931,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-992.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9998,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-209.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9995,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9789,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-933.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9995,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-288.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9937,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.6768,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-991.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9999,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9998,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-464.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9979,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9709,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-279.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9995,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.8343,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-299.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9997,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9788,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-527.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9974,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9222,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-1287.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9999,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9977,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-418.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9988,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9864,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-581.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9979,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-143.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.5132,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.8346,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-565.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9468,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.5937,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-1315.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9993,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.591,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-984.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9274,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.8724,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-411.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9999,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9926,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-1047.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9996,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9636,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-1263.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.7395,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.6951,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-1120.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9789,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9214,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-871.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9997,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.6277,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-244.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9464,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.6123,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-998.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9997,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.98,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-782.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9815,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9523,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-303.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9993,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.974,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-194.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9997,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.989,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-1186.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9824,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.5129,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-799.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9971,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9884,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-101.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9996,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9932,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-49.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.6689,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.6224,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-1019.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9853,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.6104,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-628.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9159,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.8932,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-988.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9991,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9809,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-520.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.999,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9963,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-192.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.959,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.7446,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-839.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9887,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9302,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-117.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9982,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9794,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-916.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9999,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9979,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-1144.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9489,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.5115,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-1189.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9347,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.6064,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-474.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9912,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9359,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-453.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9969,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9189,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-1086.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9892,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.8534,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-1210.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9998,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-282.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-371.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.7655,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.5435,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-778.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.8167,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.7347,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-332.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9999,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9981,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-769.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9964,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9696,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-923.png",
+      "serving_pred": "Normal",
+      "serving_conf": 0.505,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.926,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-459.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.976,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.8555,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-186.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9843,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9035,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-1257.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9998,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9906,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-828.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9985,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-1178.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9948,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9545,
+      "used_seg": true
+    },
+    {
+      "true": "Pneumonia",
+      "raw": "Viral Pneumonia-446.png",
+      "serving_pred": "Pneumonia",
+      "serving_conf": 0.9958,
+      "nocrop_pred": "Pneumonia",
+      "nocrop_conf": 0.9396,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-698.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-678.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9995,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-484.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9987,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-379.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-19.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9326,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9993,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-579.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9821,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-477.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-140.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-396.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9778,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9998,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-194.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9996,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9998,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-319.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-444.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-85.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.9069,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.7192,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-671.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.6737,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9015,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-662.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9997,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-48.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9998,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.8446,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-77.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.993,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9874,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-186.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-72.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.8135,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.8661,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-686.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.999,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9992,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-332.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.998,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9977,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-633.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-232.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-455.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9956,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9998,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-9.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9952,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9902,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-185.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.8902,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.8844,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-498.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9999,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9997,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-104.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9997,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9974,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-123.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9983,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-171.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.7865,
+      "nocrop_pred": "Normal",
+      "nocrop_conf": 0.9459,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-328.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9998,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-254.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.6244,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9955,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-92.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.991,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9921,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-540.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9998,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-365.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.8818,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9968,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-314.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-126.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9901,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9995,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-218.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9999,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-82.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.998,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9947,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-128.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-299.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-163.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.5739,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9644,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-317.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9766,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9624,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-121.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9986,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.994,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-250.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.8915,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9697,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-4.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9914,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.997,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-5.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9955,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.997,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-205.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.8531,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9467,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-45.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9999,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9082,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-93.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9951,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9958,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-172.png",
+      "serving_pred": "COVID-19",
+      "serving_conf": 0.995,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.688,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-321.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.997,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9999,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-257.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-574.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-139.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 1.0,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 1.0,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-381.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9994,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9977,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-195.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9997,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9995,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-538.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.997,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9998,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-49.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9949,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.5072,
+      "used_seg": true
+    },
+    {
+      "true": "Tuberculosis",
+      "raw": "Tuberculosis-29.png",
+      "serving_pred": "Tuberculosis",
+      "serving_conf": 0.9524,
+      "nocrop_pred": "Tuberculosis",
+      "nocrop_conf": 0.9984,
+      "used_seg": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+@startuml p_di
+!include _style.iuml
+skinparam nodesep 30
+skinparam ranksep 30
+skinparam RectangleFontColor #1a1a1a
+skinparam RectangleBackgroundColor #FBF4F2
+rectangle "Authorization:\nBearer JWT" as H1
+rectangle "get_current_user()" as U
+rectangle "require_verified_\nif_logged_in()" as V
+rectangle "predict_xray / predict_ct\n/ chat route" as R #FCE5CD
+H1 -right-> U : decode
+U -down-> V
+V -left-> R : Depends(...)
+@enduml

@@ -1,0 +1,28 @@
+@startuml
+!include style_print.iuml
+hide empty description
+[*] --> SignedOut
+state "Signed out\n(landing)" as SignedOut
+state "Signed in,\nunverified" as Unverified
+state "Ready\n(choose modality)" as Ready
+state "File selected" as Sel
+state "Analysing" as An
+state "Result shown" as Res
+state "Rejected / error" as Rej
+state "Chat" as Chat
+state "Profile &\nhistory" as Prof
+SignedOut --> Unverified : sign up
+SignedOut --> Ready : log in / Google
+Unverified --> Ready : email link
+Ready --> Sel : upload
+Sel --> An : Analyze
+An --> Res : 200 OK
+An --> Rej : 400/413/422
+Rej --> Ready : Try again
+Res --> Ready : new scan
+Res --> Chat : open chat
+Chat --> Res : close
+Ready --> Prof : profile
+Prof --> Ready : back
+Ready --> SignedOut : log out / 401
+@enduml

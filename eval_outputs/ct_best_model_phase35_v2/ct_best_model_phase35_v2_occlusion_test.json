@@ -1,0 +1,79 @@
+{
+  "checkpoint": "D:\\7th sem\\sdp\\checkpoints\\ct_best_model_phase35_v2.pt",
+  "class_names": [
+    "Benign",
+    "Malignant",
+    "Normal"
+  ],
+  "reported_val_acc": 0.9903846153846154,
+  "checkpoint_epoch": 6,
+  "occlusion_test": {
+    "Benign": {
+      "n": 12,
+      "full": 0.8333,
+      "center_blanked": 0.5,
+      "chance_3class": 0.3333,
+      "pred_distribution": {
+        "full": {
+          "Benign": 0.8333,
+          "Malignant": 0.0,
+          "Normal": 0.1667
+        },
+        "center_blanked": {
+          "Benign": 0.5,
+          "Malignant": 0.5,
+          "Normal": 0.0
+        }
+      }
+    },
+    "Malignant": {
+      "n": 50,
+      "full": 1.0,
+      "center_blanked": 1.0,
+      "chance_3class": 0.3333,
+      "pred_distribution": {
+        "full": {
+          "Benign": 0.0,
+          "Malignant": 1.0,
+          "Normal": 0.0
+        },
+        "center_blanked": {
+          "Benign": 0.0,
+          "Malignant": 1.0,
+          "Normal": 0.0
+        }
+      }
+    },
+    "Normal": {
+      "n": 41,
+      "full": 1.0,
+      "center_blanked": 0.0,
+      "chance_3class": 0.3333,
+      "pred_distribution": {
+        "full": {
+          "Benign": 0.0,
+          "Malignant": 0.0,
+          "Normal": 1.0
+        },
+        "center_blanked": {
+          "Benign": 0.4878,
+          "Malignant": 0.5122,
+          "Normal": 0.0
+        }
+      }
+    },
+    "pooled_pred_distribution": {
+      "full": {
+        "Benign": 0.0971,
+        "Malignant": 0.4854,
+        "Normal": 0.4175
+      },
+      "center_blanked": {
+        "Benign": 0.2524,
+        "Malignant": 0.7476,
+        "Normal": 0.0
+      }
+    },
+    "pooled_n": 103
+  }
+}

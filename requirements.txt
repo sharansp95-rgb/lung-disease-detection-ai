@@ -1,0 +1,32 @@
+fastapi==0.141.1
+uvicorn==0.52.4
+python-multipart==0.0.32
+pydantic==2.13.4
+python-dotenv==1.2.3
+requests==2.34.2
+bcrypt==5.0.0
+PyJWT==2.13.0
+slowapi==0.1.10
+
+pytest==9.1.1
+httpx==0.28.1
+
+torch==2.11.0
+torchvision==0.26.0
+torchxrayvision==1.5.4
+# The exact wheels installed on this machine are CUDA 12.8 builds
+# (torch==2.11.0+cu128). A plain `pip install -r requirements.txt` will
+# fetch the CPU-only build instead, which still works (the app falls back
+# to CPU automatically) but is slower. For GPU acceleration on the new
+# machine, install torch separately first following the matching command
+# for its CUDA version at https://pytorch.org/get-started/locally/,
+# then run this file to fill in everything else.
+
+numpy==2.5.2
+pillow==12.3.0
+matplotlib==3.11.1
+scipy==1.18.1
+scikit-image==0.26.0
+scikit-learn==1.9.0
+opencv-python-headless==5.0.0.93
+ImageHash==4.3.2

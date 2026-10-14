@@ -1,0 +1,5954 @@
+[
+  {
+    "file": "adenocarcinoma_000108.png",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0406000018119812,
+        0.95169997215271,
+        0.007699999958276749
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.3165999948978424,
+        0.939300000667572,
+        0.04919999837875366
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.14650000631809235,
+        0.8320000171661377,
+        0.0215000007301569
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "external"
+  },
+  {
+    "file": "adenocarcinoma_000109.png",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.025100000202655792,
+        0.9731000065803528,
+        0.0017999999690800905
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.1745000034570694,
+        0.958299994468689,
+        0.11649999767541885
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.07039999961853027,
+        0.8924999833106995,
+        0.03709999844431877
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "external"
+  },
+  {
+    "file": "adenocarcinoma_000112.png",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.010599999688565731,
+        0.9872999787330627,
+        0.002099999925121665
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.050999999046325684,
+        0.9724000096321106,
+        0.03229999914765358
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.03610000014305115,
+        0.948199987411499,
+        0.015799999237060547
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "external"
+  },
+  {
+    "file": "adenocarcinoma_000113.png",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.011800000444054604,
+        0.9833999872207642,
+        0.004800000227987766
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.16940000653266907,
+        0.9204999804496765,
+        0.1451999992132187
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.0989999994635582,
+        0.8411999940872192,
+        0.059700001031160355
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "external"
+  },
+  {
+    "file": "large_cell_000108.png",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.21539999544620514,
+        0.7759000062942505,
+        0.008700000122189522
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.39079999923706055,
+        0.9333000183105469,
+        0.18389999866485596
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.218299999833107,
+        0.7067999839782715,
+        0.07490000128746033
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "external"
+  },
+  {
+    "file": "large_cell_000110.png",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.009100000374019146,
+        0.9889000058174133,
+        0.0020000000949949026
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.08699999749660492,
+        0.9751999974250793,
+        0.03880000114440918
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.04780000075697899,
+        0.9348999857902527,
+        0.01720000058412552
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "external"
+  },
+  {
+    "file": "large_cell_000111.png",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.243599995970726,
+        0.7480999827384949,
+        0.008299999870359898
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.3774999976158142,
+        0.9142000079154968,
+        0.18639999628067017
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.18449999392032623,
+        0.7372999787330627,
+        0.07829999923706055
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "external"
+  },
+  {
+    "file": "large_cell_000113.png",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.11180000007152557,
+        0.8820000290870667,
+        0.006200000178068876
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.7142999768257141,
+        0.9861000180244446,
+        0.23319999873638153
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 2,
+        "Malignant": 7,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.20640000700950623,
+        0.7307000160217285,
+        0.06289999932050705
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Benign",
+      "Malignant",
+      "Malignant",
+      "Benign",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "external"
+  },
+  {
+    "file": "squamous_000108.png",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.07169999927282333,
+        0.9232000112533569,
+        0.005100000184029341
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.44909998774528503,
+        0.9702000021934509,
+        0.19339999556541443
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 1,
+        "Malignant": 8,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.14399999380111694,
+        0.8008000254631042,
+        0.0551999993622303
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Benign"
+    ],
+    "true": "Malignant",
+    "source": "external"
+  },
+  {
+    "file": "squamous_000110.png",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.021900000050663948,
+        0.9768000245094299,
+        0.0013000000035390258
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.16060000658035278,
+        0.9602000117301941,
+        0.05180000141263008
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.07660000026226044,
+        0.9060999751091003,
+        0.017400000244379044
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "external"
+  },
+  {
+    "file": "squamous_000111.png",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.005200000014156103,
+        0.9937000274658203,
+        0.0010999999940395355
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.15610000491142273,
+        0.9782999753952026,
+        0.060499999672174454
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.07190000265836716,
+        0.9093000292778015,
+        0.01889999955892563
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "external"
+  },
+  {
+    "file": "squamous_000112.png",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.007199999876320362,
+        0.9908000230789185,
+        0.0020000000949949026
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.0989999994635582,
+        0.9839000105857849,
+        0.12939999997615814
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.04659999907016754,
+        0.9176999926567078,
+        0.0357000008225441
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "external"
+  },
+  {
+    "file": "normal_10.png",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.055799998342990875,
+        0.9305999875068665,
+        0.01360000018030405
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.10050000250339508,
+        0.9950000047683716,
+        0.01979999989271164
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.050599999725818634,
+        0.941100001335144,
+        0.00839999970048666
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Normal",
+    "source": "external"
+  },
+  {
+    "file": "normal_11.png",
+    "whole": {
+      "pred": "Benign",
+      "probs": [
+        0.5601999759674072,
+        0.019600000232458115,
+        0.420199990272522
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.890500009059906,
+        0.42010000348091125,
+        0.714900016784668
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 5,
+        "Malignant": 1,
+        "Normal": 3
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.5311999917030334,
+        0.09470000118017197,
+        0.374099999666214
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Malignant",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "external"
+  },
+  {
+    "file": "normal_21.png",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.3603000044822693,
+        0.5443999767303467,
+        0.09529999643564224
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.8147000074386597,
+        0.9379000067710876,
+        0.2395000010728836
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 3,
+        "Malignant": 6,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.3675999939441681,
+        0.4844000041484833,
+        0.14800000190734863
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Normal",
+    "source": "external"
+  },
+  {
+    "file": "normal_22.png",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0142000000923872,
+        0.984000027179718,
+        0.0017999999690800905
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.04919999837875366,
+        0.9930999875068665,
+        0.02290000021457672
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.01889999955892563,
+        0.9757999777793884,
+        0.0052999998442828655
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Normal",
+    "source": "external"
+  },
+  {
+    "file": "normal_23.png",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.2134999930858612,
+        0.6861000061035156,
+        0.10040000081062317
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.43560001254081726,
+        0.9761999845504761,
+        0.25440001487731934
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 1,
+        "Malignant": 8,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.18490000069141388,
+        0.6789000034332275,
+        0.13619999587535858
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Benign",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Normal",
+    "source": "external"
+  },
+  {
+    "file": "normal_24.png",
+    "whole": {
+      "pred": "Benign",
+      "probs": [
+        0.70169997215271,
+        0.13230000436306,
+        0.16599999368190765
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.727400004863739,
+        0.20810000598430634,
+        0.4708999991416931
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 9,
+        "Malignant": 0,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.6489999890327454,
+        0.08259999752044678,
+        0.26829999685287476
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign"
+    ],
+    "true": "Normal",
+    "source": "external"
+  },
+  {
+    "file": "normal_6.png",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.4316999912261963,
+        0.5306000113487244,
+        0.037700001150369644
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.6820999979972839,
+        0.5493999719619751,
+        0.22290000319480896
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 4,
+        "Malignant": 5,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.47209998965263367,
+        0.4422000050544739,
+        0.08569999784231186
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Benign",
+      "Malignant",
+      "Benign",
+      "Malignant",
+      "Malignant",
+      "Benign",
+      "Malignant",
+      "Benign"
+    ],
+    "true": "Normal",
+    "source": "external"
+  },
+  {
+    "file": "normal_7.png",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.34439998865127563,
+        0.4214000105857849,
+        0.23420000076293945
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.8172000050544739,
+        0.21320000290870667,
+        0.541700005531311
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 8,
+        "Malignant": 0,
+        "Normal": 1
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.6531000137329102,
+        0.11349999904632568,
+        0.23340000212192535
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign"
+    ],
+    "true": "Normal",
+    "source": "external"
+  },
+  {
+    "file": "normal_8.png",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.3255000114440918,
+        0.46540001034736633,
+        0.20909999310970306
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.6794000267982483,
+        0.940500020980835,
+        0.2639000117778778
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 3,
+        "Malignant": 6,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.35409998893737793,
+        0.5519000291824341,
+        0.0940999984741211
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Benign",
+      "Malignant",
+      "Benign"
+    ],
+    "true": "Normal",
+    "source": "external"
+  },
+  {
+    "file": "Bengin case (1).jpg",
+    "whole": {
+      "pred": "Benign",
+      "probs": [
+        0.9291999936103821,
+        0.0026000000070780516,
+        0.06809999793767929
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.8853999972343445,
+        0.07670000195503235,
+        0.7116000056266785
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 7,
+        "Malignant": 0,
+        "Normal": 2
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.6862999796867371,
+        0.020099999383091927,
+        0.2935999929904938
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Normal"
+    ],
+    "true": "Benign",
+    "source": "indataset"
+  },
+  {
+    "file": "Bengin case (108).jpg",
+    "whole": {
+      "pred": "Benign",
+      "probs": [
+        0.9869999885559082,
+        0.000699999975040555,
+        0.012400000356137753
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.9133999943733215,
+        0.3154999911785126,
+        0.28279998898506165
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 9,
+        "Malignant": 0,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.7616000175476074,
+        0.07829999923706055,
+        0.16009999811649323
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign"
+    ],
+    "true": "Benign",
+    "source": "indataset"
+  },
+  {
+    "file": "Bengin case (116).jpg",
+    "whole": {
+      "pred": "Benign",
+      "probs": [
+        0.9901999831199646,
+        0.000699999975040555,
+        0.009100000374019146
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.941100001335144,
+        0.24889999628067017,
+        0.5011000037193298
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 8,
+        "Malignant": 0,
+        "Normal": 1
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.757099986076355,
+        0.04960000142455101,
+        0.19339999556541443
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign"
+    ],
+    "true": "Benign",
+    "source": "indataset"
+  },
+  {
+    "file": "Bengin case (118).jpg",
+    "whole": {
+      "pred": "Benign",
+      "probs": [
+        0.9128000140190125,
+        0.0008999999845400453,
+        0.08619999885559082
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.6991999745368958,
+        0.2522999942302704,
+        0.7649000287055969
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 5,
+        "Malignant": 0,
+        "Normal": 4
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.4390999972820282,
+        0.06880000233650208,
+        0.4921000003814697
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign"
+    ],
+    "true": "Benign",
+    "source": "indataset"
+  },
+  {
+    "file": "Bengin case (40).jpg",
+    "whole": {
+      "pred": "Benign",
+      "probs": [
+        0.7829999923706055,
+        0.01590000092983246,
+        0.20110000669956207
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.7580000162124634,
+        0.19699999690055847,
+        0.5404999852180481
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 7,
+        "Malignant": 0,
+        "Normal": 2
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.5659000277519226,
+        0.07739999890327454,
+        0.35670000314712524
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Normal"
+    ],
+    "true": "Benign",
+    "source": "indataset"
+  },
+  {
+    "file": "Bengin case (50).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.22139999270439148,
+        0.0052999998442828655,
+        0.7731999754905701
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.888700008392334,
+        0.2468000054359436,
+        0.6437000036239624
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 7,
+        "Malignant": 0,
+        "Normal": 2
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.597000002861023,
+        0.052299998700618744,
+        0.3506999909877777
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal"
+    ],
+    "true": "Benign",
+    "source": "indataset"
+  },
+  {
+    "file": "Bengin case (51).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.03189999982714653,
+        0.002400000113993883,
+        0.9656999707221985
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.7581999897956848,
+        0.11400000005960464,
+        0.9208999872207642
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 4,
+        "Malignant": 0,
+        "Normal": 5
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.4609000086784363,
+        0.0364999994635582,
+        0.5026000142097473
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Benign",
+    "source": "indataset"
+  },
+  {
+    "file": "Bengin case (67).jpg",
+    "whole": {
+      "pred": "Benign",
+      "probs": [
+        0.5837000012397766,
+        0.0010000000474974513,
+        0.41530001163482666
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.8483999967575073,
+        0.015200000256299973,
+        0.833299994468689
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 6,
+        "Malignant": 0,
+        "Normal": 3
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.6452999711036682,
+        0.00839999970048666,
+        0.34630000591278076
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Benign",
+    "source": "indataset"
+  },
+  {
+    "file": "Bengin case (73).jpg",
+    "whole": {
+      "pred": "Benign",
+      "probs": [
+        0.9765999913215637,
+        0.00039999998989515007,
+        0.023000000044703484
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.8442999720573425,
+        0.030500000342726707,
+        0.9041000008583069
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 6,
+        "Malignant": 0,
+        "Normal": 3
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.5910999774932861,
+        0.01269999984651804,
+        0.3961000144481659
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Benign",
+    "source": "indataset"
+  },
+  {
+    "file": "Bengin case (81).jpg",
+    "whole": {
+      "pred": "Benign",
+      "probs": [
+        0.9646000266075134,
+        0.00019999999494757503,
+        0.03519999980926514
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.8640999794006348,
+        0.019700000062584877,
+        0.9350000023841858
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 6,
+        "Malignant": 0,
+        "Normal": 3
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.5421000123023987,
+        0.006200000178068876,
+        0.45170000195503235
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Benign",
+    "source": "indataset"
+  },
+  {
+    "file": "Bengin case (82).jpg",
+    "whole": {
+      "pred": "Benign",
+      "probs": [
+        0.9959999918937683,
+        9.999999747378752e-05,
+        0.0038999998942017555
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.8848000168800354,
+        0.030899999663233757,
+        0.8167999982833862
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 6,
+        "Malignant": 0,
+        "Normal": 3
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.6200000047683716,
+        0.014399999752640724,
+        0.36570000648498535
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Benign",
+    "source": "indataset"
+  },
+  {
+    "file": "Bengin case (93).jpg",
+    "whole": {
+      "pred": "Benign",
+      "probs": [
+        0.901199996471405,
+        0.0007999999797903001,
+        0.09790000319480896
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.9007999897003174,
+        0.07079999893903732,
+        0.5019000172615051
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 8,
+        "Malignant": 0,
+        "Normal": 1
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.6599000096321106,
+        0.014399999752640724,
+        0.32580000162124634
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal"
+    ],
+    "true": "Benign",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (109).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.003700000001117587,
+        0.9944999814033508,
+        0.0017999999690800905
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.21330000460147858,
+        0.8783000111579895,
+        0.5328999757766724
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 8,
+        "Normal": 1
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.1234000027179718,
+        0.6173999905586243,
+        0.25920000672340393
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (111).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0024999999441206455,
+        0.991599977016449,
+        0.005900000222027302
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.23899999260902405,
+        0.8745999932289124,
+        0.6165000200271606
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 7,
+        "Normal": 2
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.1459999978542328,
+        0.629800021648407,
+        0.22419999539852142
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Malignant",
+      "Normal",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (120).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.004600000102072954,
+        0.9847999811172485,
+        0.010599999688565731
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.40299999713897705,
+        0.9218000173568726,
+        0.1451999992132187
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.1834000051021576,
+        0.7563999891281128,
+        0.06030000001192093
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (121).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.007899999618530273,
+        0.9682999849319458,
+        0.02370000071823597
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.40619999170303345,
+        0.805899977684021,
+        0.5072000026702881
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 8,
+        "Normal": 1
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.2272000014781952,
+        0.6180999875068665,
+        0.15469999611377716
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (130).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.006099999882280827,
+        0.9905999898910522,
+        0.0031999999191612005
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.2451999932527542,
+        0.9700000286102295,
+        0.18369999527931213
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.11180000007152557,
+        0.7935000061988831,
+        0.09459999948740005
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (132).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.002300000051036477,
+        0.9965000152587891,
+        0.0012000000569969416
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.21050000190734863,
+        0.9409000277519226,
+        0.15850000083446503
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.11270000040531158,
+        0.8155999779701233,
+        0.07180000096559525
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (135).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0026000000070780516,
+        0.9951000213623047,
+        0.002400000113993883
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.2759000062942505,
+        0.8819000124931335,
+        0.2401999980211258
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.1704999953508377,
+        0.7468000054359436,
+        0.08259999752044678
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (142).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0010999999940395355,
+        0.9983999729156494,
+        0.0005000000237487257
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.155799999833107,
+        0.9700999855995178,
+        0.1460999995470047
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.07320000231266022,
+        0.8787000179290771,
+        0.04809999838471413
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (147).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0012000000569969416,
+        0.9980999827384949,
+        0.0007999999797903001
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.12300000339746475,
+        0.9821000099182129,
+        0.14020000398159027
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.04650000110268593,
+        0.9172999858856201,
+        0.03620000183582306
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (150).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.000699999975040555,
+        0.9988999962806702,
+        0.00039999998989515007
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.22859999537467957,
+        0.9678000211715698,
+        0.19280000030994415
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.07760000228881836,
+        0.871999979019165,
+        0.05050000175833702
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (16).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.007799999788403511,
+        0.9898999929428101,
+        0.002300000051036477
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.2483000010251999,
+        0.9797999858856201,
+        0.1932000070810318
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.11339999735355377,
+        0.8241999745368958,
+        0.06239999830722809
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (171).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.004100000020116568,
+        0.9930999875068665,
+        0.00279999990016222
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.27549999952316284,
+        0.9243999719619751,
+        0.43810001015663147
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 8,
+        "Normal": 1
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.10649999976158142,
+        0.7657999992370605,
+        0.12780000269412994
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Normal",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (186).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.009800000116229057,
+        0.9865999817848206,
+        0.003599999938160181
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.08799999952316284,
+        0.9932000041007996,
+        0.17430000007152557
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.03229999914765358,
+        0.9340000152587891,
+        0.03370000049471855
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (261).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.04740000143647194,
+        0.5322999954223633,
+        0.4203000068664551
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.6549000144004822,
+        0.7508999705314636,
+        0.4262999892234802
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 5,
+        "Malignant": 3,
+        "Normal": 1
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.4187999963760376,
+        0.34310001134872437,
+        0.23810000717639923
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (282).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0019000000320374966,
+        0.9966999888420105,
+        0.0013000000035390258
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.4284999966621399,
+        0.7961999773979187,
+        0.5113000273704529
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 8,
+        "Normal": 1
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.29269999265670776,
+        0.5527999997138977,
+        0.15449999272823334
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Normal",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (293).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.003800000064074993,
+        0.9933000206947327,
+        0.002899999963119626
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.21330000460147858,
+        0.9077000021934509,
+        0.22220000624656677
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.15029999613761902,
+        0.7429999709129333,
+        0.10670000314712524
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (30).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.008799999952316284,
+        0.9215999841690063,
+        0.06949999928474426
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.460999995470047,
+        0.7283999919891357,
+        0.9088000059127808
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 3,
+        "Malignant": 3,
+        "Normal": 3
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.26159998774528503,
+        0.32899999618530273,
+        0.40939998626708984
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Malignant",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (333).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.004100000020116568,
+        0.9936000108718872,
+        0.002199999988079071
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.10429999977350235,
+        0.9469000101089478,
+        0.3612000048160553
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.05119999870657921,
+        0.8169999718666077,
+        0.13179999589920044
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (338).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.011599999852478504,
+        0.9818999767303467,
+        0.006399999838322401
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.19110000133514404,
+        0.9539999961853027,
+        0.27570000290870667
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.08990000188350677,
+        0.8396000266075134,
+        0.07050000131130219
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (35).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.02239999920129776,
+        0.8097000122070312,
+        0.1678999960422516
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.6118000149726868,
+        0.31700000166893005,
+        0.7328000068664551
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 5,
+        "Malignant": 0,
+        "Normal": 4
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.3880999982357025,
+        0.18469999730587006,
+        0.42730000615119934
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (358).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.004100000020116568,
+        0.9943000078201294,
+        0.001500000013038516
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.1501999944448471,
+        0.8673999905586243,
+        0.45500001311302185
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.0908999964594841,
+        0.7275000214576721,
+        0.18160000443458557
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (381).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.014999999664723873,
+        0.978600025177002,
+        0.006500000134110451
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.08479999750852585,
+        0.9908999800682068,
+        0.11309999972581863
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.041099999099969864,
+        0.9187999963760376,
+        0.04010000079870224
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (382).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.017999999225139618,
+        0.9775000214576721,
+        0.0044999998062849045
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.04600000008940697,
+        0.9922999739646912,
+        0.1062999963760376
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.02630000002682209,
+        0.9377999901771545,
+        0.035999998450279236
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (393).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0007999999797903001,
+        0.9984999895095825,
+        0.000699999975040555
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.07349999994039536,
+        0.9817000031471252,
+        0.06300000101327896
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.039500001817941666,
+        0.9373999834060669,
+        0.023099999874830246
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (394).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0008999999845400453,
+        0.9987000226974487,
+        0.00039999998989515007
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.09860000014305115,
+        0.9944000244140625,
+        0.18930000066757202
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.031099999323487282,
+        0.9315999746322632,
+        0.03720000013709068
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (401).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0017999999690800905,
+        0.9973999857902527,
+        0.0007999999797903001
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.2371000051498413,
+        0.9642000198364258,
+        0.28119999170303345
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.121799997985363,
+        0.7864000201225281,
+        0.09179999679327011
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (407).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0007999999797903001,
+        0.9988999962806702,
+        0.0003000000142492354
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.16869999468326569,
+        0.9902999997138977,
+        0.16769999265670776
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.07699999958276749,
+        0.8776999711990356,
+        0.04529999941587448
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (414).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0015999999595806003,
+        0.996999979019165,
+        0.0013000000035390258
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.11230000108480453,
+        0.9854999780654907,
+        0.1680999994277954
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.042399998754262924,
+        0.9186999797821045,
+        0.03889999911189079
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (415).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.08569999784231186,
+        0.4887000024318695,
+        0.42559999227523804
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.9115999937057495,
+        0.06199999898672104,
+        0.6620000004768372
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 8,
+        "Malignant": 0,
+        "Normal": 1
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.6877999901771545,
+        0.028999999165534973,
+        0.2831999957561493
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (419).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.014000000432133675,
+        0.9526000022888184,
+        0.03350000083446503
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.8378000259399414,
+        0.09120000153779984,
+        0.6279000043869019
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 7,
+        "Malignant": 0,
+        "Normal": 2
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.6118000149726868,
+        0.04129999876022339,
+        0.34689998626708984
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (420).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.008700000122189522,
+        0.9643999934196472,
+        0.026900000870227814
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.7731000185012817,
+        0.3605000078678131,
+        0.6601999998092651
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 6,
+        "Malignant": 0,
+        "Normal": 3
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.5776000022888184,
+        0.07020000368356705,
+        0.3522000014781952
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Benign"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (423).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0066999997943639755,
+        0.9902999997138977,
+        0.002899999963119626
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.8400999903678894,
+        0.39430001378059387,
+        0.625
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 7,
+        "Malignant": 1,
+        "Normal": 1
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.5558000206947327,
+        0.1363999992609024,
+        0.3077999949455261
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Malignant",
+      "Normal"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (440).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.027899999171495438,
+        0.9702000021934509,
+        0.0019000000320374966
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.1339000016450882,
+        0.9984999895095825,
+        0.06400000303983688
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.03539999946951866,
+        0.9473999738693237,
+        0.01720000058412552
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (442).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.029500000178813934,
+        0.9667999744415283,
+        0.003800000064074993
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.06639999896287918,
+        0.9951000213623047,
+        0.10499999672174454
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.030400000512599945,
+        0.9376000165939331,
+        0.03189999982714653
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (444).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.01940000057220459,
+        0.977400004863739,
+        0.0031999999191612005
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.06069999933242798,
+        0.9864000082015991,
+        0.225600004196167
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.029999999329447746,
+        0.9128000140190125,
+        0.05719999969005585
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (451).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0066999997943639755,
+        0.9886000156402588,
+        0.004699999932199717
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.11590000241994858,
+        0.9886999726295471,
+        0.2126999944448471
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.04360000044107437,
+        0.9047999978065491,
+        0.051600001752376556
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (467).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0027000000700354576,
+        0.9945999979972839,
+        0.0026000000070780516
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.12449999898672104,
+        0.9574999809265137,
+        0.6157000064849854
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 8,
+        "Normal": 1
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.06199999898672104,
+        0.7329999804496765,
+        0.20509999990463257
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Normal"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (47).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0012000000569969416,
+        0.9965000152587891,
+        0.002400000113993883
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.04580000042915344,
+        0.9959999918937683,
+        0.29840001463890076
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.01759999990463257,
+        0.9265999794006348,
+        0.055799998342990875
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (477).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.002899999963119626,
+        0.994700014591217,
+        0.002400000113993883
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.1347000002861023,
+        0.9898999929428101,
+        0.41449999809265137
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.05389999970793724,
+        0.8614000082015991,
+        0.08470000326633453
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (481).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0010000000474974513,
+        0.9976999759674072,
+        0.00139999995008111
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.11569999903440475,
+        0.975600004196167,
+        0.2547999918460846
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.05790000036358833,
+        0.8478999733924866,
+        0.094200000166893
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (491).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0015999999595806003,
+        0.9934999942779541,
+        0.004900000058114529
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.2011999934911728,
+        0.9575999975204468,
+        0.589900016784668
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 8,
+        "Normal": 1
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.10819999873638153,
+        0.7408999800682068,
+        0.1509000062942505
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Normal",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (495).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.06260000169277191,
+        0.9093999862670898,
+        0.02810000069439411
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.8276000022888184,
+        0.5583999752998352,
+        0.5527999997138977
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 4,
+        "Malignant": 2,
+        "Normal": 3
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.5163000226020813,
+        0.1965000033378601,
+        0.287200003862381
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Normal",
+      "Benign",
+      "Malignant",
+      "Benign",
+      "Benign",
+      "Malignant",
+      "Benign",
+      "Normal"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (503).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.045499999076128006,
+        0.9180999994277954,
+        0.036400001496076584
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.5388000011444092,
+        0.3321000039577484,
+        0.8388000130653381
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 3,
+        "Malignant": 0,
+        "Normal": 6
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.31929999589920044,
+        0.12030000239610672,
+        0.5604000091552734
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Normal"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (513).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.007400000002235174,
+        0.9904999732971191,
+        0.002199999988079071
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.20919999480247498,
+        0.9679999947547913,
+        0.5192999839782715
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 8,
+        "Normal": 1
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.08889999985694885,
+        0.7372000217437744,
+        0.17389999330043793
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Normal",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (522).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0024999999441206455,
+        0.9970999956130981,
+        0.00039999998989515007
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.364300012588501,
+        0.9668999910354614,
+        0.218299999833107
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.09740000218153,
+        0.8431000113487244,
+        0.05950000137090683
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (531).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.00930000003427267,
+        0.9890999794006348,
+        0.0015999999595806003
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.17839999496936798,
+        0.987500011920929,
+        0.19979999959468842
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.06719999760389328,
+        0.890999972820282,
+        0.04179999977350235
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (532).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.01080000028014183,
+        0.9879000186920166,
+        0.0013000000035390258
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.3312999904155731,
+        0.9866999983787537,
+        0.26080000400543213
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.09870000183582306,
+        0.8511999845504761,
+        0.05009999871253967
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (543).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.00139999995008111,
+        0.9983000159263611,
+        0.0003000000142492354
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.03849999979138374,
+        0.9965000152587891,
+        0.023800000548362732
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.014800000004470348,
+        0.9768000245094299,
+        0.00839999970048666
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (547).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.0015999999595806003,
+        0.9980999827384949,
+        0.00019999999494757503
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.09290000051259995,
+        0.9948999881744385,
+        0.11959999799728394
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.030799999833106995,
+        0.9426000118255615,
+        0.026599999517202377
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Malignant case (88).jpg",
+    "whole": {
+      "pred": "Malignant",
+      "probs": [
+        0.005400000140070915,
+        0.993399977684021,
+        0.0012000000569969416
+      ]
+    },
+    "maxpool": {
+      "pred": "Malignant",
+      "probs": [
+        0.4165000021457672,
+        0.9192000031471252,
+        0.29750001430511475
+      ]
+    },
+    "vote": {
+      "pred": "Malignant",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 9,
+        "Normal": 0
+      }
+    },
+    "avg": {
+      "pred": "Malignant",
+      "probs": [
+        0.1412000060081482,
+        0.7608000040054321,
+        0.09799999743700027
+      ]
+    },
+    "per_crop_preds": [
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant",
+      "Malignant"
+    ],
+    "true": "Malignant",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (112).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.4235999882221222,
+        0.06610000133514404,
+        0.5102999806404114
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.46790000796318054,
+        0.20990000665187836,
+        0.8996000289916992
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 0,
+        "Malignant": 0,
+        "Normal": 9
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.29919999837875366,
+        0.07959999889135361,
+        0.6211000084877014
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (127).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.026399999856948853,
+        0.049400001764297485,
+        0.9240999817848206
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.5267999768257141,
+        0.08879999816417694,
+        0.8460000157356262
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 1,
+        "Malignant": 0,
+        "Normal": 8
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.28220000863075256,
+        0.05050000175833702,
+        0.6672999858856201
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (133).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.021400000900030136,
+        0.002400000113993883,
+        0.9761999845504761
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.8411999940872192,
+        0.11909999698400497,
+        0.8781999945640564
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 6,
+        "Malignant": 0,
+        "Normal": 3
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.5103999972343445,
+        0.037700001150369644,
+        0.45190000534057617
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (15).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.00430000014603138,
+        9.999999747378752e-05,
+        0.9957000017166138
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.7050999999046326,
+        0.1256999969482422,
+        0.8845000267028809
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 2,
+        "Malignant": 0,
+        "Normal": 7
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.28690001368522644,
+        0.026399999856948853,
+        0.6866999864578247
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (165).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.09960000216960907,
+        0.00019999999494757503,
+        0.9002000093460083
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.8054999709129333,
+        0.05620000138878822,
+        0.7127000093460083
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 6,
+        "Malignant": 0,
+        "Normal": 3
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.5289999842643738,
+        0.018300000578165054,
+        0.45260000228881836
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (178).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.0044999998062849045,
+        0.00019999999494757503,
+        0.9952999949455261
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.5701000094413757,
+        0.0333000011742115,
+        0.880299985408783
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 2,
+        "Malignant": 0,
+        "Normal": 7
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.27559998631477356,
+        0.009800000116229057,
+        0.7146999835968018
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (187).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.021199999377131462,
+        9.999999747378752e-05,
+        0.9786999821662903
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.8206999897956848,
+        0.14219999313354492,
+        0.7055000066757202
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 6,
+        "Malignant": 0,
+        "Normal": 3
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.6139000058174133,
+        0.024000000208616257,
+        0.3621000051498413
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (189).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.03500000014901161,
+        0.00019999999494757503,
+        0.9648000001907349
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.8220000267028809,
+        0.18140000104904175,
+        0.557699978351593
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 8,
+        "Malignant": 0,
+        "Normal": 1
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.6381999850273132,
+        0.03460000082850456,
+        0.3271999955177307
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (206).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.0031999999191612005,
+        0.0,
+        0.9968000054359436
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.6025000214576721,
+        0.10019999742507935,
+        0.869700014591217
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 4,
+        "Malignant": 0,
+        "Normal": 5
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.3273000121116638,
+        0.019500000402331352,
+        0.6531999707221985
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (213).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.008999999612569809,
+        9.999999747378752e-05,
+        0.9908999800682068
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.8248999714851379,
+        0.05640000104904175,
+        0.8565999865531921
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 6,
+        "Malignant": 0,
+        "Normal": 3
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.5202000141143799,
+        0.01850000023841858,
+        0.46129998564720154
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (220).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.3264000117778778,
+        0.002300000051036477,
+        0.6711999773979187
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.9199000000953674,
+        0.578499972820282,
+        0.5748999714851379
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 7,
+        "Malignant": 1,
+        "Normal": 1
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.6711999773979187,
+        0.10670000314712524,
+        0.22210000455379486
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Malignant",
+      "Benign"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (221).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.45010000467300415,
+        0.0017000000225380063,
+        0.5482000112533569
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.9082000255584717,
+        0.6927000284194946,
+        0.6639999747276306
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 7,
+        "Malignant": 1,
+        "Normal": 1
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.6610999703407288,
+        0.11959999799728394,
+        0.21930000185966492
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Malignant",
+      "Benign"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (230).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.13439999520778656,
+        0.002099999925121665,
+        0.8634999990463257
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.8040000200271606,
+        0.31200000643730164,
+        0.917900025844574
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 6,
+        "Malignant": 0,
+        "Normal": 3
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.48500001430511475,
+        0.06199999898672104,
+        0.453000009059906
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (244).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.0012000000569969416,
+        0.0,
+        0.9987999796867371
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.5442000031471252,
+        0.0820000022649765,
+        0.8827000260353088
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 3,
+        "Malignant": 0,
+        "Normal": 6
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.3546999990940094,
+        0.03269999846816063,
+        0.6126999855041504
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (254).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.013100000098347664,
+        0.0003000000142492354,
+        0.9865999817848206
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.7287999987602234,
+        0.0357000008225441,
+        0.8015999794006348
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 2,
+        "Malignant": 0,
+        "Normal": 7
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.3352000117301941,
+        0.012199999764561653,
+        0.6525999903678894
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (271).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.0017000000225380063,
+        0.00019999999494757503,
+        0.9980999827384949
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.8842999935150146,
+        0.0544000007212162,
+        0.9495000243186951
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 2,
+        "Malignant": 0,
+        "Normal": 7
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.36419999599456787,
+        0.011800000444054604,
+        0.6240000128746033
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (3).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.03229999914765358,
+        0.00039999998989515007,
+        0.9672999978065491
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.8996000289916992,
+        0.023099999874830246,
+        0.7942000031471252
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 3,
+        "Malignant": 0,
+        "Normal": 6
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.43700000643730164,
+        0.01140000019222498,
+        0.5515999794006348
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (30).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.011900000274181366,
+        0.0026000000070780516,
+        0.9854999780654907
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.7455000281333923,
+        0.2676999866962433,
+        0.7960000038146973
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 5,
+        "Malignant": 0,
+        "Normal": 4
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.4765999913215637,
+        0.08190000057220459,
+        0.4415000081062317
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (300).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.006300000008195639,
+        0.00019999999494757503,
+        0.993399977684021
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.8019999861717224,
+        0.09309999644756317,
+        0.935699999332428
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 7,
+        "Malignant": 0,
+        "Normal": 2
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.5374000072479248,
+        0.03370000049471855,
+        0.42890000343322754
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (310).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.01140000019222498,
+        0.00019999999494757503,
+        0.9883999824523926
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.7749999761581421,
+        0.1290999948978424,
+        0.9096999764442444
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 5,
+        "Malignant": 0,
+        "Normal": 4
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.4794999957084656,
+        0.030500000342726707,
+        0.49000000953674316
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (312).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.00860000029206276,
+        9.999999747378752e-05,
+        0.9912999868392944
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.7843999862670898,
+        0.1274999976158142,
+        0.8884999752044678
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 5,
+        "Malignant": 0,
+        "Normal": 4
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.5077000260353088,
+        0.025699999183416367,
+        0.4666000008583069
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (319).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.09989999979734421,
+        9.999999747378752e-05,
+        0.8999000191688538
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.847000002861023,
+        0.14319999516010284,
+        0.7436000108718872
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 5,
+        "Malignant": 0,
+        "Normal": 4
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.49779999256134033,
+        0.03909999877214432,
+        0.46299999952316284
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (320).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.1103999987244606,
+        0.00019999999494757503,
+        0.8894000053405762
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.9027000069618225,
+        0.11050000041723251,
+        0.6933000087738037
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 7,
+        "Malignant": 0,
+        "Normal": 2
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.6111000180244446,
+        0.03629999980330467,
+        0.35260000824928284
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (321).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.12759999930858612,
+        0.00019999999494757503,
+        0.8722000122070312
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.8733999729156494,
+        0.18889999389648438,
+        0.7882000207901001
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 7,
+        "Malignant": 0,
+        "Normal": 2
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.5813999772071838,
+        0.04520000144839287,
+        0.3734000027179718
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (323).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.027000000700354576,
+        0.0,
+        0.9729999899864197
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.8185999989509583,
+        0.04639999940991402,
+        0.8259999752044678
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 4,
+        "Malignant": 0,
+        "Normal": 5
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.4779999852180481,
+        0.014999999664723873,
+        0.5070000290870667
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (324).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.018400000408291817,
+        0.000699999975040555,
+        0.98089998960495
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.8273000121116638,
+        0.27160000801086426,
+        0.8288999795913696
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 7,
+        "Malignant": 0,
+        "Normal": 2
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.6147000193595886,
+        0.08749999850988388,
+        0.2978000044822693
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (337).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.05400000140070915,
+        0.0013000000035390258,
+        0.9447000026702881
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.7128999829292297,
+        0.12610000371932983,
+        0.695900022983551
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 3,
+        "Malignant": 0,
+        "Normal": 6
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.4287000000476837,
+        0.05790000036358833,
+        0.5134000182151794
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (340).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.14579999446868896,
+        0.0006000000284984708,
+        0.853600025177002
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.7143999934196472,
+        0.5853000283241272,
+        0.8694999814033508
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 4,
+        "Malignant": 1,
+        "Normal": 4
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.41119998693466187,
+        0.11500000208616257,
+        0.47380000352859497
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Malignant",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (352).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.020999999716877937,
+        0.00860000029206276,
+        0.9703999757766724
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.7465000152587891,
+        0.14149999618530273,
+        0.7121000289916992
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 3,
+        "Malignant": 0,
+        "Normal": 6
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.47620001435279846,
+        0.030500000342726707,
+        0.49320000410079956
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (403).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.01759999990463257,
+        0.0003000000142492354,
+        0.9821000099182129
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.7182999849319458,
+        0.04520000144839287,
+        0.774399995803833
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 5,
+        "Malignant": 0,
+        "Normal": 4
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.46059998869895935,
+        0.012799999676644802,
+        0.5266000032424927
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (405).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.022199999541044235,
+        0.0003000000142492354,
+        0.9775000214576721
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.9053000211715698,
+        0.030400000512599945,
+        0.8755999803543091
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 5,
+        "Malignant": 0,
+        "Normal": 4
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.5349000096321106,
+        0.009700000286102295,
+        0.4553999900817871
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (42).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.029899999499320984,
+        0.0007999999797903001,
+        0.9692999720573425
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.6388000249862671,
+        0.19470000267028809,
+        0.8531000018119812
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 3,
+        "Malignant": 0,
+        "Normal": 6
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.30720001459121704,
+        0.04969999939203262,
+        0.6431000232696533
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (43).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.04089999943971634,
+        0.000699999975040555,
+        0.9584000110626221
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.8101000189781189,
+        0.11010000109672546,
+        0.9136000275611877
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 3,
+        "Malignant": 0,
+        "Normal": 6
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.3781000077724457,
+        0.030899999663233757,
+        0.5910000205039978
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (51).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.09220000356435776,
+        9.999999747378752e-05,
+        0.9077000021934509
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.8540999889373779,
+        0.04600000008940697,
+        0.9315000176429749
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 3,
+        "Malignant": 0,
+        "Normal": 6
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.38839998841285706,
+        0.009200000204145908,
+        0.6025000214576721
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Benign"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (60).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.010499999858438969,
+        0.00019999999494757503,
+        0.989300012588501
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.6895999908447266,
+        0.1761000007390976,
+        0.8274000287055969
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 3,
+        "Malignant": 0,
+        "Normal": 6
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.412200003862381,
+        0.04569999873638153,
+        0.5419999957084656
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (67).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.00430000014603138,
+        0.0,
+        0.9957000017166138
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.6269999742507935,
+        0.07199999690055847,
+        0.7601000070571899
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 4,
+        "Malignant": 0,
+        "Normal": 5
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.44110000133514404,
+        0.025499999523162842,
+        0.5333999991416931
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (74).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.0034000000450760126,
+        0.0,
+        0.9965999722480774
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.5925999879837036,
+        0.10719999670982361,
+        0.9075000286102295
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 2,
+        "Malignant": 0,
+        "Normal": 7
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.3747999966144562,
+        0.020800000056624413,
+        0.6043999791145325
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (75).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.0034000000450760126,
+        0.0,
+        0.9965999722480774
+      ]
+    },
+    "maxpool": {
+      "pred": "Normal",
+      "probs": [
+        0.7694000005722046,
+        0.026900000870227814,
+        0.8762000203132629
+      ]
+    },
+    "vote": {
+      "pred": "Normal",
+      "crop_pred_counts": {
+        "Benign": 3,
+        "Malignant": 0,
+        "Normal": 6
+      }
+    },
+    "avg": {
+      "pred": "Normal",
+      "probs": [
+        0.48840001225471497,
+        0.008299999870359898,
+        0.5033000111579895
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Normal",
+      "Benign",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (80).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.3025999963283539,
+        9.999999747378752e-05,
+        0.6973999738693237
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.8755000233650208,
+        0.07440000027418137,
+        0.5008999705314636
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 8,
+        "Malignant": 0,
+        "Normal": 1
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.6574000120162964,
+        0.018200000748038292,
+        0.32429999113082886
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Benign"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (81).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.4068000018596649,
+        0.0010999999940395355,
+        0.5921000242233276
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.724399983882904,
+        0.30820000171661377,
+        0.6187000274658203
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 6,
+        "Malignant": 0,
+        "Normal": 3
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.5198000073432922,
+        0.049300000071525574,
+        0.4309000074863434
+      ]
+    },
+    "per_crop_preds": [
+      "Normal",
+      "Normal",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal",
+      "Benign",
+      "Benign"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  },
+  {
+    "file": "Normal case (92).jpg",
+    "whole": {
+      "pred": "Normal",
+      "probs": [
+        0.007400000002235174,
+        0.0,
+        0.9926000237464905
+      ]
+    },
+    "maxpool": {
+      "pred": "Benign",
+      "probs": [
+        0.9157000184059143,
+        0.14259999990463257,
+        0.6284999847412109
+      ]
+    },
+    "vote": {
+      "pred": "Benign",
+      "crop_pred_counts": {
+        "Benign": 8,
+        "Malignant": 0,
+        "Normal": 1
+      }
+    },
+    "avg": {
+      "pred": "Benign",
+      "probs": [
+        0.7009000182151794,
+        0.02669999934732914,
+        0.27239999175071716
+      ]
+    },
+    "per_crop_preds": [
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Benign",
+      "Normal"
+    ],
+    "true": "Normal",
+    "source": "indataset"
+  }
+]

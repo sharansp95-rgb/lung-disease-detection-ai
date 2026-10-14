@@ -1,0 +1,42 @@
+
+=== loading models + running reproduction checks (same as backend startup) ===
+2026-10-13 20:43:18,486 INFO ct_xray_api: Lazy-loading models on first prediction request...
+2026-10-13 20:43:18,486 INFO ct_xray_api.models: [xray] loading checkpoint /Users/sharan_pachapuri/Documents/sdp/checkpoints/xray_txrv_densenet121_best.pt on device=cpu
+2026-10-13 20:46:15,311 INFO ct_xray_api.models: [xray] reproduction check: checkpoint claims 0.9646, reproduced 0.9646 in 175.9s, diff=0.0000
+2026-10-13 20:46:15,311 INFO ct_xray_api.models: [xray] reproduction check PASSED
+2026-10-13 20:46:15,311 INFO ct_xray_api.models: [ct] loading checkpoint /Users/sharan_pachapuri/Documents/sdp/checkpoints/ct_best_model_phase35_v2.pt on device=cpu
+2026-10-13 20:46:25,176 INFO ct_xray_api.models: [ct] reproduction check: checkpoint claims 0.9904, reproduced 0.9904 in 9.7s, diff=0.0000
+2026-10-13 20:46:25,176 INFO ct_xray_api.models: [ct] reproduction check PASSED
+2026-10-13 20:46:25,177 INFO ct_xray_api.models: [gate] loading checkpoint /Users/sharan_pachapuri/Documents/sdp/checkpoints/modality_gate_best_model_v2.pt on device=cpu
+2026-10-13 20:47:11,493 INFO ct_xray_api.models: [gate] reproduction check: checkpoint claims 1.0000, reproduced 1.0000 in 46.1s, diff=0.0000
+2026-10-13 20:47:11,493 INFO ct_xray_api.models: [gate] reproduction check PASSED
+2026-10-13 20:47:11,494 INFO ct_xray_api.models: [xray_sanity] loading checkpoint /Users/sharan_pachapuri/Documents/sdp/checkpoints/xray_sanity_best.pt on device=cpu
+2026-10-13 20:48:12,651 INFO ct_xray_api.models: [xray_sanity] reproduction check: checkpoint claims 0.9996, reproduced 0.9996 in 60.9s, diff=0.0000
+2026-10-13 20:48:12,651 INFO ct_xray_api.models: [xray_sanity] reproduction check PASSED
+2026-10-13 20:48:12,651 INFO ct_xray_api.models: [ct_sanity] loading checkpoint /Users/sharan_pachapuri/Documents/sdp/checkpoints/ct_sanity_best.pt on device=cpu
+2026-10-13 20:48:32,068 INFO ct_xray_api.models: [ct_sanity] reproduction check: checkpoint claims 1.0000, reproduced 1.0000 in 19.2s, diff=0.0000
+2026-10-13 20:48:32,068 INFO ct_xray_api.models: [ct_sanity] reproduction check PASSED
+2026-10-13 20:48:32,070 INFO ct_xray_api.ood: [xray] OOD detector loaded: threshold=8.72 (99th percentile over 15373 training images)
+2026-10-13 20:48:32,071 INFO ct_xray_api.ood: [ct] OOD detector loaded: threshold=25.62 (99th percentile over 829 training images)
+2026-10-13 20:48:32,071 INFO ct_xray_api.seg: [seg] loading checkpoint /Users/sharan_pachapuri/Documents/sdp/checkpoints/xray_seg_model.pt on device=cpu
+2026-10-13 20:52:45,283 INFO ct_xray_api.seg: [seg] reproduction check: checkpoint claims dice=0.9890 iou=0.9786, reproduced dice=0.9830 iou=0.9671 in 253.2s (diff dice=0.0060, iou=0.0116)
+2026-10-13 20:52:45,283 INFO ct_xray_api.seg: [seg] reproduction check PASSED
+2026-10-13 20:52:45,283 INFO ct_xray_api: All models loaded, verified, and OOD detectors ready.
+[xray] checkpoint=xray_txrv_densenet121_best.pt backbone=densenet121-res224-all claims val_acc=0.9646 reproduced=0.9646
+[ct] checkpoint=ct_best_model_phase35_v2.pt backbone=densenet121 claims val_acc=0.9904 reproduced=0.9904
+[gate] checkpoint=modality_gate_best_model_v2.pt backbone=resnet18 claims val_acc=1.0000 reproduced=1.0000
+[xray_sanity] checkpoint=xray_sanity_best.pt backbone=resnet18 claims val_acc=0.9996 reproduced=0.9996
+[ct_sanity] checkpoint=ct_sanity_best.pt backbone=resnet18 claims val_acc=1.0000 reproduced=1.0000
+[seg] checkpoint=xray_seg_model.pt claims dice=0.9890 iou=0.9786, reproduced dice=0.9830 iou=0.9671
+=== all models loaded and verified in 566.8s ===
+
+--- running pipeline on img_159819.jpg as 'chest X-ray' ---
+
+[blank-image check] grayscale std = 75.2 (reject if < 10.0)
+[color-content check] channel spread = 0.0 (reject if > 20.0)
+[sanity gate] verdict: not_scan (must be 'scan' to continue)
+REJECTED: does not look like a chest X-ray.
+real 569.25
+user 1471.92
+sys 45.99
+EXIT 1

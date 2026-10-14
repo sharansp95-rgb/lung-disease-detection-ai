@@ -1,0 +1,475 @@
+{
+  "n_files": 215,
+  "n_groups": 28,
+  "ssim_confirmed_pairs": 809,
+  "groups": [
+    {
+      "group_id": 0,
+      "size": 22,
+      "base_ids": [
+        "6",
+        "n8"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\6 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\6 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\6 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\6 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\6 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\6 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\6 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\6.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\n8 (2) - Copy.jpg",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\n8 (2).jpg",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\n8 - Copy.jpg",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\n8.jpg",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\valid\\normal\\6 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\valid\\normal\\6 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\valid\\normal\\6 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\6 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\6 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\6 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\6 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\6 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\6 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\6.png"
+      ]
+    },
+    {
+      "group_id": 1,
+      "size": 19,
+      "base_ids": [
+        "7"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\7 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\7 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\7 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\7 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\7 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\7 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\7 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\7.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\valid\\normal\\7 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\valid\\normal\\7 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\valid\\normal\\7.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\7 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\7 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\7 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\7 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\7 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\7 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\7 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\7.png"
+      ]
+    },
+    {
+      "group_id": 2,
+      "size": 17,
+      "base_ids": [
+        "8"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\8 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\8 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\8 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\8 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\8 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\8 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\8 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\8.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\valid\\normal\\8 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\8 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\8 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\8 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\8 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\8 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\8 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\8 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\8.png"
+      ]
+    },
+    {
+      "group_id": 3,
+      "size": 16,
+      "base_ids": [
+        "10"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\10 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\10 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\10 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\10 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\10 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\10 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\10 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\10.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\10 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\10 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\10 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\10 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\10 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\10 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\10 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\10.png"
+      ]
+    },
+    {
+      "group_id": 4,
+      "size": 16,
+      "base_ids": [
+        "11"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\11 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\11 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\11 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\11 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\11 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\11 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\11 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\11.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\11 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\11 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\11 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\11 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\11 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\11 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\11 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\11.png"
+      ]
+    },
+    {
+      "group_id": 5,
+      "size": 15,
+      "base_ids": [
+        "12"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\12 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\12 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\12 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\12 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\12 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\12 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\12 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\12.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\12 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\12 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\12 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\12 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\12 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\12 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\12 - Copy.png"
+      ]
+    },
+    {
+      "group_id": 6,
+      "size": 10,
+      "base_ids": [
+        "4"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\4 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\4 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\4 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\4 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\4 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\4 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\4 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\4.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\valid\\normal\\4 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\valid\\normal\\4 - Copy (2).png"
+      ]
+    },
+    {
+      "group_id": 7,
+      "size": 9,
+      "base_ids": [
+        "5"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\5 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\5 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\5 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\5 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\5 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\5 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\5 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\5.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\valid\\normal\\5.png"
+      ]
+    },
+    {
+      "group_id": 8,
+      "size": 8,
+      "base_ids": [
+        "13"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\13 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\13 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\13 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\13 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\13 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\13 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\13 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\13.png"
+      ]
+    },
+    {
+      "group_id": 9,
+      "size": 8,
+      "base_ids": [
+        "16"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\16 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\16 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\16 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\16 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\16 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\16 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\16 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\16.png"
+      ]
+    },
+    {
+      "group_id": 10,
+      "size": 8,
+      "base_ids": [
+        "17"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\17 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\17 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\17 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\17 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\17 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\17 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\17 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\17.png"
+      ]
+    },
+    {
+      "group_id": 11,
+      "size": 8,
+      "base_ids": [
+        "18"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\18 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\18 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\18 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\18 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\18 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\18 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\18 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\18.png"
+      ]
+    },
+    {
+      "group_id": 12,
+      "size": 8,
+      "base_ids": [
+        "19"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\19 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\19 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\19 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\19 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\19 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\19 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\19 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\19.png"
+      ]
+    },
+    {
+      "group_id": 13,
+      "size": 8,
+      "base_ids": [
+        "2"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\2 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\2 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\2 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\2 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\2 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\2 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\2 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\2.png"
+      ]
+    },
+    {
+      "group_id": 14,
+      "size": 8,
+      "base_ids": [
+        "20"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\20 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\20 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\20 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\20 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\20 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\20 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\20 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\20.png"
+      ]
+    },
+    {
+      "group_id": 15,
+      "size": 8,
+      "base_ids": [
+        "3"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\3 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\3 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\3 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\3 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\3 - Copy (3).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\3 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\3 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\3.png"
+      ]
+    },
+    {
+      "group_id": 16,
+      "size": 5,
+      "base_ids": [
+        "21"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\21 - Copy (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\21 - Copy (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\21 - Copy - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\21 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\21.png"
+      ]
+    },
+    {
+      "group_id": 17,
+      "size": 4,
+      "base_ids": [
+        "n6"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\n6 (2) - Copy.jpg",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\n6 (2).jpg",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\n6 - Copy.jpg",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\n6.jpg"
+      ]
+    },
+    {
+      "group_id": 18,
+      "size": 4,
+      "base_ids": [
+        "n7"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\n7 (2) - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\n7 (2).png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\n7 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\n7.png"
+      ]
+    },
+    {
+      "group_id": 19,
+      "size": 4,
+      "base_ids": [
+        "n9"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\n9 (2) - Copy.jpg",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\n9 (2).jpg",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\n9 - Copy.jpg",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\train\\normal\\n9.jpg"
+      ]
+    },
+    {
+      "group_id": 20,
+      "size": 2,
+      "base_ids": [
+        "24"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\24 - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\24.png"
+      ]
+    },
+    {
+      "group_id": 21,
+      "size": 2,
+      "base_ids": [
+        "normal"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\normal - Copy.png",
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\normal.png"
+      ]
+    },
+    {
+      "group_id": 22,
+      "size": 1,
+      "base_ids": [
+        "003828_02_01_174"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\valid\\normal\\003828_02_01_174.png"
+      ]
+    },
+    {
+      "group_id": 23,
+      "size": 1,
+      "base_ids": [
+        "004007_01_01_519"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\valid\\normal\\004007_01_01_519.png"
+      ]
+    },
+    {
+      "group_id": 24,
+      "size": 1,
+      "base_ids": [
+        "004162_01_01_150"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\valid\\normal\\004162_01_01_150.png"
+      ]
+    },
+    {
+      "group_id": 25,
+      "size": 1,
+      "base_ids": [
+        "22"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\22.png"
+      ]
+    },
+    {
+      "group_id": 26,
+      "size": 1,
+      "base_ids": [
+        "23"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\23.png"
+      ]
+    },
+    {
+      "group_id": 27,
+      "size": 1,
+      "base_ids": [
+        "25"
+      ],
+      "files": [
+        "eval_run\\external_samples\\_downloads\\ctscan\\Data\\test\\normal\\25.png"
+      ]
+    }
+  ]
+}

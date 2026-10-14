@@ -1,0 +1,1760 @@
+{
+  "data_dir": "data\\ct_scan_normal_aug_mfonly",
+  "total_images": 1441,
+  "candidate_pairs": 21402,
+  "confirmed_pairs": 293,
+  "clusters_total": 117,
+  "clusters_cross_split": 0,
+  "images_in_cross_split_clusters": 0,
+  "clusters_cross_class": 0,
+  "clusters": [
+    {
+      "size": 26,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (2).jpg",
+        "train\\Malignant\\Malignant case (3).jpg",
+        "train\\Malignant\\Malignant case (4).jpg",
+        "train\\Malignant\\Malignant case (5).jpg",
+        "train\\Malignant\\Malignant case (59).jpg",
+        "train\\Malignant\\Malignant case (6).jpg",
+        "train\\Malignant\\Malignant case (60).jpg",
+        "train\\Malignant\\Malignant case (61).jpg",
+        "train\\Malignant\\Malignant case (62).jpg",
+        "train\\Malignant\\Malignant case (63).jpg",
+        "train\\Malignant\\Malignant case (64).jpg",
+        "train\\Malignant\\Malignant case (65).jpg",
+        "train\\Malignant\\Malignant case (66).jpg",
+        "train\\Malignant\\Malignant case (67).jpg",
+        "train\\Malignant\\Malignant case (68).jpg",
+        "train\\Malignant\\Malignant case (69).jpg",
+        "train\\Malignant\\Malignant case (7).jpg",
+        "train\\Malignant\\Malignant case (70).jpg",
+        "train\\Malignant\\Malignant case (71).jpg",
+        "train\\Malignant\\Malignant case (72).jpg",
+        "train\\Malignant\\Malignant case (73).jpg",
+        "train\\Malignant\\Malignant case (74).jpg",
+        "train\\Malignant\\Malignant case (75).jpg",
+        "train\\Malignant\\Malignant case (76).jpg",
+        "train\\Malignant\\Malignant case (77).jpg",
+        "train\\Malignant\\Malignant case (78).jpg"
+      ]
+    },
+    {
+      "size": 11,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (100).jpg",
+        "train\\Malignant\\Malignant case (101).jpg",
+        "train\\Malignant\\Malignant case (102).jpg",
+        "train\\Malignant\\Malignant case (103).jpg",
+        "train\\Malignant\\Malignant case (104).jpg",
+        "train\\Malignant\\Malignant case (105).jpg",
+        "train\\Malignant\\Malignant case (95).jpg",
+        "train\\Malignant\\Malignant case (96).jpg",
+        "train\\Malignant\\Malignant case (97).jpg",
+        "train\\Malignant\\Malignant case (98).jpg",
+        "train\\Malignant\\Malignant case (99).jpg"
+      ]
+    },
+    {
+      "size": 11,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (362).jpg",
+        "train\\Normal\\Normal case (363).jpg",
+        "train\\Normal\\Normal case (364).jpg",
+        "train\\Normal\\Normal case (365).jpg",
+        "train\\Normal\\Normal case (366).jpg",
+        "train\\Normal\\Normal case (367).jpg",
+        "train\\Normal\\Normal case (368).jpg",
+        "train\\Normal\\Normal case (369).jpg",
+        "train\\Normal\\Normal case (406).jpg",
+        "train\\Normal\\Normal case (407).jpg",
+        "train\\Normal\\Normal case (408).jpg"
+      ]
+    },
+    {
+      "size": 9,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (314).jpg",
+        "train\\Malignant\\Malignant case (315).jpg",
+        "train\\Malignant\\Malignant case (316).jpg",
+        "train\\Malignant\\Malignant case (317).jpg",
+        "train\\Malignant\\Malignant case (318).jpg",
+        "train\\Malignant\\Malignant case (319).jpg",
+        "train\\Malignant\\Malignant case (320).jpg",
+        "train\\Malignant\\Malignant case (321).jpg",
+        "train\\Malignant\\Malignant case (322).jpg"
+      ]
+    },
+    {
+      "size": 8,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (172).jpg",
+        "train\\Malignant\\Malignant case (173).jpg",
+        "train\\Malignant\\Malignant case (174).jpg",
+        "train\\Malignant\\Malignant case (175).jpg",
+        "train\\Malignant\\Malignant case (176).jpg",
+        "train\\Malignant\\Malignant case (177).jpg",
+        "train\\Malignant\\Malignant case (178).jpg",
+        "train\\Malignant\\Malignant case (179).jpg"
+      ]
+    },
+    {
+      "size": 8,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (553).jpg",
+        "train\\Malignant\\Malignant case (554).jpg",
+        "train\\Malignant\\Malignant case (555).jpg",
+        "train\\Malignant\\Malignant case (556).jpg",
+        "train\\Malignant\\Malignant case (557).jpg",
+        "train\\Malignant\\Malignant case (558).jpg",
+        "train\\Malignant\\Malignant case (559).jpg",
+        "train\\Malignant\\Malignant case (560).jpg"
+      ]
+    },
+    {
+      "size": 6,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (17).jpg",
+        "train\\Malignant\\Malignant case (18).jpg",
+        "train\\Malignant\\Malignant case (548).jpg",
+        "train\\Malignant\\Malignant case (549).jpg",
+        "train\\Malignant\\Malignant case (550).jpg",
+        "train\\Malignant\\Malignant case (552).jpg"
+      ]
+    },
+    {
+      "size": 6,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (408).jpg",
+        "train\\Malignant\\Malignant case (409).jpg",
+        "train\\Malignant\\Malignant case (410).jpg",
+        "train\\Malignant\\Malignant case (411).jpg",
+        "train\\Malignant\\Malignant case (412).jpg",
+        "train\\Malignant\\Malignant case (413).jpg"
+      ]
+    },
+    {
+      "size": 5,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (295).jpg",
+        "train\\Malignant\\Malignant case (296).jpg",
+        "train\\Malignant\\Malignant case (297).jpg",
+        "train\\Malignant\\Malignant case (298).jpg",
+        "train\\Malignant\\Malignant case (299).jpg"
+      ]
+    },
+    {
+      "size": 5,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (301).jpg",
+        "train\\Malignant\\Malignant case (302).jpg",
+        "train\\Malignant\\Malignant case (303).jpg",
+        "train\\Malignant\\Malignant case (304).jpg",
+        "train\\Malignant\\Malignant case (305).jpg"
+      ]
+    },
+    {
+      "size": 5,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (427).jpg",
+        "train\\Malignant\\Malignant case (428).jpg",
+        "train\\Malignant\\Malignant case (429).jpg",
+        "train\\Malignant\\Malignant case (430).jpg",
+        "train\\Malignant\\Malignant case (431).jpg"
+      ]
+    },
+    {
+      "size": 5,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (432).jpg",
+        "train\\Malignant\\Malignant case (433).jpg",
+        "train\\Malignant\\Malignant case (434).jpg",
+        "train\\Malignant\\Malignant case (435).jpg",
+        "train\\Malignant\\Malignant case (436).jpg"
+      ]
+    },
+    {
+      "size": 4,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (157).jpg",
+        "train\\Malignant\\Malignant case (158).jpg",
+        "train\\Malignant\\Malignant case (159).jpg",
+        "train\\Malignant\\Malignant case (160).jpg"
+      ]
+    },
+    {
+      "size": 4,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (269).jpg",
+        "train\\Malignant\\Malignant case (270).jpg",
+        "train\\Malignant\\Malignant case (271).jpg",
+        "train\\Malignant\\Malignant case (272).jpg"
+      ]
+    },
+    {
+      "size": 4,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (307).jpg",
+        "train\\Malignant\\Malignant case (308).jpg",
+        "train\\Malignant\\Malignant case (309).jpg",
+        "train\\Malignant\\Malignant case (310).jpg"
+      ]
+    },
+    {
+      "size": 4,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (39).jpg",
+        "train\\Malignant\\Malignant case (40).jpg",
+        "train\\Malignant\\Malignant case (41).jpg",
+        "train\\Malignant\\Malignant case (42).jpg"
+      ]
+    },
+    {
+      "size": 4,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (135).jpg",
+        "train\\Normal\\Normal case (136).jpg",
+        "train\\Normal\\Normal case (137).jpg",
+        "train\\Normal\\Normal case (138).jpg"
+      ]
+    },
+    {
+      "size": 3,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Benign"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Benign\\Bengin case (66).jpg",
+        "train\\Benign\\Bengin case (74).jpg",
+        "train\\Benign\\Bengin case (75).jpg"
+      ]
+    },
+    {
+      "size": 3,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (266).jpg",
+        "train\\Malignant\\Malignant case (267).jpg",
+        "train\\Malignant\\Malignant case (268).jpg"
+      ]
+    },
+    {
+      "size": 3,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (288).jpg",
+        "train\\Malignant\\Malignant case (289).jpg",
+        "train\\Malignant\\Malignant case (290).jpg"
+      ]
+    },
+    {
+      "size": 3,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (360).jpg",
+        "train\\Malignant\\Malignant case (361).jpg",
+        "train\\Malignant\\Malignant case (362).jpg"
+      ]
+    },
+    {
+      "size": 3,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (544).jpg",
+        "train\\Malignant\\Malignant case (545).jpg",
+        "train\\Malignant\\Malignant case (546).jpg"
+      ]
+    },
+    {
+      "size": 3,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (55).jpg",
+        "train\\Malignant\\Malignant case (56).jpg",
+        "train\\Malignant\\Malignant case (57).jpg"
+      ]
+    },
+    {
+      "size": 3,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (89).jpg",
+        "train\\Malignant\\Malignant case (90).jpg",
+        "train\\Malignant\\Malignant case (91).jpg"
+      ]
+    },
+    {
+      "size": 3,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (92).jpg",
+        "train\\Malignant\\Malignant case (93).jpg",
+        "train\\Malignant\\Malignant case (94).jpg"
+      ]
+    },
+    {
+      "size": 3,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (11).jpg",
+        "train\\Normal\\Normal case (12).jpg",
+        "train\\Normal\\Normal case (412).jpg"
+      ]
+    },
+    {
+      "size": 3,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (144).jpg",
+        "train\\Normal\\Normal case (145).jpg",
+        "train\\Normal\\Normal case (415).jpg"
+      ]
+    },
+    {
+      "size": 3,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (148).jpg",
+        "train\\Normal\\Normal case (149).jpg",
+        "train\\Normal\\Normal case (416).jpg"
+      ]
+    },
+    {
+      "size": 3,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (283).jpg",
+        "train\\Normal\\Normal case (284).jpg",
+        "train\\Normal\\Normal case (285).jpg"
+      ]
+    },
+    {
+      "size": 3,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (328).jpg",
+        "train\\Normal\\Normal case (329).jpg",
+        "train\\Normal\\Normal case (330).jpg"
+      ]
+    },
+    {
+      "size": 3,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (341).jpg",
+        "train\\Normal\\Normal case (342).jpg",
+        "train\\Normal\\Normal case (410).jpg"
+      ]
+    },
+    {
+      "size": 3,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (359).jpg",
+        "train\\Normal\\Normal case (360).jpg",
+        "train\\Normal\\Normal case (361).jpg"
+      ]
+    },
+    {
+      "size": 3,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (372).jpg",
+        "train\\Normal\\Normal case (373).jpg",
+        "train\\Normal\\Normal case (374).jpg"
+      ]
+    },
+    {
+      "size": 3,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (375).jpg",
+        "train\\Normal\\Normal case (376).jpg",
+        "train\\Normal\\Normal case (409).jpg"
+      ]
+    },
+    {
+      "size": 3,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (379).jpg",
+        "train\\Normal\\Normal case (380).jpg",
+        "train\\Normal\\Normal case (381).jpg"
+      ]
+    },
+    {
+      "size": 3,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (52).jpg",
+        "train\\Normal\\Normal case (53).jpg",
+        "train\\Normal\\Normal case (54).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Benign"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Benign\\Bengin case (10).jpg",
+        "train\\Benign\\Bengin case (9).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Benign"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Benign\\Bengin case (104).jpg",
+        "train\\Benign\\Bengin case (105).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Benign"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Benign\\Bengin case (106).jpg",
+        "train\\Benign\\Bengin case (107).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Benign"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Benign\\Bengin case (112).jpg",
+        "train\\Benign\\Bengin case (113).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Benign"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Benign\\Bengin case (114).jpg",
+        "train\\Benign\\Bengin case (115).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Benign"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Benign\\Bengin case (15).jpg",
+        "train\\Benign\\Bengin case (16).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Benign"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Benign\\Bengin case (17).jpg",
+        "train\\Benign\\Bengin case (18).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Benign"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Benign\\Bengin case (22).jpg",
+        "train\\Benign\\Bengin case (23).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Benign"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Benign\\Bengin case (26).jpg",
+        "train\\Benign\\Bengin case (27).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Benign"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Benign\\Bengin case (62).jpg",
+        "train\\Benign\\Bengin case (63).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Benign"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Benign\\Bengin case (64).jpg",
+        "train\\Benign\\Bengin case (65).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Benign"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Benign\\Bengin case (69).jpg",
+        "train\\Benign\\Bengin case (78).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Benign"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Benign\\Bengin case (7).jpg",
+        "train\\Benign\\Bengin case (8).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Benign"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Benign\\Bengin case (71).jpg",
+        "train\\Benign\\Bengin case (72).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Benign"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Benign\\Bengin case (84).jpg",
+        "train\\Benign\\Bengin case (85).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Benign"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Benign\\Bengin case (90).jpg",
+        "train\\Benign\\Bengin case (91).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Benign"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Benign\\Bengin case (94).jpg",
+        "train\\Benign\\Bengin case (95).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Benign"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Benign\\Bengin case (96).jpg",
+        "train\\Benign\\Bengin case (97).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (1).jpg",
+        "train\\Malignant\\Malignant case (561).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (10).jpg",
+        "train\\Malignant\\Malignant case (138).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (11).jpg",
+        "train\\Malignant\\Malignant case (139).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (12).jpg",
+        "train\\Malignant\\Malignant case (140).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (126).jpg",
+        "train\\Malignant\\Malignant case (127).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (13).jpg",
+        "train\\Malignant\\Malignant case (141).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (14).jpg",
+        "train\\Malignant\\Malignant case (148).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (15).jpg",
+        "train\\Malignant\\Malignant case (152).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (155).jpg",
+        "train\\Malignant\\Malignant case (8).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (156).jpg",
+        "train\\Malignant\\Malignant case (9).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (164).jpg",
+        "train\\Malignant\\Malignant case (165).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (167).jpg",
+        "train\\Malignant\\Malignant case (168).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (286).jpg",
+        "train\\Malignant\\Malignant case (287).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (291).jpg",
+        "train\\Malignant\\Malignant case (292).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (312).jpg",
+        "train\\Malignant\\Malignant case (313).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (368).jpg",
+        "train\\Malignant\\Malignant case (369).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (370).jpg",
+        "train\\Malignant\\Malignant case (371).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (374).jpg",
+        "train\\Malignant\\Malignant case (375).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (376).jpg",
+        "train\\Malignant\\Malignant case (377).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (53).jpg",
+        "train\\Malignant\\Malignant case (54).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Malignant"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Malignant\\Malignant case (539).jpg",
+        "train\\Malignant\\Malignant case (540).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\mf_16_Morozov_study_0026_26.png",
+        "train\\Normal\\mf_16_Morozov_study_0026_32.png"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\mf_6_Rahimzadeh_normal4_patient176_SR_4_IM00017.png",
+        "train\\Normal\\mf_6_Rahimzadeh_normal5_patient176_SR_4_IM00017.png"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\mf_6_Rahimzadeh_normal4_patient188_SR_4_IM00020.png",
+        "train\\Normal\\mf_6_Rahimzadeh_normal5_patient188_SR_4_IM00020.png"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\mf_6_Rahimzadeh_normal4_patient255_SR_4_IM00017.png",
+        "train\\Normal\\mf_6_Rahimzadeh_normal5_patient255_SR_4_IM00017.png"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\mf_6_Rahimzadeh_normal4_patient260_SR_4_IM00017.png",
+        "train\\Normal\\mf_6_Rahimzadeh_normal5_patient260_SR_4_IM00017.png"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\mf_6_Rahimzadeh_normal5_patient168_SR_4_IM00017.png",
+        "train\\Normal\\mf_6_Rahimzadeh_normal6_patient168_SR_4_IM00017.png"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (10).jpg",
+        "train\\Normal\\Normal case (9).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (134).jpg",
+        "train\\Normal\\Normal case (414).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (140).jpg",
+        "train\\Normal\\Normal case (141).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (142).jpg",
+        "train\\Normal\\Normal case (143).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (151).jpg",
+        "train\\Normal\\Normal case (152).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (153).jpg",
+        "train\\Normal\\Normal case (154).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (16).jpg",
+        "train\\Normal\\Normal case (17).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (175).jpg",
+        "train\\Normal\\Normal case (176).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (180).jpg",
+        "train\\Normal\\Normal case (181).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (19).jpg",
+        "train\\Normal\\Normal case (413).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (207).jpg",
+        "train\\Normal\\Normal case (208).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (22).jpg",
+        "train\\Normal\\Normal case (23).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (232).jpg",
+        "train\\Normal\\Normal case (233).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (255).jpg",
+        "train\\Normal\\Normal case (256).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (257).jpg",
+        "train\\Normal\\Normal case (258).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (259).jpg",
+        "train\\Normal\\Normal case (260).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (262).jpg",
+        "train\\Normal\\Normal case (263).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (267).jpg",
+        "train\\Normal\\Normal case (268).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (280).jpg",
+        "train\\Normal\\Normal case (281).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (286).jpg",
+        "train\\Normal\\Normal case (287).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (297).jpg",
+        "train\\Normal\\Normal case (298).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (305).jpg",
+        "train\\Normal\\Normal case (306).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (308).jpg",
+        "train\\Normal\\Normal case (309).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (325).jpg",
+        "train\\Normal\\Normal case (326).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (331).jpg",
+        "train\\Normal\\Normal case (411).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (333).jpg",
+        "train\\Normal\\Normal case (334).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (35).jpg",
+        "train\\Normal\\Normal case (36).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (356).jpg",
+        "train\\Normal\\Normal case (357).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (382).jpg",
+        "train\\Normal\\Normal case (383).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (386).jpg",
+        "train\\Normal\\Normal case (387).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (389).jpg",
+        "train\\Normal\\Normal case (390).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (393).jpg",
+        "train\\Normal\\Normal case (394).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (82).jpg",
+        "train\\Normal\\Normal case (83).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (84).jpg",
+        "train\\Normal\\Normal case (85).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (86).jpg",
+        "train\\Normal\\Normal case (87).jpg"
+      ]
+    },
+    {
+      "size": 2,
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "Normal"
+      ],
+      "cross_split": false,
+      "files": [
+        "train\\Normal\\Normal case (94).jpg",
+        "train\\Normal\\Normal case (95).jpg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+TERMINAL 2 -- HELD-OUT TEST EVALUATION
+Run this ahead of your demo slot too (on the Mac the X-ray command takes
+~8 min in total; the TEST accuracy line appears after ~1.5 min).
+Open the saved images before your slot so you can point at them
+without waiting:
+  eval_outputs/xray_txrv_densenet121/xray_txrv_densenet121_confusion_matrix.png
+  eval_outputs/ct_scan_phase35_v2/ct_phase35_v2_confusion_matrix.png
+  eval_outputs/ct_scan_phase35_v2/ct_phase35_v2_gradcam_correct_grid.png
+  eval_outputs/ct_scan_phase35_v2/ct_phase35_v2_gradcam_misclassified_grid.png
+
+These evaluate the SAME two classifiers the web app serves
+(xray_txrv_densenet121_best.pt and ct_best_model_phase35_v2.pt).
+
+Note: both commands rewrite their files in eval_outputs/. The numbers come out
+identical on every run (only the file path stored inside the JSON and the PNG
+rendering change).
+
+====================================================================
+COMMANDS (start from the project root folder)
+====================================================================
+
+# activate the project's Python environment first (macOS, zsh)
+source backend/.venv/bin/activate
+#   (or: source demo/run_demo.sh 2   -- activates + prints these commands)
+#   (Windows, old laptop: backend\.venv\Scripts\activate)
+
+# X-ray classifier (served model, chest-X-ray-pretrained DenseNet-121)
+cd scripts
+python test_new_xray_checkpoint.py
+
+# CT classifier (served model)
+cd ../ml
+python evaluate.py --data_dir ../data/ct_scan --checkpoint ../checkpoints/ct_best_model_phase35_v2.pt --output_dir ../eval_outputs/ct_scan_phase35_v2 --run_name ct_phase35_v2
+
+====================================================================
+EXPECTED OUTPUT (re-verified on the Mac, Apple M2 CPU, 2026-10-13 --
+identical numbers to the 2026-10-04 Windows dry run)
+====================================================================
+
+--- test_new_xray_checkpoint.py ---   (measured 7 min 50 s on the Mac: accuracy
+    after ~1.5 min, then ~6 min of occlusion test; runs on CPU, device=cpu)
+[test_new_xray_checkpoint] device=cpu
+[test_new_xray_checkpoint] checkpoint=.../checkpoints/xray_txrv_densenet121_best.pt (read-only; this is the served model, xray_txrv_densenet121_best.pt -- backend/main.py untouched)
+[test_new_xray_checkpoint] loaded: classes=['COVID-19', 'Normal', 'Pneumonia', 'Tuberculosis'], reported val_acc=0.9646 (epoch 12)
+[test_new_xray_checkpoint] test set size: 1922
+[test_new_xray_checkpoint] TEST accuracy: 0.9657
+              precision    recall  f1-score   support
+
+    COVID-19       0.93      0.94      0.93       357
+      Normal       0.98      0.97      0.98      1368
+   Pneumonia       0.91      0.94      0.93       134
+Tuberculosis       0.95      1.00      0.98        63
+
+    accuracy                           0.97      1922
+   macro avg       0.94      0.96      0.95      1922
+weighted avg       0.97      0.97      0.97      1922
+
+[test_new_xray_checkpoint] confusion matrix saved to ...xray_txrv_densenet121_confusion_matrix.png
+=== Center-blank occlusion test ... ===   (printed after the report; not needed for the demo --
+    you can Ctrl+C here once the accuracy + confusion-matrix lines are shown;
+    the PNG is already saved, only the metrics JSON rewrite is skipped)
+[test_new_xray_checkpoint] full metrics saved to ...xray_txrv_densenet121_test_metrics.json
+
+--- evaluate.py (CT) ---   (measured 12 s on the Mac)
+[evaluate:ct_phase35_v2] loaded checkpoint, classes=['Benign', 'Malignant', 'Normal'], reported val_acc=0.9903846153846154
+[evaluate:ct_phase35_v2] test set size: 103
+[evaluate:ct_phase35_v2] TEST accuracy: 0.9806
+              precision    recall  f1-score   support
+
+      Benign       1.00      0.83      0.91        12
+   Malignant       1.00      1.00      1.00        50
+      Normal       0.95      1.00      0.98        41
+
+    accuracy                           0.98       103
+   macro avg       0.98      0.94      0.96       103
+weighted avg       0.98      0.98      0.98       103
+
+[evaluate:ct_phase35_v2] metrics saved to ../eval_outputs/ct_scan_phase35_v2/ct_phase35_v2_test_metrics.json
+[evaluate:ct_phase35_v2] confusion matrix plot saved to ...ct_phase35_v2_confusion_matrix.png
+[evaluate:ct_phase35_v2] gradcam results: {...}
+
+====================================================================
+WHAT TO EXPLAIN
+====================================================================
+
+Say this (X-ray):
+  "This runs the served X-ray model against 1,922 test images it never
+  touched during training or checkpoint selection."
+  Point at: "TEST accuracy: 0.9657"
+  "96.57%, broken down per class -- not hidden behind one average, so you
+  can see Tuberculosis, only 3% of the training data, still has 100%
+  recall. Through the live website, with every guard active and every
+  rejection counted as an error, the same 1,922 images score 91.05%; the
+  gap comes from the lung-crop step, and finding it is one of our results."
+
+Say this (CT):
+  Point at: "TEST accuracy: 0.9806"
+  "98.06% on 103 test slices -- after the leakage fix from Terminal 1. The
+  only two errors are Benign slices predicted Normal; with just 12 Benign
+  test images, each error moves Benign recall by 8 points."
+
+Be upfront about CT if asked about real-world use:
+  "This number is in-distribution. On CT slices from other hospitals the
+  model fails -- it labelled none of the external Normal slices as Normal.
+  We traced that to the model learning one dataset's acquisition style, and
+  we report it as a limitation; the CT route is a proof of concept."
+
+On Grad-CAM (open the CT grids):
+  "A model can get the right answer for the wrong reason. Grad-CAM shows
+  which regions drove each decision, which is how we caught the CT
+  shortcut in the first place."
+
+One-line summary if asked "why not just say 98% and move on":
+  "Because per-class numbers, the live-route number and the external test
+  are what tell you how far the 98% can actually be trusted."

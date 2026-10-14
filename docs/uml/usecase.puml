@@ -1,0 +1,38 @@
+@startuml
+left to right direction
+!include style.iuml
+
+actor "Guest user" as G
+actor "Registered\n(verified) user" as R
+actor "Groq LLM" as L
+actor "Gmail SMTP" as M
+actor "Google OAuth" as O
+R -|> G
+rectangle "AI-Powered Lung Disease Detection System" {
+  usecase "View landing page" as U0
+  usecase "Sign up" as U1
+  usecase "Verify email" as U2
+  usecase "Log in (email / Google)" as U3
+  usecase "Reset password" as U4
+  usecase "Upload & analyse scan" as U5
+  usecase "Validate scan\n(checks, gates, OOD)" as U6
+  usecase "View result, heatmap\n& report" as U7
+  usecase "Chat with assistant" as U8
+  usecase "View scan history" as U9
+}
+G --> U0
+G --> U1
+G --> U3
+G --> U4
+R --> U5
+R --> U7
+R --> U8
+R --> U9
+U5 ..> U6 : <<include>>
+U1 ..> U2 : <<include>>
+U7 --> L
+U8 --> L
+U2 --> M
+U4 --> M
+U3 --> O
+@enduml

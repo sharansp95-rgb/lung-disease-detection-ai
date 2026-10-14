@@ -1,0 +1,30 @@
+{
+  "http://localhost:5173": {
+    "GET_status": 200,
+    "acao": "http://localhost:5173",
+    "preflight_status": 200,
+    "preflight_acao": "http://localhost:5173",
+    "body_returned": true
+  },
+  "http://evil.example.com": {
+    "GET_status": 200,
+    "acao": null,
+    "preflight_status": 400,
+    "preflight_acao": null,
+    "body_returned": true
+  },
+  "http://localhost:3000": {
+    "GET_status": 200,
+    "acao": null,
+    "preflight_status": 400,
+    "preflight_acao": null,
+    "body_returned": true
+  },
+  "None": {
+    "GET_status": 200,
+    "acao": null,
+    "preflight_status": null,
+    "preflight_acao": null,
+    "body_returned": true
+  }
+}

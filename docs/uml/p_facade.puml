@@ -1,0 +1,18 @@
+@startuml p_facade
+!include _style.iuml
+skinparam nodesep 14
+skinparam ranksep 26
+skinparam RectangleFontColor #1a1a1a
+skinparam RectangleBackgroundColor #FBF4F2
+skinparam ComponentFontColor #1a1a1a
+left to right direction
+rectangle "MainApp /\nAnalyzingPage" as P1
+rectangle "ChatWidget" as P2
+rectangle "ProfilePage /\nHistory" as P3
+rectangle "api.js (facade)\npredict()\nsendChatMessage()\ngetScanHistory()" as F #FCE5CD
+rectangle "FastAPI REST routes\nbase URL · JWT header · errors" as B #FFFFFF
+P1 --> F
+P2 --> F
+P3 --> F
+F --> B : fetch()
+@enduml

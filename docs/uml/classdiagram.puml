@@ -1,0 +1,76 @@
+@startuml classdiagram
+!include _style.iuml
+skinparam linetype ortho
+class PredictionService <<main.py>> {
+  - _bundles : dict[str, ModelBundle]
+  - _ood_detectors : dict[str, OODDetector]
+  - _seg_bundle : SegBundle
+  + predict_xray(file, user)
+  + predict_ct(file, user)
+  - _read_and_validate_image(file)
+  - _run_prediction(modality, image, user)
+}
+class ModelBundle {
+  + name, backbone : str
+  + model : nn.Module
+  + class_names : list[str]
+  + checkpoint_val_acc, reproduced_val_acc
+  + lock : threading.Lock
+  + load_model_bundle(name, ckpt, data)
+}
+class OODDetector {
+  + modality : str
+  + centroid : Tensor
+  + threshold : float = Q99 distance
+  + check(model, x) : (is_ood, distance)
+}
+class SegBundle {
+  + model : UNet
+  + checkpoint_val_dice, reproduced_val_dice
+  + load_seg_bundle(ckpt, data)
+  + compute_lung_crop(image) : Image
+}
+abstract class "nn.Module" as NN <<PyTorch>> {
+  + forward(x)
+}
+class ImageClassifier {
+  + backbone : DenseNet-121 / ResNet-18
+  + forward(x) : logits
+  + forward_features(x) : embedding
+  + freeze_backbone() / unfreeze_backbone()
+}
+class XRVClassifier {
+  + backbone : xrv DenseNet-121
+  + forward(x) : logits
+  + forward_features(x) : 1024-d
+}
+class UNet {
+  + enc1..enc4, bottleneck
+  + up1..up4, dec1..dec4
+  + forward(x) : mask logits
+}
+class GradCAM {
+  + model, target_layer
+  + activations : Tensor
+  + generate(x, class_idx) : heatmap
+  + remove_hooks()
+}
+class PredictionResponse <<Pydantic>> {
+  + modality, predicted_class : str
+  + confidence : float
+  + class_probabilities : dict
+  + heatmap_png_base64, report : str
+}
+PredictionService "1" *-- "5" ModelBundle
+PredictionService "1" *-- "2" OODDetector
+PredictionService "1" *-- "1" SegBundle
+PredictionService ..> PredictionResponse : creates
+PredictionService ..> GradCAM : uses
+ModelBundle o-- NN : model
+NN <|-- ImageClassifier
+NN <|-- XRVClassifier
+NN <|-- UNet
+SegBundle o-- UNet
+GradCAM ..> NN : hooks into
+OODDetector ..> NN : forward_features
+@enduml

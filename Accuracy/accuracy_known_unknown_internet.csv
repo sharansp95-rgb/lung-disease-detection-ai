@@ -1,0 +1,28 @@
+modality,image_source,class,correct,n,accuracy_pct,plain_accuracy_pct (overall rows)
+xray,Known dataset,Overall (balanced accuracy),,1922,89.8,91.1
+xray,Unknown dataset,Overall (balanced accuracy),,99,33.3,40.4
+xray,Internet images,Overall (balanced accuracy),,270,32.6,22.6
+xray,Known dataset,COVID-19,333,357,93.3,
+xray,Unknown dataset,COVID-19,,0,,
+xray,Internet images,COVID-19,49,60,81.7,
+xray,Known dataset,Normal,1241,1368,90.7,
+xray,Unknown dataset,Normal,40,60,66.7,
+xray,Internet images,Normal,5,18,27.8,
+xray,Known dataset,Pneumonia,124,134,92.5,
+xray,Unknown dataset,Pneumonia,0,39,0.0,
+xray,Internet images,Pneumonia,5,181,2.8,
+xray,Known dataset,Tuberculosis,52,63,82.5,
+xray,Unknown dataset,Tuberculosis,,0,,
+xray,Internet images,Tuberculosis,2,11,18.2,
+ct,Known dataset,Overall (balanced accuracy),,103,94.4,98.1
+ct,Unknown dataset,Overall (balanced accuracy),,30,0.0,0.0
+ct,Internet images,Overall (balanced accuracy),,288,50.0,90.6
+ct,Known dataset,Normal,41,41,100.0,
+ct,Unknown dataset,Normal,0,30,0.0,
+ct,Internet images,Normal,0,27,0.0,
+ct,Known dataset,Benign,10,12,83.3,
+ct,Unknown dataset,Benign,,0,,
+ct,Internet images,Benign,,0,,
+ct,Known dataset,Malignant,50,50,100.0,
+ct,Unknown dataset,Malignant,,0,,
+ct,Internet images,Malignant,261,261,100.0,

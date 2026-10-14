@@ -1,0 +1,86 @@
+TERMINAL 1 -- DATA INTEGRITY AUDITS
+Run this ahead of your demo slot. You're not running this live for the
+audience -- you're showing them the output as evidence.
+
+Note: both scripts rewrite their JSON reports in audit/. The numbers come out
+identical on every run (only file paths inside the JSON change), so this is
+safe, but keep the backup copy of audit/ if you want the original files.
+
+====================================================================
+COMMANDS (start from the project root folder)
+====================================================================
+
+# activate the project's Python environment first (macOS, zsh)
+source backend/.venv/bin/activate
+#   (or: source demo/run_demo.sh 1   -- activates + prints these commands)
+#   (Windows, old laptop: backend\.venv\Scripts\activate)
+
+cd scripts
+python ct_leakage_audit.py
+python tb_artifact_detect.py
+
+====================================================================
+EXPECTED OUTPUT (re-verified on the Mac, Apple M2 CPU, 2026-10-13 --
+identical numbers to the 2026-10-04 Windows dry run)
+====================================================================
+
+--- ct_leakage_audit.py ---   (measured 1 min 47 s on the Mac)
+[ct_leakage_audit] total CT images: 1036
+[ct_leakage_audit] computed perceptual hashes
+[ct_leakage_audit] computed pairwise Hamming distances
+[ct_leakage_audit] candidate pairs (Hamming <= 12): 17224
+[ct_leakage_audit] candidate Hamming distances: min=0 max=12 median=10.0
+  ...verified N/17224 candidates via SSIM   (progress lines)
+[ct_leakage_audit] confirmed near-duplicate pairs (SSIM >= 0.9): 287
+[ct_leakage_audit] near-duplicate clusters (size >= 2): 111
+[ct_leakage_audit] clusters split across train/val/test: 0 / 111
+[ct_leakage_audit] images involved in cross-split clusters: 0 / 1036
+[ct_leakage_audit] full report saved to <project>/audit/ct_leakage_audit.json
+
+--- tb_artifact_detect.py ---   (measured 20 s on the Mac)
+  Normal: scanned 500/3500 ... 3500/3500
+Normal: 13/3500 flagged for tint and/or white box
+  Tuberculosis: scanned 500/700
+Tuberculosis: 372/700 flagged for tint and/or white box
+
+Full results written to <project>/audit/tb_artifact_scan.json
+Normal: total=3500  tinted=0  has_box=13  large_box(>=5%)=5
+Tuberculosis: total=700  tinted=370  has_box=218  large_box(>=5%)=72
+
+====================================================================
+WHAT TO EXPLAIN
+====================================================================
+
+Why this exists:
+  The most common way student ML projects lie to themselves is data
+  leakage -- near-duplicate images ending up in both train and test,
+  which inflates accuracy because the model is recognizing the image,
+  not the disease.
+
+ct_leakage_audit.py -- say this:
+  "This hashes every CT image, finds near-duplicates with perceptual
+  hashing + structural similarity, and checks whether any duplicate
+  cluster got split across train/val/test."
+  Point at: "clusters split across train/val/test: 0 / 111"
+  "Zero. Our first CT model scored 100% on a random split -- this audit
+  showed 35 of 109 test images had a near-copy in training. After the
+  cluster-aware resplit there are no leaks, and the CT test accuracy
+  you'll see next (98.06%) isn't inflated by memorization."
+
+tb_artifact_detect.py -- say this:
+  "I noticed some TB X-rays visually had a color tint or a white
+  redaction box burned into the image. If that artifact correlated
+  with the disease label, the model could learn 'tint = tuberculosis'
+  instead of actually reading the X-ray -- a shortcut, not real
+  learning. This quantifies that risk."
+  Point at: "Tuberculosis: 372/700 flagged" (370 of them tinted)
+  versus "Normal: 13/3500 flagged".
+  "Over half the TB images carry the artifact, almost no Normal ones do.
+  We cleaned both classes the same way: desaturated the tint, inpainted
+  small boxes, and dropped the 72 images with large boxes. It's also why
+  a tinted TB image can be rejected by the color check in the live app."
+
+One-line summary if asked "why does this matter":
+  "Because a high accuracy number means nothing if the model got
+  there by cheating -- these two scripts show where it could have,
+  and what we did about it."

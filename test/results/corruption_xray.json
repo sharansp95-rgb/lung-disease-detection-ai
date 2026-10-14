@@ -1,0 +1,72 @@
+{
+  "baseline (unaltered)": {
+    "kept": 17,
+    "flipped": 0,
+    "rejected": 0,
+    "gates": {},
+    "n": 17
+  },
+  "resize 512 roundtrip": {
+    "kept": 17,
+    "flipped": 0,
+    "rejected": 0,
+    "gates": {},
+    "n": 17
+  },
+  "JPEG quality 60": {
+    "kept": 17,
+    "flipped": 0,
+    "rejected": 0,
+    "gates": {},
+    "n": 17
+  },
+  "black border 10%": {
+    "kept": 17,
+    "flipped": 0,
+    "rejected": 0,
+    "gates": {},
+    "n": 17
+  },
+  "gamma 0.7": {
+    "kept": 17,
+    "flipped": 0,
+    "rejected": 0,
+    "gates": {},
+    "n": 17
+  },
+  "gamma 1.4": {
+    "kept": 17,
+    "flipped": 0,
+    "rejected": 0,
+    "gates": {},
+    "n": 17
+  },
+  "contrast x0.7": {
+    "kept": 17,
+    "flipped": 0,
+    "rejected": 0,
+    "gates": {},
+    "n": 17
+  },
+  "contrast x1.4": {
+    "kept": 17,
+    "flipped": 0,
+    "rejected": 0,
+    "gates": {},
+    "n": 17
+  },
+  "intensity inverted": {
+    "kept": 4,
+    "flipped": 13,
+    "rejected": 0,
+    "gates": {},
+    "n": 17
+  },
+  "histogram equalized": {
+    "kept": 16,
+    "flipped": 1,
+    "rejected": 0,
+    "gates": {},
+    "n": 17
+  }
+}

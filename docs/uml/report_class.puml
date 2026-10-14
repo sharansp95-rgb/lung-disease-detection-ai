@@ -1,0 +1,92 @@
+@startuml
+!include style_print.iuml
+hide empty members
+skinparam linetype ortho
+class PredictionService <<main.py>> {
+  - _bundles : dict[str, ModelBundle]
+  - _ood_detectors : dict[str, OODDetector]
+  - _seg_bundle : SegBundle
+  + predict_xray(file, user)
+  + predict_ct(file, user)
+  - _read_and_validate_image(file)
+  - _sanity_predict(modality, x)
+  - _gate_predict(x)
+  - _run_prediction(modality, file, user)
+}
+class ModelBundle {
+  + name, backbone : str
+  + model : nn.Module
+  + class_names : list[str]
+  + device : torch.device
+  + checkpoint_val_acc : float
+  + reproduced_val_acc : float
+  + lock : threading.Lock
+  + load_model_bundle(name, ckpt, data)
+  - _reproduce_val_accuracy()
+}
+abstract class "nn.Module (PyTorch)" as NN {
+  + forward(x)
+}
+class ImageClassifier {
+  + backbone : DenseNet-121 or ResNet-18
+  + backbone_name : str
+  + forward(x) : logits
+  + forward_features(x) : embedding
+  + freeze_backbone()
+  + unfreeze_backbone()
+}
+class XRVClassifier {
+  + backbone : xrv DenseNet-121
+  + backbone_name : str
+  + forward(x) : logits
+  + forward_features(x) : 1024-d
+  + freeze_backbone()
+  + unfreeze_backbone()
+}
+class OODDetector {
+  + modality : str
+  + centroid : Tensor
+  + {field} threshold : float (99th percentile)
+  + n_train_images : int
+  + check(model, x) : (is_ood, distance)
+}
+class SegBundle {
+  + model : UNet
+  + checkpoint_val_dice, checkpoint_val_iou
+  + reproduced_val_dice, reproduced_val_iou
+  + lock : threading.Lock
+  + load_seg_bundle(ckpt, seg_data)
+  + compute_lung_crop(image) : Image
+}
+class UNet {
+  + enc1..enc4, bottleneck : DoubleConv
+  + up1..up4, dec1..dec4
+  + forward(x) : mask logits
+}
+class GradCAM {
+  + model : nn.Module
+  + target_layer : nn.Module
+  + activations : Tensor
+  + generate(x, class_idx) : heatmap
+  + remove_hooks()
+}
+class PredictionResponse <<Pydantic schema>> {
+  + modality : str
+  + predicted_class : str
+  + confidence : float
+  + class_probabilities : dict
+  + heatmap_png_base64 : str
+  + report, report_source : str
+  + warnings : list[str]
+}
+PredictionService *-- "5" ModelBundle
+PredictionService *-- "2" OODDetector
+PredictionService *-- "1" SegBundle
+PredictionService ..> PredictionResponse : creates
+ModelBundle o-- NN : model
+ImageClassifier --|> NN
+XRVClassifier --|> NN
+SegBundle *-- "1" UNet
+OODDetector ..> ImageClassifier : uses features
+GradCAM ..> NN : hooks into
+@enduml

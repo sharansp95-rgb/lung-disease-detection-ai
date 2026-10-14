@@ -1,0 +1,2590 @@
+{
+  "summary": {
+    "dataset_test": {
+      "n": 240,
+      "served": 233,
+      "rejected": 7,
+      "reject_statuses": {
+        "422": 7
+      },
+      "acc_over_served": 0.9185,
+      "acc_counting_rejects_as_wrong": 0.8917,
+      "confusion": {
+        "COVID-19": {
+          "COVID-19": 54,
+          "Pneumonia": 3,
+          "Normal": 1,
+          "Tuberculosis": 2
+        },
+        "Normal": {
+          "Normal": 54,
+          "Tuberculosis": 2,
+          "Pneumonia": 1,
+          "COVID-19": 3
+        },
+        "Pneumonia": {
+          "Pneumonia": 57,
+          "Normal": 2,
+          "COVID-19": 1
+        },
+        "Tuberculosis": {
+          "COVID-19": 4,
+          "REJECTED_422": 7,
+          "Tuberculosis": 49
+        }
+      },
+      "per_class": {
+        "COVID-19": {
+          "n": 60,
+          "recall_over_served": 0.9,
+          "recall_counting_rejects": 0.9,
+          "precision_over_served": 0.871
+        },
+        "Normal": {
+          "n": 60,
+          "recall_over_served": 0.9,
+          "recall_counting_rejects": 0.9,
+          "precision_over_served": 0.9474
+        },
+        "Pneumonia": {
+          "n": 60,
+          "recall_over_served": 0.95,
+          "recall_counting_rejects": 0.95,
+          "precision_over_served": 0.9344
+        },
+        "Tuberculosis": {
+          "n": 60,
+          "recall_over_served": 0.9245,
+          "recall_counting_rejects": 0.8167,
+          "precision_over_served": 0.9245
+        }
+      }
+    },
+    "external_tb": {
+      "n": 10,
+      "served": 6,
+      "rejected": 4,
+      "reject_statuses": {
+        "400": 4
+      },
+      "acc_over_served": 1.0,
+      "acc_counting_rejects_as_wrong": 0.6,
+      "confusion": {
+        "Tuberculosis": {
+          "Tuberculosis": 6,
+          "REJECTED_400": 4
+        }
+      },
+      "per_class": {
+        "Tuberculosis": {
+          "n": 10,
+          "recall_over_served": 1.0,
+          "recall_counting_rejects": 0.6,
+          "precision_over_served": 1.0
+        }
+      }
+    }
+  },
+  "rows": [
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1115.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9986891150474548,
+      "detail": null,
+      "latency_s": 1.701
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3346.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.5044276118278503,
+      "detail": null,
+      "latency_s": 1.438
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1346.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.999734103679657,
+      "detail": null,
+      "latency_s": 1.614
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3439.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9895117878913879,
+      "detail": null,
+      "latency_s": 1.08
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-992.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.997016191482544,
+      "detail": null,
+      "latency_s": 0.862
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3125.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.949024498462677,
+      "detail": null,
+      "latency_s": 1.346
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-59.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9953937530517578,
+      "detail": null,
+      "latency_s": 1.237
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1595.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9787032008171082,
+      "detail": null,
+      "latency_s": 1.34
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2866.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9986565113067627,
+      "detail": null,
+      "latency_s": 1.243
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-37.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.976054310798645,
+      "detail": null,
+      "latency_s": 1.179
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2608.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9734686613082886,
+      "detail": null,
+      "latency_s": 1.48
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-518.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9999991655349731,
+      "detail": null,
+      "latency_s": 1.222
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1090.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9997714161872864,
+      "detail": null,
+      "latency_s": 1.257
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-371.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9851886034011841,
+      "detail": null,
+      "latency_s": 1.236
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3414.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9989030361175537,
+      "detail": null,
+      "latency_s": 1.466
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1513.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9977399110794067,
+      "detail": null,
+      "latency_s": 1.266
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1108.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9998898506164551,
+      "detail": null,
+      "latency_s": 1.226
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2732.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9998241066932678,
+      "detail": null,
+      "latency_s": 1.892
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3226.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9999514818191528,
+      "detail": null,
+      "latency_s": 1.837
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-179.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.8829920291900635,
+      "detail": null,
+      "latency_s": 1.403
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1472.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.8382976055145264,
+      "detail": null,
+      "latency_s": 0.915
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2990.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.8655259013175964,
+      "detail": null,
+      "latency_s": 1.276
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3464.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9548850655555725,
+      "detail": null,
+      "latency_s": 1.264
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3372.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9895704984664917,
+      "detail": null,
+      "latency_s": 1.11
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3607.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9999810457229614,
+      "detail": null,
+      "latency_s": 1.34
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3467.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.7890138030052185,
+      "detail": null,
+      "latency_s": 1.611
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1848.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.5180596709251404,
+      "detail": null,
+      "latency_s": 1.173
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-184.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9999415874481201,
+      "detail": null,
+      "latency_s": 1.41
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-940.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9554315805435181,
+      "detail": null,
+      "latency_s": 1.577
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2520.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9964988231658936,
+      "detail": null,
+      "latency_s": 1.319
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1343.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9998645782470703,
+      "detail": null,
+      "latency_s": 1.442
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2564.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9999953508377075,
+      "detail": null,
+      "latency_s": 0.917
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1871.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9995525479316711,
+      "detail": null,
+      "latency_s": 1.458
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1987.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.8298719525337219,
+      "detail": null,
+      "latency_s": 1.035
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1411.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9869199991226196,
+      "detail": null,
+      "latency_s": 1.155
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2310.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9999969005584717,
+      "detail": null,
+      "latency_s": 1.309
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-745.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9787245392799377,
+      "detail": null,
+      "latency_s": 1.173
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1676.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9875165224075317,
+      "detail": null,
+      "latency_s": 1.105
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1242.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9978024363517761,
+      "detail": null,
+      "latency_s": 1.603
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2196.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9814285039901733,
+      "detail": null,
+      "latency_s": 1.841
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-208.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9992978572845459,
+      "detail": null,
+      "latency_s": 1.515
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3334.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.95151686668396,
+      "detail": null,
+      "latency_s": 1.214
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2023.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9999817609786987,
+      "detail": null,
+      "latency_s": 1.18
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-472.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9115031361579895,
+      "detail": null,
+      "latency_s": 1.244
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1984.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9985002279281616,
+      "detail": null,
+      "latency_s": 1.375
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3395.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9970067143440247,
+      "detail": null,
+      "latency_s": 1.173
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2307.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.999546468257904,
+      "detail": null,
+      "latency_s": 1.278
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-883.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9993526339530945,
+      "detail": null,
+      "latency_s": 1.165
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1342.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9998120665550232,
+      "detail": null,
+      "latency_s": 1.426
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-2737.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9991989731788635,
+      "detail": null,
+      "latency_s": 1.177
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1926.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9991483688354492,
+      "detail": null,
+      "latency_s": 1.256
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-441.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9999674558639526,
+      "detail": null,
+      "latency_s": 1.091
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1401.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.99998939037323,
+      "detail": null,
+      "latency_s": 1.298
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1171.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9969320297241211,
+      "detail": null,
+      "latency_s": 1.237
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1391.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.5699467658996582,
+      "detail": null,
+      "latency_s": 1.333
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-96.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9055206775665283,
+      "detail": null,
+      "latency_s": 0.847
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-3274.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9694506525993347,
+      "detail": null,
+      "latency_s": 1.472
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-1844.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.5130915641784668,
+      "detail": null,
+      "latency_s": 1.114
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-998.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9999576807022095,
+      "detail": null,
+      "latency_s": 1.112
+    },
+    {
+      "set": "dataset_test",
+      "true": "COVID-19",
+      "file": "covid19db_COVID-284.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9998606443405151,
+      "detail": null,
+      "latency_s": 1.226
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-3068.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9910549521446228,
+      "detail": null,
+      "latency_s": 1.222
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "tbdb_Normal-687.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9835624098777771,
+      "detail": null,
+      "latency_s": 1.19
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "tbdb_Normal-2581.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9972733855247498,
+      "detail": null,
+      "latency_s": 1.142
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-9503.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9998010993003845,
+      "detail": null,
+      "latency_s": 1.839
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-111.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.8999670147895813,
+      "detail": null,
+      "latency_s": 1.098
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-4922.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9213141798973083,
+      "detail": null,
+      "latency_s": 1.009
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "tbdb_Normal-312.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9861037135124207,
+      "detail": null,
+      "latency_s": 1.296
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "tbdb_Normal-3400.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.95362389087677,
+      "detail": null,
+      "latency_s": 1.034
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-5578.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.988355278968811,
+      "detail": null,
+      "latency_s": 0.908
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-9523.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.995875895023346,
+      "detail": null,
+      "latency_s": 1.179
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-7040.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9984849095344543,
+      "detail": null,
+      "latency_s": 1.319
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "tbdb_Normal-1576.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9971243739128113,
+      "detail": null,
+      "latency_s": 1.493
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-8278.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9447416663169861,
+      "detail": null,
+      "latency_s": 1.265
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-1005.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9913289546966553,
+      "detail": null,
+      "latency_s": 1.553
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "tbdb_Normal-3160.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9973142743110657,
+      "detail": null,
+      "latency_s": 1.466
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-8493.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9991699457168579,
+      "detail": null,
+      "latency_s": 1.292
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-2609.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9666818380355835,
+      "detail": null,
+      "latency_s": 0.96
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-7286.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9551474452018738,
+      "detail": null,
+      "latency_s": 1.39
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-5972.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9999299049377441,
+      "detail": null,
+      "latency_s": 1.146
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-9554.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9976277947425842,
+      "detail": null,
+      "latency_s": 1.314
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-8458.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.5823280811309814,
+      "detail": null,
+      "latency_s": 1.144
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "tbdb_Normal-2777.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9996623992919922,
+      "detail": null,
+      "latency_s": 1.37
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-2021.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.5216637849807739,
+      "detail": null,
+      "latency_s": 1.181
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-1987.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9972735047340393,
+      "detail": null,
+      "latency_s": 1.285
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "tbdb_Normal-2496.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.7017475366592407,
+      "detail": null,
+      "latency_s": 1.037
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-2474.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9808821082115173,
+      "detail": null,
+      "latency_s": 1.222
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-1968.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9718704223632812,
+      "detail": null,
+      "latency_s": 1.288
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-8287.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9834083318710327,
+      "detail": null,
+      "latency_s": 1.403
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-7859.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.905123233795166,
+      "detail": null,
+      "latency_s": 1.18
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-7803.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.987228512763977,
+      "detail": null,
+      "latency_s": 1.295
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-2254.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.998085618019104,
+      "detail": null,
+      "latency_s": 2.199
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-879.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.4546239376068115,
+      "detail": null,
+      "latency_s": 1.394
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-3140.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.999760091304779,
+      "detail": null,
+      "latency_s": 1.031
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "tbdb_Normal-1559.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9902834296226501,
+      "detail": null,
+      "latency_s": 1.191
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-4455.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9979730248451233,
+      "detail": null,
+      "latency_s": 1.219
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "tbdb_Normal-1079.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9939042925834656,
+      "detail": null,
+      "latency_s": 1.716
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-9729.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9992467164993286,
+      "detail": null,
+      "latency_s": 1.007
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-1026.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9617060422897339,
+      "detail": null,
+      "latency_s": 1.285
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-9804.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9889969825744629,
+      "detail": null,
+      "latency_s": 1.185
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-1496.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9972049593925476,
+      "detail": null,
+      "latency_s": 1.033
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "tbdb_Normal-812.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.7776395082473755,
+      "detail": null,
+      "latency_s": 1.698
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-1849.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9993031024932861,
+      "detail": null,
+      "latency_s": 1.089
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-484.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.886718213558197,
+      "detail": null,
+      "latency_s": 0.972
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "tbdb_Normal-206.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9614774584770203,
+      "detail": null,
+      "latency_s": 0.931
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-10035.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.5705353617668152,
+      "detail": null,
+      "latency_s": 1.741
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-47.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9581800103187561,
+      "detail": null,
+      "latency_s": 1.278
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-10102.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.5817047953605652,
+      "detail": null,
+      "latency_s": 1.17
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-8804.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9979115128517151,
+      "detail": null,
+      "latency_s": 1.3
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-4763.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9937664270401001,
+      "detail": null,
+      "latency_s": 1.546
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-8862.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.8121100664138794,
+      "detail": null,
+      "latency_s": 1.228
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-2101.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.996772825717926,
+      "detail": null,
+      "latency_s": 0.969
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-4548.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9932371973991394,
+      "detail": null,
+      "latency_s": 1.247
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "tbdb_Normal-301.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9562726020812988,
+      "detail": null,
+      "latency_s": 1.005
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "tbdb_Normal-713.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9982976317405701,
+      "detail": null,
+      "latency_s": 1.139
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-545.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.6632086634635925,
+      "detail": null,
+      "latency_s": 1.735
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-8427.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.8281001448631287,
+      "detail": null,
+      "latency_s": 1.207
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-5618.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9980359673500061,
+      "detail": null,
+      "latency_s": 1.173
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-3922.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.9080669283866882,
+      "detail": null,
+      "latency_s": 1.201
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-888.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.8677236437797546,
+      "detail": null,
+      "latency_s": 1.356
+    },
+    {
+      "set": "dataset_test",
+      "true": "Normal",
+      "file": "covid19db_Normal-8966.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.7538501024246216,
+      "detail": null,
+      "latency_s": 1.448
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-882.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9996022582054138,
+      "detail": null,
+      "latency_s": 1.437
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1019.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9905495047569275,
+      "detail": null,
+      "latency_s": 1.173
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-731.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.994296133518219,
+      "detail": null,
+      "latency_s": 1.142
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-565.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9947260022163391,
+      "detail": null,
+      "latency_s": 1.41
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1079.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9861926436424255,
+      "detail": null,
+      "latency_s": 1.261
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-411.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9983215928077698,
+      "detail": null,
+      "latency_s": 1.177
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-906.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9915339350700378,
+      "detail": null,
+      "latency_s": 1.242
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-49.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9311357140541077,
+      "detail": null,
+      "latency_s": 1.161
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1178.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9980509281158447,
+      "detail": null,
+      "latency_s": 1.438
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-156.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.874488353729248,
+      "detail": null,
+      "latency_s": 1.209
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-701.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9997146725654602,
+      "detail": null,
+      "latency_s": 1.024
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-176.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9519645571708679,
+      "detail": null,
+      "latency_s": 1.265
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-769.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9931085109710693,
+      "detail": null,
+      "latency_s": 1.259
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-980.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.973983108997345,
+      "detail": null,
+      "latency_s": 1.463
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1120.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9812217354774475,
+      "detail": null,
+      "latency_s": 1.263
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-39.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.911765456199646,
+      "detail": null,
+      "latency_s": 1.311
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-474.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9932767152786255,
+      "detail": null,
+      "latency_s": 1.278
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-989.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.999915599822998,
+      "detail": null,
+      "latency_s": 1.115
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-299.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9997251629829407,
+      "detail": null,
+      "latency_s": 1.289
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1047.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.995265007019043,
+      "detail": null,
+      "latency_s": 1.121
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1205.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9992095232009888,
+      "detail": null,
+      "latency_s": 1.258
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-244.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9832252860069275,
+      "detail": null,
+      "latency_s": 1.218
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-810.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.998957633972168,
+      "detail": null,
+      "latency_s": 1.413
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-284.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9998189806938171,
+      "detail": null,
+      "latency_s": 1.294
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-418.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9975447058677673,
+      "detail": null,
+      "latency_s": 0.984
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-446.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9994344115257263,
+      "detail": null,
+      "latency_s": 1.263
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-458.png",
+      "status": 200,
+      "pred": "Normal",
+      "conf": 0.6607985496520996,
+      "detail": null,
+      "latency_s": 1.257
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-464.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9990598559379578,
+      "detail": null,
+      "latency_s": 1.402
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-491.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9555270075798035,
+      "detail": null,
+      "latency_s": 1.094
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-123.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9995765089988708,
+      "detail": null,
+      "latency_s": 1.141
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-644.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.8702022433280945,
+      "detail": null,
+      "latency_s": 1.206
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-520.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9999037981033325,
+      "detail": null,
+      "latency_s": 1.604
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-196.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.6484715938568115,
+      "detail": null,
+      "latency_s": 1.524
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1101.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9892827272415161,
+      "detail": null,
+      "latency_s": 1.283
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-527.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9940460920333862,
+      "detail": null,
+      "latency_s": 1.552
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-87.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9993851184844971,
+      "detail": null,
+      "latency_s": 1.259
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-712.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.6675095558166504,
+      "detail": null,
+      "latency_s": 1.151
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-332.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.999950647354126,
+      "detail": null,
+      "latency_s": 1.309
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-253.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9888407588005066,
+      "detail": null,
+      "latency_s": 1.201
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-495.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9994619488716125,
+      "detail": null,
+      "latency_s": 1.636
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1083.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9907344579696655,
+      "detail": null,
+      "latency_s": 1.354
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-638.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.999795138835907,
+      "detail": null,
+      "latency_s": 1.437
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1189.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.8435488343238831,
+      "detail": null,
+      "latency_s": 1.25
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1315.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9872922897338867,
+      "detail": null,
+      "latency_s": 1.167
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-933.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9999680519104004,
+      "detail": null,
+      "latency_s": 1.555
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-303.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.999534010887146,
+      "detail": null,
+      "latency_s": 1.111
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1044.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9975234866142273,
+      "detail": null,
+      "latency_s": 1.309
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-116.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9590228199958801,
+      "detail": null,
+      "latency_s": 1.34
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-799.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9995689988136292,
+      "detail": null,
+      "latency_s": 1.471
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-530.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9997385144233704,
+      "detail": null,
+      "latency_s": 2.012
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-275.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9435481429100037,
+      "detail": null,
+      "latency_s": 1.545
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-655.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9992474317550659,
+      "detail": null,
+      "latency_s": 1.333
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-570.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9992486834526062,
+      "detail": null,
+      "latency_s": 1.089
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-200.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9984219074249268,
+      "detail": null,
+      "latency_s": 0.864
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-425.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9984127283096313,
+      "detail": null,
+      "latency_s": 2.255
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-964.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.8542554974555969,
+      "detail": null,
+      "latency_s": 1.17
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-211.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9999589920043945,
+      "detail": null,
+      "latency_s": 1.146
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-970.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9999754428863525,
+      "detail": null,
+      "latency_s": 1.377
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-639.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9993626475334167,
+      "detail": null,
+      "latency_s": 1.546
+    },
+    {
+      "set": "dataset_test",
+      "true": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-101.png",
+      "status": 200,
+      "pred": "Pneumonia",
+      "conf": 0.9996590614318848,
+      "detail": null,
+      "latency_s": 1.297
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-121.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.8570581078529358,
+      "detail": null,
+      "latency_s": 1.038
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-139.png",
+      "status": 422,
+      "pred": null,
+      "conf": null,
+      "detail": "This does not look like a chest X-ray. (feature-space distance 8.8 exceeds threshold 8.7)",
+      "latency_s": 0.096
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-498.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9999825954437256,
+      "detail": null,
+      "latency_s": 1.295
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-671.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.8825352787971497,
+      "detail": null,
+      "latency_s": 1.399
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-4.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.5743318200111389,
+      "detail": null,
+      "latency_s": 1.358
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-586.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.999937891960144,
+      "detail": null,
+      "latency_s": 1.584
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-185.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.8309534192085266,
+      "detail": null,
+      "latency_s": 1.168
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-379.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9999988079071045,
+      "detail": null,
+      "latency_s": 1.134
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-477.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9999080896377563,
+      "detail": null,
+      "latency_s": 1.29
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-444.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9999021291732788,
+      "detail": null,
+      "latency_s": 0.858
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-82.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9995854496955872,
+      "detail": null,
+      "latency_s": 1.241
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-128.png",
+      "status": 422,
+      "pred": null,
+      "conf": null,
+      "detail": "This does not look like a chest X-ray. (feature-space distance 9.0 exceeds threshold 8.7)",
+      "latency_s": 0.206
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-171.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.6827690005302429,
+      "detail": null,
+      "latency_s": 0.926
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-45.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.999869704246521,
+      "detail": null,
+      "latency_s": 1.633
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-205.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.8559433817863464,
+      "detail": null,
+      "latency_s": 1.414
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-365.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.8766641616821289,
+      "detail": null,
+      "latency_s": 1.199
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-686.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9998655319213867,
+      "detail": null,
+      "latency_s": 1.018
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-332.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9997814297676086,
+      "detail": null,
+      "latency_s": 1.331
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-5.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9898644089698792,
+      "detail": null,
+      "latency_s": 1.188
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-345.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9999699592590332,
+      "detail": null,
+      "latency_s": 1.231
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-455.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9965798258781433,
+      "detail": null,
+      "latency_s": 1.343
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-321.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9946590065956116,
+      "detail": null,
+      "latency_s": 1.103
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-172.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.9981718063354492,
+      "detail": null,
+      "latency_s": 1.188
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-163.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.6563475728034973,
+      "detail": null,
+      "latency_s": 1.145
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-250.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9012224078178406,
+      "detail": null,
+      "latency_s": 1.276
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-85.png",
+      "status": 200,
+      "pred": "COVID-19",
+      "conf": 0.926146388053894,
+      "detail": null,
+      "latency_s": 1.288
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-218.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9999876022338867,
+      "detail": null,
+      "latency_s": 1.307
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-126.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9679603576660156,
+      "detail": null,
+      "latency_s": 1.184
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-232.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9999983310699463,
+      "detail": null,
+      "latency_s": 1.67
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-574.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9999849796295166,
+      "detail": null,
+      "latency_s": 2.063
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-186.png",
+      "status": 422,
+      "pred": null,
+      "conf": null,
+      "detail": "This does not look like a chest X-ray. (feature-space distance 9.9 exceeds threshold 8.7)",
+      "latency_s": 0.193
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-698.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9999696016311646,
+      "detail": null,
+      "latency_s": 1.25
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-317.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9935896396636963,
+      "detail": null,
+      "latency_s": 0.964
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-319.png",
+      "status": 422,
+      "pred": null,
+      "conf": null,
+      "detail": "This does not look like a chest X-ray. (feature-space distance 8.8 exceeds threshold 8.7)",
+      "latency_s": 0.172
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-93.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9719948172569275,
+      "detail": null,
+      "latency_s": 1.357
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-538.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9960892200469971,
+      "detail": null,
+      "latency_s": 1.978
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-633.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9999921321868896,
+      "detail": null,
+      "latency_s": 0.878
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-29.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9145803451538086,
+      "detail": null,
+      "latency_s": 1.345
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-579.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9640042781829834,
+      "detail": null,
+      "latency_s": 1.232
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-195.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9982519745826721,
+      "detail": null,
+      "latency_s": 1.182
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-484.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9973738193511963,
+      "detail": null,
+      "latency_s": 1.068
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-77.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.904148280620575,
+      "detail": null,
+      "latency_s": 1.402
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-194.png",
+      "status": 422,
+      "pred": null,
+      "conf": null,
+      "detail": "This does not look like a chest X-ray. (feature-space distance 9.6 exceeds threshold 8.7)",
+      "latency_s": 0.061
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-48.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9993475079536438,
+      "detail": null,
+      "latency_s": 1.231
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-72.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.8374888300895691,
+      "detail": null,
+      "latency_s": 1.29
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-49.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9991204142570496,
+      "detail": null,
+      "latency_s": 1.224
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-328.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9957045912742615,
+      "detail": null,
+      "latency_s": 1.425
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-396.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9719752669334412,
+      "detail": null,
+      "latency_s": 1.339
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-92.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9526911973953247,
+      "detail": null,
+      "latency_s": 1.401
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-314.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9999945163726807,
+      "detail": null,
+      "latency_s": 1.054
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-19.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.6707586646080017,
+      "detail": null,
+      "latency_s": 1.174
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-662.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9998552799224854,
+      "detail": null,
+      "latency_s": 1.669
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-9.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9869084358215332,
+      "detail": null,
+      "latency_s": 1.451
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-140.png",
+      "status": 422,
+      "pred": null,
+      "conf": null,
+      "detail": "This does not look like a chest X-ray. (feature-space distance 8.8 exceeds threshold 8.7)",
+      "latency_s": 0.076
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-299.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9999845027923584,
+      "detail": null,
+      "latency_s": 1.182
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-678.png",
+      "status": 422,
+      "pred": null,
+      "conf": null,
+      "detail": "This does not look like a chest X-ray. (feature-space distance 9.3 exceeds threshold 8.7)",
+      "latency_s": 0.22
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-254.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.7022112011909485,
+      "detail": null,
+      "latency_s": 1.159
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-540.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9999402761459351,
+      "detail": null,
+      "latency_s": 1.279
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-381.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9989882111549377,
+      "detail": null,
+      "latency_s": 1.068
+    },
+    {
+      "set": "dataset_test",
+      "true": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-257.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9999837875366211,
+      "detail": null,
+      "latency_s": 1.247
+    },
+    {
+      "set": "external_tb",
+      "true": "Tuberculosis",
+      "file": "Tuberculosis-660.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9998219609260559,
+      "detail": null,
+      "latency_s": 1.178
+    },
+    {
+      "set": "external_tb",
+      "true": "Tuberculosis",
+      "file": "Tuberculosis-661.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9999936819076538,
+      "detail": null,
+      "latency_s": 1.126
+    },
+    {
+      "set": "external_tb",
+      "true": "Tuberculosis",
+      "file": "Tuberculosis-662.png",
+      "status": 400,
+      "pred": null,
+      "conf": null,
+      "detail": "This image has color content that a real X-ray or CT scan wouldn't have. Please upload an actual scan image.",
+      "latency_s": 0.034
+    },
+    {
+      "set": "external_tb",
+      "true": "Tuberculosis",
+      "file": "Tuberculosis-663.png",
+      "status": 400,
+      "pred": null,
+      "conf": null,
+      "detail": "This image has color content that a real X-ray or CT scan wouldn't have. Please upload an actual scan image.",
+      "latency_s": 0.043
+    },
+    {
+      "set": "external_tb",
+      "true": "Tuberculosis",
+      "file": "Tuberculosis-664.png",
+      "status": 400,
+      "pred": null,
+      "conf": null,
+      "detail": "This image has color content that a real X-ray or CT scan wouldn't have. Please upload an actual scan image.",
+      "latency_s": 0.035
+    },
+    {
+      "set": "external_tb",
+      "true": "Tuberculosis",
+      "file": "Tuberculosis-665.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9964890480041504,
+      "detail": null,
+      "latency_s": 1.723
+    },
+    {
+      "set": "external_tb",
+      "true": "Tuberculosis",
+      "file": "Tuberculosis-666.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9997268319129944,
+      "detail": null,
+      "latency_s": 1.284
+    },
+    {
+      "set": "external_tb",
+      "true": "Tuberculosis",
+      "file": "Tuberculosis-667.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.9883188009262085,
+      "detail": null,
+      "latency_s": 1.247
+    },
+    {
+      "set": "external_tb",
+      "true": "Tuberculosis",
+      "file": "Tuberculosis-668.png",
+      "status": 200,
+      "pred": "Tuberculosis",
+      "conf": 0.865168035030365,
+      "detail": null,
+      "latency_s": 1.306
+    },
+    {
+      "set": "external_tb",
+      "true": "Tuberculosis",
+      "file": "Tuberculosis-669.png",
+      "status": 400,
+      "pred": null,
+      "conf": null,
+      "detail": "This image has color content that a real X-ray or CT scan wouldn't have. Please upload an actual scan image.",
+      "latency_s": 0.044
+    }
+  ]
+}

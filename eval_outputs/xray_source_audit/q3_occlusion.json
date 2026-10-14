@@ -1,0 +1,131 @@
+{
+  "COVID-19": {
+    "n": 357,
+    "full": 0.9188,
+    "border_only": 0.902,
+    "centre_only": 0.0,
+    "chance_4class": 0.25,
+    "pred_distribution": {
+      "full": {
+        "COVID-19": 0.9188,
+        "Normal": 0.07,
+        "Pneumonia": 0.0084,
+        "Tuberculosis": 0.0028
+      },
+      "border_only": {
+        "COVID-19": 0.902,
+        "Normal": 0.0476,
+        "Pneumonia": 0.0028,
+        "Tuberculosis": 0.0476
+      },
+      "centre_only": {
+        "COVID-19": 0.0,
+        "Normal": 0.0,
+        "Pneumonia": 0.0,
+        "Tuberculosis": 1.0
+      }
+    }
+  },
+  "Normal": {
+    "n": 1368,
+    "full": 0.9934,
+    "border_only": 0.8238,
+    "centre_only": 0.0746,
+    "chance_4class": 0.25,
+    "pred_distribution": {
+      "full": {
+        "COVID-19": 0.0007,
+        "Normal": 0.9934,
+        "Pneumonia": 0.0051,
+        "Tuberculosis": 0.0007
+      },
+      "border_only": {
+        "COVID-19": 0.0768,
+        "Normal": 0.8238,
+        "Pneumonia": 0.0007,
+        "Tuberculosis": 0.0987
+      },
+      "centre_only": {
+        "COVID-19": 0.0,
+        "Normal": 0.0746,
+        "Pneumonia": 0.0,
+        "Tuberculosis": 0.9254
+      }
+    }
+  },
+  "Pneumonia": {
+    "n": 134,
+    "full": 0.9776,
+    "border_only": 0.6567,
+    "centre_only": 0.0224,
+    "chance_4class": 0.25,
+    "pred_distribution": {
+      "full": {
+        "COVID-19": 0.0,
+        "Normal": 0.0224,
+        "Pneumonia": 0.9776,
+        "Tuberculosis": 0.0
+      },
+      "border_only": {
+        "COVID-19": 0.0,
+        "Normal": 0.2836,
+        "Pneumonia": 0.6567,
+        "Tuberculosis": 0.0597
+      },
+      "centre_only": {
+        "COVID-19": 0.0,
+        "Normal": 0.0,
+        "Pneumonia": 0.0224,
+        "Tuberculosis": 0.9776
+      }
+    }
+  },
+  "Tuberculosis": {
+    "n": 63,
+    "full": 1.0,
+    "border_only": 1.0,
+    "centre_only": 1.0,
+    "chance_4class": 0.25,
+    "pred_distribution": {
+      "full": {
+        "COVID-19": 0.0,
+        "Normal": 0.0,
+        "Pneumonia": 0.0,
+        "Tuberculosis": 1.0
+      },
+      "border_only": {
+        "COVID-19": 0.0,
+        "Normal": 0.0,
+        "Pneumonia": 0.0,
+        "Tuberculosis": 1.0
+      },
+      "centre_only": {
+        "COVID-19": 0.0,
+        "Normal": 0.0,
+        "Pneumonia": 0.0,
+        "Tuberculosis": 1.0
+      }
+    }
+  },
+  "pooled_pred_distribution": {
+    "full": {
+      "COVID-19": 0.1712,
+      "Normal": 0.7216,
+      "Pneumonia": 0.0734,
+      "Tuberculosis": 0.0338
+    },
+    "border_only": {
+      "COVID-19": 0.2222,
+      "Normal": 0.615,
+      "Pneumonia": 0.0468,
+      "Tuberculosis": 0.116
+    },
+    "centre_only": {
+      "COVID-19": 0.0,
+      "Normal": 0.0531,
+      "Pneumonia": 0.0016,
+      "Tuberculosis": 0.9454
+    }
+  },
+  "pooled_n": 1922
+}

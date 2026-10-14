@@ -1,0 +1,37 @@
+skinparam dpi 220
+skinparam defaultFontName "Liberation Serif"
+skinparam defaultFontSize 13
+skinparam shadowing false
+skinparam ArrowColor #7B2D1E
+skinparam ArrowFontSize 11
+skinparam ArrowFontColor #404040
+skinparam ActorBorderColor #7B2D1E
+skinparam ActorBackgroundColor #FCE5CD
+skinparam UsecaseBorderColor #7B2D1E
+skinparam UsecaseBackgroundColor #FBF4F2
+skinparam RectangleBorderColor #7B2D1E
+skinparam RectangleFontColor #7B2D1E
+skinparam ClassBorderColor #7B2D1E
+skinparam ClassBackgroundColor #FBF4F2
+skinparam ClassHeaderBackgroundColor #EAD1DC
+skinparam ClassAttributeFontSize 11
+skinparam ClassFontStyle bold
+skinparam StateBorderColor #7B2D1E
+skinparam StateBackgroundColor #FBF4F2
+skinparam StateFontStyle bold
+skinparam ParticipantBorderColor #7B2D1E
+skinparam ParticipantBackgroundColor #FBF4F2
+skinparam ActorFontStyle bold
+skinparam SequenceLifeLineBorderColor #A6A6A6
+skinparam SequenceGroupBorderColor #C00000
+skinparam SequenceGroupHeaderFontColor #C00000
+skinparam EntityBorderColor #7B2D1E
+skinparam EntityBackgroundColor #FBF4F2
+skinparam NoteBackgroundColor #FCE5CD
+skinparam NoteBorderColor #ED7D31
+skinparam PackageBorderColor #7B2D1E
+skinparam PackageFontColor #7B2D1E
+skinparam ComponentBorderColor #7B2D1E
+skinparam ComponentBackgroundColor #FBF4F2
+hide circle
+skinparam classAttributeIconSize 0

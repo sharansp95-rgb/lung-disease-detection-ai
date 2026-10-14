@@ -1,0 +1,174 @@
+{
+  "checkpoint": "/Users/sharan_pachapuri/Documents/sdp/checkpoints/xray_txrv_densenet121_best.pt",
+  "class_names": [
+    "COVID-19",
+    "Normal",
+    "Pneumonia",
+    "Tuberculosis"
+  ],
+  "reported_val_acc": 0.9646201873048907,
+  "checkpoint_epoch": 12,
+  "test_accuracy": 0.9656607700312175,
+  "confusion_matrix": [
+    [
+      337,
+      16,
+      4,
+      0
+    ],
+    [
+      27,
+      1330,
+      8,
+      3
+    ],
+    [
+      0,
+      8,
+      126,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      63
+    ]
+  ],
+  "classification_report": {
+    "COVID-19": {
+      "precision": 0.9258241758241759,
+      "recall": 0.9439775910364145,
+      "f1-score": 0.9348127600554785,
+      "support": 357.0
+    },
+    "Normal": {
+      "precision": 0.982274741506647,
+      "recall": 0.9722222222222222,
+      "f1-score": 0.9772226304188097,
+      "support": 1368.0
+    },
+    "Pneumonia": {
+      "precision": 0.9130434782608695,
+      "recall": 0.9402985074626866,
+      "f1-score": 0.9264705882352942,
+      "support": 134.0
+    },
+    "Tuberculosis": {
+      "precision": 0.9545454545454546,
+      "recall": 1.0,
+      "f1-score": 0.9767441860465116,
+      "support": 63.0
+    },
+    "accuracy": 0.9656607700312175,
+    "macro avg": {
+      "precision": 0.9439219625342867,
+      "recall": 0.9641245801803309,
+      "f1-score": 0.9538125411890235,
+      "support": 1922.0
+    },
+    "weighted avg": {
+      "precision": 0.9660537288624578,
+      "recall": 0.9656607700312175,
+      "f1-score": 0.9657911843377719,
+      "support": 1922.0
+    }
+  },
+  "occlusion_test": {
+    "COVID-19": {
+      "n": 357,
+      "full": 0.944,
+      "center_blanked": 0.1457,
+      "chance_4class": 0.25,
+      "pred_distribution": {
+        "full": {
+          "COVID-19": 0.944,
+          "Normal": 0.0448,
+          "Pneumonia": 0.0112,
+          "Tuberculosis": 0.0
+        },
+        "center_blanked": {
+          "COVID-19": 0.1457,
+          "Normal": 0.2045,
+          "Pneumonia": 0.0,
+          "Tuberculosis": 0.6499
+        }
+      }
+    },
+    "Normal": {
+      "n": 1368,
+      "full": 0.9722,
+      "center_blanked": 0.7361,
+      "chance_4class": 0.25,
+      "pred_distribution": {
+        "full": {
+          "COVID-19": 0.0197,
+          "Normal": 0.9722,
+          "Pneumonia": 0.0058,
+          "Tuberculosis": 0.0022
+        },
+        "center_blanked": {
+          "COVID-19": 0.0007,
+          "Normal": 0.7361,
+          "Pneumonia": 0.0051,
+          "Tuberculosis": 0.258
+        }
+      }
+    },
+    "Pneumonia": {
+      "n": 134,
+      "full": 0.9403,
+      "center_blanked": 0.6642,
+      "chance_4class": 0.25,
+      "pred_distribution": {
+        "full": {
+          "COVID-19": 0.0,
+          "Normal": 0.0597,
+          "Pneumonia": 0.9403,
+          "Tuberculosis": 0.0
+        },
+        "center_blanked": {
+          "COVID-19": 0.0,
+          "Normal": 0.1269,
+          "Pneumonia": 0.6642,
+          "Tuberculosis": 0.209
+        }
+      }
+    },
+    "Tuberculosis": {
+      "n": 63,
+      "full": 1.0,
+      "center_blanked": 0.9683,
+      "chance_4class": 0.25,
+      "pred_distribution": {
+        "full": {
+          "COVID-19": 0.0,
+          "Normal": 0.0,
+          "Pneumonia": 0.0,
+          "Tuberculosis": 1.0
+        },
+        "center_blanked": {
+          "COVID-19": 0.0,
+          "Normal": 0.0317,
+          "Pneumonia": 0.0,
+          "Tuberculosis": 0.9683
+        }
+      }
+    },
+    "pooled_pred_distribution": {
+      "full": {
+        "COVID-19": 0.1894,
+        "Normal": 0.7045,
+        "Pneumonia": 0.0718,
+        "Tuberculosis": 0.0343
+      },
+      "center_blanked": {
+        "COVID-19": 0.0276,
+        "Normal": 0.5718,
+        "Pneumonia": 0.0499,
+        "Tuberculosis": 0.3507
+      }
+    },
+    "pooled_n": 1922
+  }
+}

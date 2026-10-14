@@ -1,0 +1,19 @@
+[evaluate:ct_phase35_v2] loaded checkpoint, classes=['Benign', 'Malignant', 'Normal'], reported val_acc=0.9903846153846154
+[evaluate:ct_phase35_v2] test set size: 103
+[evaluate:ct_phase35_v2] TEST accuracy: 0.9806
+              precision    recall  f1-score   support
+
+      Benign       1.00      0.83      0.91        12
+   Malignant       1.00      1.00      1.00        50
+      Normal       0.95      1.00      0.98        41
+
+    accuracy                           0.98       103
+   macro avg       0.98      0.94      0.96       103
+weighted avg       0.98      0.98      0.98       103
+
+[evaluate:ct_phase35_v2] metrics saved to ../eval_outputs/ct_scan_phase35_v2/ct_phase35_v2_test_metrics.json
+[evaluate:ct_phase35_v2] confusion matrix plot saved to ../eval_outputs/ct_scan_phase35_v2/ct_phase35_v2_confusion_matrix.png
+[evaluate:ct_phase35_v2] gradcam results: {'sanity_check_path': '../eval_outputs/ct_scan_phase35_v2/ct_phase35_v2_gradcam_sanity_check.png', 'correct_grid_path': '../eval_outputs/ct_scan_phase35_v2/ct_phase35_v2_gradcam_correct_grid.png', 'misclassified_grid_path': '../eval_outputs/ct_scan_phase35_v2/ct_phase35_v2_gradcam_misclassified_grid.png', 'n_correct_shown': 18, 'n_misclassified_total': 2, 'n_misclassified_shown': 2}
+real 12.21
+user 32.52
+sys 1.55

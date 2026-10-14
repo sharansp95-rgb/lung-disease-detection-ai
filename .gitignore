@@ -1,0 +1,62 @@
+# ---------- Secrets & local config (NEVER commit) ----------
+.env
+*.env
+!.env.example
+!*.env.example
+*.local
+backend/app.db
+*.db
+*.sqlite3
+
+# ---------- Python ----------
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---------- Node / frontend build ----------
+node_modules/
+frontend/dist/
+
+# ---------- Model weights (publish via GitHub Releases instead) ----------
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# ---------- Datasets & source medical images (licence / size) ----------
+raw/
+seg_data/
+test images/
+audit/
+data/*
+!data/README.md
+datasets/*
+!datasets/README.md
+
+# ---------- Oversized generated outputs ----------
+eval_outputs/xray_phase35/
+
+# ---------- Logs, runtime files, scratch ----------
+logs/
+*.log
+*.pid
+terminal output/
+
+# ---------- Plagiarism / AI-check copies & source bundles ----------
+documents/**/*plag*
+documents/**/*PLAG*
+documents/**/* ai.pdf
+documents/**/* Ai.pdf
+documents/**/*.zip
+
+# ---------- OS / editor ----------
+.DS_Store
+.vscode/
+.idea/
+
+# ---------- Dataset-derived image grids (source images not redistributed) ----------
+eval_run/*_contact.png
+eval_outputs/**/*gradcam*.png

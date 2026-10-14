@@ -1,0 +1,33 @@
+[test_new_xray_checkpoint] device=cpu
+[test_new_xray_checkpoint] checkpoint=/Users/sharan_pachapuri/Documents/sdp/checkpoints/xray_txrv_densenet121_best.pt (read-only; active checkpoint xray_best_model_phase35_v2.pt and backend/main.py untouched)
+[test_new_xray_checkpoint] loaded: classes=['COVID-19', 'Normal', 'Pneumonia', 'Tuberculosis'], reported val_acc=0.9646 (epoch 12)
+[test_new_xray_checkpoint] test set size: 1922
+
+[test_new_xray_checkpoint] TEST accuracy: 0.9657
+              precision    recall  f1-score   support
+
+    COVID-19       0.93      0.94      0.93       357
+      Normal       0.98      0.97      0.98      1368
+   Pneumonia       0.91      0.94      0.93       134
+Tuberculosis       0.95      1.00      0.98        63
+
+    accuracy                           0.97      1922
+   macro avg       0.94      0.96      0.95      1922
+weighted avg       0.97      0.97      0.97      1922
+
+[test_new_xray_checkpoint] confusion matrix saved to /Users/sharan_pachapuri/Documents/sdp/eval_outputs/xray_txrv_densenet121/xray_txrv_densenet121_confusion_matrix.png
+
+=== Center-blank occlusion test (central box [49:175] of 224, box side frac=0.5625, margin=0.22) ===
+  COVID-19        n= 357  full=0.9440  center_blanked=0.1457  (chance=0.2500)
+  Normal          n=1368  full=0.9722  center_blanked=0.7361  (chance=0.2500)
+  Pneumonia       n= 134  full=0.9403  center_blanked=0.6642  (chance=0.2500)
+  Tuberculosis    n=  63  full=1.0000  center_blanked=0.9683  (chance=0.2500)
+
+  pooled across all 1922 test images:
+      full            pred_dist={'COVID-19': 0.1894, 'Normal': 0.7045, 'Pneumonia': 0.0718, 'Tuberculosis': 0.0343}
+      center_blanked  pred_dist={'COVID-19': 0.0276, 'Normal': 0.5718, 'Pneumonia': 0.0499, 'Tuberculosis': 0.3507}
+[test_new_xray_checkpoint] full metrics saved to /Users/sharan_pachapuri/Documents/sdp/eval_outputs/xray_txrv_densenet121/xray_txrv_densenet121_test_metrics.json
+real 469.50
+user 1686.44
+sys 56.54
+EXIT 0

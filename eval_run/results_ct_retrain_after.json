@@ -1,0 +1,3501 @@
+{
+  "label": "AFTER ct_best_model_phase36_normal_fix",
+  "checkpoint": "checkpoints/ct_best_model_phase36_normal_fix.pt",
+  "backbone": "densenet121",
+  "class_names": [
+    "Benign",
+    "Malignant",
+    "Normal"
+  ],
+  "claimed_val_acc": 0.9940119760479041,
+  "reproduction": {
+    "val_dir": "data/ct_scan_normal_augmented",
+    "n": 167,
+    "reproduced": 0.9940119760479041,
+    "claimed": 0.9940119760479041,
+    "diff": 0.0,
+    "tolerance": 0.001,
+    "passed": true
+  },
+  "testdir": {
+    "dir": "data/ct_scan",
+    "per_class": {
+      "Benign": {
+        "n": 12,
+        "correct": 12,
+        "pred_counts": {
+          "Benign": 12
+        }
+      },
+      "Malignant": {
+        "n": 50,
+        "correct": 50,
+        "pred_counts": {
+          "Malignant": 50
+        }
+      },
+      "Normal": {
+        "n": 41,
+        "correct": 40,
+        "pred_counts": {
+          "Normal": 40,
+          "Benign": 1
+        }
+      }
+    }
+  },
+  "groups": {
+    "ext_normal_9": {
+      "dir": "eval_run/external_samples/ct/normal",
+      "true_class": "Normal",
+      "n": 9,
+      "correct": 7,
+      "rows": [
+        {
+          "file": "eval_run\\external_samples\\ct\\normal\\normal_10.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9256,
+          "probs": {
+            "Benign": 0.0205,
+            "Malignant": 0.0538,
+            "Normal": 0.9256
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\normal\\normal_11.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9567,
+          "probs": {
+            "Benign": 0.0433,
+            "Malignant": 0.0,
+            "Normal": 0.9567
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\normal\\normal_21.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9867,
+          "probs": {
+            "Benign": 0.0126,
+            "Malignant": 0.0008,
+            "Normal": 0.9867
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\normal\\normal_22.png",
+          "true": "Normal",
+          "pred": "Malignant",
+          "conf": 0.741,
+          "probs": {
+            "Benign": 0.0282,
+            "Malignant": 0.741,
+            "Normal": 0.2309
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\normal\\normal_23.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9954,
+          "probs": {
+            "Benign": 0.0022,
+            "Malignant": 0.0024,
+            "Normal": 0.9954
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\normal\\normal_24.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9924,
+          "probs": {
+            "Benign": 0.0075,
+            "Malignant": 0.0,
+            "Normal": 0.9924
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\normal\\normal_6.png",
+          "true": "Normal",
+          "pred": "Benign",
+          "conf": 0.8434,
+          "probs": {
+            "Benign": 0.8434,
+            "Malignant": 0.0026,
+            "Normal": 0.1539
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\normal\\normal_7.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9972,
+          "probs": {
+            "Benign": 0.0028,
+            "Malignant": 0.0,
+            "Normal": 0.9972
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\normal\\normal_8.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.998,
+          "probs": {
+            "Benign": 0.002,
+            "Malignant": 0.0001,
+            "Normal": 0.998
+          },
+          "correct": true
+        }
+      ]
+    },
+    "ext_malignant_12": {
+      "dir": "eval_run/external_samples/ct/malignant",
+      "true_class": "Malignant",
+      "n": 12,
+      "correct": 0,
+      "rows": [
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\adenocarcinoma_000108.png",
+          "true": "Malignant",
+          "pred": "Normal",
+          "conf": 0.9731,
+          "probs": {
+            "Benign": 0.0221,
+            "Malignant": 0.0047,
+            "Normal": 0.9731
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\adenocarcinoma_000109.png",
+          "true": "Malignant",
+          "pred": "Normal",
+          "conf": 0.7785,
+          "probs": {
+            "Benign": 0.0121,
+            "Malignant": 0.2094,
+            "Normal": 0.7785
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\adenocarcinoma_000112.png",
+          "true": "Malignant",
+          "pred": "Normal",
+          "conf": 0.9872,
+          "probs": {
+            "Benign": 0.0044,
+            "Malignant": 0.0084,
+            "Normal": 0.9872
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\adenocarcinoma_000113.png",
+          "true": "Malignant",
+          "pred": "Normal",
+          "conf": 0.983,
+          "probs": {
+            "Benign": 0.0072,
+            "Malignant": 0.0098,
+            "Normal": 0.983
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\large_cell_000108.png",
+          "true": "Malignant",
+          "pred": "Normal",
+          "conf": 0.7937,
+          "probs": {
+            "Benign": 0.2056,
+            "Malignant": 0.0007,
+            "Normal": 0.7937
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\large_cell_000110.png",
+          "true": "Malignant",
+          "pred": "Normal",
+          "conf": 0.7917,
+          "probs": {
+            "Benign": 0.0064,
+            "Malignant": 0.2019,
+            "Normal": 0.7917
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\large_cell_000111.png",
+          "true": "Malignant",
+          "pred": "Normal",
+          "conf": 0.8486,
+          "probs": {
+            "Benign": 0.1506,
+            "Malignant": 0.0008,
+            "Normal": 0.8486
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\large_cell_000113.png",
+          "true": "Malignant",
+          "pred": "Normal",
+          "conf": 0.912,
+          "probs": {
+            "Benign": 0.087,
+            "Malignant": 0.001,
+            "Normal": 0.912
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\squamous_000108.png",
+          "true": "Malignant",
+          "pred": "Normal",
+          "conf": 0.9198,
+          "probs": {
+            "Benign": 0.0792,
+            "Malignant": 0.001,
+            "Normal": 0.9198
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\squamous_000110.png",
+          "true": "Malignant",
+          "pred": "Normal",
+          "conf": 0.8359,
+          "probs": {
+            "Benign": 0.0315,
+            "Malignant": 0.1326,
+            "Normal": 0.8359
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\squamous_000111.png",
+          "true": "Malignant",
+          "pred": "Normal",
+          "conf": 0.3872,
+          "probs": {
+            "Benign": 0.368,
+            "Malignant": 0.2448,
+            "Normal": 0.3872
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\squamous_000112.png",
+          "true": "Malignant",
+          "pred": "Normal",
+          "conf": 0.8965,
+          "probs": {
+            "Benign": 0.0153,
+            "Malignant": 0.0882,
+            "Normal": 0.8965
+          },
+          "correct": false
+        }
+      ]
+    },
+    "groupB_mohamedhanyyy": {
+      "dir": "eval_run/ct_normal_heldout/groupB_mohamedhanyyy",
+      "true_class": "Normal",
+      "n": 99,
+      "correct": 85,
+      "rows": [
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_00.png",
+          "true": "Normal",
+          "pred": "Benign",
+          "conf": 0.8434,
+          "probs": {
+            "Benign": 0.8434,
+            "Malignant": 0.0026,
+            "Normal": 0.1539
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_01.png",
+          "true": "Normal",
+          "pred": "Benign",
+          "conf": 0.8434,
+          "probs": {
+            "Benign": 0.8434,
+            "Malignant": 0.0026,
+            "Normal": 0.1539
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_02.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.6794,
+          "probs": {
+            "Benign": 0.3205,
+            "Malignant": 0.0002,
+            "Normal": 0.6794
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_03.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.6794,
+          "probs": {
+            "Benign": 0.3205,
+            "Malignant": 0.0002,
+            "Normal": 0.6794
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_04.png",
+          "true": "Normal",
+          "pred": "Benign",
+          "conf": 0.8434,
+          "probs": {
+            "Benign": 0.8434,
+            "Malignant": 0.0026,
+            "Normal": 0.1539
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_05.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.6794,
+          "probs": {
+            "Benign": 0.3205,
+            "Malignant": 0.0002,
+            "Normal": 0.6794
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_06.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.6794,
+          "probs": {
+            "Benign": 0.3205,
+            "Malignant": 0.0002,
+            "Normal": 0.6794
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_07.png",
+          "true": "Normal",
+          "pred": "Benign",
+          "conf": 0.8434,
+          "probs": {
+            "Benign": 0.8434,
+            "Malignant": 0.0026,
+            "Normal": 0.1539
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_08.png",
+          "true": "Normal",
+          "pred": "Benign",
+          "conf": 0.8437,
+          "probs": {
+            "Benign": 0.8437,
+            "Malignant": 0.0028,
+            "Normal": 0.1534
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_09.png",
+          "true": "Normal",
+          "pred": "Benign",
+          "conf": 0.8437,
+          "probs": {
+            "Benign": 0.8437,
+            "Malignant": 0.0028,
+            "Normal": 0.1534
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_10.png",
+          "true": "Normal",
+          "pred": "Benign",
+          "conf": 0.8437,
+          "probs": {
+            "Benign": 0.8437,
+            "Malignant": 0.0028,
+            "Normal": 0.1534
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_11.png",
+          "true": "Normal",
+          "pred": "Benign",
+          "conf": 0.8437,
+          "probs": {
+            "Benign": 0.8437,
+            "Malignant": 0.0028,
+            "Normal": 0.1534
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_12.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.6794,
+          "probs": {
+            "Benign": 0.3205,
+            "Malignant": 0.0002,
+            "Normal": 0.6794
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_13.png",
+          "true": "Normal",
+          "pred": "Benign",
+          "conf": 0.8434,
+          "probs": {
+            "Benign": 0.8434,
+            "Malignant": 0.0026,
+            "Normal": 0.1539
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_14.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.6794,
+          "probs": {
+            "Benign": 0.3205,
+            "Malignant": 0.0002,
+            "Normal": 0.6794
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_15.png",
+          "true": "Normal",
+          "pred": "Benign",
+          "conf": 0.8434,
+          "probs": {
+            "Benign": 0.8434,
+            "Malignant": 0.0026,
+            "Normal": 0.1539
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_16.png",
+          "true": "Normal",
+          "pred": "Benign",
+          "conf": 0.8434,
+          "probs": {
+            "Benign": 0.8434,
+            "Malignant": 0.0026,
+            "Normal": 0.1539
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_17.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.6794,
+          "probs": {
+            "Benign": 0.3205,
+            "Malignant": 0.0002,
+            "Normal": 0.6794
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_18.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.6794,
+          "probs": {
+            "Benign": 0.3205,
+            "Malignant": 0.0002,
+            "Normal": 0.6794
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_19.png",
+          "true": "Normal",
+          "pred": "Benign",
+          "conf": 0.8434,
+          "probs": {
+            "Benign": 0.8434,
+            "Malignant": 0.0026,
+            "Normal": 0.1539
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_20.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.6794,
+          "probs": {
+            "Benign": 0.3205,
+            "Malignant": 0.0002,
+            "Normal": 0.6794
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g00_21.png",
+          "true": "Normal",
+          "pred": "Benign",
+          "conf": 0.8434,
+          "probs": {
+            "Benign": 0.8434,
+            "Malignant": 0.0026,
+            "Normal": 0.1539
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g01_00.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9972,
+          "probs": {
+            "Benign": 0.0028,
+            "Malignant": 0.0,
+            "Normal": 0.9972
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g01_01.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9972,
+          "probs": {
+            "Benign": 0.0028,
+            "Malignant": 0.0,
+            "Normal": 0.9972
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g01_02.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9957,
+          "probs": {
+            "Benign": 0.0043,
+            "Malignant": 0.0,
+            "Normal": 0.9957
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g01_03.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9957,
+          "probs": {
+            "Benign": 0.0043,
+            "Malignant": 0.0,
+            "Normal": 0.9957
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g01_04.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9972,
+          "probs": {
+            "Benign": 0.0028,
+            "Malignant": 0.0,
+            "Normal": 0.9972
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g01_05.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9957,
+          "probs": {
+            "Benign": 0.0043,
+            "Malignant": 0.0,
+            "Normal": 0.9957
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g01_06.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9957,
+          "probs": {
+            "Benign": 0.0043,
+            "Malignant": 0.0,
+            "Normal": 0.9957
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g01_07.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9972,
+          "probs": {
+            "Benign": 0.0028,
+            "Malignant": 0.0,
+            "Normal": 0.9972
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g01_08.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9957,
+          "probs": {
+            "Benign": 0.0043,
+            "Malignant": 0.0,
+            "Normal": 0.9957
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g01_09.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9972,
+          "probs": {
+            "Benign": 0.0028,
+            "Malignant": 0.0,
+            "Normal": 0.9972
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g01_10.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9972,
+          "probs": {
+            "Benign": 0.0028,
+            "Malignant": 0.0,
+            "Normal": 0.9972
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g01_11.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9972,
+          "probs": {
+            "Benign": 0.0028,
+            "Malignant": 0.0,
+            "Normal": 0.9972
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g01_12.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9972,
+          "probs": {
+            "Benign": 0.0028,
+            "Malignant": 0.0,
+            "Normal": 0.9972
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g01_13.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9957,
+          "probs": {
+            "Benign": 0.0043,
+            "Malignant": 0.0,
+            "Normal": 0.9957
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g01_14.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9957,
+          "probs": {
+            "Benign": 0.0043,
+            "Malignant": 0.0,
+            "Normal": 0.9957
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g01_15.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9972,
+          "probs": {
+            "Benign": 0.0028,
+            "Malignant": 0.0,
+            "Normal": 0.9972
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g01_16.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9957,
+          "probs": {
+            "Benign": 0.0043,
+            "Malignant": 0.0,
+            "Normal": 0.9957
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g01_17.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9957,
+          "probs": {
+            "Benign": 0.0043,
+            "Malignant": 0.0,
+            "Normal": 0.9957
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g01_18.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9972,
+          "probs": {
+            "Benign": 0.0028,
+            "Malignant": 0.0,
+            "Normal": 0.9972
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g02_00.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9984,
+          "probs": {
+            "Benign": 0.0014,
+            "Malignant": 0.0001,
+            "Normal": 0.9984
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g02_01.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9984,
+          "probs": {
+            "Benign": 0.0014,
+            "Malignant": 0.0001,
+            "Normal": 0.9984
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g02_02.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9977,
+          "probs": {
+            "Benign": 0.0022,
+            "Malignant": 0.0001,
+            "Normal": 0.9977
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g02_03.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9977,
+          "probs": {
+            "Benign": 0.0022,
+            "Malignant": 0.0001,
+            "Normal": 0.9977
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g02_04.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.998,
+          "probs": {
+            "Benign": 0.002,
+            "Malignant": 0.0001,
+            "Normal": 0.998
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g02_05.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9977,
+          "probs": {
+            "Benign": 0.0022,
+            "Malignant": 0.0001,
+            "Normal": 0.9977
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g02_06.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9977,
+          "probs": {
+            "Benign": 0.0022,
+            "Malignant": 0.0001,
+            "Normal": 0.9977
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g02_07.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.998,
+          "probs": {
+            "Benign": 0.002,
+            "Malignant": 0.0001,
+            "Normal": 0.998
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g02_08.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.998,
+          "probs": {
+            "Benign": 0.002,
+            "Malignant": 0.0001,
+            "Normal": 0.998
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g02_09.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9984,
+          "probs": {
+            "Benign": 0.0014,
+            "Malignant": 0.0001,
+            "Normal": 0.9984
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g02_10.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9984,
+          "probs": {
+            "Benign": 0.0014,
+            "Malignant": 0.0001,
+            "Normal": 0.9984
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g02_11.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9977,
+          "probs": {
+            "Benign": 0.0022,
+            "Malignant": 0.0001,
+            "Normal": 0.9977
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g02_12.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9977,
+          "probs": {
+            "Benign": 0.0022,
+            "Malignant": 0.0001,
+            "Normal": 0.9977
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g02_13.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.998,
+          "probs": {
+            "Benign": 0.002,
+            "Malignant": 0.0001,
+            "Normal": 0.998
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g02_14.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9977,
+          "probs": {
+            "Benign": 0.0022,
+            "Malignant": 0.0001,
+            "Normal": 0.9977
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g02_15.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9977,
+          "probs": {
+            "Benign": 0.0022,
+            "Malignant": 0.0001,
+            "Normal": 0.9977
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g02_16.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.998,
+          "probs": {
+            "Benign": 0.002,
+            "Malignant": 0.0001,
+            "Normal": 0.998
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g03_00.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.8802,
+          "probs": {
+            "Benign": 0.0304,
+            "Malignant": 0.0894,
+            "Normal": 0.8802
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g03_01.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.8802,
+          "probs": {
+            "Benign": 0.0304,
+            "Malignant": 0.0894,
+            "Normal": 0.8802
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g03_02.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9403,
+          "probs": {
+            "Benign": 0.0216,
+            "Malignant": 0.0381,
+            "Normal": 0.9403
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g03_03.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9403,
+          "probs": {
+            "Benign": 0.0216,
+            "Malignant": 0.0381,
+            "Normal": 0.9403
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g03_04.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9256,
+          "probs": {
+            "Benign": 0.0205,
+            "Malignant": 0.0538,
+            "Normal": 0.9256
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g03_05.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9199,
+          "probs": {
+            "Benign": 0.0246,
+            "Malignant": 0.0555,
+            "Normal": 0.9199
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g03_06.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9199,
+          "probs": {
+            "Benign": 0.0246,
+            "Malignant": 0.0555,
+            "Normal": 0.9199
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g03_07.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9256,
+          "probs": {
+            "Benign": 0.0205,
+            "Malignant": 0.0538,
+            "Normal": 0.9256
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g03_08.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.8802,
+          "probs": {
+            "Benign": 0.0304,
+            "Malignant": 0.0894,
+            "Normal": 0.8802
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g03_09.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.8802,
+          "probs": {
+            "Benign": 0.0304,
+            "Malignant": 0.0894,
+            "Normal": 0.8802
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g03_10.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9403,
+          "probs": {
+            "Benign": 0.0216,
+            "Malignant": 0.0381,
+            "Normal": 0.9403
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g03_11.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9403,
+          "probs": {
+            "Benign": 0.0216,
+            "Malignant": 0.0381,
+            "Normal": 0.9403
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g03_12.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9256,
+          "probs": {
+            "Benign": 0.0205,
+            "Malignant": 0.0538,
+            "Normal": 0.9256
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g03_13.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9199,
+          "probs": {
+            "Benign": 0.0246,
+            "Malignant": 0.0555,
+            "Normal": 0.9199
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g03_14.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9199,
+          "probs": {
+            "Benign": 0.0246,
+            "Malignant": 0.0555,
+            "Normal": 0.9199
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g03_15.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9256,
+          "probs": {
+            "Benign": 0.0205,
+            "Malignant": 0.0538,
+            "Normal": 0.9256
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g04_00.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.964,
+          "probs": {
+            "Benign": 0.036,
+            "Malignant": 0.0,
+            "Normal": 0.964
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g04_01.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.964,
+          "probs": {
+            "Benign": 0.036,
+            "Malignant": 0.0,
+            "Normal": 0.964
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g04_02.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.98,
+          "probs": {
+            "Benign": 0.02,
+            "Malignant": 0.0,
+            "Normal": 0.98
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g04_03.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.98,
+          "probs": {
+            "Benign": 0.02,
+            "Malignant": 0.0,
+            "Normal": 0.98
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g04_04.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9567,
+          "probs": {
+            "Benign": 0.0433,
+            "Malignant": 0.0,
+            "Normal": 0.9567
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g04_05.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9856,
+          "probs": {
+            "Benign": 0.0144,
+            "Malignant": 0.0,
+            "Normal": 0.9856
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g04_06.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9856,
+          "probs": {
+            "Benign": 0.0144,
+            "Malignant": 0.0,
+            "Normal": 0.9856
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g04_07.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9567,
+          "probs": {
+            "Benign": 0.0433,
+            "Malignant": 0.0,
+            "Normal": 0.9567
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g04_08.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.964,
+          "probs": {
+            "Benign": 0.036,
+            "Malignant": 0.0,
+            "Normal": 0.964
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g04_09.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.964,
+          "probs": {
+            "Benign": 0.036,
+            "Malignant": 0.0,
+            "Normal": 0.964
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g04_10.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.98,
+          "probs": {
+            "Benign": 0.02,
+            "Malignant": 0.0,
+            "Normal": 0.98
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g04_11.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.98,
+          "probs": {
+            "Benign": 0.02,
+            "Malignant": 0.0,
+            "Normal": 0.98
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g04_12.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9567,
+          "probs": {
+            "Benign": 0.0433,
+            "Malignant": 0.0,
+            "Normal": 0.9567
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g04_13.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9856,
+          "probs": {
+            "Benign": 0.0144,
+            "Malignant": 0.0,
+            "Normal": 0.9856
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g04_14.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9856,
+          "probs": {
+            "Benign": 0.0144,
+            "Malignant": 0.0,
+            "Normal": 0.9856
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g04_15.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9567,
+          "probs": {
+            "Benign": 0.0433,
+            "Malignant": 0.0,
+            "Normal": 0.9567
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g16_00.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9821,
+          "probs": {
+            "Benign": 0.0164,
+            "Malignant": 0.0016,
+            "Normal": 0.9821
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g16_01.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9821,
+          "probs": {
+            "Benign": 0.0164,
+            "Malignant": 0.0016,
+            "Normal": 0.9821
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g16_02.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9821,
+          "probs": {
+            "Benign": 0.0164,
+            "Malignant": 0.0016,
+            "Normal": 0.9821
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g16_03.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9821,
+          "probs": {
+            "Benign": 0.0164,
+            "Malignant": 0.0016,
+            "Normal": 0.9821
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g16_04.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9867,
+          "probs": {
+            "Benign": 0.0126,
+            "Malignant": 0.0008,
+            "Normal": 0.9867
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g20_00.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9976,
+          "probs": {
+            "Benign": 0.0024,
+            "Malignant": 0.0,
+            "Normal": 0.9976
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g20_01.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9924,
+          "probs": {
+            "Benign": 0.0075,
+            "Malignant": 0.0,
+            "Normal": 0.9924
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g25_00.png",
+          "true": "Normal",
+          "pred": "Malignant",
+          "conf": 0.741,
+          "probs": {
+            "Benign": 0.0282,
+            "Malignant": 0.741,
+            "Normal": 0.2309
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_mohamedhanyyy\\mh_g26_00.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9954,
+          "probs": {
+            "Benign": 0.0022,
+            "Malignant": 0.0024,
+            "Normal": 0.9954
+          },
+          "correct": true
+        }
+      ]
+    },
+    "groupB_maftouni": {
+      "dir": "eval_run/ct_normal_heldout/groupB_maftouni",
+      "true_class": "Normal",
+      "n": 165,
+      "correct": 165,
+      "rows": [
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0003_11.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9907,
+          "probs": {
+            "Benign": 0.0082,
+            "Malignant": 0.0011,
+            "Normal": 0.9907
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0003_17.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9704,
+          "probs": {
+            "Benign": 0.0095,
+            "Malignant": 0.02,
+            "Normal": 0.9704
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0003_24.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9949,
+          "probs": {
+            "Benign": 0.0025,
+            "Malignant": 0.0026,
+            "Normal": 0.9949
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0003_30.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9977,
+          "probs": {
+            "Benign": 0.0022,
+            "Malignant": 0.0002,
+            "Normal": 0.9977
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0038_15.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9947,
+          "probs": {
+            "Benign": 0.0052,
+            "Malignant": 0.0001,
+            "Normal": 0.9947
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0038_21.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9865,
+          "probs": {
+            "Benign": 0.013,
+            "Malignant": 0.0004,
+            "Normal": 0.9865
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0038_28.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9886,
+          "probs": {
+            "Benign": 0.0101,
+            "Malignant": 0.0013,
+            "Normal": 0.9886
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0038_34.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.986,
+          "probs": {
+            "Benign": 0.0135,
+            "Malignant": 0.0005,
+            "Normal": 0.986
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0076_15.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9966,
+          "probs": {
+            "Benign": 0.0031,
+            "Malignant": 0.0003,
+            "Normal": 0.9966
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0076_22.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9996,
+          "probs": {
+            "Benign": 0.0003,
+            "Malignant": 0.0,
+            "Normal": 0.9996
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0076_28.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9981,
+          "probs": {
+            "Benign": 0.0018,
+            "Malignant": 0.0001,
+            "Normal": 0.9981
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0076_9.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9971,
+          "probs": {
+            "Benign": 0.0021,
+            "Malignant": 0.0008,
+            "Normal": 0.9971
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0098_13.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9927,
+          "probs": {
+            "Benign": 0.0072,
+            "Malignant": 0.0001,
+            "Normal": 0.9927
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0098_19.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9993,
+          "probs": {
+            "Benign": 0.0006,
+            "Malignant": 0.0001,
+            "Normal": 0.9993
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0098_26.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9989,
+          "probs": {
+            "Benign": 0.0009,
+            "Malignant": 0.0002,
+            "Normal": 0.9989
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0098_32.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9984,
+          "probs": {
+            "Benign": 0.0016,
+            "Malignant": 0.0,
+            "Normal": 0.9984
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0102_12.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9862,
+          "probs": {
+            "Benign": 0.0137,
+            "Malignant": 0.0001,
+            "Normal": 0.9862
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0102_18.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9997,
+          "probs": {
+            "Benign": 0.0003,
+            "Malignant": 0.0,
+            "Normal": 0.9997
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0102_25.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9965,
+          "probs": {
+            "Benign": 0.0021,
+            "Malignant": 0.0014,
+            "Normal": 0.9965
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0102_31.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9978,
+          "probs": {
+            "Benign": 0.0022,
+            "Malignant": 0.0001,
+            "Normal": 0.9978
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0114_12.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9955,
+          "probs": {
+            "Benign": 0.0045,
+            "Malignant": 0.0001,
+            "Normal": 0.9955
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0114_18.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9978,
+          "probs": {
+            "Benign": 0.0021,
+            "Malignant": 0.0001,
+            "Normal": 0.9978
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0114_25.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9993,
+          "probs": {
+            "Benign": 0.0006,
+            "Malignant": 0.0001,
+            "Normal": 0.9993
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0114_31.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9935,
+          "probs": {
+            "Benign": 0.0064,
+            "Malignant": 0.0001,
+            "Normal": 0.9935
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0119_15.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9972,
+          "probs": {
+            "Benign": 0.0027,
+            "Malignant": 0.0001,
+            "Normal": 0.9972
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0119_21.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9928,
+          "probs": {
+            "Benign": 0.0067,
+            "Malignant": 0.0005,
+            "Normal": 0.9928
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0119_28.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9959,
+          "probs": {
+            "Benign": 0.0038,
+            "Malignant": 0.0003,
+            "Normal": 0.9959
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0119_34.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.995,
+          "probs": {
+            "Benign": 0.0048,
+            "Malignant": 0.0002,
+            "Normal": 0.995
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0124_13.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9941,
+          "probs": {
+            "Benign": 0.0059,
+            "Malignant": 0.0001,
+            "Normal": 0.9941
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0124_19.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9996,
+          "probs": {
+            "Benign": 0.0004,
+            "Malignant": 0.0,
+            "Normal": 0.9996
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0124_26.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9977,
+          "probs": {
+            "Benign": 0.0022,
+            "Malignant": 0.0001,
+            "Normal": 0.9977
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0124_32.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9965,
+          "probs": {
+            "Benign": 0.0035,
+            "Malignant": 0.0,
+            "Normal": 0.9965
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0126_13.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9977,
+          "probs": {
+            "Benign": 0.0019,
+            "Malignant": 0.0003,
+            "Normal": 0.9977
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0126_19.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9993,
+          "probs": {
+            "Benign": 0.0006,
+            "Malignant": 0.0001,
+            "Normal": 0.9993
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0126_26.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9985,
+          "probs": {
+            "Benign": 0.001,
+            "Malignant": 0.0005,
+            "Normal": 0.9985
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0126_32.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9971,
+          "probs": {
+            "Benign": 0.0029,
+            "Malignant": 0.0,
+            "Normal": 0.9971
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0133_11.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9888,
+          "probs": {
+            "Benign": 0.0112,
+            "Malignant": 0.0,
+            "Normal": 0.9888
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0133_17.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9997,
+          "probs": {
+            "Benign": 0.0003,
+            "Malignant": 0.0,
+            "Normal": 0.9997
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0133_24.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.999,
+          "probs": {
+            "Benign": 0.001,
+            "Malignant": 0.0,
+            "Normal": 0.999
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0133_30.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9988,
+          "probs": {
+            "Benign": 0.0012,
+            "Malignant": 0.0,
+            "Normal": 0.9988
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0145_13.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9966,
+          "probs": {
+            "Benign": 0.0034,
+            "Malignant": 0.0001,
+            "Normal": 0.9966
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0145_19.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9975,
+          "probs": {
+            "Benign": 0.0023,
+            "Malignant": 0.0002,
+            "Normal": 0.9975
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0145_26.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9992,
+          "probs": {
+            "Benign": 0.0008,
+            "Malignant": 0.0,
+            "Normal": 0.9992
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0145_32.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9987,
+          "probs": {
+            "Benign": 0.0013,
+            "Malignant": 0.0,
+            "Normal": 0.9987
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0156_12.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9856,
+          "probs": {
+            "Benign": 0.014,
+            "Malignant": 0.0004,
+            "Normal": 0.9856
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0156_18.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9834,
+          "probs": {
+            "Benign": 0.0165,
+            "Malignant": 0.0001,
+            "Normal": 0.9834
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0156_25.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9254,
+          "probs": {
+            "Benign": 0.074,
+            "Malignant": 0.0006,
+            "Normal": 0.9254
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0156_31.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9956,
+          "probs": {
+            "Benign": 0.0043,
+            "Malignant": 0.0001,
+            "Normal": 0.9956
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0167_11.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9763,
+          "probs": {
+            "Benign": 0.023,
+            "Malignant": 0.0006,
+            "Normal": 0.9763
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0167_17.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9922,
+          "probs": {
+            "Benign": 0.0077,
+            "Malignant": 0.0001,
+            "Normal": 0.9922
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0167_24.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9939,
+          "probs": {
+            "Benign": 0.0036,
+            "Malignant": 0.0025,
+            "Normal": 0.9939
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0167_30.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9385,
+          "probs": {
+            "Benign": 0.0605,
+            "Malignant": 0.0009,
+            "Normal": 0.9385
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0171_11.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9991,
+          "probs": {
+            "Benign": 0.0009,
+            "Malignant": 0.0001,
+            "Normal": 0.9991
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0171_17.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9976,
+          "probs": {
+            "Benign": 0.0024,
+            "Malignant": 0.0,
+            "Normal": 0.9976
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0171_24.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9989,
+          "probs": {
+            "Benign": 0.0007,
+            "Malignant": 0.0004,
+            "Normal": 0.9989
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0171_30.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.999,
+          "probs": {
+            "Benign": 0.0006,
+            "Malignant": 0.0003,
+            "Normal": 0.999
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0218_16.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9975,
+          "probs": {
+            "Benign": 0.0022,
+            "Malignant": 0.0003,
+            "Normal": 0.9975
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0218_22.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9966,
+          "probs": {
+            "Benign": 0.0023,
+            "Malignant": 0.0011,
+            "Normal": 0.9966
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0218_29.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9918,
+          "probs": {
+            "Benign": 0.0079,
+            "Malignant": 0.0003,
+            "Normal": 0.9918
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0218_35.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9991,
+          "probs": {
+            "Benign": 0.0009,
+            "Malignant": 0.0,
+            "Normal": 0.9991
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0247_11.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9856,
+          "probs": {
+            "Benign": 0.0136,
+            "Malignant": 0.0007,
+            "Normal": 0.9856
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0247_17.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.986,
+          "probs": {
+            "Benign": 0.0137,
+            "Malignant": 0.0003,
+            "Normal": 0.986
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0247_24.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9936,
+          "probs": {
+            "Benign": 0.006,
+            "Malignant": 0.0004,
+            "Normal": 0.9936
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_16_Morozov_study_0247_30.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.995,
+          "probs": {
+            "Benign": 0.0045,
+            "Malignant": 0.0006,
+            "Normal": 0.995
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal10_patient151_SR_4_IM00012.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9964,
+          "probs": {
+            "Benign": 0.0003,
+            "Malignant": 0.0033,
+            "Normal": 0.9964
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal10_patient151_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9995,
+          "probs": {
+            "Benign": 0.0001,
+            "Malignant": 0.0004,
+            "Normal": 0.9995
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal10_patient151_SR_4_IM00022.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.999,
+          "probs": {
+            "Benign": 0.0004,
+            "Malignant": 0.0006,
+            "Normal": 0.999
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal1_patient147_SR_4_IM00012.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9988,
+          "probs": {
+            "Benign": 0.0007,
+            "Malignant": 0.0005,
+            "Normal": 0.9988
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal1_patient147_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9948,
+          "probs": {
+            "Benign": 0.004,
+            "Malignant": 0.0012,
+            "Normal": 0.9948
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal1_patient147_SR_4_IM00022.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9991,
+          "probs": {
+            "Benign": 0.0009,
+            "Malignant": 0.0001,
+            "Normal": 0.9991
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal1_patient149_SR_4_IM00012.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9992,
+          "probs": {
+            "Benign": 0.0006,
+            "Malignant": 0.0002,
+            "Normal": 0.9992
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal1_patient149_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9902,
+          "probs": {
+            "Benign": 0.0028,
+            "Malignant": 0.007,
+            "Normal": 0.9902
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal1_patient149_SR_4_IM00022.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9981,
+          "probs": {
+            "Benign": 0.0016,
+            "Malignant": 0.0003,
+            "Normal": 0.9981
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal2_patient272_SR_4_IM00012.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9899,
+          "probs": {
+            "Benign": 0.0057,
+            "Malignant": 0.0044,
+            "Normal": 0.9899
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal2_patient272_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9673,
+          "probs": {
+            "Benign": 0.031,
+            "Malignant": 0.0017,
+            "Normal": 0.9673
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal2_patient272_SR_4_IM00022.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9927,
+          "probs": {
+            "Benign": 0.007,
+            "Malignant": 0.0003,
+            "Normal": 0.9927
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal2_patient273_SR_4_IM00012.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9987,
+          "probs": {
+            "Benign": 0.0008,
+            "Malignant": 0.0005,
+            "Normal": 0.9987
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal2_patient273_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9954,
+          "probs": {
+            "Benign": 0.0032,
+            "Malignant": 0.0014,
+            "Normal": 0.9954
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal2_patient273_SR_4_IM00022.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9993,
+          "probs": {
+            "Benign": 0.0006,
+            "Malignant": 0.0001,
+            "Normal": 0.9993
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal3_patient340_SR_4_IM00012.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9502,
+          "probs": {
+            "Benign": 0.0014,
+            "Malignant": 0.0484,
+            "Normal": 0.9502
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal3_patient340_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9862,
+          "probs": {
+            "Benign": 0.002,
+            "Malignant": 0.0119,
+            "Normal": 0.9862
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal3_patient340_SR_4_IM00022.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9976,
+          "probs": {
+            "Benign": 0.0007,
+            "Malignant": 0.0016,
+            "Normal": 0.9976
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal4_patient183_SR_4_IM00012.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9997,
+          "probs": {
+            "Benign": 0.0001,
+            "Malignant": 0.0002,
+            "Normal": 0.9997
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal4_patient183_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9982,
+          "probs": {
+            "Benign": 0.001,
+            "Malignant": 0.0007,
+            "Normal": 0.9982
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal4_patient235_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9638,
+          "probs": {
+            "Benign": 0.0055,
+            "Malignant": 0.0307,
+            "Normal": 0.9638
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal4_patient235_SR_4_IM00022.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.949,
+          "probs": {
+            "Benign": 0.044,
+            "Malignant": 0.007,
+            "Normal": 0.949
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal5_patient177_SR_4_IM00012.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9986,
+          "probs": {
+            "Benign": 0.0008,
+            "Malignant": 0.0006,
+            "Normal": 0.9986
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal5_patient177_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9973,
+          "probs": {
+            "Benign": 0.0022,
+            "Malignant": 0.0005,
+            "Normal": 0.9973
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal5_patient177_SR_4_IM00022.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9903,
+          "probs": {
+            "Benign": 0.0092,
+            "Malignant": 0.0005,
+            "Normal": 0.9903
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal5_patient183_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9982,
+          "probs": {
+            "Benign": 0.001,
+            "Malignant": 0.0007,
+            "Normal": 0.9982
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal5_patient183_SR_4_IM00022.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.999,
+          "probs": {
+            "Benign": 0.001,
+            "Malignant": 0.0001,
+            "Normal": 0.999
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal5_patient184_SR_4_IM00012.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9996,
+          "probs": {
+            "Benign": 0.0003,
+            "Malignant": 0.0001,
+            "Normal": 0.9996
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal5_patient184_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9999,
+          "probs": {
+            "Benign": 0.0001,
+            "Malignant": 0.0,
+            "Normal": 0.9999
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal5_patient194_SR_4_IM00012.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9986,
+          "probs": {
+            "Benign": 0.0012,
+            "Malignant": 0.0001,
+            "Normal": 0.9986
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal5_patient194_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9984,
+          "probs": {
+            "Benign": 0.0006,
+            "Malignant": 0.001,
+            "Normal": 0.9984
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal5_patient209_SR_4_IM00012.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9942,
+          "probs": {
+            "Benign": 0.0046,
+            "Malignant": 0.0012,
+            "Normal": 0.9942
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal5_patient209_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9952,
+          "probs": {
+            "Benign": 0.0041,
+            "Malignant": 0.0008,
+            "Normal": 0.9952
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal5_patient209_SR_4_IM00022.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9988,
+          "probs": {
+            "Benign": 0.0011,
+            "Malignant": 0.0001,
+            "Normal": 0.9988
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal5_patient213_SR_4_IM00012.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9988,
+          "probs": {
+            "Benign": 0.001,
+            "Malignant": 0.0002,
+            "Normal": 0.9988
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal5_patient213_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.999,
+          "probs": {
+            "Benign": 0.0007,
+            "Malignant": 0.0003,
+            "Normal": 0.999
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal5_patient235_SR_4_IM00022.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.949,
+          "probs": {
+            "Benign": 0.044,
+            "Malignant": 0.007,
+            "Normal": 0.949
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal5_patient235_SR_4_IM00027.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.7048,
+          "probs": {
+            "Benign": 0.2672,
+            "Malignant": 0.028,
+            "Normal": 0.7048
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal6_patient184_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9999,
+          "probs": {
+            "Benign": 0.0001,
+            "Malignant": 0.0,
+            "Normal": 0.9999
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal6_patient184_SR_4_IM00022.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9993,
+          "probs": {
+            "Benign": 0.0005,
+            "Malignant": 0.0002,
+            "Normal": 0.9993
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal6_patient194_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9984,
+          "probs": {
+            "Benign": 0.0006,
+            "Malignant": 0.001,
+            "Normal": 0.9984
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal6_patient194_SR_4_IM00022.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9948,
+          "probs": {
+            "Benign": 0.0051,
+            "Malignant": 0.0001,
+            "Normal": 0.9948
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal6_patient213_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.999,
+          "probs": {
+            "Benign": 0.0007,
+            "Malignant": 0.0003,
+            "Normal": 0.999
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal6_patient213_SR_4_IM00022.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9996,
+          "probs": {
+            "Benign": 0.0002,
+            "Malignant": 0.0002,
+            "Normal": 0.9996
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal6_patient402_SR_4_IM00012.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9976,
+          "probs": {
+            "Benign": 0.0008,
+            "Malignant": 0.0016,
+            "Normal": 0.9976
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal6_patient402_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9912,
+          "probs": {
+            "Benign": 0.0017,
+            "Malignant": 0.0071,
+            "Normal": 0.9912
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal6_patient402_SR_4_IM00022.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9992,
+          "probs": {
+            "Benign": 0.0004,
+            "Malignant": 0.0005,
+            "Normal": 0.9992
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal8_patient413_SR_4_IM00012.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9986,
+          "probs": {
+            "Benign": 0.0006,
+            "Malignant": 0.0009,
+            "Normal": 0.9986
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal8_patient413_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.996,
+          "probs": {
+            "Benign": 0.0015,
+            "Malignant": 0.0025,
+            "Normal": 0.996
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal8_patient413_SR_4_IM00022.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9975,
+          "probs": {
+            "Benign": 0.0018,
+            "Malignant": 0.0007,
+            "Normal": 0.9975
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal9_patient434_SR_4_IM00012.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9923,
+          "probs": {
+            "Benign": 0.007,
+            "Malignant": 0.0007,
+            "Normal": 0.9923
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal9_patient434_SR_4_IM00017.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9967,
+          "probs": {
+            "Benign": 0.0023,
+            "Malignant": 0.0011,
+            "Normal": 0.9967
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_6_Rahimzadeh_normal9_patient434_SR_4_IM00022.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9942,
+          "probs": {
+            "Benign": 0.0013,
+            "Malignant": 0.0045,
+            "Normal": 0.9942
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N001_121.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9947,
+          "probs": {
+            "Benign": 0.0038,
+            "Malignant": 0.0015,
+            "Normal": 0.9947
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N001_128.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9796,
+          "probs": {
+            "Benign": 0.0159,
+            "Malignant": 0.0045,
+            "Normal": 0.9796
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N001_135.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9937,
+          "probs": {
+            "Benign": 0.0053,
+            "Malignant": 0.001,
+            "Normal": 0.9937
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N001_141.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9988,
+          "probs": {
+            "Benign": 0.0011,
+            "Malignant": 0.0001,
+            "Normal": 0.9988
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N010_103.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9825,
+          "probs": {
+            "Benign": 0.0047,
+            "Malignant": 0.0128,
+            "Normal": 0.9825
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N010_109.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9464,
+          "probs": {
+            "Benign": 0.0205,
+            "Malignant": 0.033,
+            "Normal": 0.9464
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N010_116.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9619,
+          "probs": {
+            "Benign": 0.0101,
+            "Malignant": 0.028,
+            "Normal": 0.9619
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N010_123.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9783,
+          "probs": {
+            "Benign": 0.0077,
+            "Malignant": 0.014,
+            "Normal": 0.9783
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N011_66.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.8234,
+          "probs": {
+            "Benign": 0.011,
+            "Malignant": 0.1656,
+            "Normal": 0.8234
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N011_72.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9758,
+          "probs": {
+            "Benign": 0.0149,
+            "Malignant": 0.0093,
+            "Normal": 0.9758
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N011_79.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.8946,
+          "probs": {
+            "Benign": 0.0167,
+            "Malignant": 0.0887,
+            "Normal": 0.8946
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N011_85.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.7548,
+          "probs": {
+            "Benign": 0.0732,
+            "Malignant": 0.172,
+            "Normal": 0.7548
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N020_112.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9988,
+          "probs": {
+            "Benign": 0.0003,
+            "Malignant": 0.0009,
+            "Normal": 0.9988
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N020_119.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9995,
+          "probs": {
+            "Benign": 0.0004,
+            "Malignant": 0.0002,
+            "Normal": 0.9995
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N020_125.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9996,
+          "probs": {
+            "Benign": 0.0004,
+            "Malignant": 0.0,
+            "Normal": 0.9996
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N020_132.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9998,
+          "probs": {
+            "Benign": 0.0002,
+            "Malignant": 0.0,
+            "Normal": 0.9998
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N026_103.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9995,
+          "probs": {
+            "Benign": 0.0004,
+            "Malignant": 0.0001,
+            "Normal": 0.9995
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N026_109.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9996,
+          "probs": {
+            "Benign": 0.0003,
+            "Malignant": 0.0001,
+            "Normal": 0.9996
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N026_116.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9961,
+          "probs": {
+            "Benign": 0.0033,
+            "Malignant": 0.0007,
+            "Normal": 0.9961
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N026_123.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9976,
+          "probs": {
+            "Benign": 0.0015,
+            "Malignant": 0.001,
+            "Normal": 0.9976
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N041_148.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.997,
+          "probs": {
+            "Benign": 0.0023,
+            "Malignant": 0.0007,
+            "Normal": 0.997
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N041_155.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9972,
+          "probs": {
+            "Benign": 0.0026,
+            "Malignant": 0.0002,
+            "Normal": 0.9972
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N041_162.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.999,
+          "probs": {
+            "Benign": 0.001,
+            "Malignant": 0.0001,
+            "Normal": 0.999
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_N041_168.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9993,
+          "probs": {
+            "Benign": 0.0006,
+            "Malignant": 0.0,
+            "Normal": 0.9993
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal010_118.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9995,
+          "probs": {
+            "Benign": 0.0003,
+            "Malignant": 0.0002,
+            "Normal": 0.9995
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal010_125.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9989,
+          "probs": {
+            "Benign": 0.0007,
+            "Malignant": 0.0003,
+            "Normal": 0.9989
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal010_132.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9991,
+          "probs": {
+            "Benign": 0.0008,
+            "Malignant": 0.0001,
+            "Normal": 0.9991
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal010_138.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9892,
+          "probs": {
+            "Benign": 0.0107,
+            "Malignant": 0.0,
+            "Normal": 0.9892
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal019_103.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9971,
+          "probs": {
+            "Benign": 0.0021,
+            "Malignant": 0.0008,
+            "Normal": 0.9971
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal019_109.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9964,
+          "probs": {
+            "Benign": 0.0026,
+            "Malignant": 0.001,
+            "Normal": 0.9964
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal019_89.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9951,
+          "probs": {
+            "Benign": 0.0013,
+            "Malignant": 0.0036,
+            "Normal": 0.9951
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal019_96.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.998,
+          "probs": {
+            "Benign": 0.0013,
+            "Malignant": 0.0007,
+            "Normal": 0.998
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal023_134.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.998,
+          "probs": {
+            "Benign": 0.0013,
+            "Malignant": 0.0007,
+            "Normal": 0.998
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal023_140.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9987,
+          "probs": {
+            "Benign": 0.0011,
+            "Malignant": 0.0002,
+            "Normal": 0.9987
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal023_147.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.999,
+          "probs": {
+            "Benign": 0.0009,
+            "Malignant": 0.0002,
+            "Normal": 0.999
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal023_154.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9987,
+          "probs": {
+            "Benign": 0.0012,
+            "Malignant": 0.0,
+            "Normal": 0.9987
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal030_104.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9993,
+          "probs": {
+            "Benign": 0.0002,
+            "Malignant": 0.0004,
+            "Normal": 0.9993
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal030_84.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9897,
+          "probs": {
+            "Benign": 0.0006,
+            "Malignant": 0.0097,
+            "Normal": 0.9897
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal030_91.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9962,
+          "probs": {
+            "Benign": 0.0006,
+            "Malignant": 0.0032,
+            "Normal": 0.9962
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal030_97.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9979,
+          "probs": {
+            "Benign": 0.0005,
+            "Malignant": 0.0016,
+            "Normal": 0.9979
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal032_109.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9918,
+          "probs": {
+            "Benign": 0.0055,
+            "Malignant": 0.0028,
+            "Normal": 0.9918
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal032_116.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9984,
+          "probs": {
+            "Benign": 0.0016,
+            "Malignant": 0.0001,
+            "Normal": 0.9984
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal032_122.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.97,
+          "probs": {
+            "Benign": 0.029,
+            "Malignant": 0.001,
+            "Normal": 0.97
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal032_129.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9648,
+          "probs": {
+            "Benign": 0.0351,
+            "Malignant": 0.0001,
+            "Normal": 0.9648
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal034_104.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9897,
+          "probs": {
+            "Benign": 0.0005,
+            "Malignant": 0.0098,
+            "Normal": 0.9897
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal034_110.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9945,
+          "probs": {
+            "Benign": 0.0024,
+            "Malignant": 0.0031,
+            "Normal": 0.9945
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal034_90.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9854,
+          "probs": {
+            "Benign": 0.0001,
+            "Malignant": 0.0144,
+            "Normal": 0.9854
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\ct_normal_heldout\\groupB_maftouni\\mf_normal034_97.png",
+          "true": "Normal",
+          "pred": "Normal",
+          "conf": 0.9704,
+          "probs": {
+            "Benign": 0.0002,
+            "Malignant": 0.0293,
+            "Normal": 0.9704
+          },
+          "correct": true
+        }
+      ]
+    }
+  }
+}

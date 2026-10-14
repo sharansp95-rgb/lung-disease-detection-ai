@@ -1,0 +1,17 @@
+  Normal: scanned 500/3500
+  Normal: scanned 1000/3500
+  Normal: scanned 1500/3500
+  Normal: scanned 2000/3500
+  Normal: scanned 2500/3500
+  Normal: scanned 3000/3500
+  Normal: scanned 3500/3500
+Normal: 13/3500 flagged for tint and/or white box
+  Tuberculosis: scanned 500/700
+Tuberculosis: 372/700 flagged for tint and/or white box
+
+Full results written to /Users/sharan_pachapuri/Documents/sdp/audit/tb_artifact_scan.json
+Normal: total=3500  tinted=0  has_box=13  large_box(>=5%)=5
+Tuberculosis: total=700  tinted=370  has_box=218  large_box(>=5%)=72
+real 20.00
+user 20.16
+sys 2.14

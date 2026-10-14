@@ -1,0 +1,64 @@
+@startuml
+!include style.iuml
+hide empty members
+skinparam linetype ortho
+class PredictionService <<main.py>> {
+  - _bundles : dict[str, ModelBundle]
+  - _ood_detectors : dict[str, OODDetector]
+  - _seg_bundle : SegBundle
+  + predict_xray(file, user)
+  + predict_ct(file, user)
+  - _run_prediction(modality, file, user)
+}
+class ModelBundle {
+  + model : nn.Module
+  + class_names : list[str]
+  + lock : threading.Lock
+  + load_model_bundle(name, ckpt, data)
+}
+abstract class "nn.Module" as NN {
+  + forward(x)
+}
+class ImageClassifier {
+  + forward_features(x)
+  + freeze_backbone()
+}
+class XRVClassifier {
+  + forward_features(x) : 1024-d
+  + freeze_backbone()
+}
+class OODDetector {
+  + centroid : Tensor
+  + threshold : float
+  + check(model, x) : (is_ood, dist)
+}
+class SegBundle {
+  + model : UNet
+  + compute_lung_crop(image)
+}
+class UNet {
+  + forward(x) : mask
+}
+class GradCAM {
+  + target_layer
+  + generate(x, class_idx) : heatmap
+  + remove_hooks()
+}
+class PredictionResponse <<Pydantic>> {
+  + predicted_class : str
+  + confidence : float
+  + class_probabilities : dict
+  + heatmap_png_base64 : str
+  + report : str
+}
+PredictionService *-- "5" ModelBundle
+PredictionService *-- "2" OODDetector
+PredictionService *-- "1" SegBundle
+PredictionService ..> PredictionResponse : creates
+ModelBundle o-- NN : model
+ImageClassifier --|> NN
+XRVClassifier --|> NN
+SegBundle *-- UNet
+OODDetector ..> ImageClassifier : uses features
+GradCAM ..> NN : hooks into
+@enduml

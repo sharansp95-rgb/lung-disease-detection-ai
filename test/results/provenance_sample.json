@@ -1,0 +1,1588 @@
+{
+  "probe_dir": "D:\\7th sem\\sdp\\sample images",
+  "counts": {
+    "EXACT_MATCH_IN_UNKNOWN": 180,
+    "EXACT_MATCH_IN_TEST": 10,
+    "EXACT_MATCH_IN_TRAIN": 112,
+    "EXACT_MATCH_IN_VAL": 13
+  },
+  "external": 0,
+  "total": 315,
+  "verdicts": {
+    "Pneumonia\\Viral Pneumonia-1.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-1.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-10.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-10.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-11.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-11.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-12.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-12.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-13.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-13.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-14.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-14.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-15.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-15.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-16.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-16.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-17.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-17.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-18.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-18.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-19.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-19.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-2.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-2.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-20.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-20.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-21.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-21.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-22.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-22.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-23.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-23.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-24.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-24.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-25.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-25.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-26.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-26.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-27.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-27.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-28.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-28.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-29.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-29.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-3.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-3.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-30.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-30.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-31.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-31.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-32.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-32.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-33.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-33.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-34.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-34.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-35.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-35.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-36.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-36.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-37.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-37.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-38.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-38.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-39.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-39.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-4.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-4.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-40.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-40.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-41.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-41.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-42.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-42.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-43.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-43.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-44.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-44.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-45.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-45.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-5.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-5.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-6.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-6.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-7.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-7.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-8.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-8.png",
+      "split": "unknown"
+    },
+    "Pneumonia\\Viral Pneumonia-9.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Viral Pneumonia\\images\\Viral Pneumonia-9.png",
+      "split": "unknown"
+    },
+    "cancer\\Bengin cases\\Bengin case (1).jpg": {
+      "verdict": "EXACT_MATCH_IN_TEST",
+      "twin": "data\\ct_sanity\\test\\scan\\000000_Bengin case (1).jpg",
+      "split": "test"
+    },
+    "cancer\\Bengin cases\\Bengin case (10).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000000_Bengin case (10).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (11).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000010_Bengin case (11).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (12).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000018_Bengin case (12).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (13).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000020_Bengin case (13).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (14).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000021_Bengin case (14).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (15).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000022_Bengin case (15).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (16).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000022_Bengin case (15).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (17).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000024_Bengin case (17).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (18).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000024_Bengin case (17).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (19).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000026_Bengin case (19).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (2).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000027_Bengin case (2).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (20).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000028_Bengin case (20).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (21).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000029_Bengin case (21).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (22).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000030_Bengin case (22).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (23).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000030_Bengin case (22).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (24).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000032_Bengin case (24).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (25).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000033_Bengin case (25).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (26).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000034_Bengin case (26).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (27).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000034_Bengin case (26).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (28).jpg": {
+      "verdict": "EXACT_MATCH_IN_VAL",
+      "twin": "data\\ct_sanity\\val\\scan\\000001_Bengin case (28).jpg",
+      "split": "val"
+    },
+    "cancer\\Bengin cases\\Bengin case (29).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000036_Bengin case (29).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (3).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000037_Bengin case (3).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (30).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000038_Bengin case (30).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (31).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000039_Bengin case (31).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (32).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000040_Bengin case (32).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (33).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000041_Bengin case (33).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (34).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000042_Bengin case (34).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (35).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000043_Bengin case (35).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (36).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000044_Bengin case (36).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (37).jpg": {
+      "verdict": "EXACT_MATCH_IN_VAL",
+      "twin": "data\\ct_sanity\\val\\scan\\000002_Bengin case (37).jpg",
+      "split": "val"
+    },
+    "cancer\\Bengin cases\\Bengin case (38).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000045_Bengin case (38).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (39).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000046_Bengin case (39).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (4).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000047_Bengin case (4).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (40).jpg": {
+      "verdict": "EXACT_MATCH_IN_TEST",
+      "twin": "data\\ct_sanity\\test\\scan\\000004_Bengin case (40).jpg",
+      "split": "test"
+    },
+    "cancer\\Bengin cases\\Bengin case (41).jpg": {
+      "verdict": "EXACT_MATCH_IN_VAL",
+      "twin": "data\\ct_sanity\\val\\scan\\000003_Bengin case (41).jpg",
+      "split": "val"
+    },
+    "cancer\\Bengin cases\\Bengin case (42).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000048_Bengin case (42).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (43).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000049_Bengin case (43).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (44).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000050_Bengin case (44).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (45).jpg": {
+      "verdict": "EXACT_MATCH_IN_VAL",
+      "twin": "data\\ct_sanity\\val\\scan\\000004_Bengin case (45).jpg",
+      "split": "val"
+    },
+    "cancer\\Bengin cases\\Bengin case (5).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000054_Bengin case (5).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (6).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000061_Bengin case (6).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (7).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000070_Bengin case (7).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (8).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000070_Bengin case (7).jpg",
+      "split": "train"
+    },
+    "cancer\\Bengin cases\\Bengin case (9).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000000_Bengin case (10).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (1).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000096_Malignant case (1).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (10).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000097_Malignant case (10).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (11).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000107_Malignant case (11).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (12).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000114_Malignant case (12).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (13).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000123_Malignant case (13).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (14).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000131_Malignant case (14).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (15).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000140_Malignant case (15).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (16).jpg": {
+      "verdict": "EXACT_MATCH_IN_TEST",
+      "twin": "data\\ct_sanity\\test\\scan\\000022_Malignant case (16).jpg",
+      "split": "test"
+    },
+    "cancer\\malignant cases\\Malignant case (17).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000159_Malignant case (17).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (18).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000169_Malignant case (18).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (19).jpg": {
+      "verdict": "EXACT_MATCH_IN_VAL",
+      "twin": "data\\ct_sanity\\val\\scan\\000016_Malignant case (19).jpg",
+      "split": "val"
+    },
+    "cancer\\malignant cases\\Malignant case (2).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000186_Malignant case (2).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (20).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000187_Malignant case (20).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (21).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000188_Malignant case (21).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (22).jpg": {
+      "verdict": "EXACT_MATCH_IN_VAL",
+      "twin": "data\\ct_sanity\\val\\scan\\000018_Malignant case (22).jpg",
+      "split": "val"
+    },
+    "cancer\\malignant cases\\Malignant case (23).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000189_Malignant case (23).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (24).jpg": {
+      "verdict": "EXACT_MATCH_IN_VAL",
+      "twin": "data\\ct_sanity\\val\\scan\\000019_Malignant case (24).jpg",
+      "split": "val"
+    },
+    "cancer\\malignant cases\\Malignant case (25).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000190_Malignant case (25).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (26).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000192_Malignant case (26).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (27).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000201_Malignant case (27).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (28).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000211_Malignant case (28).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (29).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000220_Malignant case (29).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (3).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000230_Malignant case (3).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (30).jpg": {
+      "verdict": "EXACT_MATCH_IN_TEST",
+      "twin": "data\\ct_sanity\\test\\scan\\000028_Malignant case (30).jpg",
+      "split": "test"
+    },
+    "cancer\\malignant cases\\Malignant case (31).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000241_Malignant case (31).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (32).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000251_Malignant case (32).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (33).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000261_Malignant case (33).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (34).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000269_Malignant case (34).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (35).jpg": {
+      "verdict": "EXACT_MATCH_IN_TEST",
+      "twin": "data\\ct_sanity\\test\\scan\\000031_Malignant case (35).jpg",
+      "split": "test"
+    },
+    "cancer\\malignant cases\\Malignant case (36).jpg": {
+      "verdict": "EXACT_MATCH_IN_VAL",
+      "twin": "data\\ct_sanity\\val\\scan\\000032_Malignant case (36).jpg",
+      "split": "val"
+    },
+    "cancer\\malignant cases\\Malignant case (37).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000293_Malignant case (37).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (38).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000302_Malignant case (38).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (39).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000309_Malignant case (39).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (4).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000316_Malignant case (4).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (40).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000317_Malignant case (40).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (41).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000325_Malignant case (41).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (42).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000333_Malignant case (42).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (43).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000341_Malignant case (43).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (44).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000352_Malignant case (44).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (45).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000359_Malignant case (45).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (5).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000394_Malignant case (5).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (6).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000454_Malignant case (6).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (7).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000465_Malignant case (7).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (8).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000145_Malignant case (155).jpg",
+      "split": "train"
+    },
+    "cancer\\malignant cases\\Malignant case (9).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000146_Malignant case (156).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (1).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000496_Normal case (1).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (10).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000497_Normal case (10).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (11).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000505_Normal case (11).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (12).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000514_Normal case (12).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (13).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000522_Normal case (13).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (14).jpg": {
+      "verdict": "EXACT_MATCH_IN_VAL",
+      "twin": "data\\ct_sanity\\val\\scan\\000069_Normal case (14).jpg",
+      "split": "val"
+    },
+    "cancer\\normal\\Normal case (15).jpg": {
+      "verdict": "EXACT_MATCH_IN_TEST",
+      "twin": "data\\ct_sanity\\test\\scan\\000065_Normal case (15).jpg",
+      "split": "test"
+    },
+    "cancer\\normal\\Normal case (16).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000550_Normal case (16).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (17).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000558_Normal case (17).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (18).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000566_Normal case (18).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (19).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000574_Normal case (19).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (2).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000584_Normal case (2).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (20).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000585_Normal case (20).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (21).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000592_Normal case (21).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (22).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000600_Normal case (22).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (23).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000607_Normal case (23).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (24).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000617_Normal case (24).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (25).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000627_Normal case (25).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (26).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000637_Normal case (26).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (27).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000648_Normal case (27).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (28).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000657_Normal case (28).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (29).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000667_Normal case (29).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (3).jpg": {
+      "verdict": "EXACT_MATCH_IN_TEST",
+      "twin": "data\\ct_sanity\\test\\scan\\000078_Normal case (3).jpg",
+      "split": "test"
+    },
+    "cancer\\normal\\Normal case (30).jpg": {
+      "verdict": "EXACT_MATCH_IN_TEST",
+      "twin": "data\\ct_sanity\\test\\scan\\000079_Normal case (30).jpg",
+      "split": "test"
+    },
+    "cancer\\normal\\Normal case (31).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000686_Normal case (31).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (32).jpg": {
+      "verdict": "EXACT_MATCH_IN_VAL",
+      "twin": "data\\ct_sanity\\val\\scan\\000088_Normal case (32).jpg",
+      "split": "val"
+    },
+    "cancer\\normal\\Normal case (33).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000699_Normal case (33).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (34).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000709_Normal case (34).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (35).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000718_Normal case (35).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (36).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000726_Normal case (36).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (37).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000737_Normal case (37).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (38).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000746_Normal case (38).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (39).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000757_Normal case (39).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (4).jpg": {
+      "verdict": "EXACT_MATCH_IN_VAL",
+      "twin": "data\\ct_sanity\\val\\scan\\000095_Normal case (4).jpg",
+      "split": "val"
+    },
+    "cancer\\normal\\Normal case (40).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000767_Normal case (40).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (41).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000776_Normal case (41).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (42).jpg": {
+      "verdict": "EXACT_MATCH_IN_TEST",
+      "twin": "data\\ct_sanity\\test\\scan\\000093_Normal case (42).jpg",
+      "split": "test"
+    },
+    "cancer\\normal\\Normal case (43).jpg": {
+      "verdict": "EXACT_MATCH_IN_TEST",
+      "twin": "data\\ct_sanity\\test\\scan\\000094_Normal case (43).jpg",
+      "split": "test"
+    },
+    "cancer\\normal\\Normal case (44).jpg": {
+      "verdict": "EXACT_MATCH_IN_VAL",
+      "twin": "data\\ct_sanity\\val\\scan\\000096_Normal case (44).jpg",
+      "split": "val"
+    },
+    "cancer\\normal\\Normal case (45).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000784_Normal case (45).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (5).jpg": {
+      "verdict": "EXACT_MATCH_IN_VAL",
+      "twin": "data\\ct_sanity\\val\\scan\\000097_Normal case (5).jpg",
+      "split": "val"
+    },
+    "cancer\\normal\\Normal case (6).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000797_Normal case (6).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (7).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000804_Normal case (7).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (8).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000813_Normal case (8).jpg",
+      "split": "train"
+    },
+    "cancer\\normal\\Normal case (9).jpg": {
+      "verdict": "EXACT_MATCH_IN_TRAIN",
+      "twin": "data\\ct_sanity\\train\\scan\\000822_Normal case (9).jpg",
+      "split": "train"
+    },
+    "covid\\COVID-1.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-1.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-10.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-10.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-11.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-11.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-12.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-12.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-13.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-13.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-14.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-14.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-15.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-15.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-16.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-16.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-17.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-17.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-18.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-18.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-19.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-19.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-2.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-2.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-20.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-20.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-21.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-18.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-22.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-22.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-23.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-23.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-24.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-24.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-25.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-25.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-26.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-26.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-27.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-27.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-28.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-28.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-29.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-29.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-3.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-3.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-30.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-30.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-31.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-31.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-32.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-32.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-33.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-33.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-34.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-34.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-35.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-35.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-36.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-36.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-37.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-37.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-38.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-38.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-39.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-39.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-4.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-4.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-40.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-40.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-41.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-41.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-42.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-42.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-43.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-43.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-44.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-44.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-45.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-45.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-5.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-5.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-6.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-6.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-7.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-7.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-8.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-8.png",
+      "split": "unknown"
+    },
+    "covid\\COVID-9.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\COVID\\images\\COVID-9.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-1.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-1.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-10.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-10.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-11.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-11.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-12.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-12.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-13.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-13.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-14.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-14.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-15.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-15.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-16.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-16.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-17.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-17.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-18.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-18.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-19.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-19.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-2.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-2.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-20.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-20.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-21.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-21.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-22.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-22.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-23.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-23.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-24.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-24.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-25.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-25.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-26.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-26.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-27.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-27.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-28.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-28.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-29.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-29.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-3.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-3.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-30.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-30.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-31.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-31.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-32.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-32.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-33.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-33.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-34.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-34.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-35.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-35.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-36.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-36.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-37.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-37.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-38.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-38.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-39.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-39.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-4.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-4.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-40.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-40.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-41.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-41.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-42.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-42.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-43.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-43.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-44.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-44.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-45.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-45.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-5.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-5.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-6.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-6.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-7.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-7.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-8.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-8.png",
+      "split": "unknown"
+    },
+    "normal\\Normal-9.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_covid\\COVID-19_Radiography_Dataset\\Normal\\images\\Normal-9.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-1.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-1.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-10.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-10.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-11.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-11.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-12.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-12.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-13.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-13.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-14.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-14.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-15.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-15.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-16.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-16.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-17.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-17.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-18.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-18.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-19.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-19.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-2.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-2.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-20.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-20.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-21.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-21.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-22.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-22.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-23.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-23.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-24.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-24.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-25.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-25.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-26.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-26.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-27.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-27.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-28.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-28.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-29.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-29.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-3.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-3.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-30.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-30.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-31.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-31.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-32.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-32.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-33.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-33.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-34.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-34.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-35.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-35.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-36.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-36.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-37.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-37.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-38.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-38.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-39.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-39.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-4.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-4.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-40.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-40.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-41.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-41.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-42.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-42.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-43.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-43.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-44.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-44.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-45.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-45.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-5.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-5.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-6.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-6.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-7.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-7.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-8.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-8.png",
+      "split": "unknown"
+    },
+    "tb\\Tuberculosis-9.png": {
+      "verdict": "EXACT_MATCH_IN_UNKNOWN",
+      "twin": "raw\\xray_tb\\TB_Chest_Radiography_Database\\Tuberculosis\\Tuberculosis-9.png",
+      "split": "unknown"
+    }
+  }
+}

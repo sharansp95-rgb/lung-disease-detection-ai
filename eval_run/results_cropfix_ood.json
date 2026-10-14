@@ -1,0 +1,1718 @@
+{
+  "COVID-19": {
+    "n": 60,
+    "old_rejects": 60,
+    "new_rejects": 60,
+    "old_mean_d": 5.028,
+    "new_mean_d": 4.878,
+    "rows": [
+      {
+        "f": "covid19db_COVID-1115.png",
+        "old_ok": false,
+        "old_d": 4.524,
+        "new_ok": false,
+        "new_d": 5.292
+      },
+      {
+        "f": "covid19db_COVID-3346.png",
+        "old_ok": false,
+        "old_d": 2.649,
+        "new_ok": false,
+        "new_d": 2.875
+      },
+      {
+        "f": "covid19db_COVID-1346.png",
+        "old_ok": false,
+        "old_d": 5.611,
+        "new_ok": false,
+        "new_d": 5.144
+      },
+      {
+        "f": "covid19db_COVID-3439.png",
+        "old_ok": false,
+        "old_d": 4.529,
+        "new_ok": false,
+        "new_d": 3.119
+      },
+      {
+        "f": "covid19db_COVID-992.png",
+        "old_ok": false,
+        "old_d": 6.052,
+        "new_ok": false,
+        "new_d": 5.891
+      },
+      {
+        "f": "covid19db_COVID-3125.png",
+        "old_ok": false,
+        "old_d": 3.356,
+        "new_ok": false,
+        "new_d": 2.683
+      },
+      {
+        "f": "covid19db_COVID-59.png",
+        "old_ok": false,
+        "old_d": 4.208,
+        "new_ok": false,
+        "new_d": 4.017
+      },
+      {
+        "f": "covid19db_COVID-1595.png",
+        "old_ok": false,
+        "old_d": 4.241,
+        "new_ok": false,
+        "new_d": 3.942
+      },
+      {
+        "f": "covid19db_COVID-2866.png",
+        "old_ok": false,
+        "old_d": 3.567,
+        "new_ok": false,
+        "new_d": 3.395
+      },
+      {
+        "f": "covid19db_COVID-37.png",
+        "old_ok": false,
+        "old_d": 4.554,
+        "new_ok": false,
+        "new_d": 5.766
+      },
+      {
+        "f": "covid19db_COVID-2608.png",
+        "old_ok": false,
+        "old_d": 3.925,
+        "new_ok": false,
+        "new_d": 3.68
+      },
+      {
+        "f": "covid19db_COVID-518.png",
+        "old_ok": false,
+        "old_d": 7.578,
+        "new_ok": false,
+        "new_d": 8.106
+      },
+      {
+        "f": "covid19db_COVID-1090.png",
+        "old_ok": false,
+        "old_d": 8.445,
+        "new_ok": false,
+        "new_d": 6.892
+      },
+      {
+        "f": "covid19db_COVID-371.png",
+        "old_ok": false,
+        "old_d": 6.503,
+        "new_ok": false,
+        "new_d": 7.231
+      },
+      {
+        "f": "covid19db_COVID-3414.png",
+        "old_ok": false,
+        "old_d": 5.015,
+        "new_ok": false,
+        "new_d": 4.638
+      },
+      {
+        "f": "covid19db_COVID-1513.png",
+        "old_ok": false,
+        "old_d": 3.18,
+        "new_ok": false,
+        "new_d": 3.529
+      },
+      {
+        "f": "covid19db_COVID-1108.png",
+        "old_ok": false,
+        "old_d": 7.273,
+        "new_ok": false,
+        "new_d": 5.779
+      },
+      {
+        "f": "covid19db_COVID-2732.png",
+        "old_ok": false,
+        "old_d": 6.671,
+        "new_ok": false,
+        "new_d": 6.264
+      },
+      {
+        "f": "covid19db_COVID-3226.png",
+        "old_ok": false,
+        "old_d": 4.967,
+        "new_ok": false,
+        "new_d": 5.455
+      },
+      {
+        "f": "covid19db_COVID-179.png",
+        "old_ok": false,
+        "old_d": 3.291,
+        "new_ok": false,
+        "new_d": 3.233
+      },
+      {
+        "f": "covid19db_COVID-1472.png",
+        "old_ok": false,
+        "old_d": 4.59,
+        "new_ok": false,
+        "new_d": 3.996
+      },
+      {
+        "f": "covid19db_COVID-2990.png",
+        "old_ok": false,
+        "old_d": 3.514,
+        "new_ok": false,
+        "new_d": 4.498
+      },
+      {
+        "f": "covid19db_COVID-3464.png",
+        "old_ok": false,
+        "old_d": 6.019,
+        "new_ok": false,
+        "new_d": 6.847
+      },
+      {
+        "f": "covid19db_COVID-3372.png",
+        "old_ok": false,
+        "old_d": 4.291,
+        "new_ok": false,
+        "new_d": 4.633
+      },
+      {
+        "f": "covid19db_COVID-3607.png",
+        "old_ok": false,
+        "old_d": 7.407,
+        "new_ok": false,
+        "new_d": 6.652
+      },
+      {
+        "f": "covid19db_COVID-3467.png",
+        "old_ok": false,
+        "old_d": 3.283,
+        "new_ok": false,
+        "new_d": 2.76
+      },
+      {
+        "f": "covid19db_COVID-1848.png",
+        "old_ok": false,
+        "old_d": 2.665,
+        "new_ok": false,
+        "new_d": 2.648
+      },
+      {
+        "f": "covid19db_COVID-184.png",
+        "old_ok": false,
+        "old_d": 5.538,
+        "new_ok": false,
+        "new_d": 6.653
+      },
+      {
+        "f": "covid19db_COVID-940.png",
+        "old_ok": false,
+        "old_d": 3.753,
+        "new_ok": false,
+        "new_d": 3.443
+      },
+      {
+        "f": "covid19db_COVID-2520.png",
+        "old_ok": false,
+        "old_d": 4.027,
+        "new_ok": false,
+        "new_d": 3.523
+      },
+      {
+        "f": "covid19db_COVID-1343.png",
+        "old_ok": false,
+        "old_d": 4.922,
+        "new_ok": false,
+        "new_d": 4.592
+      },
+      {
+        "f": "covid19db_COVID-2564.png",
+        "old_ok": false,
+        "old_d": 6.984,
+        "new_ok": false,
+        "new_d": 6.69
+      },
+      {
+        "f": "covid19db_COVID-1871.png",
+        "old_ok": false,
+        "old_d": 4.836,
+        "new_ok": false,
+        "new_d": 4.41
+      },
+      {
+        "f": "covid19db_COVID-1987.png",
+        "old_ok": false,
+        "old_d": 3.545,
+        "new_ok": false,
+        "new_d": 3.731
+      },
+      {
+        "f": "covid19db_COVID-1411.png",
+        "old_ok": false,
+        "old_d": 2.999,
+        "new_ok": false,
+        "new_d": 4.713
+      },
+      {
+        "f": "covid19db_COVID-2310.png",
+        "old_ok": false,
+        "old_d": 7.34,
+        "new_ok": false,
+        "new_d": 6.681
+      },
+      {
+        "f": "covid19db_COVID-745.png",
+        "old_ok": false,
+        "old_d": 3.992,
+        "new_ok": false,
+        "new_d": 3.51
+      },
+      {
+        "f": "covid19db_COVID-1676.png",
+        "old_ok": false,
+        "old_d": 4.929,
+        "new_ok": false,
+        "new_d": 5.209
+      },
+      {
+        "f": "covid19db_COVID-1242.png",
+        "old_ok": false,
+        "old_d": 3.803,
+        "new_ok": false,
+        "new_d": 4.638
+      },
+      {
+        "f": "covid19db_COVID-2196.png",
+        "old_ok": false,
+        "old_d": 3.171,
+        "new_ok": false,
+        "new_d": 3.047
+      },
+      {
+        "f": "covid19db_COVID-208.png",
+        "old_ok": false,
+        "old_d": 4.723,
+        "new_ok": false,
+        "new_d": 4.821
+      },
+      {
+        "f": "covid19db_COVID-3334.png",
+        "old_ok": false,
+        "old_d": 3.36,
+        "new_ok": false,
+        "new_d": 3.099
+      },
+      {
+        "f": "covid19db_COVID-2023.png",
+        "old_ok": false,
+        "old_d": 6.06,
+        "new_ok": false,
+        "new_d": 6.162
+      },
+      {
+        "f": "covid19db_COVID-472.png",
+        "old_ok": false,
+        "old_d": 4.608,
+        "new_ok": false,
+        "new_d": 3.967
+      },
+      {
+        "f": "covid19db_COVID-1984.png",
+        "old_ok": false,
+        "old_d": 5.116,
+        "new_ok": false,
+        "new_d": 5.148
+      },
+      {
+        "f": "covid19db_COVID-3395.png",
+        "old_ok": false,
+        "old_d": 3.022,
+        "new_ok": false,
+        "new_d": 4.328
+      },
+      {
+        "f": "covid19db_COVID-2307.png",
+        "old_ok": false,
+        "old_d": 5.184,
+        "new_ok": false,
+        "new_d": 5.38
+      },
+      {
+        "f": "covid19db_COVID-883.png",
+        "old_ok": false,
+        "old_d": 5.002,
+        "new_ok": false,
+        "new_d": 4.358
+      },
+      {
+        "f": "covid19db_COVID-1342.png",
+        "old_ok": false,
+        "old_d": 4.972,
+        "new_ok": false,
+        "new_d": 5.21
+      },
+      {
+        "f": "covid19db_COVID-2737.png",
+        "old_ok": false,
+        "old_d": 8.625,
+        "new_ok": false,
+        "new_d": 6.656
+      },
+      {
+        "f": "covid19db_COVID-1926.png",
+        "old_ok": false,
+        "old_d": 6.465,
+        "new_ok": false,
+        "new_d": 6.274
+      },
+      {
+        "f": "covid19db_COVID-441.png",
+        "old_ok": false,
+        "old_d": 6.685,
+        "new_ok": false,
+        "new_d": 6.12
+      },
+      {
+        "f": "covid19db_COVID-1401.png",
+        "old_ok": false,
+        "old_d": 6.938,
+        "new_ok": false,
+        "new_d": 6.103
+      },
+      {
+        "f": "covid19db_COVID-1171.png",
+        "old_ok": false,
+        "old_d": 6.452,
+        "new_ok": false,
+        "new_d": 4.884
+      },
+      {
+        "f": "covid19db_COVID-1391.png",
+        "old_ok": false,
+        "old_d": 4.278,
+        "new_ok": false,
+        "new_d": 4.816
+      },
+      {
+        "f": "covid19db_COVID-96.png",
+        "old_ok": false,
+        "old_d": 3.649,
+        "new_ok": false,
+        "new_d": 3.547
+      },
+      {
+        "f": "covid19db_COVID-3274.png",
+        "old_ok": false,
+        "old_d": 4.895,
+        "new_ok": false,
+        "new_d": 4.137
+      },
+      {
+        "f": "covid19db_COVID-1844.png",
+        "old_ok": false,
+        "old_d": 5.678,
+        "new_ok": false,
+        "new_d": 4.654
+      },
+      {
+        "f": "covid19db_COVID-998.png",
+        "old_ok": false,
+        "old_d": 8.087,
+        "new_ok": false,
+        "new_d": 7.684
+      },
+      {
+        "f": "covid19db_COVID-284.png",
+        "old_ok": false,
+        "old_d": 6.135,
+        "new_ok": false,
+        "new_d": 5.532
+      }
+    ]
+  },
+  "Normal": {
+    "n": 60,
+    "old_rejects": 60,
+    "new_rejects": 60,
+    "old_mean_d": 3.351,
+    "new_mean_d": 2.91,
+    "rows": [
+      {
+        "f": "covid19db_Normal-3068.png",
+        "old_ok": false,
+        "old_d": 2.775,
+        "new_ok": false,
+        "new_d": 2.42
+      },
+      {
+        "f": "tbdb_Normal-687.png",
+        "old_ok": false,
+        "old_d": 2.469,
+        "new_ok": false,
+        "new_d": 2.088
+      },
+      {
+        "f": "tbdb_Normal-2581.png",
+        "old_ok": false,
+        "old_d": 3.702,
+        "new_ok": false,
+        "new_d": 2.795
+      },
+      {
+        "f": "covid19db_Normal-9503.png",
+        "old_ok": false,
+        "old_d": 3.013,
+        "new_ok": false,
+        "new_d": 2.964
+      },
+      {
+        "f": "covid19db_Normal-111.png",
+        "old_ok": false,
+        "old_d": 6.342,
+        "new_ok": false,
+        "new_d": 4.858
+      },
+      {
+        "f": "covid19db_Normal-4922.png",
+        "old_ok": false,
+        "old_d": 2.685,
+        "new_ok": false,
+        "new_d": 2.083
+      },
+      {
+        "f": "tbdb_Normal-312.png",
+        "old_ok": false,
+        "old_d": 5.715,
+        "new_ok": false,
+        "new_d": 3.522
+      },
+      {
+        "f": "tbdb_Normal-3400.png",
+        "old_ok": false,
+        "old_d": 4.247,
+        "new_ok": false,
+        "new_d": 4.979
+      },
+      {
+        "f": "covid19db_Normal-5578.png",
+        "old_ok": false,
+        "old_d": 2.515,
+        "new_ok": false,
+        "new_d": 2.484
+      },
+      {
+        "f": "covid19db_Normal-9523.png",
+        "old_ok": false,
+        "old_d": 2.713,
+        "new_ok": false,
+        "new_d": 2.568
+      },
+      {
+        "f": "covid19db_Normal-7040.png",
+        "old_ok": false,
+        "old_d": 2.928,
+        "new_ok": false,
+        "new_d": 2.914
+      },
+      {
+        "f": "tbdb_Normal-1576.png",
+        "old_ok": false,
+        "old_d": 2.568,
+        "new_ok": false,
+        "new_d": 2.148
+      },
+      {
+        "f": "covid19db_Normal-8278.png",
+        "old_ok": false,
+        "old_d": 2.157,
+        "new_ok": false,
+        "new_d": 2.029
+      },
+      {
+        "f": "covid19db_Normal-1005.png",
+        "old_ok": false,
+        "old_d": 5.923,
+        "new_ok": false,
+        "new_d": 4.382
+      },
+      {
+        "f": "tbdb_Normal-3160.png",
+        "old_ok": false,
+        "old_d": 2.593,
+        "new_ok": false,
+        "new_d": 2.303
+      },
+      {
+        "f": "covid19db_Normal-8493.png",
+        "old_ok": false,
+        "old_d": 4.366,
+        "new_ok": false,
+        "new_d": 3.99
+      },
+      {
+        "f": "covid19db_Normal-2609.png",
+        "old_ok": false,
+        "old_d": 2.043,
+        "new_ok": false,
+        "new_d": 1.935
+      },
+      {
+        "f": "covid19db_Normal-7286.png",
+        "old_ok": false,
+        "old_d": 4.836,
+        "new_ok": false,
+        "new_d": 5.271
+      },
+      {
+        "f": "covid19db_Normal-5972.png",
+        "old_ok": false,
+        "old_d": 3.479,
+        "new_ok": false,
+        "new_d": 3.47
+      },
+      {
+        "f": "covid19db_Normal-9554.png",
+        "old_ok": false,
+        "old_d": 2.94,
+        "new_ok": false,
+        "new_d": 2.504
+      },
+      {
+        "f": "covid19db_Normal-8458.png",
+        "old_ok": false,
+        "old_d": 3.853,
+        "new_ok": false,
+        "new_d": 2.966
+      },
+      {
+        "f": "tbdb_Normal-2777.png",
+        "old_ok": false,
+        "old_d": 2.564,
+        "new_ok": false,
+        "new_d": 5.155
+      },
+      {
+        "f": "covid19db_Normal-2021.png",
+        "old_ok": false,
+        "old_d": 4.791,
+        "new_ok": false,
+        "new_d": 2.872
+      },
+      {
+        "f": "covid19db_Normal-1987.png",
+        "old_ok": false,
+        "old_d": 2.976,
+        "new_ok": false,
+        "new_d": 2.914
+      },
+      {
+        "f": "tbdb_Normal-2496.png",
+        "old_ok": false,
+        "old_d": 2.579,
+        "new_ok": false,
+        "new_d": 2.639
+      },
+      {
+        "f": "covid19db_Normal-2474.png",
+        "old_ok": false,
+        "old_d": 2.514,
+        "new_ok": false,
+        "new_d": 2.063
+      },
+      {
+        "f": "covid19db_Normal-1968.png",
+        "old_ok": false,
+        "old_d": 3.052,
+        "new_ok": false,
+        "new_d": 2.827
+      },
+      {
+        "f": "covid19db_Normal-8287.png",
+        "old_ok": false,
+        "old_d": 2.169,
+        "new_ok": false,
+        "new_d": 1.887
+      },
+      {
+        "f": "covid19db_Normal-7859.png",
+        "old_ok": false,
+        "old_d": 3.708,
+        "new_ok": false,
+        "new_d": 2.91
+      },
+      {
+        "f": "covid19db_Normal-7803.png",
+        "old_ok": false,
+        "old_d": 2.818,
+        "new_ok": false,
+        "new_d": 2.491
+      },
+      {
+        "f": "covid19db_Normal-2254.png",
+        "old_ok": false,
+        "old_d": 3.07,
+        "new_ok": false,
+        "new_d": 2.564
+      },
+      {
+        "f": "covid19db_Normal-879.png",
+        "old_ok": false,
+        "old_d": 5.373,
+        "new_ok": false,
+        "new_d": 4.036
+      },
+      {
+        "f": "covid19db_Normal-3140.png",
+        "old_ok": false,
+        "old_d": 2.814,
+        "new_ok": false,
+        "new_d": 2.619
+      },
+      {
+        "f": "tbdb_Normal-1559.png",
+        "old_ok": false,
+        "old_d": 2.391,
+        "new_ok": false,
+        "new_d": 2.838
+      },
+      {
+        "f": "covid19db_Normal-4455.png",
+        "old_ok": false,
+        "old_d": 3.086,
+        "new_ok": false,
+        "new_d": 2.621
+      },
+      {
+        "f": "tbdb_Normal-1079.png",
+        "old_ok": false,
+        "old_d": 2.521,
+        "new_ok": false,
+        "new_d": 2.16
+      },
+      {
+        "f": "covid19db_Normal-9729.png",
+        "old_ok": false,
+        "old_d": 3.632,
+        "new_ok": false,
+        "new_d": 3.41
+      },
+      {
+        "f": "covid19db_Normal-1026.png",
+        "old_ok": false,
+        "old_d": 3.51,
+        "new_ok": false,
+        "new_d": 2.971
+      },
+      {
+        "f": "covid19db_Normal-9804.png",
+        "old_ok": false,
+        "old_d": 2.411,
+        "new_ok": false,
+        "new_d": 2.108
+      },
+      {
+        "f": "covid19db_Normal-1496.png",
+        "old_ok": false,
+        "old_d": 3.196,
+        "new_ok": false,
+        "new_d": 2.825
+      },
+      {
+        "f": "tbdb_Normal-812.png",
+        "old_ok": false,
+        "old_d": 3.563,
+        "new_ok": false,
+        "new_d": 3.585
+      },
+      {
+        "f": "covid19db_Normal-1849.png",
+        "old_ok": false,
+        "old_d": 2.518,
+        "new_ok": false,
+        "new_d": 2.382
+      },
+      {
+        "f": "covid19db_Normal-484.png",
+        "old_ok": false,
+        "old_d": 4.274,
+        "new_ok": false,
+        "new_d": 3.329
+      },
+      {
+        "f": "tbdb_Normal-206.png",
+        "old_ok": false,
+        "old_d": 3.381,
+        "new_ok": false,
+        "new_d": 3.214
+      },
+      {
+        "f": "covid19db_Normal-10035.png",
+        "old_ok": false,
+        "old_d": 3.426,
+        "new_ok": false,
+        "new_d": 2.628
+      },
+      {
+        "f": "covid19db_Normal-47.png",
+        "old_ok": false,
+        "old_d": 3.114,
+        "new_ok": false,
+        "new_d": 2.785
+      },
+      {
+        "f": "covid19db_Normal-10102.png",
+        "old_ok": false,
+        "old_d": 3.884,
+        "new_ok": false,
+        "new_d": 3.0
+      },
+      {
+        "f": "covid19db_Normal-8804.png",
+        "old_ok": false,
+        "old_d": 3.532,
+        "new_ok": false,
+        "new_d": 2.587
+      },
+      {
+        "f": "covid19db_Normal-4763.png",
+        "old_ok": false,
+        "old_d": 2.96,
+        "new_ok": false,
+        "new_d": 2.14
+      },
+      {
+        "f": "covid19db_Normal-8862.png",
+        "old_ok": false,
+        "old_d": 3.686,
+        "new_ok": false,
+        "new_d": 2.198
+      },
+      {
+        "f": "covid19db_Normal-2101.png",
+        "old_ok": false,
+        "old_d": 2.985,
+        "new_ok": false,
+        "new_d": 2.55
+      },
+      {
+        "f": "covid19db_Normal-4548.png",
+        "old_ok": false,
+        "old_d": 2.417,
+        "new_ok": false,
+        "new_d": 2.167
+      },
+      {
+        "f": "tbdb_Normal-301.png",
+        "old_ok": false,
+        "old_d": 2.595,
+        "new_ok": false,
+        "new_d": 2.204
+      },
+      {
+        "f": "tbdb_Normal-713.png",
+        "old_ok": false,
+        "old_d": 2.454,
+        "new_ok": false,
+        "new_d": 2.82
+      },
+      {
+        "f": "covid19db_Normal-545.png",
+        "old_ok": false,
+        "old_d": 5.134,
+        "new_ok": false,
+        "new_d": 3.567
+      },
+      {
+        "f": "covid19db_Normal-8427.png",
+        "old_ok": false,
+        "old_d": 2.594,
+        "new_ok": false,
+        "new_d": 2.233
+      },
+      {
+        "f": "covid19db_Normal-5618.png",
+        "old_ok": false,
+        "old_d": 2.511,
+        "new_ok": false,
+        "new_d": 2.309
+      },
+      {
+        "f": "covid19db_Normal-3922.png",
+        "old_ok": false,
+        "old_d": 3.25,
+        "new_ok": false,
+        "new_d": 2.62
+      },
+      {
+        "f": "covid19db_Normal-888.png",
+        "old_ok": false,
+        "old_d": 7.203,
+        "new_ok": false,
+        "new_d": 4.415
+      },
+      {
+        "f": "covid19db_Normal-8966.png",
+        "old_ok": false,
+        "old_d": 2.533,
+        "new_ok": false,
+        "new_d": 3.289
+      }
+    ]
+  },
+  "Pneumonia": {
+    "n": 60,
+    "old_rejects": 60,
+    "new_rejects": 60,
+    "old_mean_d": 4.729,
+    "new_mean_d": 4.425,
+    "rows": [
+      {
+        "f": "covid19db_Viral Pneumonia-882.png",
+        "old_ok": false,
+        "old_d": 4.233,
+        "new_ok": false,
+        "new_d": 4.836
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-1019.png",
+        "old_ok": false,
+        "old_d": 4.963,
+        "new_ok": false,
+        "new_d": 4.089
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-731.png",
+        "old_ok": false,
+        "old_d": 5.817,
+        "new_ok": false,
+        "new_d": 4.636
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-565.png",
+        "old_ok": false,
+        "old_d": 4.631,
+        "new_ok": false,
+        "new_d": 4.206
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-1079.png",
+        "old_ok": false,
+        "old_d": 5.143,
+        "new_ok": false,
+        "new_d": 4.069
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-411.png",
+        "old_ok": false,
+        "old_d": 4.272,
+        "new_ok": false,
+        "new_d": 4.892
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-906.png",
+        "old_ok": false,
+        "old_d": 5.166,
+        "new_ok": false,
+        "new_d": 4.608
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-49.png",
+        "old_ok": false,
+        "old_d": 4.622,
+        "new_ok": false,
+        "new_d": 3.373
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-1178.png",
+        "old_ok": false,
+        "old_d": 4.156,
+        "new_ok": false,
+        "new_d": 3.813
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-156.png",
+        "old_ok": false,
+        "old_d": 5.848,
+        "new_ok": false,
+        "new_d": 4.482
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-701.png",
+        "old_ok": false,
+        "old_d": 4.387,
+        "new_ok": false,
+        "new_d": 4.684
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-176.png",
+        "old_ok": false,
+        "old_d": 3.548,
+        "new_ok": false,
+        "new_d": 3.783
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-769.png",
+        "old_ok": false,
+        "old_d": 3.935,
+        "new_ok": false,
+        "new_d": 3.611
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-980.png",
+        "old_ok": false,
+        "old_d": 3.516,
+        "new_ok": false,
+        "new_d": 3.551
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-1120.png",
+        "old_ok": false,
+        "old_d": 4.203,
+        "new_ok": false,
+        "new_d": 3.581
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-39.png",
+        "old_ok": false,
+        "old_d": 5.979,
+        "new_ok": false,
+        "new_d": 6.175
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-474.png",
+        "old_ok": false,
+        "old_d": 5.121,
+        "new_ok": false,
+        "new_d": 3.778
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-989.png",
+        "old_ok": false,
+        "old_d": 4.199,
+        "new_ok": false,
+        "new_d": 5.272
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-299.png",
+        "old_ok": false,
+        "old_d": 4.026,
+        "new_ok": false,
+        "new_d": 3.985
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-1047.png",
+        "old_ok": false,
+        "old_d": 4.73,
+        "new_ok": false,
+        "new_d": 4.603
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-1205.png",
+        "old_ok": false,
+        "old_d": 3.96,
+        "new_ok": false,
+        "new_d": 4.363
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-244.png",
+        "old_ok": false,
+        "old_d": 3.804,
+        "new_ok": false,
+        "new_d": 3.675
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-810.png",
+        "old_ok": false,
+        "old_d": 5.237,
+        "new_ok": false,
+        "new_d": 4.691
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-284.png",
+        "old_ok": false,
+        "old_d": 4.735,
+        "new_ok": false,
+        "new_d": 4.539
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-418.png",
+        "old_ok": false,
+        "old_d": 4.356,
+        "new_ok": false,
+        "new_d": 3.779
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-446.png",
+        "old_ok": false,
+        "old_d": 4.104,
+        "new_ok": false,
+        "new_d": 3.845
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-458.png",
+        "old_ok": false,
+        "old_d": 4.595,
+        "new_ok": false,
+        "new_d": 3.49
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-464.png",
+        "old_ok": false,
+        "old_d": 4.282,
+        "new_ok": false,
+        "new_d": 3.842
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-491.png",
+        "old_ok": false,
+        "old_d": 5.159,
+        "new_ok": false,
+        "new_d": 4.316
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-123.png",
+        "old_ok": false,
+        "old_d": 4.986,
+        "new_ok": false,
+        "new_d": 4.295
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-644.png",
+        "old_ok": false,
+        "old_d": 6.57,
+        "new_ok": false,
+        "new_d": 5.113
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-520.png",
+        "old_ok": false,
+        "old_d": 4.641,
+        "new_ok": false,
+        "new_d": 5.616
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-196.png",
+        "old_ok": false,
+        "old_d": 6.55,
+        "new_ok": false,
+        "new_d": 4.527
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-1101.png",
+        "old_ok": false,
+        "old_d": 4.866,
+        "new_ok": false,
+        "new_d": 4.969
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-527.png",
+        "old_ok": false,
+        "old_d": 5.306,
+        "new_ok": false,
+        "new_d": 4.058
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-87.png",
+        "old_ok": false,
+        "old_d": 3.908,
+        "new_ok": false,
+        "new_d": 3.96
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-712.png",
+        "old_ok": false,
+        "old_d": 5.007,
+        "new_ok": false,
+        "new_d": 3.948
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-332.png",
+        "old_ok": false,
+        "old_d": 4.62,
+        "new_ok": false,
+        "new_d": 5.4
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-253.png",
+        "old_ok": false,
+        "old_d": 4.178,
+        "new_ok": false,
+        "new_d": 3.609
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-495.png",
+        "old_ok": false,
+        "old_d": 5.092,
+        "new_ok": false,
+        "new_d": 5.459
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-1083.png",
+        "old_ok": false,
+        "old_d": 5.182,
+        "new_ok": false,
+        "new_d": 4.833
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-638.png",
+        "old_ok": false,
+        "old_d": 5.049,
+        "new_ok": false,
+        "new_d": 5.453
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-1189.png",
+        "old_ok": false,
+        "old_d": 4.851,
+        "new_ok": false,
+        "new_d": 3.983
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-1315.png",
+        "old_ok": false,
+        "old_d": 4.663,
+        "new_ok": false,
+        "new_d": 4.14
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-933.png",
+        "old_ok": false,
+        "old_d": 4.889,
+        "new_ok": false,
+        "new_d": 5.568
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-303.png",
+        "old_ok": false,
+        "old_d": 4.126,
+        "new_ok": false,
+        "new_d": 4.699
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-1044.png",
+        "old_ok": false,
+        "old_d": 5.295,
+        "new_ok": false,
+        "new_d": 4.2
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-116.png",
+        "old_ok": false,
+        "old_d": 3.262,
+        "new_ok": false,
+        "new_d": 3.147
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-799.png",
+        "old_ok": false,
+        "old_d": 4.261,
+        "new_ok": false,
+        "new_d": 4.148
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-530.png",
+        "old_ok": false,
+        "old_d": 4.555,
+        "new_ok": false,
+        "new_d": 3.986
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-275.png",
+        "old_ok": false,
+        "old_d": 5.861,
+        "new_ok": false,
+        "new_d": 4.454
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-655.png",
+        "old_ok": false,
+        "old_d": 4.649,
+        "new_ok": false,
+        "new_d": 5.549
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-570.png",
+        "old_ok": false,
+        "old_d": 4.782,
+        "new_ok": false,
+        "new_d": 4.053
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-200.png",
+        "old_ok": false,
+        "old_d": 4.208,
+        "new_ok": false,
+        "new_d": 4.549
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-425.png",
+        "old_ok": false,
+        "old_d": 4.687,
+        "new_ok": false,
+        "new_d": 4.254
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-964.png",
+        "old_ok": false,
+        "old_d": 5.475,
+        "new_ok": false,
+        "new_d": 4.153
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-211.png",
+        "old_ok": false,
+        "old_d": 4.989,
+        "new_ok": false,
+        "new_d": 5.272
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-970.png",
+        "old_ok": false,
+        "old_d": 5.459,
+        "new_ok": false,
+        "new_d": 6.141
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-639.png",
+        "old_ok": false,
+        "old_d": 4.515,
+        "new_ok": false,
+        "new_d": 5.234
+      },
+      {
+        "f": "covid19db_Viral Pneumonia-101.png",
+        "old_ok": false,
+        "old_d": 4.557,
+        "new_ok": false,
+        "new_d": 4.176
+      }
+    ]
+  },
+  "Tuberculosis": {
+    "n": 60,
+    "old_rejects": 55,
+    "new_rejects": 53,
+    "old_mean_d": 6.212,
+    "new_mean_d": 6.293,
+    "rows": [
+      {
+        "f": "tbdb_Tuberculosis-121.png",
+        "old_ok": false,
+        "old_d": 4.395,
+        "new_ok": false,
+        "new_d": 5.466
+      },
+      {
+        "f": "tbdb_Tuberculosis-139.png",
+        "old_ok": false,
+        "old_d": 6.253,
+        "new_ok": true,
+        "new_d": 8.82
+      },
+      {
+        "f": "tbdb_Tuberculosis-498.png",
+        "old_ok": false,
+        "old_d": 5.932,
+        "new_ok": false,
+        "new_d": 5.945
+      },
+      {
+        "f": "tbdb_Tuberculosis-671.png",
+        "old_ok": false,
+        "old_d": 4.366,
+        "new_ok": false,
+        "new_d": 5.151
+      },
+      {
+        "f": "tbdb_Tuberculosis-4.png",
+        "old_ok": false,
+        "old_d": 4.532,
+        "new_ok": false,
+        "new_d": 4.236
+      },
+      {
+        "f": "tbdb_Tuberculosis-586.png",
+        "old_ok": false,
+        "old_d": 6.033,
+        "new_ok": false,
+        "new_d": 6.688
+      },
+      {
+        "f": "tbdb_Tuberculosis-185.png",
+        "old_ok": false,
+        "old_d": 5.475,
+        "new_ok": false,
+        "new_d": 3.524
+      },
+      {
+        "f": "tbdb_Tuberculosis-379.png",
+        "old_ok": true,
+        "old_d": 9.484,
+        "new_ok": false,
+        "new_d": 7.935
+      },
+      {
+        "f": "tbdb_Tuberculosis-477.png",
+        "old_ok": false,
+        "old_d": 7.421,
+        "new_ok": false,
+        "new_d": 6.887
+      },
+      {
+        "f": "tbdb_Tuberculosis-444.png",
+        "old_ok": false,
+        "old_d": 8.364,
+        "new_ok": false,
+        "new_d": 6.721
+      },
+      {
+        "f": "tbdb_Tuberculosis-82.png",
+        "old_ok": false,
+        "old_d": 4.091,
+        "new_ok": false,
+        "new_d": 6.444
+      },
+      {
+        "f": "tbdb_Tuberculosis-128.png",
+        "old_ok": false,
+        "old_d": 5.986,
+        "new_ok": true,
+        "new_d": 9.001
+      },
+      {
+        "f": "tbdb_Tuberculosis-171.png",
+        "old_ok": false,
+        "old_d": 4.504,
+        "new_ok": false,
+        "new_d": 4.446
+      },
+      {
+        "f": "tbdb_Tuberculosis-45.png",
+        "old_ok": false,
+        "old_d": 5.053,
+        "new_ok": false,
+        "new_d": 7.34
+      },
+      {
+        "f": "tbdb_Tuberculosis-205.png",
+        "old_ok": false,
+        "old_d": 4.083,
+        "new_ok": false,
+        "new_d": 4.188
+      },
+      {
+        "f": "tbdb_Tuberculosis-365.png",
+        "old_ok": false,
+        "old_d": 8.438,
+        "new_ok": false,
+        "new_d": 7.519
+      },
+      {
+        "f": "tbdb_Tuberculosis-686.png",
+        "old_ok": false,
+        "old_d": 5.934,
+        "new_ok": false,
+        "new_d": 6.206
+      },
+      {
+        "f": "tbdb_Tuberculosis-332.png",
+        "old_ok": false,
+        "old_d": 5.198,
+        "new_ok": false,
+        "new_d": 4.847
+      },
+      {
+        "f": "tbdb_Tuberculosis-5.png",
+        "old_ok": false,
+        "old_d": 4.133,
+        "new_ok": false,
+        "new_d": 7.096
+      },
+      {
+        "f": "tbdb_Tuberculosis-345.png",
+        "old_ok": false,
+        "old_d": 6.522,
+        "new_ok": false,
+        "new_d": 6.357
+      },
+      {
+        "f": "tbdb_Tuberculosis-455.png",
+        "old_ok": false,
+        "old_d": 8.006,
+        "new_ok": false,
+        "new_d": 6.738
+      },
+      {
+        "f": "tbdb_Tuberculosis-321.png",
+        "old_ok": false,
+        "old_d": 4.608,
+        "new_ok": false,
+        "new_d": 4.408
+      },
+      {
+        "f": "tbdb_Tuberculosis-172.png",
+        "old_ok": false,
+        "old_d": 6.584,
+        "new_ok": false,
+        "new_d": 4.358
+      },
+      {
+        "f": "tbdb_Tuberculosis-163.png",
+        "old_ok": false,
+        "old_d": 2.653,
+        "new_ok": false,
+        "new_d": 3.227
+      },
+      {
+        "f": "tbdb_Tuberculosis-250.png",
+        "old_ok": false,
+        "old_d": 3.503,
+        "new_ok": false,
+        "new_d": 3.648
+      },
+      {
+        "f": "tbdb_Tuberculosis-85.png",
+        "old_ok": false,
+        "old_d": 7.278,
+        "new_ok": false,
+        "new_d": 3.923
+      },
+      {
+        "f": "tbdb_Tuberculosis-218.png",
+        "old_ok": false,
+        "old_d": 6.953,
+        "new_ok": false,
+        "new_d": 6.68
+      },
+      {
+        "f": "tbdb_Tuberculosis-126.png",
+        "old_ok": false,
+        "old_d": 6.82,
+        "new_ok": false,
+        "new_d": 6.026
+      },
+      {
+        "f": "tbdb_Tuberculosis-232.png",
+        "old_ok": false,
+        "old_d": 8.1,
+        "new_ok": false,
+        "new_d": 8.087
+      },
+      {
+        "f": "tbdb_Tuberculosis-574.png",
+        "old_ok": false,
+        "old_d": 8.043,
+        "new_ok": false,
+        "new_d": 6.815
+      },
+      {
+        "f": "tbdb_Tuberculosis-186.png",
+        "old_ok": true,
+        "old_d": 10.571,
+        "new_ok": true,
+        "new_d": 9.896
+      },
+      {
+        "f": "tbdb_Tuberculosis-698.png",
+        "old_ok": false,
+        "old_d": 6.516,
+        "new_ok": false,
+        "new_d": 6.182
+      },
+      {
+        "f": "tbdb_Tuberculosis-317.png",
+        "old_ok": false,
+        "old_d": 5.096,
+        "new_ok": false,
+        "new_d": 5.039
+      },
+      {
+        "f": "tbdb_Tuberculosis-319.png",
+        "old_ok": true,
+        "old_d": 10.051,
+        "new_ok": true,
+        "new_d": 8.777
+      },
+      {
+        "f": "tbdb_Tuberculosis-93.png",
+        "old_ok": false,
+        "old_d": 5.503,
+        "new_ok": false,
+        "new_d": 7.261
+      },
+      {
+        "f": "tbdb_Tuberculosis-538.png",
+        "old_ok": false,
+        "old_d": 5.594,
+        "new_ok": false,
+        "new_d": 4.731
+      },
+      {
+        "f": "tbdb_Tuberculosis-633.png",
+        "old_ok": false,
+        "old_d": 7.056,
+        "new_ok": false,
+        "new_d": 7.815
+      },
+      {
+        "f": "tbdb_Tuberculosis-29.png",
+        "old_ok": false,
+        "old_d": 5.929,
+        "new_ok": false,
+        "new_d": 6.545
+      },
+      {
+        "f": "tbdb_Tuberculosis-579.png",
+        "old_ok": false,
+        "old_d": 6.964,
+        "new_ok": false,
+        "new_d": 7.285
+      },
+      {
+        "f": "tbdb_Tuberculosis-195.png",
+        "old_ok": false,
+        "old_d": 6.911,
+        "new_ok": false,
+        "new_d": 7.55
+      },
+      {
+        "f": "tbdb_Tuberculosis-484.png",
+        "old_ok": false,
+        "old_d": 4.651,
+        "new_ok": false,
+        "new_d": 5.263
+      },
+      {
+        "f": "tbdb_Tuberculosis-77.png",
+        "old_ok": false,
+        "old_d": 6.214,
+        "new_ok": false,
+        "new_d": 5.244
+      },
+      {
+        "f": "tbdb_Tuberculosis-194.png",
+        "old_ok": true,
+        "old_d": 9.077,
+        "new_ok": true,
+        "new_d": 9.615
+      },
+      {
+        "f": "tbdb_Tuberculosis-48.png",
+        "old_ok": false,
+        "old_d": 4.793,
+        "new_ok": false,
+        "new_d": 6.915
+      },
+      {
+        "f": "tbdb_Tuberculosis-72.png",
+        "old_ok": false,
+        "old_d": 3.749,
+        "new_ok": false,
+        "new_d": 4.739
+      },
+      {
+        "f": "tbdb_Tuberculosis-49.png",
+        "old_ok": false,
+        "old_d": 4.888,
+        "new_ok": false,
+        "new_d": 7.24
+      },
+      {
+        "f": "tbdb_Tuberculosis-328.png",
+        "old_ok": false,
+        "old_d": 5.618,
+        "new_ok": false,
+        "new_d": 7.93
+      },
+      {
+        "f": "tbdb_Tuberculosis-396.png",
+        "old_ok": false,
+        "old_d": 8.173,
+        "new_ok": false,
+        "new_d": 4.531
+      },
+      {
+        "f": "tbdb_Tuberculosis-92.png",
+        "old_ok": false,
+        "old_d": 4.753,
+        "new_ok": false,
+        "new_d": 7.049
+      },
+      {
+        "f": "tbdb_Tuberculosis-314.png",
+        "old_ok": false,
+        "old_d": 8.288,
+        "new_ok": false,
+        "new_d": 7.695
+      },
+      {
+        "f": "tbdb_Tuberculosis-19.png",
+        "old_ok": false,
+        "old_d": 4.511,
+        "new_ok": false,
+        "new_d": 5.641
+      },
+      {
+        "f": "tbdb_Tuberculosis-662.png",
+        "old_ok": false,
+        "old_d": 6.803,
+        "new_ok": false,
+        "new_d": 5.936
+      },
+      {
+        "f": "tbdb_Tuberculosis-9.png",
+        "old_ok": false,
+        "old_d": 4.637,
+        "new_ok": false,
+        "new_d": 4.774
+      },
+      {
+        "f": "tbdb_Tuberculosis-140.png",
+        "old_ok": false,
+        "old_d": 6.286,
+        "new_ok": true,
+        "new_d": 8.773
+      },
+      {
+        "f": "tbdb_Tuberculosis-299.png",
+        "old_ok": false,
+        "old_d": 6.977,
+        "new_ok": false,
+        "new_d": 6.224
+      },
+      {
+        "f": "tbdb_Tuberculosis-678.png",
+        "old_ok": true,
+        "old_d": 10.281,
+        "new_ok": true,
+        "new_d": 9.29
+      },
+      {
+        "f": "tbdb_Tuberculosis-254.png",
+        "old_ok": false,
+        "old_d": 2.754,
+        "new_ok": false,
+        "new_d": 2.87
+      },
+      {
+        "f": "tbdb_Tuberculosis-540.png",
+        "old_ok": false,
+        "old_d": 8.238,
+        "new_ok": false,
+        "new_d": 6.901
+      },
+      {
+        "f": "tbdb_Tuberculosis-381.png",
+        "old_ok": false,
+        "old_d": 6.271,
+        "new_ok": false,
+        "new_d": 4.652
+      },
+      {
+        "f": "tbdb_Tuberculosis-257.png",
+        "old_ok": false,
+        "old_d": 6.818,
+        "new_ok": false,
+        "new_d": 6.478
+      }
+    ]
+  }
+}

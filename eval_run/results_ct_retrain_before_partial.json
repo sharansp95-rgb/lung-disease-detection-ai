@@ -1,0 +1,317 @@
+{
+  "label": "BEFORE ct_best_model_phase35_v2",
+  "checkpoint": "checkpoints/ct_best_model_phase35_v2.pt",
+  "backbone": "densenet121",
+  "class_names": [
+    "Benign",
+    "Malignant",
+    "Normal"
+  ],
+  "claimed_val_acc": 0.9903846153846154,
+  "reproduction": {
+    "val_dir": "data/ct_scan",
+    "n": 104,
+    "reproduced": 0.9903846153846154,
+    "claimed": 0.9903846153846154,
+    "diff": 0.0,
+    "tolerance": 0.001,
+    "passed": true
+  },
+  "testdir": {
+    "dir": "data/ct_scan",
+    "per_class": {
+      "Benign": {
+        "n": 12,
+        "correct": 10,
+        "pred_counts": {
+          "Benign": 10,
+          "Normal": 2
+        }
+      },
+      "Malignant": {
+        "n": 50,
+        "correct": 50,
+        "pred_counts": {
+          "Malignant": 50
+        }
+      },
+      "Normal": {
+        "n": 41,
+        "correct": 41,
+        "pred_counts": {
+          "Normal": 41
+        }
+      }
+    }
+  },
+  "groups": {
+    "ext_normal_9": {
+      "dir": "eval_run/external_samples/ct/normal",
+      "true_class": "Normal",
+      "n": 9,
+      "correct": 0,
+      "rows": [
+        {
+          "file": "eval_run\\external_samples\\ct\\normal\\normal_10.png",
+          "true": "Normal",
+          "pred": "Malignant",
+          "conf": 0.9306,
+          "probs": {
+            "Benign": 0.0558,
+            "Malignant": 0.9306,
+            "Normal": 0.0136
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\normal\\normal_11.png",
+          "true": "Normal",
+          "pred": "Benign",
+          "conf": 0.5602,
+          "probs": {
+            "Benign": 0.5602,
+            "Malignant": 0.0196,
+            "Normal": 0.4202
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\normal\\normal_21.png",
+          "true": "Normal",
+          "pred": "Malignant",
+          "conf": 0.5444,
+          "probs": {
+            "Benign": 0.3603,
+            "Malignant": 0.5444,
+            "Normal": 0.0953
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\normal\\normal_22.png",
+          "true": "Normal",
+          "pred": "Malignant",
+          "conf": 0.984,
+          "probs": {
+            "Benign": 0.0142,
+            "Malignant": 0.984,
+            "Normal": 0.0018
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\normal\\normal_23.png",
+          "true": "Normal",
+          "pred": "Malignant",
+          "conf": 0.6861,
+          "probs": {
+            "Benign": 0.2135,
+            "Malignant": 0.6861,
+            "Normal": 0.1004
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\normal\\normal_24.png",
+          "true": "Normal",
+          "pred": "Benign",
+          "conf": 0.7017,
+          "probs": {
+            "Benign": 0.7017,
+            "Malignant": 0.1323,
+            "Normal": 0.166
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\normal\\normal_6.png",
+          "true": "Normal",
+          "pred": "Malignant",
+          "conf": 0.5306,
+          "probs": {
+            "Benign": 0.4317,
+            "Malignant": 0.5306,
+            "Normal": 0.0377
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\normal\\normal_7.png",
+          "true": "Normal",
+          "pred": "Malignant",
+          "conf": 0.4214,
+          "probs": {
+            "Benign": 0.3444,
+            "Malignant": 0.4214,
+            "Normal": 0.2342
+          },
+          "correct": false
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\normal\\normal_8.png",
+          "true": "Normal",
+          "pred": "Malignant",
+          "conf": 0.4654,
+          "probs": {
+            "Benign": 0.3255,
+            "Malignant": 0.4654,
+            "Normal": 0.2091
+          },
+          "correct": false
+        }
+      ]
+    },
+    "ext_malignant_12": {
+      "dir": "eval_run/external_samples/ct/malignant",
+      "true_class": "Malignant",
+      "n": 12,
+      "correct": 12,
+      "rows": [
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\adenocarcinoma_000108.png",
+          "true": "Malignant",
+          "pred": "Malignant",
+          "conf": 0.9517,
+          "probs": {
+            "Benign": 0.0406,
+            "Malignant": 0.9517,
+            "Normal": 0.0077
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\adenocarcinoma_000109.png",
+          "true": "Malignant",
+          "pred": "Malignant",
+          "conf": 0.9731,
+          "probs": {
+            "Benign": 0.0251,
+            "Malignant": 0.9731,
+            "Normal": 0.0018
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\adenocarcinoma_000112.png",
+          "true": "Malignant",
+          "pred": "Malignant",
+          "conf": 0.9873,
+          "probs": {
+            "Benign": 0.0106,
+            "Malignant": 0.9873,
+            "Normal": 0.0021
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\adenocarcinoma_000113.png",
+          "true": "Malignant",
+          "pred": "Malignant",
+          "conf": 0.9834,
+          "probs": {
+            "Benign": 0.0118,
+            "Malignant": 0.9834,
+            "Normal": 0.0048
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\large_cell_000108.png",
+          "true": "Malignant",
+          "pred": "Malignant",
+          "conf": 0.7759,
+          "probs": {
+            "Benign": 0.2154,
+            "Malignant": 0.7759,
+            "Normal": 0.0087
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\large_cell_000110.png",
+          "true": "Malignant",
+          "pred": "Malignant",
+          "conf": 0.9889,
+          "probs": {
+            "Benign": 0.0091,
+            "Malignant": 0.9889,
+            "Normal": 0.002
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\large_cell_000111.png",
+          "true": "Malignant",
+          "pred": "Malignant",
+          "conf": 0.7481,
+          "probs": {
+            "Benign": 0.2436,
+            "Malignant": 0.7481,
+            "Normal": 0.0083
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\large_cell_000113.png",
+          "true": "Malignant",
+          "pred": "Malignant",
+          "conf": 0.882,
+          "probs": {
+            "Benign": 0.1118,
+            "Malignant": 0.882,
+            "Normal": 0.0062
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\squamous_000108.png",
+          "true": "Malignant",
+          "pred": "Malignant",
+          "conf": 0.9232,
+          "probs": {
+            "Benign": 0.0717,
+            "Malignant": 0.9232,
+            "Normal": 0.0051
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\squamous_000110.png",
+          "true": "Malignant",
+          "pred": "Malignant",
+          "conf": 0.9768,
+          "probs": {
+            "Benign": 0.0219,
+            "Malignant": 0.9768,
+            "Normal": 0.0013
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\squamous_000111.png",
+          "true": "Malignant",
+          "pred": "Malignant",
+          "conf": 0.9937,
+          "probs": {
+            "Benign": 0.0052,
+            "Malignant": 0.9937,
+            "Normal": 0.0011
+          },
+          "correct": true
+        },
+        {
+          "file": "eval_run\\external_samples\\ct\\malignant\\squamous_000112.png",
+          "true": "Malignant",
+          "pred": "Malignant",
+          "conf": 0.9908,
+          "probs": {
+            "Benign": 0.0072,
+            "Malignant": 0.9908,
+            "Normal": 0.002
+          },
+          "correct": true
+        }
+      ]
+    }
+  }
+}

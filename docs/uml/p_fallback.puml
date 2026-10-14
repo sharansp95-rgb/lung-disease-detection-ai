@@ -1,0 +1,17 @@
+@startuml p_fallback
+!include _style.iuml
+skinparam nodesep 14
+skinparam ranksep 26
+skinparam RectangleFontColor #1a1a1a
+skinparam RectangleBackgroundColor #FBF4F2
+skinparam ComponentFontColor #1a1a1a
+left to right direction
+rectangle "generate_report()\n/ chat reply" as G #FCE5CD
+rectangle "Groq LLM\n(gpt-oss-120b)" as L
+rectangle "Template\nreport" as T
+rectangle "Same disclaimer\nappended" as D #FFFFFF
+G --> L : try
+G ..> T : on error / no key
+L --> D
+T --> D
+@enduml

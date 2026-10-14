@@ -1,0 +1,22 @@
+{
+  "external/Malignant/whole": "12/12",
+  "external/Malignant/maxpool": "12/12",
+  "external/Malignant/vote": "12/12",
+  "external/Malignant/avg": "12/12",
+  "external/Normal/whole": "0/9",
+  "external/Normal/maxpool": "0/9",
+  "external/Normal/vote": "0/9",
+  "external/Normal/avg": "0/9",
+  "indataset/Malignant/whole": "50/50",
+  "indataset/Malignant/maxpool": "42/50",
+  "indataset/Malignant/vote": "41/50",
+  "indataset/Malignant/avg": "41/50",
+  "indataset/Normal/whole": "41/41",
+  "indataset/Normal/maxpool": "26/41",
+  "indataset/Normal/vote": "20/41",
+  "indataset/Normal/avg": "22/41",
+  "indataset/Benign/whole": "10/12",
+  "indataset/Benign/maxpool": "8/12",
+  "indataset/Benign/vote": "11/12",
+  "indataset/Benign/avg": "10/12"
+}

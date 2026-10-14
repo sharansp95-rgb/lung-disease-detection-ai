@@ -1,0 +1,76 @@
+{
+  "run_name": "xray",
+  "class_names": [
+    "COVID-19",
+    "Normal",
+    "Pneumonia",
+    "Tuberculosis"
+  ],
+  "reported_val_acc": 0.9760665972944849,
+  "test_accuracy": 0.9786680541103018,
+  "confusion_matrix": [
+    [
+      328,
+      25,
+      3,
+      1
+    ],
+    [
+      1,
+      1359,
+      7,
+      1
+    ],
+    [
+      0,
+      3,
+      131,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      63
+    ]
+  ],
+  "classification_report": {
+    "COVID-19": {
+      "precision": 0.9969604863221885,
+      "recall": 0.9187675070028011,
+      "f1-score": 0.956268221574344,
+      "support": 357.0
+    },
+    "Normal": {
+      "precision": 0.9798125450612833,
+      "recall": 0.993421052631579,
+      "f1-score": 0.9865698729582577,
+      "support": 1368.0
+    },
+    "Pneumonia": {
+      "precision": 0.9290780141843972,
+      "recall": 0.9776119402985075,
+      "f1-score": 0.9527272727272728,
+      "support": 134.0
+    },
+    "Tuberculosis": {
+      "precision": 0.9692307692307692,
+      "recall": 1.0,
+      "f1-score": 0.984375,
+      "support": 63.0
+    },
+    "accuracy": 0.9786680541103018,
+    "macro avg": {
+      "precision": 0.9687704536996596,
+      "recall": 0.9724501249832219,
+      "f1-score": 0.9699850918149686,
+      "support": 1922.0
+    },
+    "weighted avg": {
+      "precision": 0.979113656411605,
+      "recall": 0.9786680541103018,
+      "f1-score": 0.9785101045028053,
+      "support": 1922.0
+    }
+  }
+}

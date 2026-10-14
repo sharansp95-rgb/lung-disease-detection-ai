@@ -1,0 +1,14 @@
+{
+  "classes_by_label": {
+    "0": "covid19db",
+    "1": "tbdb"
+  },
+  "n_per_source_balanced": 3495,
+  "n_train": 5242,
+  "n_test": 1748,
+  "test_accuracy": 0.9708,
+  "test_auc": 0.9963,
+  "chance_accuracy": 0.5,
+  "chance_auc": 0.5,
+  "verdict": "SOURCE SIGNAL PRESENT: even a weak 32x32 pixel probe separates source well above chance"
+}

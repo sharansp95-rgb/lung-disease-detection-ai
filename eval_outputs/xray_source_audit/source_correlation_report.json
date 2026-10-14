@@ -1,0 +1,253 @@
+{
+  "checkpoint": "checkpoints\\xray_best_model_phase35_v2.pt",
+  "class_names": [
+    "COVID-19",
+    "Normal",
+    "Pneumonia",
+    "Tuberculosis"
+  ],
+  "checkpoint_val_acc": 0.9760665972944849,
+  "margin_frac": 0.22,
+  "gradcam_cap_per_class": 120,
+  "q1_source_signal": {
+    "classes_by_label": {
+      "0": "covid19db",
+      "1": "tbdb"
+    },
+    "n_per_source_balanced": 3495,
+    "n_train": 5242,
+    "n_test": 1748,
+    "test_accuracy": 0.9708,
+    "test_auc": 0.9963,
+    "chance_accuracy": 0.5,
+    "chance_auc": 0.5,
+    "verdict": "SOURCE SIGNAL PRESENT: even a weak 32x32 pixel probe separates source well above chance"
+  },
+  "q2_error_tracking": {
+    "covid19db": {
+      "n": 1019,
+      "recall_on_normal": 0.9921,
+      "n_errors": 8,
+      "error_counts": {
+        "Pneumonia": 7,
+        "COVID-19": 1
+      },
+      "error_distribution": {
+        "Pneumonia": 0.875,
+        "COVID-19": 0.125
+      },
+      "exclusive_class": "COVID-19",
+      "exclusive_class_share_of_errors": 0.125
+    },
+    "tbdb": {
+      "n": 349,
+      "recall_on_normal": 0.9971,
+      "n_errors": 1,
+      "error_counts": {
+        "Tuberculosis": 1
+      },
+      "error_distribution": {
+        "Tuberculosis": 1.0
+      },
+      "exclusive_class": "Tuberculosis",
+      "exclusive_class_share_of_errors": 1.0
+    }
+  },
+  "q3_occlusion": {
+    "COVID-19": {
+      "n": 357,
+      "full": 0.9188,
+      "border_only": 0.902,
+      "centre_only": 0.0,
+      "chance_4class": 0.25,
+      "pred_distribution": {
+        "full": {
+          "COVID-19": 0.9188,
+          "Normal": 0.07,
+          "Pneumonia": 0.0084,
+          "Tuberculosis": 0.0028
+        },
+        "border_only": {
+          "COVID-19": 0.902,
+          "Normal": 0.0476,
+          "Pneumonia": 0.0028,
+          "Tuberculosis": 0.0476
+        },
+        "centre_only": {
+          "COVID-19": 0.0,
+          "Normal": 0.0,
+          "Pneumonia": 0.0,
+          "Tuberculosis": 1.0
+        }
+      }
+    },
+    "Normal": {
+      "n": 1368,
+      "full": 0.9934,
+      "border_only": 0.8238,
+      "centre_only": 0.0746,
+      "chance_4class": 0.25,
+      "pred_distribution": {
+        "full": {
+          "COVID-19": 0.0007,
+          "Normal": 0.9934,
+          "Pneumonia": 0.0051,
+          "Tuberculosis": 0.0007
+        },
+        "border_only": {
+          "COVID-19": 0.0768,
+          "Normal": 0.8238,
+          "Pneumonia": 0.0007,
+          "Tuberculosis": 0.0987
+        },
+        "centre_only": {
+          "COVID-19": 0.0,
+          "Normal": 0.0746,
+          "Pneumonia": 0.0,
+          "Tuberculosis": 0.9254
+        }
+      }
+    },
+    "Pneumonia": {
+      "n": 134,
+      "full": 0.9776,
+      "border_only": 0.6567,
+      "centre_only": 0.0224,
+      "chance_4class": 0.25,
+      "pred_distribution": {
+        "full": {
+          "COVID-19": 0.0,
+          "Normal": 0.0224,
+          "Pneumonia": 0.9776,
+          "Tuberculosis": 0.0
+        },
+        "border_only": {
+          "COVID-19": 0.0,
+          "Normal": 0.2836,
+          "Pneumonia": 0.6567,
+          "Tuberculosis": 0.0597
+        },
+        "centre_only": {
+          "COVID-19": 0.0,
+          "Normal": 0.0,
+          "Pneumonia": 0.0224,
+          "Tuberculosis": 0.9776
+        }
+      }
+    },
+    "Tuberculosis": {
+      "n": 63,
+      "full": 1.0,
+      "border_only": 1.0,
+      "centre_only": 1.0,
+      "chance_4class": 0.25,
+      "pred_distribution": {
+        "full": {
+          "COVID-19": 0.0,
+          "Normal": 0.0,
+          "Pneumonia": 0.0,
+          "Tuberculosis": 1.0
+        },
+        "border_only": {
+          "COVID-19": 0.0,
+          "Normal": 0.0,
+          "Pneumonia": 0.0,
+          "Tuberculosis": 1.0
+        },
+        "centre_only": {
+          "COVID-19": 0.0,
+          "Normal": 0.0,
+          "Pneumonia": 0.0,
+          "Tuberculosis": 1.0
+        }
+      }
+    },
+    "pooled_pred_distribution": {
+      "full": {
+        "COVID-19": 0.1712,
+        "Normal": 0.7216,
+        "Pneumonia": 0.0734,
+        "Tuberculosis": 0.0338
+      },
+      "border_only": {
+        "COVID-19": 0.2222,
+        "Normal": 0.615,
+        "Pneumonia": 0.0468,
+        "Tuberculosis": 0.116
+      },
+      "centre_only": {
+        "COVID-19": 0.0,
+        "Normal": 0.0531,
+        "Pneumonia": 0.0016,
+        "Tuberculosis": 0.9454
+      }
+    },
+    "pooled_n": 1922
+  },
+  "q4_gradcam_attention": {
+    "geometric_baseline_peripheral_area_frac": 0.6836,
+    "COVID-19": {
+      "n_correct_available": 328,
+      "n_used": 120,
+      "mean_frac_outside": 0.7562,
+      "std_frac_outside": 0.0715,
+      "by_source": {
+        "covid19db": {
+          "n": 120,
+          "mean_frac_outside": 0.7562,
+          "std_frac_outside": 0.0715
+        }
+      }
+    },
+    "Normal": {
+      "n_correct_available": 1359,
+      "n_used": 120,
+      "mean_frac_outside": 0.5858,
+      "std_frac_outside": 0.0962,
+      "by_source": {
+        "covid19db": {
+          "n": 85,
+          "mean_frac_outside": 0.6056,
+          "std_frac_outside": 0.0868
+        },
+        "tbdb": {
+          "n": 35,
+          "mean_frac_outside": 0.5377,
+          "std_frac_outside": 0.1007
+        }
+      }
+    },
+    "Pneumonia": {
+      "n_correct_available": 131,
+      "n_used": 120,
+      "mean_frac_outside": 0.5327,
+      "std_frac_outside": 0.0752,
+      "by_source": {
+        "covid19db": {
+          "n": 120,
+          "mean_frac_outside": 0.5327,
+          "std_frac_outside": 0.0752
+        }
+      }
+    },
+    "Tuberculosis": {
+      "n_correct_available": 63,
+      "n_used": 63,
+      "mean_frac_outside": 0.6536,
+      "std_frac_outside": 0.0905,
+      "by_source": {
+        "tbdb": {
+          "n": 63,
+          "mean_frac_outside": 0.6536,
+          "std_frac_outside": 0.0905
+        }
+      }
+    },
+    "saved_figures": [
+      "eval_outputs\\xray_source_audit\\gradcam_mean_COVID-19.png",
+      "eval_outputs\\xray_source_audit\\gradcam_mean_Normal.png",
+      "eval_outputs\\xray_source_audit\\gradcam_mean_Pneumonia.png",
+      "eval_outputs\\xray_source_audit\\gradcam_mean_Tuberculosis.png"
+    ]
+  }
+}

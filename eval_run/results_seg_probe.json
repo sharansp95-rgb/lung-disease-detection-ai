@@ -1,0 +1,998 @@
+{
+  "summary": {
+    "COVID-19": {
+      "n": 15,
+      "seg": 11,
+      "fallback": 4
+    },
+    "Normal": {
+      "n": 15,
+      "seg": 12,
+      "fallback": 3
+    },
+    "Pneumonia": {
+      "n": 15,
+      "seg": 6,
+      "fallback": 9
+    },
+    "Tuberculosis": {
+      "n": 15,
+      "seg": 13,
+      "fallback": 2
+    },
+    "stressor": {
+      "n": 4,
+      "seg": 3,
+      "fallback": 1
+    },
+    "lung_opacity": {
+      "n": 10,
+      "seg": 10,
+      "fallback": 0
+    }
+  },
+  "rows": [
+    {
+      "group": "COVID-19",
+      "file": "covid19db_COVID-1167.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        220,
+        210
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "COVID-19",
+      "file": "covid19db_COVID-1828.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        223,
+        219
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "COVID-19",
+      "file": "covid19db_COVID-3176.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        218,
+        208
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "COVID-19",
+      "file": "covid19db_COVID-2307.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        221,
+        210
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "COVID-19",
+      "file": "covid19db_COVID-3047.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        188,
+        188
+      ],
+      "used_segmentation": false
+    },
+    {
+      "group": "COVID-19",
+      "file": "covid19db_COVID-1808.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        219,
+        220
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "COVID-19",
+      "file": "covid19db_COVID-2806.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        188,
+        188
+      ],
+      "used_segmentation": false
+    },
+    {
+      "group": "COVID-19",
+      "file": "covid19db_COVID-820.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        221,
+        205
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "COVID-19",
+      "file": "covid19db_COVID-960.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        188,
+        188
+      ],
+      "used_segmentation": false
+    },
+    {
+      "group": "COVID-19",
+      "file": "covid19db_COVID-3519.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        188,
+        188
+      ],
+      "used_segmentation": false
+    },
+    {
+      "group": "COVID-19",
+      "file": "covid19db_COVID-815.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        222,
+        211
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "COVID-19",
+      "file": "covid19db_COVID-583.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        219,
+        219
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "COVID-19",
+      "file": "covid19db_COVID-974.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        220,
+        218
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "COVID-19",
+      "file": "covid19db_COVID-597.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        222,
+        217
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "COVID-19",
+      "file": "covid19db_COVID-1708.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        221,
+        220
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Normal",
+      "file": "covid19db_Normal-8562.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        188,
+        188
+      ],
+      "used_segmentation": false
+    },
+    {
+      "group": "Normal",
+      "file": "tbdb_Normal-858.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        154,
+        139
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Normal",
+      "file": "covid19db_Normal-5017.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        220,
+        216
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Normal",
+      "file": "tbdb_Normal-2609.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        222,
+        156
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Normal",
+      "file": "covid19db_Normal-4435.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        223,
+        217
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Normal",
+      "file": "tbdb_Normal-1691.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        224,
+        184
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Normal",
+      "file": "covid19db_Normal-10167.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        221,
+        215
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Normal",
+      "file": "covid19db_Normal-71.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        224,
+        217
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Normal",
+      "file": "covid19db_Normal-7940.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        220,
+        221
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Normal",
+      "file": "covid19db_Normal-1615.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        188,
+        188
+      ],
+      "used_segmentation": false
+    },
+    {
+      "group": "Normal",
+      "file": "covid19db_Normal-5635.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        222,
+        208
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Normal",
+      "file": "covid19db_Normal-3271.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        218,
+        224
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Normal",
+      "file": "covid19db_Normal-8000.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        188,
+        188
+      ],
+      "used_segmentation": false
+    },
+    {
+      "group": "Normal",
+      "file": "covid19db_Normal-7763.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        223,
+        217
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Normal",
+      "file": "covid19db_Normal-5062.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        222,
+        215
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-984.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        188,
+        188
+      ],
+      "used_segmentation": false
+    },
+    {
+      "group": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1120.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        222,
+        220
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-530.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        222,
+        221
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-303.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        188,
+        188
+      ],
+      "used_segmentation": false
+    },
+    {
+      "group": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-973.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        188,
+        188
+      ],
+      "used_segmentation": false
+    },
+    {
+      "group": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-923.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        222,
+        220
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-778.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        188,
+        188
+      ],
+      "used_segmentation": false
+    },
+    {
+      "group": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-200.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        224,
+        211
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1144.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        188,
+        188
+      ],
+      "used_segmentation": false
+    },
+    {
+      "group": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1044.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        188,
+        188
+      ],
+      "used_segmentation": false
+    },
+    {
+      "group": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-284.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        188,
+        188
+      ],
+      "used_segmentation": false
+    },
+    {
+      "group": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-980.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        224,
+        210
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-1205.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        188,
+        188
+      ],
+      "used_segmentation": false
+    },
+    {
+      "group": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-701.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        223,
+        213
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Pneumonia",
+      "file": "covid19db_Viral Pneumonia-179.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        188,
+        188
+      ],
+      "used_segmentation": false
+    },
+    {
+      "group": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-477.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        224,
+        217
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-126.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        222,
+        172
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-633.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        219,
+        218
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-671.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        207,
+        224
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-48.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        219,
+        196
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-218.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        188,
+        188
+      ],
+      "used_segmentation": false
+    },
+    {
+      "group": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-345.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        188,
+        188
+      ],
+      "used_segmentation": false
+    },
+    {
+      "group": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-574.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        211,
+        210
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-82.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        217,
+        224
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-498.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        217,
+        224
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-586.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        218,
+        224
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-254.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        197,
+        199
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-77.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        173,
+        224
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-205.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        224,
+        213
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "Tuberculosis",
+      "file": "tbdb_Tuberculosis-104.png",
+      "orig": [
+        224,
+        224
+      ],
+      "cropped": [
+        224,
+        217
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "stressor",
+      "file": "seg_mostly_blank.png",
+      "orig": [
+        1024,
+        1024
+      ],
+      "cropped": [
+        860,
+        860
+      ],
+      "used_segmentation": false
+    },
+    {
+      "group": "stressor",
+      "file": "seg_tall_aspect.png",
+      "orig": [
+        200,
+        1024
+      ],
+      "cropped": [
+        198,
+        1008
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "stressor",
+      "file": "seg_wide_aspect.png",
+      "orig": [
+        1024,
+        200
+      ],
+      "cropped": [
+        1012,
+        197
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "stressor",
+      "file": "seg_zoomed_center.png",
+      "orig": [
+        512,
+        512
+      ],
+      "cropped": [
+        186,
+        298
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "lung_opacity",
+      "file": "lung_opacity-Lung_Opacity-1006.png",
+      "orig": [
+        256,
+        256
+      ],
+      "cropped": [
+        187,
+        154
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "lung_opacity",
+      "file": "lung_opacity-Lung_Opacity-1017.png",
+      "orig": [
+        256,
+        256
+      ],
+      "cropped": [
+        177,
+        153
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "lung_opacity",
+      "file": "lung_opacity-Lung_Opacity-1041.png",
+      "orig": [
+        256,
+        256
+      ],
+      "cropped": [
+        209,
+        211
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "lung_opacity",
+      "file": "lung_opacity-Lung_Opacity-1058.png",
+      "orig": [
+        256,
+        256
+      ],
+      "cropped": [
+        207,
+        153
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "lung_opacity",
+      "file": "lung_opacity-Lung_Opacity-1073.png",
+      "orig": [
+        256,
+        256
+      ],
+      "cropped": [
+        182,
+        165
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "lung_opacity",
+      "file": "lung_opacity-Lung_Opacity-1089.png",
+      "orig": [
+        256,
+        256
+      ],
+      "cropped": [
+        182,
+        175
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "lung_opacity",
+      "file": "lung_opacity-Lung_Opacity-1091.png",
+      "orig": [
+        256,
+        256
+      ],
+      "cropped": [
+        185,
+        193
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "lung_opacity",
+      "file": "lung_opacity-Lung_Opacity-11.png",
+      "orig": [
+        256,
+        256
+      ],
+      "cropped": [
+        237,
+        206
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "lung_opacity",
+      "file": "lung_opacity-Lung_Opacity-1101.png",
+      "orig": [
+        256,
+        256
+      ],
+      "cropped": [
+        179,
+        107
+      ],
+      "used_segmentation": true
+    },
+    {
+      "group": "lung_opacity",
+      "file": "lung_opacity-Lung_Opacity-1110.png",
+      "orig": [
+        256,
+        256
+      ],
+      "cropped": [
+        192,
+        190
+      ],
+      "used_segmentation": true
+    }
+  ]
+}

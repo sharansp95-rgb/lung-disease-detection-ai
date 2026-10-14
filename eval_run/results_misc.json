@@ -1,0 +1,15 @@
+{
+  "oversize": {
+    "status": 413,
+    "detail": "File exceeds maximum allowed size of 10MB."
+  },
+  "missing_file": {
+    "status": 422
+  },
+  "wrong_field": {
+    "status": 422
+  },
+  "unknown_route": {
+    "status": 404
+  }
+}

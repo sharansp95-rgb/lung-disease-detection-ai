@@ -1,0 +1,240 @@
+TERMINAL 3 -- LIVE IMAGE INFERENCE (command line, no web server)
+
+====================================================================
+STATUS (re-verified on the Mac, 2026-10-13)
+====================================================================
+- X-ray runs WORK. The 2026-10-04 "KNOWN ISSUE" (every X-ray rejected by
+  the OOD check, "distance 28.0 > 8.7") is fixed: predict_cli.py calls
+  backend/main.py's own loader and pipeline functions, in the same order
+  as _run_prediction, so it serves xray_txrv_densenet121_best.pt with the
+  xrv preprocessing (OOD distances now 3.0-4.6, threshold 8.7).
+  You CAN say "the CLI runs the same models and pipeline as the web app".
+- NEW: predict_cli.py takes SEVERAL images in one run. Models load and
+  re-verify ONCE (~9 min on this Mac's CPU), then each image takes ~1-2 s.
+  -> Use the ONE batch command below instead of six separate runs (six
+     separate runs = six 9-13 min startups).
+- Start it ~12 min before your slot with "caffeinate -ims" in front (keeps
+  the Mac awake -- in rehearsal it slept mid-run once), plugged in. Talk
+  through the startup verification lines while it runs; the six results
+  then scroll by in ~10 s, with a summary table at the end.
+- The COVID example is now img_19570d.png (COVID-19 100.0%, the most
+  confident of the 20 COVID test images; all 20 were classified correctly).
+  The old one (img_09dafc.png) was a borderline 58.6%.
+
+====================================================================
+COMMANDS (start from the project root folder)
+====================================================================
+
+# activate the project's Python environment first (macOS, zsh)
+source backend/.venv/bin/activate
+#   (or: source demo/run_demo.sh 3   -- activates + prints these commands)
+#   (Windows, old laptop: backend\.venv\Scripts\activate)
+
+cd scripts
+
+# >>> RECOMMENDED: all six demo images in ONE run (models load once) <<<
+# The list (with comments) is in demo/demo_batch.txt:
+#   1 normal X-ray, 2 pneumonia X-ray, 3 COVID X-ray, 4 benign CT,
+#   5 malignant CT, 6 the benign CT slice sent as an X-ray (-> REJECTED)
+caffeinate -ims python predict_cli.py --batch ../demo/demo_batch.txt
+
+# Same thing with repeated --image/--modality pairs (no batch file):
+caffeinate -ims python predict_cli.py \
+  --image "../test images/x ray/normal/img_189af4.png"   --modality xray --save-heatmap ../demo/heatmap_normal.png \
+  --image "../test images/x ray/pneumonia/img_0058a2.png" --modality xray --save-heatmap ../demo/heatmap_pneumonia.png \
+  --image "../test images/x ray/covid/img_19570d.png"     --modality xray --save-heatmap ../demo/heatmap_covid.png \
+  --image "../test images/ct scan/benign/img_159819.jpg"  --modality ct   --save-heatmap - \
+  --image "../test images/ct scan/malignant/img_07ec48.jpg" --modality ct --save-heatmap ../demo/heatmap_malignant_ct.png \
+  --image "../test images/ct scan/benign/img_159819.jpg"  --modality xray --save-heatmap -
+
+# Single-image commands still work exactly as before (each one = its own
+# 9-13 min startup):
+python predict_cli.py --image "../test images/x ray/normal/img_189af4.png" --modality xray --save-heatmap ../demo/heatmap_normal.png
+python predict_cli.py --image "../test images/x ray/pneumonia/img_0058a2.png" --modality xray --save-heatmap ../demo/heatmap_pneumonia.png
+python predict_cli.py --image "../test images/x ray/covid/img_19570d.png" --modality xray --save-heatmap ../demo/heatmap_covid.png
+python predict_cli.py --image "../test images/ct scan/benign/img_159819.jpg" --modality ct
+python predict_cli.py --image "../test images/ct scan/malignant/img_07ec48.jpg" --modality ct --save-heatmap ../demo/heatmap_malignant_ct.png
+python predict_cli.py --image "../test images/ct scan/benign/img_159819.jpg" --modality xray    # -> REJECTED, exit 1
+
+====================================================================
+EXPECTED OUTPUT (actual Mac output, 2026-10-13; full logs in demo/rehearsal_outputs/)
+====================================================================
+
+--- BATCH run (--batch ../demo/demo_batch.txt): measured 9 min 5 s in total ---
+(full log: demo/rehearsal_outputs/t3_batch_all6_demo.txt)
+startup block as below, ending in:
+=== all models loaded and verified in 537.1s ===
+
+#################### image 1/6 ####################
+--- running pipeline on img_189af4.png as 'chest X-ray' ---
+... (exactly the same per-image printouts as the single runs below) ...
+#################### image 6/6 ####################
+--- running pipeline on img_159819.jpg as 'chest X-ray' ---
+[blank-image check] grayscale std = 75.2 (reject if < 10.0)
+[color-content check] channel spread = 0.0 (reject if > 20.0)
+[sanity gate] verdict: not_scan (must be 'scan' to continue)
+REJECTED: does not look like a chest X-ray.
+
+=== SUMMARY (6 images, models loaded once) ===
+  img_189af4.png         xray  Normal 99.8%                   1.0s
+  img_0058a2.png         xray  Pneumonia 99.9%                1.3s
+  img_19570d.png         xray  COVID-19 100.0%                1.0s
+  img_159819.jpg         ct    Benign 90.3%                   1.0s
+  img_07ec48.jpg         ct    Malignant 98.1%                1.1s
+  img_159819.jpg         xray  REJECTED                       0.0s
+
+(Batch mode exits 0 even with the deliberate rejection -- a rejection is a
+normal pipeline outcome there. Single-image mode still exits 1 on REJECTED.)
+
+The single-run outputs below are identical per image (same numbers).
+
+--- startup block (appears before every run, ~9-13 min on the Mac) ---
+=== loading models + running reproduction checks (same as backend startup) ===
+INFO ... [xray] reproduction check: checkpoint claims 0.9646, reproduced 0.9646 in 164.7s, diff=0.0000
+INFO ... [ct] reproduction check: checkpoint claims 0.9904, reproduced 0.9904 in 8.9s, diff=0.0000
+INFO ... [gate] reproduction check: checkpoint claims 1.0000, reproduced 1.0000 in 42.2s, diff=0.0000
+INFO ... [xray_sanity] reproduction check: checkpoint claims 0.9996, reproduced 0.9996 in 55.2s, diff=0.0000
+INFO ... [ct_sanity] reproduction check: checkpoint claims 1.0000, reproduced 1.0000 in 17.4s, diff=0.0000
+INFO ... [xray] OOD detector loaded: threshold=8.72 (99th percentile over 15373 training images)
+INFO ... [ct] OOD detector loaded: threshold=25.62 (99th percentile over 829 training images)
+INFO ... [seg] reproduction check: checkpoint claims dice=0.9890 iou=0.9786, reproduced dice=0.9830 iou=0.9671 in 241.4s (diff dice=0.0060, iou=0.0116)
+[xray] checkpoint=xray_txrv_densenet121_best.pt backbone=densenet121-res224-all claims val_acc=0.9646 reproduced=0.9646
+[ct] checkpoint=ct_best_model_phase35_v2.pt backbone=densenet121 claims val_acc=0.9904 reproduced=0.9904
+[gate] checkpoint=modality_gate_best_model_v2.pt backbone=resnet18 claims val_acc=1.0000 reproduced=1.0000
+[xray_sanity] checkpoint=xray_sanity_best.pt backbone=resnet18 claims val_acc=0.9996 reproduced=0.9996
+[ct_sanity] checkpoint=ct_sanity_best.pt backbone=resnet18 claims val_acc=1.0000 reproduced=1.0000
+[seg] checkpoint=xray_seg_model.pt claims dice=0.9890 iou=0.9786, reproduced dice=0.9830 iou=0.9671
+=== all models loaded and verified in 531.4s ===
+
+--- run 1: normal X-ray (534 s total) ---
+[blank-image check] grayscale std = 66.0 (reject if < 10.0)
+[color-content check] channel spread = 0.0 (reject if > 20.0)
+[sanity gate] verdict: scan (must be 'scan' to continue)
+[modality gate] predicted modality: xray (confidence 100.0%; must be 'xray' with >= 90% to continue)
+[lung crop] used segmentation model: True
+[OOD check] feature-space distance = 3.0 (threshold 8.7)
+=== RESULT ===
+predicted class : Normal
+confidence      : 99.8%
+class probabilities:
+  COVID-19             0.1%
+  Normal               99.8%
+  Pneumonia            0.0%
+  Tuberculosis         0.1%
+[report (groq)]
+The model looked at the X-ray and ... normal (healthy) chest, giving it a 99.8 % confidence. ...
+[grad-cam] heatmap saved to ../demo/heatmap_normal.png
+
+--- run 2: pneumonia X-ray (540 s total) ---
+[blank-image check] grayscale std = 46.8 (reject if < 10.0)
+[color-content check] channel spread = 0.0 (reject if > 20.0)
+[sanity gate] verdict: scan (must be 'scan' to continue)
+[modality gate] predicted modality: xray (confidence 100.0%; ...)
+[lung crop] used segmentation model: True
+[OOD check] feature-space distance = 4.6 (threshold 8.7)
+=== RESULT ===
+predicted class : Pneumonia
+confidence      : 99.9%
+  COVID-19 0.0% | Normal 0.1% | Pneumonia 99.9% | Tuberculosis 0.0%
+[grad-cam] heatmap saved to ../demo/heatmap_pneumonia.png
+
+--- run 3: benign CT as ct (correct modality) ---
+[blank-image check] grayscale std = 75.2 (reject if < 10.0)
+[color-content check] channel spread = 0.0 (reject if > 20.0)
+[sanity gate] verdict: scan (must be 'scan' to continue)
+[modality gate] predicted modality: ct (confidence 100.0%; must be 'ct' with >= 90% to continue)
+[OOD check] feature-space distance = 18.3 (threshold 25.6)
+=== RESULT ===
+predicted class : Benign
+confidence      : 90.3%
+class probabilities:
+  Benign               90.3%
+  Malignant            0.1%
+  Normal               9.6%
+[report (groq)]
+The model looked at the CT scan and thinks the finding is most likely a benign ...
+
+--- run 4: same CT slice as xray (WRONG modality, on purpose; 569 s total) ---
+[blank-image check] grayscale std = 75.2 (reject if < 10.0)
+[color-content check] channel spread = 0.0 (reject if > 20.0)
+[sanity gate] verdict: not_scan (must be 'scan' to continue)
+REJECTED: does not look like a chest X-ray.
+(exit code 1 is expected here -- that's the rejection. Note there is no
+"[lung crop]" line any more: like the web app, the crop only runs after
+both gates have accepted the image.)
+
+--- run 5: COVID-19 X-ray img_19570d.png (new demo image) ---
+[blank-image check] grayscale std = 61.0 (reject if < 10.0)
+[color-content check] channel spread = 0.0 (reject if > 20.0)
+[sanity gate] verdict: scan (must be 'scan' to continue)
+[modality gate] predicted modality: xray (confidence 100.0%; ...)
+[lung crop] used segmentation model: True
+[OOD check] feature-space distance = 4.3 (threshold 8.7)
+=== RESULT ===
+predicted class : COVID-19
+confidence      : 100.0%
+  COVID-19 100.0% | Normal 0.0% | Pneumonia 0.0% | Tuberculosis 0.0%
+[grad-cam] heatmap saved to ../demo/heatmap_covid.png
+(Chosen as the most confident of all 20 COVID test images -- all 20 were
+classified COVID-19; see demo/rehearsal_outputs/t3_batch_all20_covid.txt.
+If asked: "the weakest of the 20 was 58.6%, still correct.")
+
+--- run 6: malignant CT ---
+[OOD check] feature-space distance = 15.6 (threshold 25.6)
+predicted class : Malignant
+confidence      : 98.1%
+  Benign 1.5% | Malignant 98.1% | Normal 0.5%
+[grad-cam] heatmap saved to ../demo/heatmap_malignant_ct.png
+
+Report text: the CLI loads backend/.env through config.py, so when
+GROQ_API_KEY is set (it is on this Mac) the report comes from Groq
+("[report (groq)]") and needs internet. Without internet or the key it
+prints "[report (template_fallback)]" instead; the prediction is unaffected.
+
+====================================================================
+WHAT TO EXPLAIN
+====================================================================
+
+While it's loading, say this:
+  "Watch the startup -- it reloads every checkpoint and re-verifies
+  its claimed accuracy against fresh data before it'll process
+  anything. If a checkpoint didn't match, it refuses to run. That's a
+  guard against ever silently serving a stale or wrong model."
+
+Before run 3, say this:
+  "Every image goes through four checks before a prediction is even
+  attempted: a blank/color-content check, a sanity gate that tells a
+  real scan from a random photo, a modality gate that confirms X-ray
+  vs CT, and an out-of-distribution check that rejects anything too
+  far from the training data. Only after all four pass does the
+  disease classifier run."
+  After result: "Benign, 90% confidence -- and the probabilities for the
+  other classes are shown too, not hidden."
+
+If using the batch run, after the SUMMARY table say this:
+  "Models were loaded and re-verified once; after that each image took
+  about a second through the full defended pipeline -- the last one is
+  the CT slice I sent down the X-ray path on purpose, and it was refused."
+
+Before run 4, say this:
+  "Now I'll deliberately feed the same CT slice through the X-ray path."
+  After REJECTED: "It refused to answer instead of confidently giving an
+  X-ray diagnosis for a CT slice. The X-ray sanity gate caught it first
+  (the web app runs the same gate first, so it rejects this slice the
+  same way); if a CT slice ever got past it, the modality gate would
+  still say 'this looks like a chest CT scan, not a chest X-ray'. That's
+  the difference between a classifier and a defended pipeline."
+
+If a tinted TB X-ray gets rejected at the color-content check:
+  "This is the artifact from Terminal 1 showing up live -- the pipeline
+  is catching its own known data-quality issue instead of risking a bad
+  call."
+
+If the report says "template_fallback" (no internet / no key):
+  "That's the plain-language report generator falling back to a
+  template because it couldn't reach the LLM -- the prediction pipeline
+  itself doesn't depend on it."
+
+You CAN now say "the CLI runs the same models and the same pipeline as
+the web app" -- predict_cli.py imports backend/main.py and calls its loader
+and gate functions directly (verified 2026-10-13).
