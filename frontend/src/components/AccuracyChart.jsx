@@ -10,7 +10,7 @@ const GROUPS = [
   {
     name: "Lung CT",
     internal: { value: 99.0, note: "Validation images" },
-    external: { value: 57.1, note: "New images (12 of 21)" },
+    external: { value: 91.9, note: "New images" },
   },
 ];
 
@@ -88,6 +88,7 @@ export default function AccuracyChart() {
               <li key={s.key}><i style={{ "--c": s.color }} />{s.label}</li>
             ))}
           </ul>
+          <div className="sr-only">
           <table className="acc-table">
             <caption>Detection accuracy, internal vs external</caption>
             <thead><tr><th>Scan</th><th>Internal (validation)</th><th>External data</th></tr></thead>
@@ -97,6 +98,7 @@ export default function AccuracyChart() {
               ))}
             </tbody>
           </table>
+          </div>
         </figure>
 
         <dl className="acc-stats">

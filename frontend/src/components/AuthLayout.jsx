@@ -25,7 +25,11 @@ export default function AuthLayout({ children, aside = true }) {
       )}
       <main className="auth-main">
         <div className="auth-main-top">
-          {!aside && <BrandMark />}
+          {aside ? (
+            <span className="auth-brand-mobile"><BrandMark /></span>
+          ) : (
+            <BrandMark />
+          )}
           <ThemeToggle />
         </div>
         <div className="auth-card">{children}</div>

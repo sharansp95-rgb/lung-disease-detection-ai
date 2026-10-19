@@ -2505,3 +2505,416 @@ button.profile-avatar:hover {
     transform: none !important;
   }
 }
+
+/* =========================================================================
+   Responsive refinements (phones and tablets)
+   -------------------------------------------------------------------------
+   Everything below is scoped to small viewports, touch devices, or fixes
+   that are invisible on desktop (long-word wrapping, the visually hidden
+   chart table), so the desktop layout above is unchanged.
+   ========================================================================= */
+
+/* Mobile browser toolbars make 100vh taller than the visible screen. */
+@supports (height: 100dvh) {
+  .app,
+  .app-loading,
+  .landing,
+  .auth-page {
+    min-height: 100dvh;
+  }
+}
+
+/* Long unbroken strings (emails, file names) must wrap, not widen the page. */
+.auth-subtitle,
+.profile-account-email,
+.upload-filename,
+.chat-bubble {
+  overflow-wrap: anywhere;
+}
+
+.profile-account-info {
+  min-width: 0;
+}
+
+@media (max-width: 640px) {
+  .profile-account-info {
+    flex: 1 1 180px;
+  }
+}
+
+/* Visually hidden data table for the accuracy chart (screen readers only).
+   A table ignores width: 1px, so the wrapper does the clipping. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.sr-only .acc-table {
+  position: static;
+}
+
+/* Brand shown above the form on phones, where the side panel is hidden. */
+.auth-brand-mobile {
+  display: none;
+}
+
+/* ------------------------------------------------ tablets (641-900px) -- */
+@media (max-width: 900px) {
+  .auth-page {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .auth-brand-mobile {
+    display: inline-flex;
+  }
+
+  .guard-trace {
+    width: 100%;
+    max-width: 560px;
+    margin-inline: auto;
+  }
+
+  .analyzing-page {
+    padding-top: 36px;
+  }
+
+  .analyzing-image {
+    max-height: 380px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 900px) {
+  /* Prediction and heatmap side by side, explanation full width below,
+     instead of one very tall column with a 700px-wide heatmap. */
+  .results {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-areas:
+      "summary image"
+      "report report";
+  }
+
+  .result-summary,
+  .result-panel {
+    padding: 24px;
+  }
+
+  .result-panel-head {
+    flex-wrap: wrap;
+  }
+
+  .prob-row {
+    grid-template-columns: 96px minmax(0, 1fr) 50px;
+    gap: 10px;
+  }
+
+  .report-text {
+    max-width: none;
+  }
+}
+
+/* ------------------------------------------------------- phones (<=640) -- */
+@media (max-width: 640px) {
+  .page-header {
+    padding-top: 28px;
+    padding-bottom: 20px;
+  }
+
+  .page-header-row {
+    align-items: center;
+  }
+
+  .page,
+  .app-main {
+    padding-bottom: 104px; /* room for the chat button */
+  }
+
+  /* Landing */
+  .landing-hero {
+    padding-top: 28px;
+  }
+
+  .landing-hero-subtitle {
+    margin-top: 18px;
+    font-size: 1.02rem;
+  }
+
+  .landing-hero-actions {
+    margin-top: 28px;
+  }
+
+  .landing-hero-actions .btn {
+    flex: 1 1 100%;
+  }
+
+  .landing-section {
+    padding: 40px 0;
+  }
+
+  .guard-trace {
+    padding: 18px 14px 14px;
+  }
+
+  .guard-outcome {
+    padding: 8px 10px;
+    font-size: 0.76rem;
+  }
+
+  .acc-chart,
+  .acc-stats {
+    padding: 20px 16px;
+  }
+
+  .acc-stats {
+    gap: 22px 14px;
+  }
+
+  .acc-stat-value {
+    font-size: 2rem;
+  }
+
+  /* Keep the bar tooltips inside the screen. */
+  .acc-group:first-child .acc-tip {
+    left: 0;
+    transform: translate(0, 4px);
+  }
+
+  .acc-group:last-child .acc-tip {
+    left: auto;
+    right: 0;
+    transform: translate(0, 4px);
+  }
+
+  .acc-group:first-child .acc-bar:hover .acc-tip,
+  .acc-group:first-child .acc-bar:focus-visible .acc-tip,
+  .acc-group:last-child .acc-bar:hover .acc-tip,
+  .acc-group:last-child .acc-bar:focus-visible .acc-tip {
+    transform: none;
+  }
+
+  .acc-tip {
+    max-width: min(200px, 60vw);
+  }
+
+  /* Upload */
+  .upload-area {
+    padding: 22px 18px;
+  }
+
+  .upload-preview {
+    max-height: 260px;
+  }
+
+  .submit-btn {
+    justify-self: stretch;
+    width: 100%;
+  }
+
+  /* Analysing: smaller frame so the progress steps stay on screen. */
+  .analyzing-page {
+    gap: 24px;
+    padding-top: 20px;
+    padding-bottom: 64px;
+  }
+
+  .analyzing-frame {
+    min-height: 220px;
+    padding: 22px;
+  }
+
+  .analyzing-image {
+    max-height: 240px;
+  }
+
+  .analyzing-title {
+    font-size: 1.45rem;
+    margin-bottom: 12px;
+  }
+
+  .analyzing-step {
+    padding: 9px 0;
+  }
+
+  .analyzing-step:not(:last-child)::after {
+    top: 34px;
+    bottom: -10px;
+  }
+
+  .analyzing-error-actions .btn {
+    flex: 1 1 auto;
+  }
+
+  /* Results */
+  .results {
+    gap: 14px;
+  }
+
+  .result-panel-head {
+    flex-wrap: wrap;
+  }
+
+  .report-text {
+    max-width: none;
+  }
+
+  /* History: two compact columns instead of one screen-high card each. */
+  .history-grid {
+    grid-template-columns: repeat(auto-fill, minmax(136px, 1fr));
+    gap: 12px;
+  }
+
+  .history-card-info {
+    padding: 10px 12px 12px;
+  }
+
+  .history-class {
+    font-size: 1.05rem;
+  }
+
+  .history-meta,
+  .history-date {
+    font-size: 0.76rem;
+  }
+
+  .history-empty {
+    padding: 24px;
+  }
+
+  .history-modal-backdrop {
+    padding: 12px;
+  }
+
+  .history-modal {
+    max-height: calc(100vh - 24px);
+    max-height: calc(100dvh - 24px);
+  }
+
+  .history-modal-img {
+    max-height: 42vh;
+  }
+
+  .history-modal-body {
+    padding: 22px 20px 24px;
+  }
+
+  .history-modal-body h2 {
+    font-size: 1.8rem;
+  }
+
+  /* Profile */
+  .profile-account-card {
+    padding: 20px;
+    gap: 16px;
+  }
+
+  .profile-account-card .btn {
+    width: 100%;
+  }
+
+  .profile-section {
+    margin-top: 32px;
+  }
+
+  /* Auth */
+  .auth-main {
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
+
+  .auth-card {
+    padding: 32px 0 16px;
+  }
+
+  .auth-title {
+    font-size: 1.8rem;
+  }
+
+  /* Chat: a sheet that spans the screen width. */
+  .chat-panel {
+    left: 12px;
+    right: 12px;
+    bottom: 84px;
+    width: auto;
+    height: min(560px, calc(100vh - 110px));
+    height: min(560px, calc(100dvh - 110px));
+  }
+}
+
+@media (max-width: 360px) {
+  .app-navbar {
+    gap: 6px;
+  }
+
+  .nav-link {
+    padding: 8px 8px;
+  }
+
+  .app-navbar-actions {
+    gap: 6px;
+  }
+
+  .modality-btn {
+    padding: 10px;
+  }
+
+  .modality-name {
+    font-size: 1rem;
+  }
+
+  .prob-row {
+    grid-template-columns: 84px minmax(0, 1fr) 46px;
+    gap: 8px;
+    font-size: 0.88rem;
+  }
+
+  .acc-stats {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* -------------------------------------------------- touch devices -- */
+@media (pointer: coarse) {
+  /* iOS zooms the page when a focused field is under 16px. */
+  .chat-input-row textarea,
+  .auth-form input {
+    font-size: 16px;
+  }
+
+  .image-toggle button {
+    min-height: 36px;
+    padding: 8px 16px;
+  }
+
+  .chat-close-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .chat-chip {
+    padding: 9px 14px;
+  }
+}
+
+/* Hover lifts stick after a tap on touch screens; keep them for mice only. */
+@media (hover: none) {
+  .history-card:hover,
+  .chat-fab:hover,
+  button.profile-avatar:hover {
+    transform: none;
+  }
+
+  .history-card:hover {
+    box-shadow: none;
+  }
+
+  .history-card:hover .history-thumb,
+  .upload-area:hover .upload-icon {
+    transform: none;
+  }
+}
