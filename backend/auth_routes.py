@@ -162,11 +162,10 @@ def signup(request: Request, req: SignupRequest):
         if existing:
             raise HTTPException(status_code=409, detail="An account with this email already exists.")
 
-        cur = conn.execute(
-            "INSERT INTO users (email, password_hash, email_verified, display_name) VALUES (?, ?, 0, ?)",
+        user_id = conn.execute(
+            "INSERT INTO users (email, password_hash, email_verified, display_name) VALUES (?, ?, 0, ?) RETURNING id",
             (req.email, hash_password(req.password), req.name.strip() if req.name and req.name.strip() else None),
-        )
-        user_id = cur.lastrowid
+        ).fetchone()["id"]
 
         verify_token = generate_random_token()
         expires = (datetime.datetime.now(datetime.timezone.utc)
@@ -389,11 +388,10 @@ def google_callback(request: Request, code: str = None, error: str = None, state
     with get_db() as conn:
         row = conn.execute("SELECT * FROM users WHERE google_id = ? OR email = ?", (google_id, email)).fetchone()
         if row is None:
-            cur = conn.execute(
-                "INSERT INTO users (email, google_id, display_name, email_verified) VALUES (?, ?, ?, 1)",
+            user_id = conn.execute(
+                "INSERT INTO users (email, google_id, display_name, email_verified) VALUES (?, ?, ?, 1) RETURNING id",
                 (email, google_id, name),
-            )
-            user_id = cur.lastrowid
+            ).fetchone()["id"]
         else:
             user_id = row["id"]
             if row["google_id"] is None:

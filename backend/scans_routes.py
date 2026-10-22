@@ -44,7 +44,7 @@ def save_scan(user_id: int, modality: str, predicted_class: str, confidence: flo
 def get_history(user: dict = Depends(get_current_user)):
     with get_db() as conn:
         rows = conn.execute(
-            "SELECT * FROM scans WHERE user_id = ? ORDER BY created_at DESC", (user["id"],)
+            "SELECT * FROM scans WHERE user_id = ? ORDER BY created_at DESC, id DESC", (user["id"],)
         ).fetchall()
 
     return [

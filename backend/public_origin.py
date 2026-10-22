@@ -6,7 +6,7 @@ without editing backend/.env.
 
 The frontend origin is taken from, in order: the Origin header, the
 Referer header, then X-Forwarded-Proto + X-Forwarded-Host (only when the
-direct peer is the local Vite proxy, see rate_limit.py). The first
+direct peer is a trusted proxy, see rate_limit.py). The first
 candidate that is in config.ALLOWED_PUBLIC_ORIGINS wins. The Host header is
 never used, and nothing outside the allowlist is ever returned, so a
 crafted header can at most pick another allowlisted origin -- no open
@@ -27,7 +27,7 @@ from starlette.requests import Request
 
 import config
 from auth_utils import JWT_ALGORITHM
-from rate_limit import TRUSTED_PROXY_PEERS
+from rate_limit import is_trusted_proxy
 
 OAUTH_STATE_TYPE = "google_oauth_state"
 OAUTH_STATE_EXPIRY_MINUTES = 10
@@ -73,7 +73,7 @@ def _last_header_value(request: Request, name: str) -> str:
 
 def _forwarded_origin(request: Request) -> str | None:
     peer = request.client.host if request.client else None
-    if peer not in TRUSTED_PROXY_PEERS:
+    if not is_trusted_proxy(peer):
         return None
     host = _last_header_value(request, "x-forwarded-host")
     proto = _last_header_value(request, "x-forwarded-proto") or "http"
@@ -84,14 +84,17 @@ def _forwarded_origin(request: Request) -> str | None:
 
 def _direct_backend_base(request: Request) -> str:
     # The socket this request arrived on (uvicorn's scope["server"]), not
-    # the client-controlled Host header.
+    # the client-controlled Host header. root_path is "/api" when the API is
+    # mounted under the single-origin app (serve.py), "" otherwise.
     server = request.scope.get("server")
     if not server:
         return config.BACKEND_URL
     host, port = server
     scheme = request.url.scheme
+    root_path = request.scope.get("root_path", "")
     default_port = 443 if scheme == "https" else 80
-    return f"{scheme}://{host}" if port in (None, default_port) else f"{scheme}://{host}:{port}"
+    base = f"{scheme}://{host}" if port in (None, default_port) else f"{scheme}://{host}:{port}"
+    return f"{base}{root_path}"
 
 
 def resolve(request: Request) -> PublicOrigin:

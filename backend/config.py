@@ -25,9 +25,14 @@ if not JWT_SECRET:
     # generate + persist so sessions survive restarts even if .env was
     # missing this key entirely
     JWT_SECRET = secrets.token_hex(32)
-    with open(ENV_PATH, "a") as f:
-        f.write(f"\nJWT_SECRET={JWT_SECRET}\n")
-    logger.warning("JWT_SECRET was not set -- generated a new one and appended it to .env")
+    try:
+        with open(ENV_PATH, "a") as f:
+            f.write(f"\nJWT_SECRET={JWT_SECRET}\n")
+        logger.warning("JWT_SECRET was not set -- generated a new one and appended it to .env")
+    except OSError:
+        # Read-only or non-persistent filesystem (e.g. a container): sessions
+        # will not survive a restart, so hosted deploys must set JWT_SECRET.
+        logger.warning("JWT_SECRET was not set and .env is not writable -- using a temporary secret")
 
 GOOGLE_CLIENT_ID = os.environ.get("GOOGLE_CLIENT_ID", "")
 GOOGLE_CLIENT_SECRET = os.environ.get("GOOGLE_CLIENT_SECRET", "")
@@ -41,8 +46,13 @@ EMAIL_CONFIGURED = bool(GMAIL_ADDRESS and GMAIL_APP_PASSWORD)
 # Google OAuth redirect_uri is built from these two -- for the ngrok setup
 # (docs/DEPLOYMENT_PUBLIC.md) they become https://<domain> and https://<domain>/api.
 # Trailing slashes stripped so f"{BACKEND_URL}/auth/..." never doubles up.
-FRONTEND_URL = os.environ.get("FRONTEND_URL", "http://localhost:5173").rstrip("/")
-BACKEND_URL = os.environ.get("BACKEND_URL", "http://127.0.0.1:8000").rstrip("/")
+# On a Hugging Face Space (single-origin build, backend/serve.py) the runtime
+# sets SPACE_HOST, so both default to https://<space-host>[/api] unless set.
+_SPACE_HOST = os.environ.get("SPACE_HOST", "").strip()
+_DEFAULT_FRONTEND_URL = f"https://{_SPACE_HOST}" if _SPACE_HOST else "http://localhost:5173"
+_DEFAULT_BACKEND_URL = f"https://{_SPACE_HOST}/api" if _SPACE_HOST else "http://127.0.0.1:8000"
+FRONTEND_URL = os.environ.get("FRONTEND_URL", _DEFAULT_FRONTEND_URL).rstrip("/")
+BACKEND_URL = os.environ.get("BACKEND_URL", _DEFAULT_BACKEND_URL).rstrip("/")
 GOOGLE_REDIRECT_URI = f"{BACKEND_URL}/auth/google/callback"
 
 # Frontend origins the app may be used from at the same time (e.g. local
@@ -74,6 +84,21 @@ CORS_ORIGINS = [
 ]
 
 DB_PATH = Path(os.environ.get("DB_PATH", BACKEND_DIR / "app.db"))
+
+# Postgres connection string (e.g. Neon: postgresql://...?sslmode=require).
+# When set it replaces the SQLite file at DB_PATH; unset keeps SQLite.
+DATABASE_URL = os.environ.get("DATABASE_URL", "").strip()
+
+# Direct peers whose X-Forwarded-For header is trusted for client-IP keying
+# (rate_limit.py) and X-Forwarded-Host (public_origin.py). Comma-separated
+# IPs or CIDRs. The default trusts only the local Vite proxy; a container
+# whose port is reachable only through a platform proxy (Hugging Face
+# Spaces) lists that proxy's network instead -- see the Dockerfile.
+TRUSTED_PROXY_IPS = [
+    p.strip()
+    for p in os.environ.get("TRUSTED_PROXY_IPS", "127.0.0.1").split(",")
+    if p.strip()
+]
 
 # Minimum top-class softmax probability required by the modality gate.
 # Calls below this threshold return HTTP 422 "Modality uncertain".

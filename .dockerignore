@@ -1,0 +1,41 @@
+# Allowlist: only what the Dockerfile copies. Everything else -- data/, raw/,
+# seg_data/, datasets/, "test images"/, documents/, eval_run/, eval_outputs/,
+# audit/, logs/, secrets -- never enters the build context.
+*
+!requirements.txt
+!backend/
+!ml/
+!scripts/prepare_xray.py
+!frontend/
+!checkpoints/xray_txrv_densenet121_best.pt
+!checkpoints/ct_best_model_phase35_v2.pt
+!checkpoints/modality_gate_best_model_v2.pt
+!checkpoints/xray_sanity_best.pt
+!checkpoints/ct_sanity_best.pt
+!checkpoints/xray_seg_model.pt
+
+# Re-excluded inside the allowlisted folders.
+**/.env
+**/.env.*
+**/*.local
+**/*.db
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/.DS_Store
+backend/.venv
+backend/tests
+frontend/node_modules
+frontend/dist
+data/
+raw/
+seg_data/
+datasets/
+test images/
+documents/
+eval_run/
+eval_outputs/
+audit/
+node_modules
+.venv
+logs

@@ -17,6 +17,10 @@ _TEST_DB_PATH = BACKEND_DIR / "tests" / "_test.db"
 if _TEST_DB_PATH.exists():
     _TEST_DB_PATH.unlink()
 os.environ["DB_PATH"] = str(_TEST_DB_PATH)
+# Never the DATABASE_URL from backend/.env (that may be the hosted DB):
+# Postgres runs only when TEST_DATABASE_URL names a throwaway database.
+# Set even when empty so load_dotenv() can't fill it in.
+os.environ["DATABASE_URL"] = os.environ.get("TEST_DATABASE_URL", "")
 
 import pytest
 from fastapi.testclient import TestClient
