@@ -57,6 +57,12 @@ This installs Docker and the compose plugin, adds a 4 GB swap file, enables
 unattended security upgrades and creates `/opt/lung-app`. It is safe to
 re-run.
 
+It also clamps the TCP segment size (MSS) the server advertises to 1220.
+On some mobile networks (Jio was measured: 1260 works, 1300 fails),
+full-size packets from the client are silently dropped. Without the clamp,
+uploads from those networks stall and get reset, while downloads work. That
+covers SSH and rsync (the deploy itself) as well as scan uploads over HTTPS.
+
 ## 3. Deploy (and every redeploy)
 
 Commit first: only committed code is deployed.
