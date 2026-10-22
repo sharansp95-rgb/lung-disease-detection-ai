@@ -90,7 +90,7 @@ cd /opt/lung-app
 sudo docker compose ps
 sudo docker compose logs -f app            # app log; emails print here if SMTP isn't set
 nano .env.production                       # then apply with:
-sudo docker compose --env-file .env.production up -d
+sudo docker compose up -d
 # Back up the SQLite database:
 sudo docker compose exec -T app python -c "import sqlite3; sqlite3.connect('/data/app.db').backup(sqlite3.connect('/data/backup.db'))"
 sudo docker compose cp app:/data/backup.db ./app-backup-$(date +%F).db

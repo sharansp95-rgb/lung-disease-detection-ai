@@ -66,7 +66,7 @@ echo "==> Assembled $(find "$STAGE" -type f | wc -l | tr -d ' ') files, $(du -sh
 
 # ---- upload ----
 echo "==> rsync to $SSH_USER@$SERVER_IP:$REMOTE_DIR"
-rsync -az --delete --exclude=/.env.production \
+rsync -az --delete --exclude=/.env.production --exclude=/.env \
   -e "ssh -i '$SSH_KEY' -o StrictHostKeyChecking=accept-new" \
   "$STAGE/" "$SSH_USER@$SERVER_IP:$REMOTE_DIR/"
 
@@ -87,7 +87,7 @@ else
     printf '%s' "$v"
   }
   ENV_CONTENT="# Production settings for docker-compose.yml. Never commit this file.
-# Edit, then: cd $REMOTE_DIR && sudo docker compose --env-file .env.production up -d
+# Edit, then: cd $REMOTE_DIR && sudo docker compose up -d
 DOMAIN=$DOMAIN
 JWT_SECRET=__GENERATE__
 
@@ -113,12 +113,16 @@ JWT_SECRET=__GENERATE__
   if [[ -n "$copied" ]]; then echo "    copied from backend/.env:$copied"; fi
 fi
 
+# Compose reads .env by itself, so plain `docker compose ps/logs/...` work
+# on the server without --env-file.
+remote "cd $REMOTE_DIR && ln -sfn .env.production .env"
+
 # DOMAIN follows this deploy (e.g. a new Elastic IP -> new sslip.io name).
 remote "cd $REMOTE_DIR && if grep -q '^DOMAIN=' .env.production; then sed -i 's/^DOMAIN=.*/DOMAIN=$DOMAIN/' .env.production; else echo 'DOMAIN=$DOMAIN' >> .env.production; fi"
 
 # ---- build + start ----
 echo "==> docker compose up -d --build (first build takes several minutes)"
-remote "cd $REMOTE_DIR && sudo docker compose --env-file .env.production up -d --build --remove-orphans && sudo docker image prune -f >/dev/null"
+remote "cd $REMOTE_DIR && sudo docker compose up -d --build --remove-orphans && sudo docker image prune -f >/dev/null"
 
 # ---- health ----
 echo "==> waiting for https://$DOMAIN/api/health"

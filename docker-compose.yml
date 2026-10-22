@@ -2,10 +2,11 @@
 # from ./Dockerfile behind Caddy, which terminates HTTPS for $DOMAIN with an
 # automatic Let's Encrypt certificate. Run from /opt/lung-app on the server:
 #
-#   sudo docker compose --env-file .env.production up -d --build
+#   sudo docker compose up -d --build
 #
 # .env.production (created by scripts/deploy_ec2.sh, never committed) holds
-# DOMAIN, JWT_SECRET and the optional keys. Data lives in named volumes, so
+# DOMAIN, JWT_SECRET and the optional keys; the deploy links .env to it so
+# compose picks it up without --env-file. Data lives in named volumes, so
 # rebuilds and redeploys keep it; only `docker compose down -v` deletes it.
 
 name: lung-app
