@@ -17,6 +17,10 @@ logger = logging.getLogger("ct_xray_api.email")
 
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 587
+# Sending happens inside the signup/forgot-password request, so a blocked or
+# unreachable SMTP server must fail fast (to the console fallback) rather
+# than hold the request. Applies to the connect and to each later step.
+SMTP_TIMEOUT_SECONDS = 5
 
 APP_NAME = "Lung Disease Detection"
 ACCENT = "#3f6fee"
@@ -78,7 +82,7 @@ def send_email(to_email: str, subject: str, text_body: str, html_body: str) -> b
         msg.attach(MIMEText(text_body, "plain"))
         msg.attach(MIMEText(html_body, "html"))
 
-        with smtplib.SMTP(SMTP_HOST, SMTP_PORT, timeout=15) as server:
+        with smtplib.SMTP(SMTP_HOST, SMTP_PORT, timeout=SMTP_TIMEOUT_SECONDS) as server:
             server.starttls()
             server.login(GMAIL_ADDRESS, GMAIL_APP_PASSWORD)
             server.sendmail(GMAIL_ADDRESS, [to_email], msg.as_string())

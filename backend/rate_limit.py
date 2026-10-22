@@ -15,11 +15,9 @@ spoofed by connecting directly.
 
   - Local ngrok setup (docs/DEPLOYMENT_PUBLIC.md): the default
     TRUSTED_PROXY_IPS=127.0.0.1 trusts only the local Vite proxy.
-  - Hugging Face Spaces: the container port is reachable only through HF's
-    proxy, whose hops come from private networks, so the Dockerfile sets
-    TRUSTED_PROXY_IPS to the private ranges. If HF's chain ever contained a
-    public proxy hop, keying would degrade to that proxy's IP (one shared
-    bucket) -- never to a client-supplied value.
+  - EC2 deploy (docker-compose.yml): TRUSTED_PROXY_IPS is the Caddy
+    container's fixed address. Caddy doesn't trust incoming X-Forwarded-For
+    from the internet, so it sends exactly one hop: the visitor's IP.
 """
 
 import ipaddress

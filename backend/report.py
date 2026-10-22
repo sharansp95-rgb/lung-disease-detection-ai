@@ -52,7 +52,7 @@ def _groq_report(modality: str, predicted_class: str, confidence: float,
         f"say. Just explain what the model output means in accessible terms."
     )
 
-    text = call_groq([{"role": "user", "content": prompt}], max_tokens=200, temperature=0.3)
+    text = call_groq([{"role": "user", "content": prompt}], max_tokens=1024, temperature=0.3)
     return f"{text}\n\n{DISCLAIMER}"
 
 

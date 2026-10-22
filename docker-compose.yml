@@ -1,0 +1,78 @@
+# Production stack for one EC2 host (docs/DEPLOYMENT_EC2.md): the app image
+# from ./Dockerfile behind Caddy, which terminates HTTPS for $DOMAIN with an
+# automatic Let's Encrypt certificate. Run from /opt/lung-app on the server:
+#
+#   sudo docker compose --env-file .env.production up -d --build
+#
+# .env.production (created by scripts/deploy_ec2.sh, never committed) holds
+# DOMAIN, JWT_SECRET and the optional keys. Data lives in named volumes, so
+# rebuilds and redeploys keep it; only `docker compose down -v` deletes it.
+
+name: lung-app
+
+services:
+  app:
+    build: .
+    image: lung-app:latest
+    restart: unless-stopped
+    env_file: .env.production
+    # Overrides anything with the same name in .env.production.
+    environment:
+      FRONTEND_URL: https://${DOMAIN:?set DOMAIN in .env.production}
+      BACKEND_URL: https://${DOMAIN}/api
+      ALLOWED_PUBLIC_ORIGINS: https://${DOMAIN}
+      CORS_ORIGINS: ""  # same origin behind Caddy, CORS not needed
+      DB_PATH: /data/app.db
+      # Only Caddy may supply X-Forwarded-* (backend/rate_limit.py).
+      TRUSTED_PROXY_IPS: 172.28.0.10
+    volumes:
+      - app-data:/data
+      - app-logs:/home/user/app/logs
+    expose:
+      - "7860"  # reachable from Caddy only, never published on the host
+    networks:
+      - web
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:7860/api/health', timeout=5)"]
+      interval: 30s
+      timeout: 10s
+      start_period: 180s
+      retries: 3
+    logging: &logging
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
+
+  caddy:
+    image: caddy:2.10-alpine
+    restart: unless-stopped
+    depends_on:
+      app:
+        condition: service_healthy
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    environment:
+      DOMAIN: ${DOMAIN}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data      # certificates: keep, or Let's Encrypt rate limits bite
+      - caddy-config:/config
+    networks:
+      web:
+        ipv4_address: 172.28.0.10
+    logging: *logging
+
+networks:
+  web:
+    ipam:
+      config:
+        - subnet: 172.28.0.0/24
+
+volumes:
+  app-data:
+  app-logs:
+  caddy-data:
+  caddy-config:

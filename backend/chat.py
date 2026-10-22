@@ -96,7 +96,7 @@ def generate_chat_reply(message: str, history: list[ChatMessage],
     messages.append({"role": "user", "content": message})
 
     try:
-        reply = call_groq(messages, max_tokens=300, temperature=0.4)
+        reply = call_groq(messages, max_tokens=1024, temperature=0.4)
         return reply, "groq"
     except Exception as e:
         logger.warning(f"Groq chat failed, using template fallback: {e}")

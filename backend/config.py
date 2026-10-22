@@ -46,13 +46,10 @@ EMAIL_CONFIGURED = bool(GMAIL_ADDRESS and GMAIL_APP_PASSWORD)
 # Google OAuth redirect_uri is built from these two -- for the ngrok setup
 # (docs/DEPLOYMENT_PUBLIC.md) they become https://<domain> and https://<domain>/api.
 # Trailing slashes stripped so f"{BACKEND_URL}/auth/..." never doubles up.
-# On a Hugging Face Space (single-origin build, backend/serve.py) the runtime
-# sets SPACE_HOST, so both default to https://<space-host>[/api] unless set.
-_SPACE_HOST = os.environ.get("SPACE_HOST", "").strip()
-_DEFAULT_FRONTEND_URL = f"https://{_SPACE_HOST}" if _SPACE_HOST else "http://localhost:5173"
-_DEFAULT_BACKEND_URL = f"https://{_SPACE_HOST}/api" if _SPACE_HOST else "http://127.0.0.1:8000"
-FRONTEND_URL = os.environ.get("FRONTEND_URL", _DEFAULT_FRONTEND_URL).rstrip("/")
-BACKEND_URL = os.environ.get("BACKEND_URL", _DEFAULT_BACKEND_URL).rstrip("/")
+# In the EC2 deploy (docker-compose.yml) they're https://<domain> and
+# https://<domain>/api, the single-origin layout of backend/serve.py.
+FRONTEND_URL = os.environ.get("FRONTEND_URL", "http://localhost:5173").rstrip("/")
+BACKEND_URL = os.environ.get("BACKEND_URL", "http://127.0.0.1:8000").rstrip("/")
 GOOGLE_REDIRECT_URI = f"{BACKEND_URL}/auth/google/callback"
 
 # Frontend origins the app may be used from at the same time (e.g. local
@@ -91,9 +88,8 @@ DATABASE_URL = os.environ.get("DATABASE_URL", "").strip()
 
 # Direct peers whose X-Forwarded-For header is trusted for client-IP keying
 # (rate_limit.py) and X-Forwarded-Host (public_origin.py). Comma-separated
-# IPs or CIDRs. The default trusts only the local Vite proxy; a container
-# whose port is reachable only through a platform proxy (Hugging Face
-# Spaces) lists that proxy's network instead -- see the Dockerfile.
+# IPs or CIDRs. The default trusts only the local Vite proxy; the EC2
+# deploy trusts only the Caddy container (docker-compose.yml).
 TRUSTED_PROXY_IPS = [
     p.strip()
     for p in os.environ.get("TRUSTED_PROXY_IPS", "127.0.0.1").split(",")

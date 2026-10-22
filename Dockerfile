@@ -1,10 +1,11 @@
-# Single-container build for a Hugging Face Space (Docker SDK, CPU basic):
-# the React frontend and the FastAPI API served from one origin on :7860
-# (backend/serve.py). Build context is the repo root, or the deploy folder
-# that scripts/deploy_hf.sh assembles; .dockerignore keeps it to runtime files.
+# The app image: the React frontend and the FastAPI API served from one
+# origin on :7860 (backend/serve.py). In production it runs behind Caddy via
+# docker-compose.yml (EC2, docs/DEPLOYMENT_EC2.md). Build context is the repo
+# root, or the folder scripts/deploy_ec2.sh uploads; .dockerignore keeps it
+# to runtime files.
 #
-#   docker build -t lung-api .
-#   docker run -p 7860:7860 -e JWT_SECRET=... lung-api
+#   docker build -t lung-app .
+#   docker run -p 7860:7860 -e JWT_SECRET=... lung-app
 
 # ---------------------------------------------------------------- frontend --
 FROM node:22-slim AS frontend
@@ -30,10 +31,10 @@ COPY requirements.txt /tmp/requirements.txt
 RUN pip install --index-url https://download.pytorch.org/whl/cpu torch==2.11.0 torchvision==0.26.0 \
  && pip install -r /tmp/requirements.txt
 
-# HF Spaces run the container as uid 1000.
-# The app dir must be theirs: main.py creates logs/ there at start-up.
+# Unprivileged uid 1000. The app dir, logs/ and /data (SQLite) must be
+# theirs; Docker gives a new named volume its mount point's ownership.
 RUN useradd -m -u 1000 user \
- && install -d -o user -g user /home/user/app
+ && install -d -o user -g user /home/user/app /home/user/app/logs /data
 USER user
 ENV HOME=/home/user
 WORKDIR /home/user/app
@@ -47,10 +48,10 @@ COPY --chown=user checkpoints/ checkpoints/
 COPY --chown=user --from=frontend /frontend/dist frontend/dist
 
 # No training data in the image, so the start-up reproduction check is off.
-# The port is reachable only through HF's proxy, whose hops are on private
-# networks: trust X-Forwarded-For from those (see backend/rate_limit.py).
+# SQLite lives on the /data volume. TRUSTED_PROXY_IPS (the reverse proxy's
+# address) is set by docker-compose.yml.
 ENV SKIP_REPRO_CHECK=1 \
-    TRUSTED_PROXY_IPS=10.0.0.0/8,172.16.0.0/12,192.168.0.0/16,100.64.0.0/10,fc00::/7
+    DB_PATH=/data/app.db
 
 # Load every model once at build time: verifies all imports and checkpoints,
 # and downloads torchxrayvision's pretrained DenseNet weights (fetched when
@@ -58,7 +59,7 @@ ENV SKIP_REPRO_CHECK=1 \
 # font cache, so start-up needs no network. Throwaway secret and SQLite file.
 RUN cd backend \
  && JWT_SECRET=build-only DB_PATH=/tmp/build.db python -c "import main; main._ensure_models_loaded()" \
- && rm -rf /tmp/build.db ../logs \
+ && rm -rf /tmp/build.db ../logs/* \
  && test -n "$(ls "$HOME"/.torchxrayvision/models_data/*.pt)"
 
 WORKDIR /home/user/app/backend

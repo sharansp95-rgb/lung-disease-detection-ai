@@ -1,0 +1,16 @@
+# HTTPS front for the app (docker-compose.yml). Caddy obtains and renews the
+# certificate for $DOMAIN automatically and redirects HTTP to HTTPS.
+#
+# reverse_proxy sets X-Forwarded-For to the visitor's IP: with no
+# trusted_proxies configured, Caddy discards any X-Forwarded-For the client
+# sent, so the app (which trusts only Caddy) sees exactly one, real hop.
+{$DOMAIN} {
+	encode zstd gzip
+
+	# The API rejects uploads over 10 MB itself; stop anything far larger here.
+	request_body {
+		max_size 12MB
+	}
+
+	reverse_proxy app:7860
+}

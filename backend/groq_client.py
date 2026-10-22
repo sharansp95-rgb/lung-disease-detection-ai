@@ -21,11 +21,18 @@ GROQ_MODEL = "openai/gpt-oss-120b"  # was llama-3.3-70b-versatile, see module do
 GROQ_TIMEOUT_SECONDS = 15
 
 
+class GroqTruncated(RuntimeError):
+    """The reply hit max_tokens (finish_reason "length") and was cut off."""
+
+
 def call_groq(messages: list[dict], max_tokens: int = 200, temperature: float = 0.3) -> str:
     """messages: list of {"role": ..., "content": ...} dicts (system/user/assistant).
-    Raises on any failure (missing key, network error, non-2xx, bad response shape)
-    -- callers are expected to catch and fall back, same discipline used
-    throughout this backend."""
+    Raises on any failure (missing key, network error, non-2xx, bad response
+    shape, or a reply truncated at max_tokens) -- callers are expected to
+    catch and fall back, same discipline used throughout this backend.
+
+    gpt-oss is a reasoning model: its hidden reasoning tokens count against
+    max_tokens too, so budgets must leave room beyond the visible answer."""
     api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
         raise RuntimeError("GROQ_API_KEY not set")
@@ -42,4 +49,7 @@ def call_groq(messages: list[dict], max_tokens: int = 200, temperature: float = 
         timeout=GROQ_TIMEOUT_SECONDS,
     )
     resp.raise_for_status()
-    return resp.json()["choices"][0]["message"]["content"].strip()
+    choice = resp.json()["choices"][0]
+    if choice.get("finish_reason") == "length":
+        raise GroqTruncated(f"Groq reply truncated at max_tokens={max_tokens}")
+    return choice["message"]["content"].strip()

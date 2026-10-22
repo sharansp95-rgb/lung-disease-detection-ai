@@ -1,5 +1,5 @@
 """
-Single-origin app for hosted deploys (Hugging Face Space, see Dockerfile):
+Single-origin app for hosted deploys (EC2 + Caddy, see docker-compose.yml):
 the built frontend (frontend/dist) at "/" and the FastAPI app from main.py
 under config.PROXY_API_PREFIX ("/api") -- the same layout the Vite /api
 proxy gives in the ngrok setup, so the frontend is built with
