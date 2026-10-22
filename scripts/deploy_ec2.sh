@@ -4,7 +4,7 @@
 # database, logs and TLS certificates live in Docker volumes, which
 # redeploys never touch, and an existing .env.production is never replaced.
 #
-#   SERVER_IP=13.233.x.x SSH_KEY=~/.ssh/lung-app.pem DOMAIN=13-233-x-x.sslip.io scripts/deploy_ec2.sh
+#   SERVER_IP=54.206.x.x SSH_KEY=~/.ssh/lung-key-2 DOMAIN=54-206-x-x.sslip.io scripts/deploy_ec2.sh
 #
 # Optional: SSH_USER (default ubuntu); COPY_SECRETS=1 to copy GROQ_API_KEY,
 # GOOGLE_CLIENT_ID/SECRET and GMAIL_ADDRESS/APP_PASSWORD from backend/.env
@@ -17,7 +17,7 @@
 set -euo pipefail
 
 : "${SERVER_IP:?set SERVER_IP (the Elastic IP)}"
-: "${SSH_KEY:?set SSH_KEY (path to the .pem key)}"
+: "${SSH_KEY:?set SSH_KEY (path to the private key, e.g. ~/.ssh/lung-key-2)}"
 : "${DOMAIN:?set DOMAIN (e.g. 13-233-x-x.sslip.io)}"
 SSH_USER="${SSH_USER:-ubuntu}"
 COPY_SECRETS="${COPY_SECRETS:-0}"

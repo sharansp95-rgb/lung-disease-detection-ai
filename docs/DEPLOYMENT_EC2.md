@@ -14,11 +14,14 @@ always resolves to `13.233.1.2`, so there's nothing to register.
 
 ## 1. AWS console (by hand)
 
-Switch the region (top right) to **Asia Pacific (Mumbai) ap-south-1**.
+Pick the region (top right). The live deployment uses **Asia Pacific (Sydney)
+ap-southeast-2**, because the AWS Free plan only allows that one.
 
-1. **Key pair**: EC2 → Key pairs → *Create key pair*. Choose ED25519 and
-   the `.pem` format. Save it as `~/.ssh/lung-app.pem`, then run
-   `chmod 400 ~/.ssh/lung-app.pem`.
+1. **SSH key**: either create a key pair in EC2 → Key pairs and save the
+   `.pem`, or (preferred, the private key never leaves your Mac) run
+   `ssh-keygen -t ed25519 -f ~/.ssh/lung-key-2` and import
+   `~/.ssh/lung-key-2.pub` under EC2 → Key pairs → *Actions → Import key
+   pair*. The commands below assume `~/.ssh/lung-key-2`.
 2. **Security group**: EC2 → Security groups → *Create*. Add these inbound
    rules and nothing else:
 
@@ -33,7 +36,8 @@ Switch the region (top right) to **Asia Pacific (Mumbai) ap-south-1**.
    rule.
 3. **Launch the instance**: EC2 → *Launch instance*.
    - **AMI:** Ubuntu Server 24.04 LTS, 64-bit (x86).
-   - **Instance type:** `c7i-flex.large` or `m7i-flex.large`.
+   - **Instance type:** `t3.small` (2 GB) is enough with the 4 GB swap file:
+     the app uses about 950 MB and the build peaked around 1.1 GB.
    - **Key pair and security group:** the two from steps 1 and 2.
    - **Storage:** 30 GiB gp3. The default 8 GiB is too small for the image and build cache.
 4. **Elastic IP**: EC2 → Elastic IPs → *Allocate*, then *Associate* it with
@@ -50,7 +54,7 @@ Switch the region (top right) to **Asia Pacific (Mumbai) ap-south-1**.
 ## 2. Prepare the server (once)
 
 ```bash
-ssh -i ~/.ssh/lung-app.pem ubuntu@<ELASTIC_IP> 'sudo bash -s' < scripts/server_setup.sh
+ssh -i ~/.ssh/lung-key-2 ubuntu@<ELASTIC_IP> 'sudo bash -s' < scripts/server_setup.sh
 ```
 
 This installs Docker and the compose plugin, adds a 4 GB swap file, enables
@@ -68,7 +72,7 @@ covers SSH and rsync (the deploy itself) as well as scan uploads over HTTPS.
 Commit first: only committed code is deployed.
 
 ```bash
-SERVER_IP=<ELASTIC_IP> SSH_KEY=~/.ssh/lung-app.pem DOMAIN=<domain> \
+SERVER_IP=<ELASTIC_IP> SSH_KEY=~/.ssh/lung-key-2 DOMAIN=<domain> \
   COPY_SECRETS=1 scripts/deploy_ec2.sh
 ```
 
@@ -98,6 +102,25 @@ sudo docker compose cp app:/data/backup.db ./app-backup-$(date +%F).db
 
 Never run `docker compose down -v`: the `-v` deletes the volumes, which
 hold the database and the certificates.
+
+## Rotating the SSH key
+
+If a private key is ever exposed, replace it without locking yourself out:
+
+```bash
+ssh-keygen -t ed25519 -f ~/.ssh/<new-key>
+# 1. add the new public key, logging in with the old key
+ssh -i ~/.ssh/<old-key> ubuntu@<ELASTIC_IP> 'cat >> ~/.ssh/authorized_keys' < ~/.ssh/<new-key>.pub
+# 2. confirm the new key works on its own
+ssh -i ~/.ssh/<new-key> -o IdentitiesOnly=yes ubuntu@<ELASTIC_IP> true
+# 3. remove the old key's line (match its key data), then confirm it's refused
+OLD=$(ssh-keygen -y -f ~/.ssh/<old-key> | awk '{print $2}')
+ssh -i ~/.ssh/<new-key> -o IdentitiesOnly=yes ubuntu@<ELASTIC_IP> "grep -vF '$OLD' ~/.ssh/authorized_keys > ~/.ssh/ak && mv ~/.ssh/ak ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"
+ssh -i ~/.ssh/<old-key> -o IdentitiesOnly=yes ubuntu@<ELASTIC_IP> true   # should fail
+```
+
+Also delete the old key pair under EC2 → Key pairs. It only affects new
+instances, but it shouldn't be reused.
 
 ## Environment (`/opt/lung-app/.env.production`)
 
