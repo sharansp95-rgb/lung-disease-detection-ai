@@ -120,10 +120,6 @@ export default function AccuracyChart() {
           ])}
         </dl>
       </div>
-      <p className="acc-takeaway">
-        <strong>Takeaway:</strong> X-ray stays accurate on new data. CT drops sharply because it
-        learned cues from a single dataset.
-      </p>
     </>
   );
 }

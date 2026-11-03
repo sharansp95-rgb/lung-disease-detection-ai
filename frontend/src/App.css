@@ -2472,19 +2472,6 @@ button.profile-avatar:hover {
   color: var(--text-3);
 }
 
-.acc-takeaway {
-  margin-top: 20px;
-  padding: 16px 20px;
-  border-left: 3px solid var(--signal);
-  border-radius: 0 var(--r-md) var(--r-md) 0;
-  background: var(--surface);
-  color: var(--text-2);
-}
-
-.acc-takeaway strong {
-  color: var(--text);
-}
-
 .acc-table {
   position: absolute;
   width: 1px;
